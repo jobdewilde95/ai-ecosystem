@@ -91,6 +91,13 @@ type-checked and every company reference is validated against the registry befor
 is written. A typo in a company id fails the build loudly rather than silently dropping an
 edge from the deal graph.
 
+**The curated records go stale and the site now says so.** They end wherever the
+maintainer's knowledge ends, so `/capital` carries a section computed from SEC filings and
+XBRL instead — filed debt issuance by quarter, shelf registrations, pricing supplements and
+8-K material-agreement items, each linking the document. That section keeps pace on its own
+and shows a banner counting the financings filed since the curated cutoff. It cannot name
+counterparties or terms, which is exactly what the curated records are for.
+
 - **A company** → `data/curated/companies.json`. Needs `id`, `name`, `type`, `layers`, and
   `ticker` plus `cik` if listed. To pull its fundamentals too, add the ticker to
   `FINANCIALS_FOCUS` in `scripts/fetch/sec.ts`.

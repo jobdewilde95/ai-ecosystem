@@ -383,6 +383,116 @@ async function main(): Promise<void> {
     },
   });
 
+  /* --- capital events observed in filings -------------------------------- */
+
+  /*
+   * The curated deal, funding and debt records are hand-maintained and
+   * therefore end wherever the maintainer's knowledge ends — at the time of
+   * writing, December 2025, while SEC filings showed $221.7B of debt raised
+   * during 2026 that the curated view knew nothing about.
+   *
+   * This section is derived entirely from primary sources, so it cannot go
+   * stale the same way: filed debt issuance from XBRL, and the 8-K item codes
+   * that mark material agreements and new financial obligations. It will not
+   * name a counterparty the way a curated record does — a filing index cannot —
+   * but it is evidence that something happened, dated, with a link to the
+   * document.
+   */
+  interface Filing {
+    ticker: string; form: string; filed: string; reportDate: string | null;
+    primaryDoc: string; accession: string; items: string | null;
+  }
+  const filingsSnapshot = await readSnapshot<Filing[]>('filings');
+  const filings = filingsSnapshot?.data ?? [];
+
+  /** The 8-K items that signal a deal or a new obligation. */
+  const ITEM_MEANING: Record<string, string> = {
+    '1.01': 'Entry into a material definitive agreement',
+    '1.02': 'Termination of a material definitive agreement',
+    '2.01': 'Completion of acquisition or disposition',
+    '2.03': 'Creation of a direct financial obligation',
+    '3.02': 'Unregistered sale of equity securities',
+  };
+
+  const classify = (filing: Filing): { kind: string; detail: string } | null => {
+    if (filing.form.startsWith('S-3')) {
+      return { kind: 'shelf', detail: 'Shelf registration — capacity to issue securities' };
+    }
+    if (filing.form.startsWith('424B')) {
+      return { kind: 'pricing', detail: 'Pricing supplement — a specific issuance priced' };
+    }
+    if (filing.form === '8-K' && filing.items) {
+      for (const raw of filing.items.split(',')) {
+        const code = raw.trim().split(' ')[0];
+        if (ITEM_MEANING[code]) return { kind: `item-${code}`, detail: ITEM_MEANING[code] };
+      }
+    }
+    return null;
+  };
+
+  const tickerToCompany = new Map(
+    companies.filter((c) => c.ticker).map((c) => [c.ticker as string, c] as const),
+  );
+
+  const filedEvents = filings
+    .map((filing) => {
+      const classified = classify(filing);
+      if (!classified) return null;
+      return {
+        ticker: filing.ticker,
+        name: tickerToCompany.get(filing.ticker)?.name ?? filing.ticker,
+        filed: filing.filed,
+        form: filing.form,
+        kind: classified.kind,
+        detail: classified.detail,
+        href: filing.primaryDoc,
+      };
+    })
+    .filter((event): event is NonNullable<typeof event> => event !== null)
+    .sort((a, b) => b.filed.localeCompare(a.filed));
+
+  // Filed debt issuance per company per quarter, from XBRL rather than the
+  // filing index — actual dollars, not just the fact of a filing.
+  const filedDebtByQuarter: Array<{ end: string; ticker: string; name: string; value: number }> = [];
+  for (const entry of sec?.data ?? []) {
+    for (const fact of entry.metrics.debtIssuanceProceeds ?? []) {
+      if (fact.value > 0) {
+        filedDebtByQuarter.push({
+          end: fact.end,
+          ticker: entry.ticker,
+          name: tickerToCompany.get(entry.ticker)?.name ?? entry.ticker,
+          value: fact.value,
+        });
+      }
+    }
+  }
+  filedDebtByQuarter.sort((a, b) => b.end.localeCompare(a.end));
+
+  const byPeriod = new Map<string, number>();
+  for (const row of filedDebtByQuarter) {
+    const quarter = `${row.end.slice(0, 4)}-Q${Math.floor(Number(row.end.slice(5, 7)) / 3.01) + 1}`;
+    byPeriod.set(quarter, (byPeriod.get(quarter) ?? 0) + row.value);
+  }
+
+  const curatedThrough = [
+    ...deals.map((d) => d.date),
+    ...funding.map((f) => f.date),
+    ...debt.map((d) => d.date),
+  ].sort().at(-1) ?? null;
+
+  await write('filed-events', {
+    note:
+      'Derived entirely from SEC filings, so it stays current without hand-maintenance. It ' +
+      'evidences that a financing or agreement occurred and links the document; it does not ' +
+      'name counterparties or terms, which only the filing text or reporting can supply.',
+    curatedThrough,
+    events: filedEvents.slice(0, 400),
+    debtByQuarter: [...byPeriod.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([quarter, total]) => ({ quarter, total })),
+    debtDetail: filedDebtByQuarter.slice(0, 120),
+  });
+
   /* --- supply chain rollup ---------------------------------------------- */
 
   const fundamentalsByTicker = new Map(fundamentals.map((entry) => [entry.ticker, entry] as const));

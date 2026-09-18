@@ -2,19 +2,25 @@ import { Card } from '@/components/ui/Card';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { StatTile } from '@/components/ui/StatTile';
 import { SeededTag } from '@/components/ui/Provenance';
-import { getCapital, getFundamentals } from '@/lib/data';
+import { getCapital, getFiledEvents, getFundamentals } from '@/lib/data';
 import { percent, shortDate, usdCompact } from '@/lib/format';
 import { FundingTable } from './FundingTable';
 import { DebtTable } from './DebtTable';
 import { CircularityPanel } from './CircularityPanel';
 import { MaturityWall } from './MaturityWall';
 import { CapitalFlowChart } from './CapitalFlowChart';
+import { FiledEvents } from './FiledEvents';
 
 export const metadata = { title: 'Capital · AI Ecosystem' };
 
 export default function CapitalPage() {
   const capital = getCapital();
   const fundamentals = getFundamentals();
+  const filed = getFiledEvents();
+
+  const filedSinceCurated = filed.curatedThrough
+    ? filed.events.filter((event) => event.filed > (filed.curatedThrough as string)).length
+    : 0;
 
   const { totals } = capital;
   const circularShare =
@@ -54,9 +60,14 @@ export default function CapitalPage() {
           note="Proceeds from debt issuance, as filed"
         />
         <StatTile
-          label="Disclosed private funding"
-          value={usdCompact(totals.disclosedFunding, 0)}
-          note={`${capital.funding.length} rounds tracked`}
+          label="Filed financings since curated"
+          value={filedSinceCurated}
+          tone={filedSinceCurated > 0 ? 'warning' : 'neutral'}
+          note={
+            filed.curatedThrough
+              ? `SEC events after ${shortDate(filed.curatedThrough)}, the curated cutoff`
+              : `${capital.funding.length} rounds tracked`
+          }
         />
         <StatTile
           label="Circular share of deals"
@@ -64,6 +75,19 @@ export default function CapitalPage() {
           tone={circularShare !== null && circularShare > 25 ? 'warning' : 'neutral'}
           note={`${usdCompact(totals.circularDealValue, 0)} of ${usdCompact(totals.disclosedDealValue, 0)} announced`}
         />
+      </div>
+
+      <div className="mb-6">
+        <Card
+          title="Capital events from SEC filings"
+          subtitle="Computed from filings and XBRL rather than hand-maintained, so this section keeps pace on its own. It evidences that a financing or agreement happened and links the document; only the filing text names counterparties and terms."
+        >
+          <FiledEvents
+            events={filed.events}
+            debtByQuarter={filed.debtByQuarter}
+            curatedThrough={filed.curatedThrough}
+          />
+        </Card>
       </div>
 
       <div className="mb-6">
@@ -111,7 +135,7 @@ export default function CapitalPage() {
       <div className="mb-6">
         <Card
           title="Private rounds and valuations"
-          subtitle={`${capital.funding.length} rounds across ${new Set(capital.funding.map((r) => r.company)).size} companies. Post-money where disclosed.`}
+          subtitle={`${capital.funding.length} rounds across ${new Set(capital.funding.map((r) => r.company)).size} companies. Post-money where disclosed. Curated, and current only to ${shortDate(filed.curatedThrough)}.`}
           action={
             topValuation ? (
               <span className="text-[12px] text-[var(--text-muted)]">
@@ -127,7 +151,7 @@ export default function CapitalPage() {
 
       <Card
         title="Debt and structured financing"
-        subtitle="Bonds, GPU-backed term loans, convertibles and off-balance-sheet vehicles funding the buildout."
+        subtitle={`Bonds, GPU-backed term loans, convertibles and off-balance-sheet vehicles funding the buildout. Curated, and current only to ${shortDate(filed.curatedThrough)} — see the filings section above for what has been raised since.`}
       >
         <DebtTable rows={capital.debt} />
       </Card>

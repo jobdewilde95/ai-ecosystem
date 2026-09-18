@@ -1,0 +1,2456 @@
+{
+  "note": "Derived entirely from SEC filings, so it stays current without hand-maintenance. It evidences that a financing or agreement occurred and links the document; it does not name counterparties or terms, which only the filing text or reporting can supply.",
+  "curatedThrough": "2025-12-01",
+  "events": [
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "filed": "2026-09-17",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "filed": "2026-09-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526391976/d172674d8k.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-09-14",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036415/ny20081693x3_424b2.htm"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "filed": "2026-09-11",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526389295/d207421d424b2.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-09-11",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-09-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036130/ny20081693x2_424b5.htm"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "filed": "2026-09-09",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526385954/d207421d424b2.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-09-09",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126035954/ny20081693x1_s3asr.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-09-09",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926106115/tm2624614-1_424b5.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-09-02",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406d8k.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-08-27",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000021/core-20260825.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-08-19",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "filed": "2026-08-17",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-08-17",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-08-14",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000119312526352628/d173126d424b5.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-08-13",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348029/d173126d424b5.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-08-13",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348013/d97381ds3asr.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-08-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-08-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341318/d98483d424b5.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-08-10",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341177/d120558ds3asr.htm"
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "filed": "2026-08-10",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-08-07",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526340264/d32286d424b2.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2026-08-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526337945/d164254d8k.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-08-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336853/d140593d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-08-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526336798/d32286d424b5.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2026-08-05",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526335074/d115922d424b5.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2026-08-04",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526331400/d114917d8k.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2026-08-03",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526329614/d115922d424b5.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-07-31",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926089246/tm2621537-2_424b2.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-07-30",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926088496/tm2621537-1_424b5.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-07-29",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000148/eqix-20260727.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-07-28",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000012/core-20260727.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-07-16",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_8k.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-07-08",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926081786/tm2619352-2_424b5.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-07-07",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926080950/tm2619352-1_424b5.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-06-30",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126026944/ef20077059_8k.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-06-29",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526288761/d100507d8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-06-26",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226030333/form8-k.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-06-23",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526278585/d120346d424b5.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-06-22",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526276844/d50837d8k.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2026-06-18",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000055/a20260618talens-3securities.htm"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "filed": "2026-06-17",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526273139/d118718d424b5.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-06-16",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028899/form8-k.htm"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "filed": "2026-06-15",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526270302/d118718d424b5.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526270430/d151436d8k.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2026-06-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000048/tln-20260615.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-12",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526269703/d45696d8k.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526268520/d44171d424b5.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526268058/d38067d424b5.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526267973/d41737d424b5.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526265112/d44171d424b5.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526265109/d41737d424b5.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-06-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072332/tm2613616-2_424b5.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-06-10",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/tm2613616d4_8k.htm"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "filed": "2026-06-09",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526263811/d31988ds3asr.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-06-08",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926071190/tm2613616-1_424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-04",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257724/d83560d8k.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257702/d152175d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257690/d159942d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526256375/d152107d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252439/d150348d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252392/d152175d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252374/d159942d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252362/d152107d424b5.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-06-01",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526251560/d135361ds3asr.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2026-06-01",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126023427/ef20075181_8k.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2026-05-26",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000030/iren-20260519.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2026-05-21",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000042/tln-20260520.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-05-18",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526228923/d137872d424b5.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-05-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2026-05-14",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126021285/ef20073507_8k.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-05-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-05-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026030918/core-20260505.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-05-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226021333/form8-k.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-05-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526202555/d70446d424b5.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-05-01",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926054230/tm2613041-2_424b2.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-05-01",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526201738/d109954d424b2.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-04-30",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926052435/tm2613041-1_424b5.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-04-30",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194082/d109954d424b2.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-04-30",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194008/d102985ds3asr.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-04-29",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526192240/d271916d424b5.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-04-28",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126017445/ef20071492_8k.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-04-27",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526179479/d271916d424b5.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-04-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526157134/d123910d8k.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-04-08",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526147640/d143900d424b2.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-04-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526142958/d143900d424b5.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-03-31",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-03-23",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026020327/core-20260318.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-03-13",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027669/tm266670-6_424b5.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-03-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027125/tm266670-4_424b5.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-03-11",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926026082/tm266670-2_424b5.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-03-10",
+      "form": "8-K",
+      "kind": "item-1.02",
+      "detail": "Termination of a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-03-10",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926025560/tm266670-3_424b5.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-03-10",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226009538/form8-k.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-03-09",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008311/ny20066192x5_424b5.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-03-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008133/ny20066192x6_424b5.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-03-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026015622/core-20260304.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-03-05",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007960/ny20066192x1_424b5.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-03-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007731/ny20066192x2_424b5.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2026-03-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126007918/ny20064909x1_424b5.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2026-03-04",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126007905/ny20064909x3_8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-03-04",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226008849/form8-k.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-03-03",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526088484/d105148d8k.htm"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "filed": "2026-02-27",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_8k.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-02-25",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526071600/d92394d424b5.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-02-24",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-02-20",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926018226/tm265546-10_424b2.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-02-20",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926018224/tm265546-5_424b2.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-02-19",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926017312/tm265546-4_424b5.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-02-19",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926017310/tm265546-3_424b5.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-02-19",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526059547/d92394d424b5.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-02-19",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526059348/d49464ds3asr.htm"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "filed": "2026-02-18",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926017083/tm266214-1_s3asr.htm"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "filed": "2026-02-18",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1839341/000114036126006037/ef20065947_8k.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-02-17",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526053152/d107653d424b5.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-02-17",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526052892/d107392ds3asr.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2026-02-17",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226006897/form8-k.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2026-02-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126004227/ef20064951_8k.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526039344/d63638d8k.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-04",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037840/d23732d8k.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037818/d60756d424b5.htm"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "filed": "2026-02-03",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1996810/000114036126003521/ny20063664x4_424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-03",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526035662/d201622d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-03",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526035603/d33906d424b2.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032756/d77737d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-02",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032739/d33906d424b2.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-02-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526032654/d60756d424b5.htm"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "filed": "2026-01-29",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1996810/000114036126002827/ny20063664x1_s3asr.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-01-27",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526024837/d102638d8k.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2026-01-23",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000023/a01232026forms-3asr.htm"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "filed": "2026-01-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000009/ceg-20260115.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2026-01-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000004/tln-20260115.htm"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "filed": "2026-01-08",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526007683/d917883d424b2.htm"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "filed": "2026-01-08",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926001893/tm2531947-1_s3asr.htm"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "filed": "2026-01-07",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926001780/tm2532248d1_8k.htm"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "filed": "2026-01-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526003525/d917883d424b5.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-01-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526002589/d62722d8k.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-12-29",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000204/intc-20251226.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-12-22",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225028791/form8-k.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2025-12-08",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044888/ef20060782_8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-12-05",
+      "form": "S-3",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225026369/forms-3.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2025-12-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044381/ny20060080x3_424b5.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2025-12-01",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125043802/ny20060080x1_424b5.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2025-11-25",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253625000037/tln-20251125.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2025-11-21",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312525290086/d30418d8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-11-20",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225024479/form8-k.htm"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "filed": "2025-11-18",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000099/ceg-20251117.htm"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group",
+      "filed": "2025-11-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110025/tm2530771-1_424b5.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2025-11-03",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-10-31",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020389/forms-3asr.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2025-10-28",
+      "form": "8-K",
+      "kind": "item-2.01",
+      "detail": "Completion of acquisition or disposition",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525253608/d912702d8k.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2025-10-27",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253625000023/tln-20251027.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-10-21",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2025-10-15",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525240234/d50483d8k.htm"
+    },
+    {
+      "ticker": "IREN",
+      "name": "IREN",
+      "filed": "2025-10-14",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125038083/ef20056955_8k.htm"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "filed": "2025-10-09",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225017609/form8-k.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2025-10-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525230840/d69542d8k.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-09-29",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000159/intc-20250926.htm"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "filed": "2025-09-29",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125036514/ef20056153_8k.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2025-09-25",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525217490/d37885d424b2.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2025-09-24",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525214032/d37885d424b2.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-09-18",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000155/intc-20250915.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-09-15",
+      "form": "8-K",
+      "kind": "item-2.01",
+      "detail": "Completion of acquisition or disposition",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000153/intc-20250912.htm"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group",
+      "filed": "2025-09-12",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1513845/000141057825002147/tm2525503-7_424b5.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-08-29",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000135/intc-20250827.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-08-25",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-08-21",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000126/intc-20250818.htm"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "filed": "2025-08-14",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000123/intc-20250411.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2025-08-07",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525175423/d943908d8k.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2025-08-07",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025038876/a20250807talens-3securities.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2025-08-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525174439/d30799d424b5.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2025-08-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525172984/d21390d8k.htm"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "filed": "2025-08-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525172212/d30799d424b5.htm"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "filed": "2025-07-23",
+      "form": "8-K",
+      "kind": "item-2.01",
+      "detail": "Completion of acquisition or disposition",
+      "href": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000132/gev-20250723.htm"
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "filed": "2025-07-17",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025035201/tln-20250717.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2025-06-25",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312525147007/d96129d8k.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2025-04-07",
+      "form": "S-3",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312525074736/d933924ds3.htm"
+    }
+  ],
+  "debtByQuarter": [
+    {
+      "quarter": "2019-Q1",
+      "total": 18878000000
+    },
+    {
+      "quarter": "2019-Q2",
+      "total": 21879000000
+    },
+    {
+      "quarter": "2019-Q3",
+      "total": 4724000000
+    },
+    {
+      "quarter": "2019-Q4",
+      "total": 12662906000
+    },
+    {
+      "quarter": "2020-Q1",
+      "total": 32321377000
+    },
+    {
+      "quarter": "2020-Q2",
+      "total": 36546567000
+    },
+    {
+      "quarter": "2020-Q3",
+      "total": 20750112000
+    },
+    {
+      "quarter": "2020-Q4",
+      "total": 5310152000
+    },
+    {
+      "quarter": "2021-Q1",
+      "total": 17887198000
+    },
+    {
+      "quarter": "2021-Q2",
+      "total": 32184504000
+    },
+    {
+      "quarter": "2021-Q3",
+      "total": 18562334000
+    },
+    {
+      "quarter": "2021-Q4",
+      "total": 17878124000
+    },
+    {
+      "quarter": "2022-Q1",
+      "total": 25287674000
+    },
+    {
+      "quarter": "2022-Q2",
+      "total": 32012063000
+    },
+    {
+      "quarter": "2022-Q3",
+      "total": 51977555000
+    },
+    {
+      "quarter": "2022-Q4",
+      "total": 37664370000
+    },
+    {
+      "quarter": "2023-Q1",
+      "total": 20760251000
+    },
+    {
+      "quarter": "2023-Q2",
+      "total": 17989757000
+    },
+    {
+      "quarter": "2023-Q3",
+      "total": 14388574000
+    },
+    {
+      "quarter": "2023-Q4",
+      "total": 16164056000
+    },
+    {
+      "quarter": "2024-Q1",
+      "total": 46249382000
+    },
+    {
+      "quarter": "2024-Q2",
+      "total": 11116956000
+    },
+    {
+      "quarter": "2024-Q3",
+      "total": 25620170000
+    },
+    {
+      "quarter": "2024-Q4",
+      "total": 21443114000
+    },
+    {
+      "quarter": "2025-Q1",
+      "total": 21138500000
+    },
+    {
+      "quarter": "2025-Q2",
+      "total": 43842172000
+    },
+    {
+      "quarter": "2025-Q3",
+      "total": 19462312000
+    },
+    {
+      "quarter": "2025-Q4",
+      "total": 92784103000
+    },
+    {
+      "quarter": "2026-Q1",
+      "total": 146560473000
+    },
+    {
+      "quarter": "2026-Q2",
+      "total": 70717693000
+    },
+    {
+      "quarter": "2026-Q3",
+      "total": 4386000000
+    }
+  ],
+  "debtDetail": [
+    {
+      "end": "2026-07-31",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 4386000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 233543000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 927000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 2231000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 4172000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "value": 13557000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 24847000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 13457000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "IREN",
+      "name": "IREN",
+      "value": 3000000000
+    },
+    {
+      "end": "2026-06-30",
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "value": 3280250000
+    },
+    {
+      "end": "2026-05-31",
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "value": 1549000000
+    },
+    {
+      "end": "2026-05-02",
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "value": 998900000
+    },
+    {
+      "end": "2026-05-01",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 2465000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 3996465000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 1492000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 39008000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "value": 2100000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "ETN",
+      "name": "Eaton",
+      "value": 9871000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 2770000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 2250000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "value": 2567000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "value": 53441000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 31379000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 3290000000
+    },
+    {
+      "end": "2026-03-31",
+      "ticker": "CORZ",
+      "name": "Core Scientific",
+      "value": 995000000
+    },
+    {
+      "end": "2026-02-28",
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "value": 26664000000
+    },
+    {
+      "end": "2026-02-01",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 4474000000
+    },
+    {
+      "end": "2026-01-30",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 1232000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 210212000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 1745000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 1612577000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 2082000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "value": 14927000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 26562000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "value": 29906000000
+    },
+    {
+      "end": "2025-12-31",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 4266314000
+    },
+    {
+      "end": "2025-11-02",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 4971000000
+    },
+    {
+      "end": "2025-10-31",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 6502000000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 28588000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 500000000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 7438000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 215000000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 6624000000
+    },
+    {
+      "end": "2025-09-30",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 3166686000
+    },
+    {
+      "end": "2025-08-03",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 6960000000
+    },
+    {
+      "end": "2025-08-02",
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "value": 998600000
+    },
+    {
+      "end": "2025-08-01",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 962000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 30000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 1696000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 997607000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "ETN",
+      "name": "Eaton",
+      "value": 1058000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 209000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 26846000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 3611000000
+    },
+    {
+      "end": "2025-06-30",
+      "ticker": "IREN",
+      "name": "IREN",
+      "value": 389565000
+    },
+    {
+      "end": "2025-05-29",
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "value": 1748000000
+    },
+    {
+      "end": "2025-05-04",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 749000000
+    },
+    {
+      "end": "2025-05-03",
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "value": 200000000
+    },
+    {
+      "end": "2025-05-02",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 6308000000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 51214000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 370000000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 871286000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "value": 746000000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 4532000000
+    },
+    {
+      "end": "2025-03-31",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 785000000
+    },
+    {
+      "end": "2025-03-29",
+      "ticker": "AMD",
+      "name": "AMD",
+      "value": 2441000000
+    },
+    {
+      "end": "2025-02-28",
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "value": 7711000000
+    },
+    {
+      "end": "2025-02-02",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 2986000000
+    },
+    {
+      "end": "2025-01-31",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 645000000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 121743000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 1244000000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 1207492000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 20000000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 1617000000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 4895000000
+    },
+    {
+      "end": "2024-12-31",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 3688879000
+    },
+    {
+      "end": "2024-11-03",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 4969000000
+    },
+    {
+      "end": "2024-11-01",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 3680000000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 1185034000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 780000000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 980556000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 3819000000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "value": 10432000000
+    },
+    {
+      "end": "2024-09-30",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 1507580000
+    },
+    {
+      "end": "2024-08-04",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 4975000000
+    },
+    {
+      "end": "2024-08-02",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 1941000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 337679000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 744000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 41383000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "ETN",
+      "name": "Eaton",
+      "value": 1084000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 1500000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "value": 197000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 2893000000
+    },
+    {
+      "end": "2024-06-30",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 889894000
+    },
+    {
+      "end": "2024-06-29",
+      "ticker": "INTC",
+      "name": "Intel",
+      "value": 438000000
+    },
+    {
+      "end": "2024-05-03",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 2992000000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 961167000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 5568000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 900000000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 700000000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "value": 6352000000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 1982000000
+    },
+    {
+      "end": "2024-03-31",
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "value": 931647000
+    },
+    {
+      "end": "2024-03-30",
+      "ticker": "INTC",
+      "name": "Intel",
+      "value": 2537000000
+    },
+    {
+      "end": "2024-02-29",
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "value": 999000000
+    },
+    {
+      "end": "2024-02-04",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "value": 30010000000
+    },
+    {
+      "end": "2024-02-02",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 871000000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 857683000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 41373000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 3000000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 748000000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "value": 10773000000
+    },
+    {
+      "end": "2023-12-31",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 1492000000
+    },
+    {
+      "end": "2023-11-03",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "value": 2249000000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "INTC",
+      "name": "Intel",
+      "value": 423000000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 338000000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "value": 21574000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "value": 1401000000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 1750000000
+    },
+    {
+      "end": "2023-09-30",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "value": 7073000000
+    }
+  ]
+}

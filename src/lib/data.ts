@@ -85,6 +85,22 @@ export const getCapital = (): CapitalData =>
     totals: { disclosedFunding: 0, disclosedDebt: 0, disclosedDealValue: 0, circularDealValue: 0 },
   });
 
+export interface FiledEventsData {
+  note: string;
+  curatedThrough: string | null;
+  events: Array<{
+    ticker: string; name: string; filed: string; form: string;
+    kind: string; detail: string; href: string;
+  }>;
+  debtByQuarter: Array<{ quarter: string; total: number }>;
+  debtDetail: Array<{ end: string; ticker: string; name: string; value: number }>;
+}
+
+export const getFiledEvents = (): FiledEventsData =>
+  readJson<FiledEventsData>('derived/filed-events.json', {
+    note: '', curatedThrough: null, events: [], debtByQuarter: [], debtDetail: [],
+  });
+
 export interface SupplyChainLayer {
   layer: string;
   companies: Array<{

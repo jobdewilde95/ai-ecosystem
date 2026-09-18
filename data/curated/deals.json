@@ -355,5 +355,185 @@
       "confidence": "medium",
       "sourceUrl": null
     }
+  },
+  {
+    "id": "spacex-xai-2026",
+    "date": "2026-02-15",
+    "from": "spacex",
+    "to": "xai",
+    "type": "acquisition",
+    "amountUsd": 250000000000,
+    "circular": false,
+    "description": "SpaceX acquired xAI at a $250B valuation, folding a frontier lab into a private space company. Exact date approximate.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SpaceXAI",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-15",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nvda-openai-2026",
+    "date": "2026-02-27",
+    "from": "nvidia",
+    "to": "openai",
+    "type": "investment",
+    "amountUsd": 30000000000,
+    "circular": true,
+    "description": "NVIDIA’s tranche of OpenAI’s February round — the accelerator supplier funding its largest buyer.",
+    "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-27",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "amzn-openai-2026",
+    "date": "2026-02-27",
+    "from": "amazon",
+    "to": "openai",
+    "type": "investment",
+    "amountUsd": 50000000000,
+    "circular": true,
+    "description": "Amazon’s tranche of the same round, alongside AWS capacity OpenAI buys.",
+    "sourceUrl": "https://www.axios.com/2026/02/27/openai-funding-nvidia-amazon",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-27",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "softbank-openai-2026",
+    "date": "2026-02-27",
+    "from": "softbank",
+    "to": "openai",
+    "type": "investment",
+    "amountUsd": 30000000000,
+    "circular": false,
+    "description": "SoftBank’s tranche; it went on to co-lead the March final close.",
+    "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-27",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-amazon-2026",
+    "date": "2026-04-15",
+    "from": "anthropic",
+    "to": "amazon",
+    "type": "compute-commitment",
+    "amountUsd": null,
+    "circular": true,
+    "description": "Expanded AWS partnership adding about 5GW of compute; Amazon is also an investor. Announced in April, exact date approximate.",
+    "sourceUrl": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-04-15",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-coreweave-2026",
+    "date": "2026-04-15",
+    "from": "meta",
+    "to": "coreweave",
+    "type": "compute-commitment",
+    "amountUsd": 21000000000,
+    "circular": false,
+    "description": "Expanded infrastructure agreement running through December 2032. Announced in April, exact date approximate.",
+    "sourceUrl": "https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-04-15",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "spacex-anysphere-2026",
+    "date": "2026-06-16",
+    "from": "spacex",
+    "to": "anysphere",
+    "type": "acquisition",
+    "amountUsd": 60000000000,
+    "circular": false,
+    "description": "All-stock acquisition of Cursor’s parent announced days after SpaceX’s IPO; closed 14 August 2026.",
+    "sourceUrl": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-06-16",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "amd-anthropic-2026",
+    "date": "2026-07-22",
+    "from": "amd",
+    "to": "anthropic",
+    "type": "investment",
+    "amountUsd": 5000000000,
+    "circular": true,
+    "description": "AMD investing up to $5B alongside Anthropic deploying 2GW of Instinct MI450 — the same warrant-shaped structure AMD used with OpenAI in 2025.",
+    "sourceUrl": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-07-22",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-google-broadcom-2026",
+    "date": "2026-08-01",
+    "from": "anthropic",
+    "to": "alphabet",
+    "type": "compute-commitment",
+    "amountUsd": null,
+    "circular": true,
+    "description": "Multiple gigawatts of next-generation TPU capacity with Google and Broadcom, coming online from 2027. Google is also an investor.",
+    "sourceUrl": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-08-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-nscale-2026",
+    "date": "2026-08-26",
+    "from": "anthropic",
+    "to": "nscale",
+    "type": "compute-commitment",
+    "amountUsd": 45000000000,
+    "circular": false,
+    "description": "Roughly $45B of compute rented from Nscale over six years.",
+    "sourceUrl": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-08-26",
+      "confidence": "high",
+      "sourceUrl": null
+    }
   }
 ]

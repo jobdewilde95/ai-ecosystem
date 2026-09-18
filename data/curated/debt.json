@@ -218,5 +218,56 @@
       "confidence": "medium",
       "sourceUrl": null
     }
+  },
+  {
+    "id": "coreweave-ig-2026",
+    "issuer": "coreweave",
+    "date": "2026-03-01",
+    "instrument": "credit-facility",
+    "amountUsd": 8500000000,
+    "collateral": "GPUs",
+    "description": "First investment-grade-rated financing backed by GPUs — rating agencies accepting rapidly depreciating hardware as a credit category. Exact date approximate.",
+    "sourceUrl": "https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-03-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "coreweave-ddtl50-2026",
+    "issuer": "coreweave",
+    "date": "2026-07-01",
+    "instrument": "term-loan",
+    "amountUsd": 3100000000,
+    "collateral": "GPUs and customer contracts",
+    "description": "DDTL 5.0 delayed-draw term loan. Exact date approximate.",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/ex991.htm",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-07-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "coreweave-ddtl55-2026",
+    "issuer": "coreweave",
+    "date": "2026-09-01",
+    "instrument": "term-loan",
+    "amountUsd": 2600000000,
+    "collateral": "GPUs and customer contracts",
+    "description": "DDTL 5.5 facility, taking debt and equity raised year-to-date past $30B.",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-01",
+      "confidence": "high",
+      "sourceUrl": null
+    }
   }
 ]

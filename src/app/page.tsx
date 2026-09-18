@@ -53,7 +53,7 @@ export default function OverviewPage() {
             What moved in the AI ecosystem
           </h1>
           <p className="mt-2 text-[14px] leading-relaxed text-[var(--text-secondary)]">
-            The daily read across the whole stack: what inference costs, what the buildout costs,
+            The weekly read across the whole stack: what inference costs, what the buildout costs,
             who is paying for it, and how the market is pricing all of it. Each section below
             drills into full history and detail.
           </p>
@@ -72,7 +72,7 @@ export default function OverviewPage() {
         </div>
       </div>
 
-      {/* Summary on top: the five numbers worth checking daily. */}
+      {/* Summary on top: the five numbers worth checking each week. */}
       <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         <StatTile
           label="Cheapest at index ≥ 40"
@@ -113,7 +113,7 @@ export default function OverviewPage() {
       <div className="mb-6 grid gap-4 xl:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
         <Card
           title="What changed"
-          subtitle="Price moves, new filings and outsized market days since the last refresh."
+          subtitle="Price moves, new filings and outsized market days since the last weekly refresh."
         >
           <DeltaFeed entries={changelog.entries.slice(0, 60)} />
         </Card>
@@ -182,9 +182,9 @@ export default function OverviewPage() {
       </div>
 
       <p className="text-[12px] leading-relaxed text-[var(--text-muted)]">
-        Figures update on a schedule: prices and model pricing daily, SEC filings weekly, training
-        compute monthly. Private funding, deal and debt records are curated and reflect public
-        disclosure only.
+        Every source refreshes weekly, on Monday mornings UTC. Daily market closes are still
+        captured in full — each run backfills the week — so price history stays complete.
+        Private funding, deal and debt records are curated and reflect public disclosure only.
       </p>
     </>
   );

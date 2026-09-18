@@ -312,12 +312,36 @@ async function main(): Promise<void> {
   const nameOf = new Map(companies.map((company) => [company.id, company.name] as const));
   const label = (id: string) => nameOf.get(id) ?? id;
 
-  // Latest disclosed valuation per private company, with the round behind it.
-  const latestValuation = new Map<string, FundingRound>();
+  /*
+   * Latest disclosed valuation per private company.
+   *
+   * An acquisition price counts alongside funding rounds: xAI's last round
+   * valued it at $230B in December 2025 and SpaceX bought it for $250B two
+   * months later, so showing only the round would quote a stale mark for a
+   * company that no longer trades independently at all.
+   */
+  const latestValuation = new Map<string, { postMoneyUsd: number; date: string; round: string }>();
   for (const round of funding) {
     if (round.postMoneyUsd === null) continue;
     const current = latestValuation.get(round.company);
-    if (!current || round.date > current.date) latestValuation.set(round.company, round);
+    if (!current || round.date > current.date) {
+      latestValuation.set(round.company, {
+        postMoneyUsd: round.postMoneyUsd,
+        date: round.date,
+        round: round.round,
+      });
+    }
+  }
+  for (const deal of deals) {
+    if (deal.type !== 'acquisition' || deal.amountUsd === null) continue;
+    const current = latestValuation.get(deal.to);
+    if (!current || deal.date > current.date) {
+      latestValuation.set(deal.to, {
+        postMoneyUsd: deal.amountUsd,
+        date: deal.date,
+        round: `Acquired by ${label(deal.from)}`,
+      });
+    }
   }
 
   const circularity = [...new Set(deals.flatMap((deal) => [deal.from, deal.to]))]
@@ -361,13 +385,13 @@ async function main(): Promise<void> {
     funding: funding.map((round) => ({ ...round, companyName: label(round.company) })),
     deals: deals.map((deal) => ({ ...deal, fromName: label(deal.from), toName: label(deal.to) })),
     debt: debt.map((item) => ({ ...item, issuerName: label(item.issuer) })),
-    valuations: [...latestValuation.values()]
-      .map((round) => ({
-        company: round.company,
-        name: label(round.company),
-        postMoneyUsd: round.postMoneyUsd,
-        date: round.date,
-        round: round.round,
+    valuations: [...latestValuation.entries()]
+      .map(([company, mark]) => ({
+        company,
+        name: label(company),
+        postMoneyUsd: mark.postMoneyUsd,
+        date: mark.date,
+        round: mark.round,
       }))
       .sort((a, b) => (b.postMoneyUsd ?? 0) - (a.postMoneyUsd ?? 0)),
     circularity,
@@ -553,9 +577,9 @@ async function main(): Promise<void> {
     aiBasketVsSpy: baskets.find((b) => b.layer === 'silicon')?.relativeStrength.ytd ?? null,
     disclosedPrivateFunding: funding.reduce((sum, r) => sum + (r.amountUsd ?? 0), 0),
     disclosedAiDebt: debt.reduce((sum, d) => sum + d.amountUsd, 0),
-    topValuation: [...latestValuation.values()].sort(
-      (a, b) => (b.postMoneyUsd ?? 0) - (a.postMoneyUsd ?? 0),
-    )[0] ?? null,
+    topValuation: [...latestValuation.entries()]
+      .map(([company, mark]) => ({ company, name: label(company), ...mark }))
+      .sort((a, b) => b.postMoneyUsd - a.postMoneyUsd)[0] ?? null,
     mostCircular: circularity[0] ?? null,
   });
 

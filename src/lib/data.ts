@@ -54,16 +54,17 @@ export interface CapitalData {
   funding: Array<{
     id: string; company: string; companyName: string; date: string; round: string;
     amountUsd: number | null; postMoneyUsd: number | null; leadInvestors: string[];
-    note?: string; confidence: string;
+    note?: string; sourceUrl?: string; confidence: string;
   }>;
   deals: Array<{
     id: string; date: string; from: string; to: string; fromName: string; toName: string;
-    type: string; amountUsd: number | null; circular: boolean; description: string; confidence: string;
+    type: string; amountUsd: number | null; circular: boolean; description: string;
+    sourceUrl?: string; confidence: string;
   }>;
   debt: Array<{
     id: string; issuer: string; issuerName: string; date: string; instrument: string;
     amountUsd: number; collateral?: string; counterparties?: string[];
-    description: string; confidence: string;
+    description: string; sourceUrl?: string; confidence: string;
   }>;
   valuations: Array<{ company: string; name: string; postMoneyUsd: number | null; date: string; round: string }>;
   circularity: Array<{

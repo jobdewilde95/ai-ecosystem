@@ -1318,8 +1318,9 @@
       "cloud"
     ],
     "country": "US",
-    "role": "Frontier lab operating its own Colossus clusters",
+    "role": "Frontier lab operating the Colossus clusters; acquired by SpaceX in February 2026 at a $250B valuation",
     "tags": [
+      "acquired",
       "lab"
     ],
     "provenance": {
@@ -1765,8 +1766,9 @@
       "applications"
     ],
     "country": "US",
-    "role": "Fastest-scaling AI coding product",
+    "role": "Fastest-scaling AI coding product; acquired by SpaceX for $60B in stock, closed August 2026",
     "tags": [
+      "acquired",
       "app"
     ],
     "provenance": {
@@ -2418,6 +2420,49 @@
     "country": "US",
     "role": "Hyperscale data center developer financing campuses in private markets",
     "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs",
+      "applications"
+    ],
+    "country": "US",
+    "role": "Acquired xAI (Feb 2026) and Cursor's parent Anysphere (Aug 2026), making a space company one of the larger AI owners",
+    "tags": [
+      "acquirer"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nscale",
+    "name": "Nscale",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "cloud"
+    ],
+    "country": "UK",
+    "role": "British AI infrastructure operator; counterparty to Anthropic's ~$45B six-year compute contract",
+    "tags": [
+      "neocloud"
+    ],
     "provenance": {
       "origin": "curated",
       "asOf": "2026-09-18",

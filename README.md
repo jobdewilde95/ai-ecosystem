@@ -24,15 +24,28 @@ CI enforces rather than assumes.
 
 ## Sources
 
-| Source | Access | Cadence | Feeds |
-|---|---|---|---|
-| OpenRouter | no key | daily | Per-token pricing, cache rates, context, modality |
-| Artificial Analysis | API key | daily | Intelligence index, benchmarks, throughput, TTFT |
-| Yahoo Finance | UA required | daily | Price history for the tracked tickers |
-| SEC `companyfacts` | UA required | weekly | Capex, revenue, D&A, debt, interest expense |
-| SEC `submissions` | UA required | weekly | Filings feed — shelf registrations, 8-Ks |
-| Epoch AI | no key | monthly | Training compute, parameters, hardware |
-| HuggingFace | no key | weekly | Open-weight download momentum |
+Everything refreshes together, once a week, on **Mondays at 07:00 UTC** — Sunday evening in
+the US, so markets are closed and the run picks up a settled Friday close plus the week's
+filings.
+
+| Source | Access | Feeds |
+|---|---|---|
+| OpenRouter | no key | Per-token pricing, cache rates, context, modality |
+| Artificial Analysis | API key | Intelligence index, benchmarks, throughput, TTFT |
+| Yahoo Finance | UA required | Price history for the tracked tickers |
+| SEC `companyfacts` | UA required | Capex, revenue, D&A, debt, interest expense |
+| SEC `submissions` | UA required | Filings feed — shelf registrations, 8-Ks |
+| Epoch AI | no key | Training compute, parameters, hardware |
+| HuggingFace | no key | Open-weight download momentum |
+
+A weekly cadence costs no market history: the Yahoo fetcher requests a multi-year range and
+the history writer de-duplicates by (ticker, date), so each run backfills every trading day
+since the last one. Token prices are stored as change events, so weekly only loses a price
+that moved and moved back within the same week.
+
+The `--tier` flag still separates the sources (`daily` for prices and benchmarks, `weekly`
+for SEC and HuggingFace, `monthly` for Epoch), which is useful for a narrow manual run or if
+you later want different cadences again. The schedule simply runs all three.
 
 Private funding, partnership and debt terms have no free API and are curated (see below).
 
@@ -61,7 +74,7 @@ Actions.
 |---|---|
 | `npm run dev` | Development server |
 | `npm run build` | Static export to `out/` — reads only committed JSON |
-| `npm run data:fetch` | Fetch all sources. `-- --tier daily`, `-- --only openrouter`, `-- --dry-run` |
+| `npm run data:fetch` | Fetch all sources. Narrow with `-- --only openrouter`, `-- --tier daily`, or `-- --dry-run` |
 | `npm run data:seed` | Rebuild curated JSON from the typed sources in `scripts/seed/` |
 | `npm run data:derive` | Recompute every derived view from snapshots. Offline |
 | `npm test` | Unit tests over the derived-metric formulas |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:05:07.945Z",
+  "generatedAt": "2026-09-18T21:02:05.841Z",
   "hyperscalerTtmCapex": 586363000000,
   "hyperscalerCapexCoverage": 1.1984083755523287,
   "trackedLongTermDebt": 794841570000,
@@ -27,26 +27,14 @@
     },
     "unit": "percent"
   },
-  "disclosedPrivateFunding": 147785000000,
-  "disclosedAiDebt": 185000000000,
+  "disclosedPrivateFunding": 494785000000,
+  "disclosedAiDebt": 199200000000,
   "topValuation": {
-    "id": "openai-2025-10",
-    "company": "openai",
-    "date": "2025-10-02",
-    "round": "Secondary",
-    "amountUsd": null,
-    "postMoneyUsd": 500000000000,
-    "leadInvestors": [
-      "Employee tender"
-    ],
-    "note": "Secondary sale valuation, not primary capital",
-    "confidence": "medium",
-    "provenance": {
-      "origin": "curated",
-      "asOf": "2025-10-02",
-      "confidence": "medium",
-      "sourceUrl": null
-    }
+    "company": "anthropic",
+    "name": "Anthropic",
+    "postMoneyUsd": 965000000000,
+    "date": "2026-05-28",
+    "round": "Series H"
   },
   "mostCircular": {
     "id": "microsoft",

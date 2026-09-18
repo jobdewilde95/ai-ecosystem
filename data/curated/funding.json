@@ -631,5 +631,110 @@
       "confidence": "medium",
       "sourceUrl": null
     }
+  },
+  {
+    "id": "xai-2026-01",
+    "company": "xai",
+    "date": "2026-01-07",
+    "round": "Series",
+    "amountUsd": 20000000000,
+    "postMoneyUsd": null,
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "note": "Closed in the first week of January; exact date approximate",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-01-07",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2026-02",
+    "company": "anthropic",
+    "date": "2026-02-12",
+    "round": "Series G",
+    "amountUsd": 30000000000,
+    "postMoneyUsd": 380000000000,
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "sourceUrl": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-12",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-2026-02",
+    "company": "openai",
+    "date": "2026-02-27",
+    "round": "Series",
+    "amountUsd": 110000000000,
+    "postMoneyUsd": null,
+    "leadInvestors": [
+      "Amazon",
+      "NVIDIA",
+      "SoftBank"
+    ],
+    "note": "Announced at $730B pre-money: Amazon $50B, NVIDIA $30B, SoftBank $30B. Superseded by the March close.",
+    "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-02-27",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-2026-03",
+    "company": "openai",
+    "date": "2026-03-31",
+    "round": "Series (final close)",
+    "amountUsd": 122000000000,
+    "postMoneyUsd": 852000000000,
+    "leadInvestors": [
+      "SoftBank",
+      "a16z",
+      "D. E. Shaw Ventures"
+    ],
+    "note": "Largest private financing on record; includes $3B from retail investors. Microsoft participated, size undisclosed.",
+    "sourceUrl": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-03-31",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2026-05",
+    "company": "anthropic",
+    "date": "2026-05-28",
+    "round": "Series H",
+    "amountUsd": 65000000000,
+    "postMoneyUsd": 965000000000,
+    "leadInvestors": [
+      "Altimeter",
+      "Dragoneer",
+      "Greenoaks",
+      "Sequoia"
+    ],
+    "note": "Briefly the most valuable private company in the world; nearly triples the February valuation",
+    "sourceUrl": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-05-28",
+      "confidence": "high",
+      "sourceUrl": null
+    }
   }
 ]

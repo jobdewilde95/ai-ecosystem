@@ -98,6 +98,28 @@ export function FundingTable({ rows }: { rows: CapitalData['funding'] }) {
             sortValue: (row) => row.leadInvestors[0] ?? '',
           },
           {
+            key: 'source',
+            header: 'Source',
+            render: (row) =>
+              row.sourceUrl ? (
+                <a
+                  href={row.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-dotted underline-offset-2"
+                  style={{ color: 'var(--series-1)' }}
+                  title={row.sourceUrl}
+                >
+                  link
+                </a>
+              ) : (
+                <span className="text-[var(--text-muted)]" title="Added before per-record sourcing">
+                  —
+                </span>
+              ),
+            sortValue: (row) => (row.sourceUrl ? 1 : 0),
+          },
+          {
             key: 'note',
             header: 'Note',
             render: (row) => (

@@ -29,6 +29,8 @@ export interface FundingRound {
   postMoneyUsd: number | null;
   leadInvestors: string[];
   note?: string;
+  /** Where the figure was reported. Populated for records added from sources. */
+  sourceUrl?: string;
   confidence: 'high' | 'medium';
 }
 
@@ -47,6 +49,7 @@ export interface Deal {
    */
   circular: boolean;
   description: string;
+  sourceUrl?: string;
   confidence: 'high' | 'medium';
 }
 
@@ -59,6 +62,7 @@ export interface DebtItem {
   collateral?: string;
   counterparties?: string[];
   description: string;
+  sourceUrl?: string;
   confidence: 'high' | 'medium';
 }
 
@@ -71,15 +75,20 @@ export const FUNDING_ROUNDS: FundingRound[] = [
   { id: 'openai-2024-10', company: 'openai', date: '2024-10-02', round: 'Series', amountUsd: 6.6 * B, postMoneyUsd: 157 * B, leadInvestors: ['Thrive Capital'], confidence: 'high' },
   { id: 'openai-2025-03', company: 'openai', date: '2025-03-31', round: 'Series', amountUsd: 40 * B, postMoneyUsd: 300 * B, leadInvestors: ['SoftBank'], note: 'Tranched and conditional on restructuring', confidence: 'high' },
   { id: 'openai-2025-10', company: 'openai', date: '2025-10-02', round: 'Secondary', amountUsd: null, postMoneyUsd: 500 * B, leadInvestors: ['Employee tender'], note: 'Secondary sale valuation, not primary capital', confidence: 'medium' },
+  { id: 'openai-2026-02', company: 'openai', date: '2026-02-27', round: 'Series', amountUsd: 110 * B, postMoneyUsd: null, leadInvestors: ['Amazon', 'NVIDIA', 'SoftBank'], note: 'Announced at $730B pre-money: Amazon $50B, NVIDIA $30B, SoftBank $30B. Superseded by the March close.', sourceUrl: 'https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html', confidence: 'high' },
+  { id: 'openai-2026-03', company: 'openai', date: '2026-03-31', round: 'Series (final close)', amountUsd: 122 * B, postMoneyUsd: 852 * B, leadInvestors: ['SoftBank', 'a16z', 'D. E. Shaw Ventures'], note: 'Largest private financing on record; includes $3B from retail investors. Microsoft participated, size undisclosed.', sourceUrl: 'https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html', confidence: 'high' },
 
   { id: 'anthropic-2024-11', company: 'anthropic', date: '2024-11-22', round: 'Strategic', amountUsd: 4 * B, postMoneyUsd: null, leadInvestors: ['Amazon'], note: 'Second Amazon tranche, $8B cumulative', confidence: 'high' },
   { id: 'anthropic-2025-03', company: 'anthropic', date: '2025-03-03', round: 'Series E', amountUsd: 3.5 * B, postMoneyUsd: 61.5 * B, leadInvestors: ['Lightspeed'], confidence: 'high' },
   { id: 'anthropic-2025-09', company: 'anthropic', date: '2025-09-02', round: 'Series F', amountUsd: 13 * B, postMoneyUsd: 183 * B, leadInvestors: ['ICONIQ', 'Fidelity', 'Lightspeed'], confidence: 'high' },
   { id: 'anthropic-2025-11', company: 'anthropic', date: '2025-11-18', round: 'Strategic', amountUsd: 15 * B, postMoneyUsd: 350 * B, leadInvestors: ['Microsoft', 'NVIDIA'], note: 'Announced as up to $15B combined, staged', confidence: 'medium' },
+  { id: 'anthropic-2026-02', company: 'anthropic', date: '2026-02-12', round: 'Series G', amountUsd: 30 * B, postMoneyUsd: 380 * B, leadInvestors: ['Undisclosed'], sourceUrl: 'https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html', confidence: 'high' },
+  { id: 'anthropic-2026-05', company: 'anthropic', date: '2026-05-28', round: 'Series H', amountUsd: 65 * B, postMoneyUsd: 965 * B, leadInvestors: ['Altimeter', 'Dragoneer', 'Greenoaks', 'Sequoia'], note: 'Briefly the most valuable private company in the world; nearly triples the February valuation', sourceUrl: 'https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html', confidence: 'high' },
 
   { id: 'xai-2024-12', company: 'xai', date: '2024-12-24', round: 'Series C', amountUsd: 6 * B, postMoneyUsd: 45 * B, leadInvestors: ['a16z', 'Sequoia', 'Valor'], confidence: 'high' },
   { id: 'xai-2025-07', company: 'xai', date: '2025-07-01', round: 'Equity + debt', amountUsd: 10 * B, postMoneyUsd: null, leadInvestors: ['Valor', 'Morgan Stanley'], note: 'Split roughly evenly between equity and debt', confidence: 'medium' },
   { id: 'xai-2025-12', company: 'xai', date: '2025-12-01', round: 'Series', amountUsd: 20 * B, postMoneyUsd: 230 * B, leadInvestors: ['Valor', 'NVIDIA'], note: 'Reported; includes an SPV holding GPUs', confidence: 'medium' },
+  { id: 'xai-2026-01', company: 'xai', date: '2026-01-07', round: 'Series', amountUsd: 20 * B, postMoneyUsd: null, leadInvestors: ['Undisclosed'], note: 'Closed in the first week of January; exact date approximate', confidence: 'medium' },
 
   { id: 'mistral-2024-06', company: 'mistral', date: '2024-06-11', round: 'Series B', amountUsd: 645 * M, postMoneyUsd: 6 * B, leadInvestors: ['General Catalyst'], confidence: 'high' },
   { id: 'mistral-2025-09', company: 'mistral', date: '2025-09-09', round: 'Series C', amountUsd: 2 * B, postMoneyUsd: 13.7 * B, leadInvestors: ['ASML'], note: 'ASML took the lead position — a supplier backing the model layer', confidence: 'high' },
@@ -141,6 +150,24 @@ export const DEALS: Deal[] = [
   { id: 'msft-openai-initial', date: '2023-01-23', from: 'microsoft', to: 'openai', type: 'investment', amountUsd: 10 * B, circular: true, description: 'Multi-year investment paid substantially in Azure credits.', confidence: 'high' },
   { id: 'asml-mistral', date: '2025-09-09', from: 'asml', to: 'mistral', type: 'investment', amountUsd: 1.5 * B, circular: false, description: 'Lithography supplier taking the lead position in a model lab.', confidence: 'high' },
   { id: 'blackstone-coreweave', date: '2024-05-17', from: 'blackstone', to: 'coreweave', type: 'investment', amountUsd: 7.5 * B, circular: false, description: 'GPU-backed term loan led by Blackstone and Magnetar — private credit underwriting hardware as collateral.', confidence: 'high' },
+
+  // --- 2026 -------------------------------------------------------------
+  // The supplier-funds-customer pattern got substantially larger this year:
+  // the chip vendor and the cloud vendor together put $80B into their own
+  // largest customer inside a single round.
+  { id: 'nvda-openai-2026', date: '2026-02-27', from: 'nvidia', to: 'openai', type: 'investment', amountUsd: 30 * B, circular: true, description: 'NVIDIA\u2019s tranche of OpenAI\u2019s February round \u2014 the accelerator supplier funding its largest buyer.', sourceUrl: 'https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html', confidence: 'high' },
+  { id: 'amzn-openai-2026', date: '2026-02-27', from: 'amazon', to: 'openai', type: 'investment', amountUsd: 50 * B, circular: true, description: 'Amazon\u2019s tranche of the same round, alongside AWS capacity OpenAI buys.', sourceUrl: 'https://www.axios.com/2026/02/27/openai-funding-nvidia-amazon', confidence: 'high' },
+  { id: 'softbank-openai-2026', date: '2026-02-27', from: 'softbank', to: 'openai', type: 'investment', amountUsd: 30 * B, circular: false, description: 'SoftBank\u2019s tranche; it went on to co-lead the March final close.', sourceUrl: 'https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html', confidence: 'high' },
+
+  { id: 'amd-anthropic-2026', date: '2026-07-22', from: 'amd', to: 'anthropic', type: 'investment', amountUsd: 5 * B, circular: true, description: 'AMD investing up to $5B alongside Anthropic deploying 2GW of Instinct MI450 \u2014 the same warrant-shaped structure AMD used with OpenAI in 2025.', sourceUrl: 'https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html', confidence: 'high' },
+  { id: 'anthropic-nscale-2026', date: '2026-08-26', from: 'anthropic', to: 'nscale', type: 'compute-commitment', amountUsd: 45 * B, circular: false, description: 'Roughly $45B of compute rented from Nscale over six years.', sourceUrl: 'https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/', confidence: 'high' },
+  { id: 'anthropic-amazon-2026', date: '2026-04-15', from: 'anthropic', to: 'amazon', type: 'compute-commitment', amountUsd: null, circular: true, description: 'Expanded AWS partnership adding about 5GW of compute; Amazon is also an investor. Announced in April, exact date approximate.', sourceUrl: 'https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/', confidence: 'medium' },
+  { id: 'anthropic-google-broadcom-2026', date: '2026-08-01', from: 'anthropic', to: 'alphabet', type: 'compute-commitment', amountUsd: null, circular: true, description: 'Multiple gigawatts of next-generation TPU capacity with Google and Broadcom, coming online from 2027. Google is also an investor.', sourceUrl: 'https://www.anthropic.com/news/google-broadcom-partnership-compute', confidence: 'medium' },
+  { id: 'meta-coreweave-2026', date: '2026-04-15', from: 'meta', to: 'coreweave', type: 'compute-commitment', amountUsd: 21 * B, circular: false, description: 'Expanded infrastructure agreement running through December 2032. Announced in April, exact date approximate.', sourceUrl: 'https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt', confidence: 'medium' },
+
+  // Two of the largest private AI companies stopped being independent this year.
+  { id: 'spacex-xai-2026', date: '2026-02-15', from: 'spacex', to: 'xai', type: 'acquisition', amountUsd: 250 * B, circular: false, description: 'SpaceX acquired xAI at a $250B valuation, folding a frontier lab into a private space company. Exact date approximate.', sourceUrl: 'https://en.wikipedia.org/wiki/SpaceXAI', confidence: 'medium' },
+  { id: 'spacex-anysphere-2026', date: '2026-06-16', from: 'spacex', to: 'anysphere', type: 'acquisition', amountUsd: 60 * B, circular: false, description: 'All-stock acquisition of Cursor\u2019s parent announced days after SpaceX\u2019s IPO; closed 14 August 2026.', sourceUrl: 'https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/', confidence: 'high' },
   { id: 'googl-terawulf', date: '2025-10-14', from: 'alphabet', to: 'core-scientific', type: 'investment', amountUsd: 3.2 * B, circular: true, description: 'Backstop of neocloud lease obligations in exchange for equity, enabling debt the operator could not otherwise raise.', confidence: 'medium' },
 ];
 
@@ -161,4 +188,9 @@ export const DEBT_ITEMS: DebtItem[] = [
   { id: 'nebius-convertible-2025', issuer: 'nebius', date: '2025-09-01', instrument: 'convertible', amountUsd: 3 * B, description: 'Convertible notes funding GPU purchases against a Microsoft capacity contract.', confidence: 'medium' },
   { id: 'applied-digital-2025', issuer: 'applied-digital', date: '2025-06-01', instrument: 'credit-facility', amountUsd: 5 * B, counterparties: ['Macquarie'], description: 'Perpetual preferred and project financing for HPC campuses.', confidence: 'medium' },
   { id: 'vantage-frontier-2025', issuer: 'vantage', date: '2025-10-01', instrument: 'abs', amountUsd: 25 * B, collateral: 'Data center assets', counterparties: ['Silver Lake', 'DigitalBridge'], description: 'Frontier campus financing, among the largest private data center packages raised.', confidence: 'medium' },
+
+  // --- 2026 -------------------------------------------------------------
+  { id: 'coreweave-ig-2026', issuer: 'coreweave', date: '2026-03-01', instrument: 'credit-facility', amountUsd: 8.5 * B, collateral: 'GPUs', description: 'First investment-grade-rated financing backed by GPUs \u2014 rating agencies accepting rapidly depreciating hardware as a credit category. Exact date approximate.', sourceUrl: 'https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt', confidence: 'medium' },
+  { id: 'coreweave-ddtl50-2026', issuer: 'coreweave', date: '2026-07-01', instrument: 'term-loan', amountUsd: 3.1 * B, collateral: 'GPUs and customer contracts', description: 'DDTL 5.0 delayed-draw term loan. Exact date approximate.', sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/ex991.htm', confidence: 'medium' },
+  { id: 'coreweave-ddtl55-2026', issuer: 'coreweave', date: '2026-09-01', instrument: 'term-loan', amountUsd: 2.6 * B, collateral: 'GPUs and customer contracts', description: 'DDTL 5.5 facility, taking debt and equity raised year-to-date past $30B.', sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm', confidence: 'high' },
 ];

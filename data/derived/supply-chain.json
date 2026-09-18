@@ -58,11 +58,12 @@
         "type": "private",
         "ticker": null,
         "country": "US",
-        "role": "Fastest-scaling AI coding product",
+        "role": "Fastest-scaling AI coding product; acquired by SpaceX for $60B in stock, closed August 2026",
         "tags": [
+          "acquired",
           "app"
         ],
-        "latestValuation": 29300000000,
+        "latestValuation": 60000000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -219,10 +220,24 @@
         "latestValuation": null,
         "marketReturnYtd": null,
         "ttmCapex": null
+      },
+      {
+        "id": "spacex",
+        "name": "SpaceX",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Acquired xAI (Feb 2026) and Cursor's parent Anysphere (Aug 2026), making a space company one of the larger AI owners",
+        "tags": [
+          "acquirer"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
       }
     ],
     "publicCount": 4,
-    "privateCount": 12,
+    "privateCount": 13,
     "bottleneckCount": 0,
     "ttmCapex": 115948000000,
     "basket": {
@@ -463,11 +478,12 @@
         "type": "private",
         "ticker": null,
         "country": "US",
-        "role": "Frontier lab operating its own Colossus clusters",
+        "role": "Frontier lab operating the Colossus clusters; acquired by SpaceX in February 2026 at a $250B valuation",
         "tags": [
+          "acquired",
           "lab"
         ],
-        "latestValuation": 230000000000,
+        "latestValuation": 250000000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -548,10 +564,24 @@
         "latestValuation": 3300000000,
         "marketReturnYtd": null,
         "ttmCapex": null
+      },
+      {
+        "id": "nscale",
+        "name": "Nscale",
+        "type": "private",
+        "ticker": null,
+        "country": "UK",
+        "role": "British AI infrastructure operator; counterparty to Anthropic's ~$45B six-year compute contract",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
       }
     ],
     "publicCount": 12,
-    "privateCount": 7,
+    "privateCount": 8,
     "bottleneckCount": 0,
     "ttmCapex": 614270756000,
     "basket": {
@@ -636,7 +666,7 @@
         "country": "US",
         "role": "Data labeling; Meta took a large stake",
         "tags": [],
-        "latestValuation": null,
+        "latestValuation": 14300000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -1705,7 +1735,7 @@
         "tags": [
           "lab"
         ],
-        "latestValuation": 500000000000,
+        "latestValuation": 852000000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -1719,7 +1749,7 @@
         "tags": [
           "lab"
         ],
-        "latestValuation": 350000000000,
+        "latestValuation": 965000000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -1729,11 +1759,12 @@
         "type": "private",
         "ticker": null,
         "country": "US",
-        "role": "Frontier lab operating its own Colossus clusters",
+        "role": "Frontier lab operating the Colossus clusters; acquired by SpaceX in February 2026 at a $250B valuation",
         "tags": [
+          "acquired",
           "lab"
         ],
-        "latestValuation": 230000000000,
+        "latestValuation": 250000000000,
         "marketReturnYtd": null,
         "ttmCapex": null
       },
@@ -1848,10 +1879,24 @@
         "latestValuation": null,
         "marketReturnYtd": null,
         "ttmCapex": null
+      },
+      {
+        "id": "spacex",
+        "name": "SpaceX",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Acquired xAI (Feb 2026) and Cursor's parent Anysphere (Aug 2026), making a space company one of the larger AI owners",
+        "tags": [
+          "acquirer"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
       }
     ],
     "publicCount": 3,
-    "privateCount": 11,
+    "privateCount": 12,
     "bottleneckCount": 0,
     "ttmCapex": 337675000000,
     "basket": {

@@ -667,6 +667,116 @@
         "sourceUrl": null
       },
       "companyName": "Crusoe Energy"
+    },
+    {
+      "id": "xai-2026-01",
+      "company": "xai",
+      "date": "2026-01-07",
+      "round": "Series",
+      "amountUsd": 20000000000,
+      "postMoneyUsd": null,
+      "leadInvestors": [
+        "Undisclosed"
+      ],
+      "note": "Closed in the first week of January; exact date approximate",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-01-07",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "xAI"
+    },
+    {
+      "id": "anthropic-2026-02",
+      "company": "anthropic",
+      "date": "2026-02-12",
+      "round": "Series G",
+      "amountUsd": 30000000000,
+      "postMoneyUsd": 380000000000,
+      "leadInvestors": [
+        "Undisclosed"
+      ],
+      "sourceUrl": "https://www.cnbc.com/2026/02/12/anthropic-closes-30-billion-funding-round-at-380-billion-valuation.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-12",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
+    },
+    {
+      "id": "openai-2026-02",
+      "company": "openai",
+      "date": "2026-02-27",
+      "round": "Series",
+      "amountUsd": 110000000000,
+      "postMoneyUsd": null,
+      "leadInvestors": [
+        "Amazon",
+        "NVIDIA",
+        "SoftBank"
+      ],
+      "note": "Announced at $730B pre-money: Amazon $50B, NVIDIA $30B, SoftBank $30B. Superseded by the March close.",
+      "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-27",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "OpenAI"
+    },
+    {
+      "id": "openai-2026-03",
+      "company": "openai",
+      "date": "2026-03-31",
+      "round": "Series (final close)",
+      "amountUsd": 122000000000,
+      "postMoneyUsd": 852000000000,
+      "leadInvestors": [
+        "SoftBank",
+        "a16z",
+        "D. E. Shaw Ventures"
+      ],
+      "note": "Largest private financing on record; includes $3B from retail investors. Microsoft participated, size undisclosed.",
+      "sourceUrl": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-03-31",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "OpenAI"
+    },
+    {
+      "id": "anthropic-2026-05",
+      "company": "anthropic",
+      "date": "2026-05-28",
+      "round": "Series H",
+      "amountUsd": 65000000000,
+      "postMoneyUsd": 965000000000,
+      "leadInvestors": [
+        "Altimeter",
+        "Dragoneer",
+        "Greenoaks",
+        "Sequoia"
+      ],
+      "note": "Briefly the most valuable private company in the world; nearly triples the February valuation",
+      "sourceUrl": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-05-28",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
     }
   ],
   "deals": [
@@ -1068,6 +1178,206 @@
       },
       "fromName": "NVIDIA",
       "toName": "xAI"
+    },
+    {
+      "id": "spacex-xai-2026",
+      "date": "2026-02-15",
+      "from": "spacex",
+      "to": "xai",
+      "type": "acquisition",
+      "amountUsd": 250000000000,
+      "circular": false,
+      "description": "SpaceX acquired xAI at a $250B valuation, folding a frontier lab into a private space company. Exact date approximate.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SpaceXAI",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-15",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "SpaceX",
+      "toName": "xAI"
+    },
+    {
+      "id": "nvda-openai-2026",
+      "date": "2026-02-27",
+      "from": "nvidia",
+      "to": "openai",
+      "type": "investment",
+      "amountUsd": 30000000000,
+      "circular": true,
+      "description": "NVIDIA’s tranche of OpenAI’s February round — the accelerator supplier funding its largest buyer.",
+      "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-27",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "NVIDIA",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "amzn-openai-2026",
+      "date": "2026-02-27",
+      "from": "amazon",
+      "to": "openai",
+      "type": "investment",
+      "amountUsd": 50000000000,
+      "circular": true,
+      "description": "Amazon’s tranche of the same round, alongside AWS capacity OpenAI buys.",
+      "sourceUrl": "https://www.axios.com/2026/02/27/openai-funding-nvidia-amazon",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-27",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Amazon",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "softbank-openai-2026",
+      "date": "2026-02-27",
+      "from": "softbank",
+      "to": "openai",
+      "type": "investment",
+      "amountUsd": 30000000000,
+      "circular": false,
+      "description": "SoftBank’s tranche; it went on to co-lead the March final close.",
+      "sourceUrl": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-02-27",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "SoftBank Group",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "anthropic-amazon-2026",
+      "date": "2026-04-15",
+      "from": "anthropic",
+      "to": "amazon",
+      "type": "compute-commitment",
+      "amountUsd": null,
+      "circular": true,
+      "description": "Expanded AWS partnership adding about 5GW of compute; Amazon is also an investor. Announced in April, exact date approximate.",
+      "sourceUrl": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-04-15",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "Anthropic",
+      "toName": "Amazon"
+    },
+    {
+      "id": "meta-coreweave-2026",
+      "date": "2026-04-15",
+      "from": "meta",
+      "to": "coreweave",
+      "type": "compute-commitment",
+      "amountUsd": 21000000000,
+      "circular": false,
+      "description": "Expanded infrastructure agreement running through December 2032. Announced in April, exact date approximate.",
+      "sourceUrl": "https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-04-15",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "Meta Platforms",
+      "toName": "CoreWeave"
+    },
+    {
+      "id": "spacex-anysphere-2026",
+      "date": "2026-06-16",
+      "from": "spacex",
+      "to": "anysphere",
+      "type": "acquisition",
+      "amountUsd": 60000000000,
+      "circular": false,
+      "description": "All-stock acquisition of Cursor’s parent announced days after SpaceX’s IPO; closed 14 August 2026.",
+      "sourceUrl": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-06-16",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "SpaceX",
+      "toName": "Anysphere (Cursor)"
+    },
+    {
+      "id": "amd-anthropic-2026",
+      "date": "2026-07-22",
+      "from": "amd",
+      "to": "anthropic",
+      "type": "investment",
+      "amountUsd": 5000000000,
+      "circular": true,
+      "description": "AMD investing up to $5B alongside Anthropic deploying 2GW of Instinct MI450 — the same warrant-shaped structure AMD used with OpenAI in 2025.",
+      "sourceUrl": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-07-22",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "AMD",
+      "toName": "Anthropic"
+    },
+    {
+      "id": "anthropic-google-broadcom-2026",
+      "date": "2026-08-01",
+      "from": "anthropic",
+      "to": "alphabet",
+      "type": "compute-commitment",
+      "amountUsd": null,
+      "circular": true,
+      "description": "Multiple gigawatts of next-generation TPU capacity with Google and Broadcom, coming online from 2027. Google is also an investor.",
+      "sourceUrl": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-08-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "Anthropic",
+      "toName": "Alphabet"
+    },
+    {
+      "id": "anthropic-nscale-2026",
+      "date": "2026-08-26",
+      "from": "anthropic",
+      "to": "nscale",
+      "type": "compute-commitment",
+      "amountUsd": 45000000000,
+      "circular": false,
+      "description": "Roughly $45B of compute rented from Nscale over six years.",
+      "sourceUrl": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-08-26",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Anthropic",
+      "toName": "Nscale"
     }
   ],
   "debt": [
@@ -1303,29 +1613,83 @@
         "sourceUrl": null
       },
       "issuerName": "Amazon"
+    },
+    {
+      "id": "coreweave-ig-2026",
+      "issuer": "coreweave",
+      "date": "2026-03-01",
+      "instrument": "credit-facility",
+      "amountUsd": 8500000000,
+      "collateral": "GPUs",
+      "description": "First investment-grade-rated financing backed by GPUs — rating agencies accepting rapidly depreciating hardware as a credit category. Exact date approximate.",
+      "sourceUrl": "https://www.globaldatacenterhub.com/p/q2-2026-the-quarter-data-center-debt",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-03-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "CoreWeave"
+    },
+    {
+      "id": "coreweave-ddtl50-2026",
+      "issuer": "coreweave",
+      "date": "2026-07-01",
+      "instrument": "term-loan",
+      "amountUsd": 3100000000,
+      "collateral": "GPUs and customer contracts",
+      "description": "DDTL 5.0 delayed-draw term loan. Exact date approximate.",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/ex991.htm",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-07-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "CoreWeave"
+    },
+    {
+      "id": "coreweave-ddtl55-2026",
+      "issuer": "coreweave",
+      "date": "2026-09-01",
+      "instrument": "term-loan",
+      "amountUsd": 2600000000,
+      "collateral": "GPUs and customer contracts",
+      "description": "DDTL 5.5 facility, taking debt and equity raised year-to-date past $30B.",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2026-09-01",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "CoreWeave"
     }
   ],
   "valuations": [
     {
-      "company": "openai",
-      "name": "OpenAI",
-      "postMoneyUsd": 500000000000,
-      "date": "2025-10-02",
-      "round": "Secondary"
-    },
-    {
       "company": "anthropic",
       "name": "Anthropic",
-      "postMoneyUsd": 350000000000,
-      "date": "2025-11-18",
-      "round": "Strategic"
+      "postMoneyUsd": 965000000000,
+      "date": "2026-05-28",
+      "round": "Series H"
+    },
+    {
+      "company": "openai",
+      "name": "OpenAI",
+      "postMoneyUsd": 852000000000,
+      "date": "2026-03-31",
+      "round": "Series (final close)"
     },
     {
       "company": "xai",
       "name": "xAI",
-      "postMoneyUsd": 230000000000,
-      "date": "2025-12-01",
-      "round": "Series"
+      "postMoneyUsd": 250000000000,
+      "date": "2026-02-15",
+      "round": "Acquired by SpaceX"
     },
     {
       "company": "databricks",
@@ -1335,18 +1699,18 @@
       "round": "Series K"
     },
     {
+      "company": "anysphere",
+      "name": "Anysphere (Cursor)",
+      "postMoneyUsd": 60000000000,
+      "date": "2026-06-16",
+      "round": "Acquired by SpaceX"
+    },
+    {
       "company": "ssi",
       "name": "Safe Superintelligence",
       "postMoneyUsd": 32000000000,
       "date": "2025-04-12",
       "round": "Series"
-    },
-    {
-      "company": "anysphere",
-      "name": "Anysphere (Cursor)",
-      "postMoneyUsd": 29300000000,
-      "date": "2025-11-13",
-      "round": "Series D"
     },
     {
       "company": "surge",
@@ -1361,6 +1725,13 @@
       "postMoneyUsd": 20000000000,
       "date": "2025-09-10",
       "round": "Series"
+    },
+    {
+      "company": "scale-ai",
+      "name": "Scale AI",
+      "postMoneyUsd": 14300000000,
+      "date": "2025-06-12",
+      "round": "Acquired by Meta Platforms"
     },
     {
       "company": "mistral",
@@ -1485,20 +1856,20 @@
       "id": "openai",
       "name": "OpenAI",
       "exposure": {
-        "value": 18.0327868852459,
+        "value": 26.38888888888889,
         "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
         "inputs": {
-          "circularUsd": 110000000000,
-          "totalInboundUsd": 610000000000,
-          "dealCount": 3
+          "circularUsd": 190000000000,
+          "totalInboundUsd": 720000000000,
+          "dealCount": 6
         },
         "unit": "percent",
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
-      "inboundCount": 4,
+      "inboundCount": 7,
       "outboundCount": 5,
-      "circularUsd": 110000000000,
-      "totalInboundUsd": 610000000000
+      "circularUsd": 190000000000,
+      "totalInboundUsd": 720000000000
     },
     {
       "id": "anthropic",
@@ -1507,17 +1878,17 @@
         "value": 100,
         "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
         "inputs": {
-          "circularUsd": 23000000000,
-          "totalInboundUsd": 23000000000,
-          "dealCount": 2
+          "circularUsd": 28000000000,
+          "totalInboundUsd": 28000000000,
+          "dealCount": 3
         },
         "unit": "percent",
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
-      "inboundCount": 2,
-      "outboundCount": 1,
-      "circularUsd": 23000000000,
-      "totalInboundUsd": 23000000000
+      "inboundCount": 3,
+      "outboundCount": 4,
+      "circularUsd": 28000000000,
+      "totalInboundUsd": 28000000000
     },
     {
       "id": "core-scientific",
@@ -1542,20 +1913,20 @@
       "id": "xai",
       "name": "xAI",
       "exposure": {
-        "value": 100,
+        "value": 0.7936507936507936,
         "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
         "inputs": {
           "circularUsd": 2000000000,
-          "totalInboundUsd": 2000000000,
-          "dealCount": 1
+          "totalInboundUsd": 252000000000,
+          "dealCount": 2
         },
         "unit": "percent",
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 0,
       "circularUsd": 2000000000,
-      "totalInboundUsd": 2000000000
+      "totalInboundUsd": 252000000000
     },
     {
       "id": "nebius",
@@ -1580,20 +1951,20 @@
       "id": "coreweave",
       "name": "CoreWeave",
       "exposure": {
-        "value": 0.2967359050445104,
+        "value": 0.18281535648994515,
         "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
         "inputs": {
           "circularUsd": 100000000,
-          "totalInboundUsd": 33700000000,
-          "dealCount": 4
+          "totalInboundUsd": 54700000000,
+          "dealCount": 5
         },
         "unit": "percent",
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
-      "inboundCount": 4,
+      "inboundCount": 5,
       "outboundCount": 0,
       "circularUsd": 100000000,
-      "totalInboundUsd": 33700000000
+      "totalInboundUsd": 54700000000
     },
     {
       "id": "amazon",
@@ -1609,8 +1980,8 @@
         "unit": "percent",
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
-      "inboundCount": 1,
-      "outboundCount": 1,
+      "inboundCount": 2,
+      "outboundCount": 2,
       "circularUsd": 0,
       "totalInboundUsd": 38000000000
     },
@@ -1629,7 +2000,7 @@
         "caveat": "Reflects disclosed deals only; private terms are not captured"
       },
       "inboundCount": 1,
-      "outboundCount": 2,
+      "outboundCount": 3,
       "circularUsd": 0,
       "totalInboundUsd": 27000000000
     },
@@ -1689,6 +2060,44 @@
       "outboundCount": 0,
       "circularUsd": 0,
       "totalInboundUsd": 300000000000
+    },
+    {
+      "id": "anysphere",
+      "name": "Anysphere (Cursor)",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 60000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 0,
+      "totalInboundUsd": 60000000000
+    },
+    {
+      "id": "nscale",
+      "name": "Nscale",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 45000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 0,
+      "totalInboundUsd": 45000000000
     }
   ],
   "fundingByYear": [
@@ -1699,6 +2108,10 @@
     {
       "year": "2025",
       "total": 118940000000
+    },
+    {
+      "year": "2026",
+      "total": 347000000000
     }
   ],
   "debtByYear": [
@@ -1709,12 +2122,16 @@
     {
       "year": "2025",
       "total": 177500000000
+    },
+    {
+      "year": "2026",
+      "total": 14200000000
     }
   ],
   "totals": {
-    "disclosedFunding": 147785000000,
-    "disclosedDebt": 185000000000,
-    "disclosedDealValue": 1303400000000,
-    "circularDealValue": 389000000000
+    "disclosedFunding": 494785000000,
+    "disclosedDebt": 199200000000,
+    "disclosedDealValue": 1794400000000,
+    "circularDealValue": 474000000000
   }
 }

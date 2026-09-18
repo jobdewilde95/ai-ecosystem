@@ -1,24 +1,26 @@
 name: Refresh data
 
-# Sources move on different clocks, so they refresh on different schedules.
-# Pulling 2.7 MB of XBRL per company daily for numbers that only change
-# quarterly would be both pointless and a good way to get blocked by EDGAR.
+# One weekly pass over every source.
+#
+# Weekly costs no market history: the Yahoo fetcher requests a multi-year range
+# and the history writer de-duplicates by (ticker, date), so a Monday run still
+# records every trading day of the preceding week. Token prices are written as
+# change events, so a weekly cadence only loses a price that moved and moved
+# back inside the same week.
+#
+# Monday 07:00 UTC is Sunday evening in the US: markets are closed, so the run
+# picks up a settled Friday close plus the week's filings.
 on:
   schedule:
-    # Daily 06:10 UTC — prices, token pricing, benchmarks.
-    - cron: '10 6 * * *'
-    # Mondays 06:40 UTC — SEC fundamentals and filings, HuggingFace.
-    - cron: '40 6 * * 1'
-    # 1st of the month 07:10 UTC — Epoch AI training compute.
-    - cron: '10 7 1 * *'
+    - cron: '0 7 * * 1'
   workflow_dispatch:
     inputs:
       tier:
-        description: 'Which refresh tier to run'
+        description: 'Which sources to refresh (all of them by default)'
         required: false
-        default: 'daily'
+        default: 'daily,weekly,monthly'
         type: choice
-        options: [daily, weekly, monthly, 'daily,weekly,monthly']
+        options: ['daily,weekly,monthly', daily, weekly, monthly]
 
 concurrency:
   group: refresh-data
@@ -42,13 +44,13 @@ jobs:
 
       - name: Select tier
         id: tier
+        # The schedule refreshes everything; a manual run may narrow it.
         run: |
-          case "${{ github.event.schedule }}" in
-            '40 6 * * 1')   echo "value=weekly"  >> "$GITHUB_OUTPUT" ;;
-            '10 7 1 * *')   echo "value=monthly" >> "$GITHUB_OUTPUT" ;;
-            '10 6 * * *')   echo "value=daily"   >> "$GITHUB_OUTPUT" ;;
-            *)              echo "value=${{ inputs.tier || 'daily' }}" >> "$GITHUB_OUTPUT" ;;
-          esac
+          if [ -n "${{ github.event.schedule }}" ]; then
+            echo "value=daily,weekly,monthly" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${{ inputs.tier || 'daily,weekly,monthly' }}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Fetch sources
         id: fetch
@@ -83,7 +85,7 @@ jobs:
           else
             # [skip ci] keeps this commit from re-triggering CI; the deploy below
             # is dispatched explicitly instead, so the cron cannot loop.
-            git commit -m "chore(data): ${{ steps.tier.outputs.value }} refresh [skip ci]"
+            git commit -m "chore(data): weekly refresh (${{ steps.tier.outputs.value }}) [skip ci]"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

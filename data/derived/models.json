@@ -1017,7 +1017,7 @@
       "timeToFirstTokenSeconds": 3.836
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.22999999999999998,
+    "cacheReadPerMtok": 0.2262,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k3",
     "intelligencePerDollar": {
@@ -2436,7 +2436,7 @@
       "timeToFirstTokenSeconds": 0.764
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.009911999999999999,
+    "cacheReadPerMtok": 0.0098,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v4-flash",
     "intelligencePerDollar": {
@@ -3382,7 +3382,7 @@
       "timeToFirstTokenSeconds": 3.391
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.22999999999999998,
+    "cacheReadPerMtok": 0.2262,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k3",
     "intelligencePerDollar": {

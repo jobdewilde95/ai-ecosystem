@@ -150,6 +150,21 @@ body {
 /* Tabular figures everywhere numbers are compared down a column. */
 .tnum { font-variant-numeric: tabular-nums; }
 
+/*
+ * Horizontally scrolling table wrapper.
+ *
+ * `overflow-x: auto` alone is not enough: a wide table still contributes its
+ * min-content width to the viewport's scrollable area, so the whole page
+ * scrolled sideways on phones (262px on /markets) even though the wrapper
+ * itself measured correctly and clipped its contents. Inline-size containment
+ * declares that this box's width does not depend on its contents, which stops
+ * that contribution propagating; layout containment isolates the rest.
+ */
+.scroll-x {
+  overflow-x: auto;
+  contain: layout inline-size;
+}
+
 /* Recharts injects its own focus outline; keep ours consistent. */
 :focus-visible {
   outline: 2px solid var(--series-1);

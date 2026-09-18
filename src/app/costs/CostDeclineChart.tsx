@@ -14,57 +14,36 @@ interface CurvePoint {
 }
 
 /**
- * The long-run cost decline.
+ * Cheapest flagship list price over time, from the seeded record.
  *
- * Seeded and tracked spans are separate series rather than one merged line:
- * they come from different evidence — published list prices against live
- * pricing joined to quality scores — and merging them would present a
- * reconstruction as a measurement.
+ * This deliberately does NOT continue into the tracked data. The two measure
+ * different things: this is the cheapest published list price among models
+ * their makers positioned as flagships, while the tracked frontier curve is the
+ * cheapest model clearing a fixed benchmark score. Joining them drew a step
+ * from $0.478 to $10.00 — an apparent 2000% price rise that never happened,
+ * produced entirely by the change of definition. The tracked equivalent is the
+ * next chart down, on its own consistent basis.
  */
-export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live: CurvePoint[] }) {
+export function CostDeclineChart({ seeded }: { seeded: CurvePoint[] }) {
   const [logScale, setLogScale] = useState(true);
 
-  const months = [...new Set([...seeded, ...live].map((point) => point.month))].sort();
-  const seededBy = new Map(seeded.map((point) => [point.month, point]));
-  const liveBy = new Map(live.map((point) => [point.month, point]));
-
-  // Carry each series forward so a price holds until something replaces it,
-  // rather than leaving gaps in months where nothing was released.
-  let lastSeeded: CurvePoint | undefined;
-  let lastLive: CurvePoint | undefined;
-  const seededEnd = seeded.at(-1)?.month;
-  const liveStart = live[0]?.month;
-
-  const data = months.map((month) => {
-    lastSeeded = seededBy.get(month) ?? lastSeeded;
-    lastLive = liveBy.get(month) ?? lastLive;
-    return {
-      month,
-      // The seeded line stops where it ends; the tracked line starts where it
-      // starts. Neither is extended across the other's span.
-      seeded: seededEnd && month <= seededEnd ? (lastSeeded?.price ?? null) : null,
-      live: liveStart && month >= liveStart ? (lastLive?.price ?? null) : null,
-      label: (liveBy.get(month) ?? seededBy.get(month) ?? lastLive ?? lastSeeded)?.model ?? '',
-    };
-  });
-
-  const first = seeded[0] ?? live[0];
-  const last = live.at(-1) ?? seeded.at(-1);
-  const declinePct =
-    first && last && first.price > 0 ? ((first.price - last.price) / first.price) * 100 : null;
-
-  const rows = [
-    ...seeded.map((point) => ({ ...point, origin: 'seeded' as const })),
-    ...live.map((point) => ({ ...point, origin: 'tracked' as const })),
-  ];
-
-  if (rows.length === 0) {
+  if (seeded.length === 0) {
     return (
       <p className="py-8 text-center text-[13px] text-[var(--text-muted)]">
-        No pricing history available yet.
+        No seeded pricing history available.
       </p>
     );
   }
+
+  const data = seeded.map((point) => ({
+    month: point.month,
+    price: point.price,
+    model: point.model,
+  }));
+
+  const first = seeded[0];
+  const last = seeded[seeded.length - 1];
+  const declinePct = first.price > 0 ? ((first.price - last.price) / first.price) * 100 : null;
 
   return (
     <div>
@@ -78,7 +57,7 @@ export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live:
           />
           Log scale
         </label>
-        {declinePct !== null && first && last && (
+        {declinePct !== null && (
           <span className="text-[12px] text-[var(--text-secondary)]">
             <span className="tnum font-semibold" style={{ color: 'var(--delta-up)' }}>
               −{declinePct.toFixed(1)}%
@@ -89,25 +68,29 @@ export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live:
         )}
         <span className="flex items-center gap-1.5 text-[12px] text-[var(--text-muted)]">
           <SeededTag />
-          published list prices through {seededEnd ? monthLabel(seededEnd) : '—'}
+          published list prices
         </span>
       </div>
 
       <LineChart
         data={data}
-        series={[
-          { key: 'seeded', label: 'Published list prices (seeded)', colorIndex: 1, dashed: true },
-          { key: 'live', label: 'Tracked pricing', colorIndex: 0 },
-        ]}
+        series={[{ key: 'price', label: 'Cheapest flagship $/Mtok', colorIndex: 1, dashed: true }]}
         xKey="month"
         xFormatter={monthLabel}
         yFormatter={(value) => usdPerMtok(value)}
         valueFormatter={(value) => `${usdPerMtok(value)} /Mtok`}
         logScale={logScale}
         interpolation="step"
-        height={300}
-        yLabel="Cheapest frontier $/Mtok"
+        height={280}
+        yLabel="Cheapest flagship $/Mtok"
       />
+
+      <p className="mt-2 text-[12px] leading-relaxed text-[var(--text-muted)]">
+        This series ends at {monthLabel(last.month)} and is deliberately not continued into the
+        tracked data below: that curve measures the cheapest model clearing a fixed benchmark
+        score, which is a different question. Splicing the two would show a price jump that is an
+        artefact of the changed definition, not something that happened.
+      </p>
 
       <details className="mt-3">
         <summary className="cursor-pointer text-[12px] text-[var(--text-muted)] underline decoration-dotted underline-offset-2 hover:text-[var(--text-secondary)]">
@@ -115,8 +98,8 @@ export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live:
         </summary>
         <div className="mt-2">
           <DataTable
-            rows={rows}
-            rowKey={(row, index) => `${row.origin}-${row.month}-${index}`}
+            rows={seeded}
+            rowKey={(row, index) => `${row.month}-${index}`}
             initialSort="month"
             maxHeight={320}
             columns={[
@@ -135,7 +118,7 @@ export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live:
               },
               {
                 key: 'model',
-                header: 'Cheapest frontier model',
+                header: 'Cheapest flagship',
                 render: (row) => row.model,
                 sortValue: (row) => row.model,
               },
@@ -144,17 +127,6 @@ export function CostDeclineChart({ seeded, live }: { seeded: CurvePoint[]; live:
                 header: 'Provider',
                 render: (row) => row.provider,
                 sortValue: (row) => row.provider,
-              },
-              {
-                key: 'origin',
-                header: 'Source',
-                render: (row) =>
-                  row.origin === 'seeded' ? (
-                    <SeededTag />
-                  ) : (
-                    <span className="text-[var(--text-secondary)]">tracked</span>
-                  ),
-                sortValue: (row) => row.origin,
               },
             ]}
           />

@@ -19,14 +19,21 @@ export default function CostsPage() {
 
   const priced = models.filter((model) => model.blended3to1 !== null && model.blended3to1 > 0);
 
-  // The long-run decline spans the seeded list prices and the tracked span; the
-  // live-only frontier curve covers barely six months on its own.
-  const declineFirst = decline.seeded[0] ?? decline.live[0];
-  const declineLast = decline.live.at(-1) ?? decline.seeded.at(-1);
-  const declinePct =
-    declineFirst && declineLast && declineFirst.price > 0
-      ? ((declineFirst.price - declineLast.price) / declineFirst.price) * 100
+  /*
+   * Two separate bases, never spliced. The seeded series is the cheapest
+   * published flagship list price; the tracked frontier curve is the cheapest
+   * model clearing a fixed benchmark score. Each headline figure below names
+   * which one it came from.
+   */
+  const seededFirst = decline.seeded[0];
+  const seededLast = decline.seeded.at(-1);
+  const seededDeclinePct =
+    seededFirst && seededLast && seededFirst.price > 0
+      ? ((seededFirst.price - seededLast.price) / seededFirst.price) * 100
       : null;
+
+  const trackedFrontier = frontier.curves.find((curve) => curve.threshold === 40)?.points ?? [];
+  const trackedNow = trackedFrontier.at(-1);
 
   const withCache = models.filter(
     (model) => model.cacheReadPerMtok !== null && model.pricing.inputPerMtok,
@@ -63,20 +70,20 @@ export default function CostsPage() {
 
       <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <StatTile
-          label="Frontier price now"
-          value={declineLast ? usdPerMtok(declineLast.price) : '—'}
+          label="Cheapest at index ≥ 40"
+          value={trackedNow ? usdPerMtok(trackedNow.cheapestPerMtok) : '—'}
           unit="/Mtok"
-          note={declineLast ? `${declineLast.model} — cheapest frontier-tier` : undefined}
+          note={trackedNow ? `${trackedNow.model} — tracked pricing` : undefined}
         />
         <StatTile
-          label="Decline since Mar 2023"
-          value={declinePct !== null ? `${declinePct.toFixed(1)}%` : '—'}
+          label="Flagship decline 2023–25"
+          value={seededDeclinePct !== null ? `${seededDeclinePct.toFixed(1)}%` : '—'}
           note={
-            declineFirst
-              ? `From ${usdPerMtok(declineFirst.price)} in ${monthLabel(declineFirst.month)}`
+            seededFirst && seededLast
+              ? `${usdPerMtok(seededFirst.price)} ${monthLabel(seededFirst.month)} → ${usdPerMtok(seededLast.price)} ${monthLabel(seededLast.month)}, seeded`
               : undefined
           }
-          tone={declinePct !== null && declinePct > 0 ? 'good' : 'neutral'}
+          tone={seededDeclinePct !== null && seededDeclinePct > 0 ? 'good' : 'neutral'}
         />
         <StatTile
           label="Models priced"
@@ -92,10 +99,10 @@ export default function CostsPage() {
 
       <div className="mb-6">
         <Card
-          title="Cost of frontier inference, 2023 to now"
-          subtitle="Cheapest blended $/Mtok among frontier-tier models at each month. The step shape is literal: a price holds until something cheaper ships."
+          title="Flagship list prices, 2023–2025"
+          subtitle="Cheapest published list price among models their makers positioned as flagships. The step shape is literal: a price holds until something cheaper ships."
         >
-          <CostDeclineChart seeded={decline.seeded} live={decline.live} />
+          <CostDeclineChart seeded={decline.seeded} />
         </Card>
       </div>
 

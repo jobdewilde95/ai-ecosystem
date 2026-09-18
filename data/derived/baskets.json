@@ -320,6 +320,63 @@
     }
   },
   {
+    "layer": "financing",
+    "constituentCount": 0,
+    "tickers": [],
+    "relativeStrength": {
+      "m1": {
+        "value": null,
+        "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+        "inputs": {
+          "basketReturnPct": null,
+          "benchmarkReturnPct": -1.2053675916053341,
+          "constituents": 0,
+          "benchmark": "SPY"
+        },
+        "unit": "percent"
+      },
+      "m3": {
+        "value": null,
+        "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+        "inputs": {
+          "basketReturnPct": null,
+          "benchmarkReturnPct": 1.7475962182285607,
+          "constituents": 0,
+          "benchmark": "SPY"
+        },
+        "unit": "percent"
+      },
+      "ytd": {
+        "value": null,
+        "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+        "inputs": {
+          "basketReturnPct": null,
+          "benchmarkReturnPct": 11.806399036080187,
+          "constituents": 0,
+          "benchmark": "SPY"
+        },
+        "unit": "percent"
+      },
+      "y1": {
+        "value": null,
+        "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+        "inputs": {
+          "basketReturnPct": null,
+          "benchmarkReturnPct": 15.998048251426255,
+          "constituents": 0,
+          "benchmark": "SPY"
+        },
+        "unit": "percent"
+      }
+    },
+    "averageReturns": {
+      "m1": null,
+      "m3": null,
+      "ytd": null,
+      "y1": null
+    }
+  },
+  {
     "layer": "foundry",
     "constituentCount": 6,
     "tickers": [

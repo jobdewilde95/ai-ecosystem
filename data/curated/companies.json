@@ -2258,5 +2258,171 @@
       "confidence": "high",
       "sourceUrl": null
     }
+  },
+  {
+    "id": "blue-owl",
+    "name": "Blue Owl Capital",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Private credit behind the largest data center JVs and SPVs",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "blackstone",
+    "name": "Blackstone",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Private credit and data center real estate; lender on GPU-backed facilities",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo Global Management",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Private credit exposure to data center and power financing",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "ares",
+    "name": "Ares Management",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Private credit to digital infrastructure",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "magnetar",
+    "name": "Magnetar Capital",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Lead on early GPU-backed neocloud lending",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "softbank",
+    "name": "SoftBank Group",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "JP",
+    "role": "Largest single backer of OpenAI; Stargate partner",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "mgx",
+    "name": "MGX",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "AE",
+    "role": "Abu Dhabi AI investment vehicle; Stargate partner",
+    "tags": [
+      "financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "vantage",
+    "name": "Vantage Data Centers",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "financing"
+    ],
+    "country": "US",
+    "role": "Hyperscale data center developer financing campuses in private markets",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
   }
 ]

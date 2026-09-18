@@ -19,6 +19,7 @@ export const LAYER_ORDER = [
   'infra-software',
   'applications',
   'data-labeling',
+  'financing',
 ] as const;
 
 export type Layer = (typeof LAYER_ORDER)[number];
@@ -37,6 +38,7 @@ export const LAYER_LABELS: Record<string, string> = {
   'infra-software': 'Infra software',
   applications: 'Applications',
   'data-labeling': 'Data & labeling',
+  financing: 'Financing & private credit',
 };
 
 export const LAYER_DESCRIPTIONS: Record<string, string> = {
@@ -53,6 +55,8 @@ export const LAYER_DESCRIPTIONS: Record<string, string> = {
   'infra-software': 'Serving, orchestration, data platforms and the tooling around deployment.',
   applications: 'Products people buy, where inference spend has to turn into revenue.',
   'data-labeling': 'Human data and evaluation feeding the training loop.',
+  financing:
+    'The private credit, JV and SPV counterparties funding buildout that does not sit on an operator\u2019s balance sheet.',
 };
 
 /** Fixed colour slot per layer so a layer keeps its identity across every view. */

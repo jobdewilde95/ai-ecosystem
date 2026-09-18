@@ -18,7 +18,7 @@ export function Nav() {
   const normalised = pathname.endsWith('/') ? pathname : `${pathname}/`;
 
   return (
-    <nav aria-label="Sections" className="-mx-1 overflow-x-auto">
+    <nav aria-label="Sections" className="-mx-1 min-w-0 max-w-full overflow-x-auto">
       <ul className="flex min-w-max items-center gap-0.5 px-1">
         {SECTIONS.map((section) => {
           const active = section.href === '/'

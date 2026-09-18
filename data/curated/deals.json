@@ -1,0 +1,359 @@
+[
+  {
+    "id": "msft-openai-initial",
+    "date": "2023-01-23",
+    "from": "microsoft",
+    "to": "openai",
+    "type": "investment",
+    "amountUsd": 10000000000,
+    "circular": true,
+    "description": "Multi-year investment paid substantially in Azure credits.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2023-01-23",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nvda-coreweave",
+    "date": "2023-04-01",
+    "from": "nvidia",
+    "to": "coreweave",
+    "type": "investment",
+    "amountUsd": 100000000,
+    "circular": true,
+    "description": "Early equity in a neocloud whose entire fleet is NVIDIA silicon; later extended by a capacity backstop.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2023-04-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "blackstone-coreweave",
+    "date": "2024-05-17",
+    "from": "blackstone",
+    "to": "coreweave",
+    "type": "investment",
+    "amountUsd": 7500000000,
+    "circular": false,
+    "description": "GPU-backed term loan led by Blackstone and Magnetar — private credit underwriting hardware as collateral.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-05-17",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "amzn-anthropic",
+    "date": "2024-11-22",
+    "from": "amazon",
+    "to": "anthropic",
+    "type": "investment",
+    "amountUsd": 8000000000,
+    "circular": true,
+    "description": "Cumulative investment paired with Trainium commitments and AWS as primary training partner.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-11-22",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nvda-nebius",
+    "date": "2024-12-02",
+    "from": "nvidia",
+    "to": "nebius",
+    "type": "investment",
+    "amountUsd": 700000000,
+    "circular": true,
+    "description": "Participation in Nebius’s raise to fund GPU purchases.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-12-02",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "stargate",
+    "date": "2025-01-21",
+    "from": "softbank",
+    "to": "openai",
+    "type": "jv",
+    "amountUsd": 500000000000,
+    "circular": false,
+    "description": "Stargate JV with Oracle and MGX. An announced four-year programme target, not committed capital — the headline figure exceeds all disclosed funding for it.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-01-21",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-coreweave-2025",
+    "date": "2025-03-10",
+    "from": "openai",
+    "to": "coreweave",
+    "type": "compute-commitment",
+    "amountUsd": 11900000000,
+    "circular": false,
+    "description": "Capacity contract signed alongside a pre-IPO equity stake taken by OpenAI.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-03-10",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-scale",
+    "date": "2025-06-12",
+    "from": "meta",
+    "to": "scale-ai",
+    "type": "acquisition",
+    "amountUsd": 14300000000,
+    "circular": false,
+    "description": "49% stake valuing Scale near $29B, with its leadership moving to Meta.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-12",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "asml-mistral",
+    "date": "2025-09-09",
+    "from": "asml",
+    "to": "mistral",
+    "type": "investment",
+    "amountUsd": 1500000000,
+    "circular": false,
+    "description": "Lithography supplier taking the lead position in a model lab.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-09",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-oracle-2025",
+    "date": "2025-09-10",
+    "from": "openai",
+    "to": "oracle",
+    "type": "compute-commitment",
+    "amountUsd": 300000000000,
+    "circular": false,
+    "description": "Five-year OCI capacity commitment; Oracle is funding the build largely with debt.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-10",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nvda-openai-2025",
+    "date": "2025-09-22",
+    "from": "nvidia",
+    "to": "openai",
+    "type": "investment",
+    "amountUsd": 100000000000,
+    "circular": true,
+    "description": "Up to $100B staged against 10GW of NVIDIA systems deployed by OpenAI — the supplier funding the customer that buys its chips.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-22",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-coreweave",
+    "date": "2025-09-30",
+    "from": "meta",
+    "to": "coreweave",
+    "type": "compute-commitment",
+    "amountUsd": 14200000000,
+    "circular": false,
+    "description": "Capacity contract running to 2031.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-30",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-amd-2025",
+    "date": "2025-10-06",
+    "from": "amd",
+    "to": "openai",
+    "type": "warrant",
+    "amountUsd": null,
+    "circular": true,
+    "description": "AMD issued OpenAI a warrant for up to 160M shares tied to 6GW of deployment — supplier equity granted against customer purchases.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-06",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-broadcom-2025",
+    "date": "2025-10-13",
+    "from": "openai",
+    "to": "broadcom",
+    "type": "supply",
+    "amountUsd": null,
+    "circular": false,
+    "description": "10GW of co-designed custom accelerators.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-13",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "googl-terawulf",
+    "date": "2025-10-14",
+    "from": "alphabet",
+    "to": "core-scientific",
+    "type": "investment",
+    "amountUsd": 3200000000,
+    "circular": true,
+    "description": "Backstop of neocloud lease obligations in exchange for equity, enabling debt the operator could not otherwise raise.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-14",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-blueowl-hyperion",
+    "date": "2025-10-21",
+    "from": "blue-owl",
+    "to": "meta",
+    "type": "jv",
+    "amountUsd": 27000000000,
+    "circular": false,
+    "description": "Blue Owl funding the Hyperion campus through a JV that keeps the build off Meta’s balance sheet.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-21",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "googl-anthropic-tpu",
+    "date": "2025-10-23",
+    "from": "anthropic",
+    "to": "alphabet",
+    "type": "compute-commitment",
+    "amountUsd": null,
+    "circular": true,
+    "description": "Up to 1GW of TPU capacity from an investor that is also the supplier.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-23",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "msft-openai-restructure",
+    "date": "2025-10-28",
+    "from": "openai",
+    "to": "microsoft",
+    "type": "compute-commitment",
+    "amountUsd": 250000000000,
+    "circular": true,
+    "description": "Incremental Azure commitment alongside Microsoft’s ~27% stake — the investor is also the vendor being paid.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-28",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-aws-2025",
+    "date": "2025-11-03",
+    "from": "openai",
+    "to": "amazon",
+    "type": "compute-commitment",
+    "amountUsd": 38000000000,
+    "circular": false,
+    "description": "Seven-year AWS capacity agreement.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-11-03",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "msft-nvda-anthropic",
+    "date": "2025-11-18",
+    "from": "microsoft",
+    "to": "anthropic",
+    "type": "investment",
+    "amountUsd": 15000000000,
+    "circular": true,
+    "description": "Microsoft and NVIDIA investing alongside a $30B Azure commitment from Anthropic.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-11-18",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nvda-xai",
+    "date": "2025-12-01",
+    "from": "nvidia",
+    "to": "xai",
+    "type": "investment",
+    "amountUsd": 2000000000,
+    "circular": true,
+    "description": "Equity into an SPV holding GPUs for the Colossus cluster.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-12-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  }
+]

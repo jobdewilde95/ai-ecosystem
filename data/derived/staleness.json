@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:24:28.411Z",
+  "generatedAt": "2026-09-18T19:39:01.754Z",
   "sources": {
     "sec-financials": {
       "stale": false,
@@ -24,9 +24,9 @@
     },
     "openrouter": {
       "stale": false,
-      "fetchedAt": "2026-09-18T18:02:50.479Z",
-      "lastSuccessAt": "2026-09-18T18:02:50.479Z",
-      "records": 445,
+      "fetchedAt": "2026-09-18T19:28:13.724Z",
+      "lastSuccessAt": "2026-09-18T19:28:13.724Z",
+      "records": 446,
       "reason": null
     },
     "epoch-models": {

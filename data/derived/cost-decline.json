@@ -1,5 +1,5 @@
 {
-  "note": "Cheapest frontier-tier blended $/Mtok over time. The seeded span comes from published list prices and is marked as such; the tracked span is computed from live pricing and Artificial Analysis quality scores.",
+  "note": "Two separate measures, not a continuous series. `seeded` is the cheapest published flagship list price (2023-2025). `live` is the cheapest model clearing a fixed Artificial Analysis intelligence score. They answer different questions and must not be joined into one line.",
   "seeded": [
     {
       "month": "2023-03",

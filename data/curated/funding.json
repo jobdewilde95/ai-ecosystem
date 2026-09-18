@@ -1,0 +1,635 @@
+[
+  {
+    "id": "mistral-2024-06",
+    "company": "mistral",
+    "date": "2024-06-11",
+    "round": "Series B",
+    "amountUsd": 645000000,
+    "postMoneyUsd": 6000000000,
+    "leadInvestors": [
+      "General Catalyst"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-06-11",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "ssi-2024-09",
+    "company": "ssi",
+    "date": "2024-09-04",
+    "round": "Seed",
+    "amountUsd": 1000000000,
+    "postMoneyUsd": 5000000000,
+    "leadInvestors": [
+      "Sequoia",
+      "a16z"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-09-04",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-2024-10",
+    "company": "openai",
+    "date": "2024-10-02",
+    "round": "Series",
+    "amountUsd": 6600000000,
+    "postMoneyUsd": 157000000000,
+    "leadInvestors": [
+      "Thrive Capital"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-10-02",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2024-11",
+    "company": "anthropic",
+    "date": "2024-11-22",
+    "round": "Strategic",
+    "amountUsd": 4000000000,
+    "postMoneyUsd": null,
+    "leadInvestors": [
+      "Amazon"
+    ],
+    "note": "Second Amazon tranche, $8B cumulative",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-11-22",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "crusoe-2024-12",
+    "company": "crusoe",
+    "date": "2024-12-05",
+    "round": "Series D",
+    "amountUsd": 600000000,
+    "postMoneyUsd": 2800000000,
+    "leadInvestors": [
+      "Founders Fund"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-12-05",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "databricks-2024-12",
+    "company": "databricks",
+    "date": "2024-12-17",
+    "round": "Series J",
+    "amountUsd": 10000000000,
+    "postMoneyUsd": 62000000000,
+    "leadInvestors": [
+      "Thrive Capital"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-12-17",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai-2024-12",
+    "company": "xai",
+    "date": "2024-12-24",
+    "round": "Series C",
+    "amountUsd": 6000000000,
+    "postMoneyUsd": 45000000000,
+    "leadInvestors": [
+      "a16z",
+      "Sequoia",
+      "Valor"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-12-24",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "elevenlabs-2025-01",
+    "company": "elevenlabs",
+    "date": "2025-01-30",
+    "round": "Series C",
+    "amountUsd": 180000000,
+    "postMoneyUsd": 3300000000,
+    "leadInvestors": [
+      "a16z",
+      "ICONIQ"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-01-30",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "lambda-2025-02",
+    "company": "lambda",
+    "date": "2025-02-19",
+    "round": "Series D",
+    "amountUsd": 480000000,
+    "postMoneyUsd": 2500000000,
+    "leadInvestors": [
+      "Andra Capital",
+      "SGW"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-02-19",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "together-2025-02",
+    "company": "together",
+    "date": "2025-02-20",
+    "round": "Series B",
+    "amountUsd": 305000000,
+    "postMoneyUsd": 3300000000,
+    "leadInvestors": [
+      "General Catalyst"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-02-20",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2025-03",
+    "company": "anthropic",
+    "date": "2025-03-03",
+    "round": "Series E",
+    "amountUsd": 3500000000,
+    "postMoneyUsd": 61500000000,
+    "leadInvestors": [
+      "Lightspeed"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-03-03",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-2025-03",
+    "company": "openai",
+    "date": "2025-03-31",
+    "round": "Series",
+    "amountUsd": 40000000000,
+    "postMoneyUsd": 300000000000,
+    "leadInvestors": [
+      "SoftBank"
+    ],
+    "note": "Tranched and conditional on restructuring",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-03-31",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "ssi-2025-04",
+    "company": "ssi",
+    "date": "2025-04-12",
+    "round": "Series",
+    "amountUsd": 2000000000,
+    "postMoneyUsd": 32000000000,
+    "leadInvestors": [
+      "Greenoaks"
+    ],
+    "note": "No product revenue at the time of the round",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-04-12",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anysphere-2025-06",
+    "company": "anysphere",
+    "date": "2025-06-05",
+    "round": "Series C",
+    "amountUsd": 900000000,
+    "postMoneyUsd": 9900000000,
+    "leadInvestors": [
+      "Thrive Capital"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-05",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "glean-2025-06",
+    "company": "glean",
+    "date": "2025-06-10",
+    "round": "Series F",
+    "amountUsd": 150000000,
+    "postMoneyUsd": 7200000000,
+    "leadInvestors": [
+      "Wellington"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-10",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "harvey-2025-06",
+    "company": "harvey",
+    "date": "2025-06-23",
+    "round": "Series E",
+    "amountUsd": 300000000,
+    "postMoneyUsd": 5000000000,
+    "leadInvestors": [
+      "Kleiner Perkins"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-23",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "abridge-2025-06",
+    "company": "abridge",
+    "date": "2025-06-24",
+    "round": "Series E",
+    "amountUsd": 300000000,
+    "postMoneyUsd": 5300000000,
+    "leadInvestors": [
+      "a16z"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-24",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai-2025-07",
+    "company": "xai",
+    "date": "2025-07-01",
+    "round": "Equity + debt",
+    "amountUsd": 10000000000,
+    "postMoneyUsd": null,
+    "leadInvestors": [
+      "Valor",
+      "Morgan Stanley"
+    ],
+    "note": "Split roughly evenly between equity and debt",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-07-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "thinking-machines-2025-07",
+    "company": "thinking-machines",
+    "date": "2025-07-15",
+    "round": "Seed",
+    "amountUsd": 2000000000,
+    "postMoneyUsd": 12000000000,
+    "leadInvestors": [
+      "a16z"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-07-15",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "cognition-2025-08",
+    "company": "cognition",
+    "date": "2025-08-13",
+    "round": "Series C",
+    "amountUsd": 400000000,
+    "postMoneyUsd": 10200000000,
+    "leadInvestors": [
+      "Founders Fund"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-08-13",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2025-09",
+    "company": "anthropic",
+    "date": "2025-09-02",
+    "round": "Series F",
+    "amountUsd": 13000000000,
+    "postMoneyUsd": 183000000000,
+    "leadInvestors": [
+      "ICONIQ",
+      "Fidelity",
+      "Lightspeed"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-02",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "mistral-2025-09",
+    "company": "mistral",
+    "date": "2025-09-09",
+    "round": "Series C",
+    "amountUsd": 2000000000,
+    "postMoneyUsd": 13700000000,
+    "leadInvestors": [
+      "ASML"
+    ],
+    "note": "ASML took the lead position — a supplier backing the model layer",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-09",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "perplexity-2025-09",
+    "company": "perplexity",
+    "date": "2025-09-10",
+    "round": "Series",
+    "amountUsd": 200000000,
+    "postMoneyUsd": 20000000000,
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-10",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "databricks-2025-09",
+    "company": "databricks",
+    "date": "2025-09-16",
+    "round": "Series K",
+    "amountUsd": 1000000000,
+    "postMoneyUsd": 100000000000,
+    "leadInvestors": [
+      "Insight Partners"
+    ],
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-16",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "groq-2025-09",
+    "company": "groq",
+    "date": "2025-09-17",
+    "round": "Series E",
+    "amountUsd": 750000000,
+    "postMoneyUsd": 6900000000,
+    "leadInvestors": [
+      "Disruptive"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-17",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "sierra-2025-09",
+    "company": "sierra",
+    "date": "2025-09-24",
+    "round": "Series C",
+    "amountUsd": 350000000,
+    "postMoneyUsd": 10000000000,
+    "leadInvestors": [
+      "Greenoaks"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-24",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "cerebras-2025-09",
+    "company": "cerebras",
+    "date": "2025-09-30",
+    "round": "Series G",
+    "amountUsd": 1100000000,
+    "postMoneyUsd": 8100000000,
+    "leadInvestors": [
+      "Fidelity",
+      "Atreides"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-30",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "mercor-2025-10",
+    "company": "mercor",
+    "date": "2025-10-01",
+    "round": "Series C",
+    "amountUsd": 350000000,
+    "postMoneyUsd": 10000000000,
+    "leadInvestors": [
+      "Felicis"
+    ],
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "surge-2025-10",
+    "company": "surge",
+    "date": "2025-10-01",
+    "round": "Series A",
+    "amountUsd": 1000000000,
+    "postMoneyUsd": 24000000000,
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "note": "First external round; previously bootstrapped",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "openai-2025-10",
+    "company": "openai",
+    "date": "2025-10-02",
+    "round": "Secondary",
+    "amountUsd": null,
+    "postMoneyUsd": 500000000000,
+    "leadInvestors": [
+      "Employee tender"
+    ],
+    "note": "Secondary sale valuation, not primary capital",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-02",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anysphere-2025-11",
+    "company": "anysphere",
+    "date": "2025-11-13",
+    "round": "Series D",
+    "amountUsd": 2300000000,
+    "postMoneyUsd": 29300000000,
+    "leadInvestors": [
+      "Accel",
+      "Coatue"
+    ],
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-11-13",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic-2025-11",
+    "company": "anthropic",
+    "date": "2025-11-18",
+    "round": "Strategic",
+    "amountUsd": 15000000000,
+    "postMoneyUsd": 350000000000,
+    "leadInvestors": [
+      "Microsoft",
+      "NVIDIA"
+    ],
+    "note": "Announced as up to $15B combined, staged",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-11-18",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai-2025-12",
+    "company": "xai",
+    "date": "2025-12-01",
+    "round": "Series",
+    "amountUsd": 20000000000,
+    "postMoneyUsd": 230000000000,
+    "leadInvestors": [
+      "Valor",
+      "NVIDIA"
+    ],
+    "note": "Reported; includes an SPV holding GPUs",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-12-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "crusoe-2025-12",
+    "company": "crusoe",
+    "date": "2025-12-01",
+    "round": "Series E",
+    "amountUsd": 1375000000,
+    "postMoneyUsd": 13000000000,
+    "leadInvestors": [
+      "Valor"
+    ],
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-12-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  }
+]

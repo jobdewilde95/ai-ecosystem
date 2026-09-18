@@ -49,6 +49,59 @@ export const getCostDecline = (): {
   live: Array<{ month: string; price: number; model: string; provider: string }>;
 } => readJson('derived/cost-decline.json', { note: '', seeded: [], live: [] });
 
+export interface CapitalData {
+  note: string;
+  funding: Array<{
+    id: string; company: string; companyName: string; date: string; round: string;
+    amountUsd: number | null; postMoneyUsd: number | null; leadInvestors: string[];
+    note?: string; confidence: string;
+  }>;
+  deals: Array<{
+    id: string; date: string; from: string; to: string; fromName: string; toName: string;
+    type: string; amountUsd: number | null; circular: boolean; description: string; confidence: string;
+  }>;
+  debt: Array<{
+    id: string; issuer: string; issuerName: string; date: string; instrument: string;
+    amountUsd: number; collateral?: string; counterparties?: string[];
+    description: string; confidence: string;
+  }>;
+  valuations: Array<{ company: string; name: string; postMoneyUsd: number | null; date: string; round: string }>;
+  circularity: Array<{
+    id: string; name: string; exposure: import('./types').DerivedMetric;
+    inboundCount: number; outboundCount: number; circularUsd: number; totalInboundUsd: number;
+  }>;
+  fundingByYear: Array<{ year: string; total: number }>;
+  debtByYear: Array<{ year: string; total: number }>;
+  totals: {
+    disclosedFunding: number; disclosedDebt: number;
+    disclosedDealValue: number; circularDealValue: number;
+  };
+}
+
+export const getCapital = (): CapitalData =>
+  readJson<CapitalData>('derived/capital.json', {
+    note: '', funding: [], deals: [], debt: [], valuations: [], circularity: [],
+    fundingByYear: [], debtByYear: [],
+    totals: { disclosedFunding: 0, disclosedDebt: 0, disclosedDealValue: 0, circularDealValue: 0 },
+  });
+
+export interface SupplyChainLayer {
+  layer: string;
+  companies: Array<{
+    id: string; name: string; type: 'public' | 'private'; ticker: string | null;
+    country: string; role: string; tags: string[];
+    latestValuation: number | null; marketReturnYtd: number | null; ttmCapex: number | null;
+  }>;
+  publicCount: number;
+  privateCount: number;
+  bottleneckCount: number;
+  ttmCapex: number;
+  basket: import('./types').Basket | null;
+}
+
+export const getSupplyChain = (): SupplyChainLayer[] =>
+  readJson<SupplyChainLayer[]>('derived/supply-chain.json', []);
+
 export const getComputeTrend = (): Array<{ model: string; organization: string; date: string; flop: number; parameters: number | null }> =>
   readJson('derived/compute-trend.json', []);
 

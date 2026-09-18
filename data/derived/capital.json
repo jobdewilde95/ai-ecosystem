@@ -1,0 +1,1720 @@
+{
+  "note": "Announced figures, not cash deployed. Multi-year commitments and staged investments are recorded at their headline amount. Coverage is limited to publicly disclosed terms.",
+  "funding": [
+    {
+      "id": "mistral-2024-06",
+      "company": "mistral",
+      "date": "2024-06-11",
+      "round": "Series B",
+      "amountUsd": 645000000,
+      "postMoneyUsd": 6000000000,
+      "leadInvestors": [
+        "General Catalyst"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-06-11",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Mistral AI"
+    },
+    {
+      "id": "ssi-2024-09",
+      "company": "ssi",
+      "date": "2024-09-04",
+      "round": "Seed",
+      "amountUsd": 1000000000,
+      "postMoneyUsd": 5000000000,
+      "leadInvestors": [
+        "Sequoia",
+        "a16z"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-09-04",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Safe Superintelligence"
+    },
+    {
+      "id": "openai-2024-10",
+      "company": "openai",
+      "date": "2024-10-02",
+      "round": "Series",
+      "amountUsd": 6600000000,
+      "postMoneyUsd": 157000000000,
+      "leadInvestors": [
+        "Thrive Capital"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-10-02",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "OpenAI"
+    },
+    {
+      "id": "anthropic-2024-11",
+      "company": "anthropic",
+      "date": "2024-11-22",
+      "round": "Strategic",
+      "amountUsd": 4000000000,
+      "postMoneyUsd": null,
+      "leadInvestors": [
+        "Amazon"
+      ],
+      "note": "Second Amazon tranche, $8B cumulative",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-11-22",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
+    },
+    {
+      "id": "crusoe-2024-12",
+      "company": "crusoe",
+      "date": "2024-12-05",
+      "round": "Series D",
+      "amountUsd": 600000000,
+      "postMoneyUsd": 2800000000,
+      "leadInvestors": [
+        "Founders Fund"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-12-05",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Crusoe Energy"
+    },
+    {
+      "id": "databricks-2024-12",
+      "company": "databricks",
+      "date": "2024-12-17",
+      "round": "Series J",
+      "amountUsd": 10000000000,
+      "postMoneyUsd": 62000000000,
+      "leadInvestors": [
+        "Thrive Capital"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-12-17",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Databricks"
+    },
+    {
+      "id": "xai-2024-12",
+      "company": "xai",
+      "date": "2024-12-24",
+      "round": "Series C",
+      "amountUsd": 6000000000,
+      "postMoneyUsd": 45000000000,
+      "leadInvestors": [
+        "a16z",
+        "Sequoia",
+        "Valor"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-12-24",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "xAI"
+    },
+    {
+      "id": "elevenlabs-2025-01",
+      "company": "elevenlabs",
+      "date": "2025-01-30",
+      "round": "Series C",
+      "amountUsd": 180000000,
+      "postMoneyUsd": 3300000000,
+      "leadInvestors": [
+        "a16z",
+        "ICONIQ"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-01-30",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "ElevenLabs"
+    },
+    {
+      "id": "lambda-2025-02",
+      "company": "lambda",
+      "date": "2025-02-19",
+      "round": "Series D",
+      "amountUsd": 480000000,
+      "postMoneyUsd": 2500000000,
+      "leadInvestors": [
+        "Andra Capital",
+        "SGW"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-02-19",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Lambda"
+    },
+    {
+      "id": "together-2025-02",
+      "company": "together",
+      "date": "2025-02-20",
+      "round": "Series B",
+      "amountUsd": 305000000,
+      "postMoneyUsd": 3300000000,
+      "leadInvestors": [
+        "General Catalyst"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-02-20",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Together AI"
+    },
+    {
+      "id": "anthropic-2025-03",
+      "company": "anthropic",
+      "date": "2025-03-03",
+      "round": "Series E",
+      "amountUsd": 3500000000,
+      "postMoneyUsd": 61500000000,
+      "leadInvestors": [
+        "Lightspeed"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-03-03",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
+    },
+    {
+      "id": "openai-2025-03",
+      "company": "openai",
+      "date": "2025-03-31",
+      "round": "Series",
+      "amountUsd": 40000000000,
+      "postMoneyUsd": 300000000000,
+      "leadInvestors": [
+        "SoftBank"
+      ],
+      "note": "Tranched and conditional on restructuring",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-03-31",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "OpenAI"
+    },
+    {
+      "id": "ssi-2025-04",
+      "company": "ssi",
+      "date": "2025-04-12",
+      "round": "Series",
+      "amountUsd": 2000000000,
+      "postMoneyUsd": 32000000000,
+      "leadInvestors": [
+        "Greenoaks"
+      ],
+      "note": "No product revenue at the time of the round",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-04-12",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Safe Superintelligence"
+    },
+    {
+      "id": "anysphere-2025-06",
+      "company": "anysphere",
+      "date": "2025-06-05",
+      "round": "Series C",
+      "amountUsd": 900000000,
+      "postMoneyUsd": 9900000000,
+      "leadInvestors": [
+        "Thrive Capital"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-05",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anysphere (Cursor)"
+    },
+    {
+      "id": "glean-2025-06",
+      "company": "glean",
+      "date": "2025-06-10",
+      "round": "Series F",
+      "amountUsd": 150000000,
+      "postMoneyUsd": 7200000000,
+      "leadInvestors": [
+        "Wellington"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-10",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Glean"
+    },
+    {
+      "id": "harvey-2025-06",
+      "company": "harvey",
+      "date": "2025-06-23",
+      "round": "Series E",
+      "amountUsd": 300000000,
+      "postMoneyUsd": 5000000000,
+      "leadInvestors": [
+        "Kleiner Perkins"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-23",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Harvey"
+    },
+    {
+      "id": "abridge-2025-06",
+      "company": "abridge",
+      "date": "2025-06-24",
+      "round": "Series E",
+      "amountUsd": 300000000,
+      "postMoneyUsd": 5300000000,
+      "leadInvestors": [
+        "a16z"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-24",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Abridge"
+    },
+    {
+      "id": "xai-2025-07",
+      "company": "xai",
+      "date": "2025-07-01",
+      "round": "Equity + debt",
+      "amountUsd": 10000000000,
+      "postMoneyUsd": null,
+      "leadInvestors": [
+        "Valor",
+        "Morgan Stanley"
+      ],
+      "note": "Split roughly evenly between equity and debt",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-07-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "xAI"
+    },
+    {
+      "id": "thinking-machines-2025-07",
+      "company": "thinking-machines",
+      "date": "2025-07-15",
+      "round": "Seed",
+      "amountUsd": 2000000000,
+      "postMoneyUsd": 12000000000,
+      "leadInvestors": [
+        "a16z"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-07-15",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Thinking Machines Lab"
+    },
+    {
+      "id": "cognition-2025-08",
+      "company": "cognition",
+      "date": "2025-08-13",
+      "round": "Series C",
+      "amountUsd": 400000000,
+      "postMoneyUsd": 10200000000,
+      "leadInvestors": [
+        "Founders Fund"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-08-13",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Cognition"
+    },
+    {
+      "id": "anthropic-2025-09",
+      "company": "anthropic",
+      "date": "2025-09-02",
+      "round": "Series F",
+      "amountUsd": 13000000000,
+      "postMoneyUsd": 183000000000,
+      "leadInvestors": [
+        "ICONIQ",
+        "Fidelity",
+        "Lightspeed"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-02",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
+    },
+    {
+      "id": "mistral-2025-09",
+      "company": "mistral",
+      "date": "2025-09-09",
+      "round": "Series C",
+      "amountUsd": 2000000000,
+      "postMoneyUsd": 13700000000,
+      "leadInvestors": [
+        "ASML"
+      ],
+      "note": "ASML took the lead position — a supplier backing the model layer",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-09",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Mistral AI"
+    },
+    {
+      "id": "perplexity-2025-09",
+      "company": "perplexity",
+      "date": "2025-09-10",
+      "round": "Series",
+      "amountUsd": 200000000,
+      "postMoneyUsd": 20000000000,
+      "leadInvestors": [
+        "Undisclosed"
+      ],
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-10",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Perplexity"
+    },
+    {
+      "id": "databricks-2025-09",
+      "company": "databricks",
+      "date": "2025-09-16",
+      "round": "Series K",
+      "amountUsd": 1000000000,
+      "postMoneyUsd": 100000000000,
+      "leadInvestors": [
+        "Insight Partners"
+      ],
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-16",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Databricks"
+    },
+    {
+      "id": "groq-2025-09",
+      "company": "groq",
+      "date": "2025-09-17",
+      "round": "Series E",
+      "amountUsd": 750000000,
+      "postMoneyUsd": 6900000000,
+      "leadInvestors": [
+        "Disruptive"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-17",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Groq"
+    },
+    {
+      "id": "sierra-2025-09",
+      "company": "sierra",
+      "date": "2025-09-24",
+      "round": "Series C",
+      "amountUsd": 350000000,
+      "postMoneyUsd": 10000000000,
+      "leadInvestors": [
+        "Greenoaks"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-24",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Sierra"
+    },
+    {
+      "id": "cerebras-2025-09",
+      "company": "cerebras",
+      "date": "2025-09-30",
+      "round": "Series G",
+      "amountUsd": 1100000000,
+      "postMoneyUsd": 8100000000,
+      "leadInvestors": [
+        "Fidelity",
+        "Atreides"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-30",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Cerebras Systems"
+    },
+    {
+      "id": "mercor-2025-10",
+      "company": "mercor",
+      "date": "2025-10-01",
+      "round": "Series C",
+      "amountUsd": 350000000,
+      "postMoneyUsd": 10000000000,
+      "leadInvestors": [
+        "Felicis"
+      ],
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Mercor"
+    },
+    {
+      "id": "surge-2025-10",
+      "company": "surge",
+      "date": "2025-10-01",
+      "round": "Series A",
+      "amountUsd": 1000000000,
+      "postMoneyUsd": 24000000000,
+      "leadInvestors": [
+        "Undisclosed"
+      ],
+      "note": "First external round; previously bootstrapped",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Surge AI"
+    },
+    {
+      "id": "openai-2025-10",
+      "company": "openai",
+      "date": "2025-10-02",
+      "round": "Secondary",
+      "amountUsd": null,
+      "postMoneyUsd": 500000000000,
+      "leadInvestors": [
+        "Employee tender"
+      ],
+      "note": "Secondary sale valuation, not primary capital",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-02",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "OpenAI"
+    },
+    {
+      "id": "anysphere-2025-11",
+      "company": "anysphere",
+      "date": "2025-11-13",
+      "round": "Series D",
+      "amountUsd": 2300000000,
+      "postMoneyUsd": 29300000000,
+      "leadInvestors": [
+        "Accel",
+        "Coatue"
+      ],
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-11-13",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "companyName": "Anysphere (Cursor)"
+    },
+    {
+      "id": "anthropic-2025-11",
+      "company": "anthropic",
+      "date": "2025-11-18",
+      "round": "Strategic",
+      "amountUsd": 15000000000,
+      "postMoneyUsd": 350000000000,
+      "leadInvestors": [
+        "Microsoft",
+        "NVIDIA"
+      ],
+      "note": "Announced as up to $15B combined, staged",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-11-18",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Anthropic"
+    },
+    {
+      "id": "xai-2025-12",
+      "company": "xai",
+      "date": "2025-12-01",
+      "round": "Series",
+      "amountUsd": 20000000000,
+      "postMoneyUsd": 230000000000,
+      "leadInvestors": [
+        "Valor",
+        "NVIDIA"
+      ],
+      "note": "Reported; includes an SPV holding GPUs",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-12-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "xAI"
+    },
+    {
+      "id": "crusoe-2025-12",
+      "company": "crusoe",
+      "date": "2025-12-01",
+      "round": "Series E",
+      "amountUsd": 1375000000,
+      "postMoneyUsd": 13000000000,
+      "leadInvestors": [
+        "Valor"
+      ],
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-12-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "companyName": "Crusoe Energy"
+    }
+  ],
+  "deals": [
+    {
+      "id": "msft-openai-initial",
+      "date": "2023-01-23",
+      "from": "microsoft",
+      "to": "openai",
+      "type": "investment",
+      "amountUsd": 10000000000,
+      "circular": true,
+      "description": "Multi-year investment paid substantially in Azure credits.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2023-01-23",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Microsoft",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "nvda-coreweave",
+      "date": "2023-04-01",
+      "from": "nvidia",
+      "to": "coreweave",
+      "type": "investment",
+      "amountUsd": 100000000,
+      "circular": true,
+      "description": "Early equity in a neocloud whose entire fleet is NVIDIA silicon; later extended by a capacity backstop.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2023-04-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "NVIDIA",
+      "toName": "CoreWeave"
+    },
+    {
+      "id": "blackstone-coreweave",
+      "date": "2024-05-17",
+      "from": "blackstone",
+      "to": "coreweave",
+      "type": "investment",
+      "amountUsd": 7500000000,
+      "circular": false,
+      "description": "GPU-backed term loan led by Blackstone and Magnetar — private credit underwriting hardware as collateral.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-05-17",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Blackstone",
+      "toName": "CoreWeave"
+    },
+    {
+      "id": "amzn-anthropic",
+      "date": "2024-11-22",
+      "from": "amazon",
+      "to": "anthropic",
+      "type": "investment",
+      "amountUsd": 8000000000,
+      "circular": true,
+      "description": "Cumulative investment paired with Trainium commitments and AWS as primary training partner.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-11-22",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Amazon",
+      "toName": "Anthropic"
+    },
+    {
+      "id": "nvda-nebius",
+      "date": "2024-12-02",
+      "from": "nvidia",
+      "to": "nebius",
+      "type": "investment",
+      "amountUsd": 700000000,
+      "circular": true,
+      "description": "Participation in Nebius’s raise to fund GPU purchases.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-12-02",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "NVIDIA",
+      "toName": "Nebius Group"
+    },
+    {
+      "id": "stargate",
+      "date": "2025-01-21",
+      "from": "softbank",
+      "to": "openai",
+      "type": "jv",
+      "amountUsd": 500000000000,
+      "circular": false,
+      "description": "Stargate JV with Oracle and MGX. An announced four-year programme target, not committed capital — the headline figure exceeds all disclosed funding for it.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-01-21",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "SoftBank Group",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "openai-coreweave-2025",
+      "date": "2025-03-10",
+      "from": "openai",
+      "to": "coreweave",
+      "type": "compute-commitment",
+      "amountUsd": 11900000000,
+      "circular": false,
+      "description": "Capacity contract signed alongside a pre-IPO equity stake taken by OpenAI.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-03-10",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "OpenAI",
+      "toName": "CoreWeave"
+    },
+    {
+      "id": "meta-scale",
+      "date": "2025-06-12",
+      "from": "meta",
+      "to": "scale-ai",
+      "type": "acquisition",
+      "amountUsd": 14300000000,
+      "circular": false,
+      "description": "49% stake valuing Scale near $29B, with its leadership moving to Meta.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-12",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Meta Platforms",
+      "toName": "Scale AI"
+    },
+    {
+      "id": "asml-mistral",
+      "date": "2025-09-09",
+      "from": "asml",
+      "to": "mistral",
+      "type": "investment",
+      "amountUsd": 1500000000,
+      "circular": false,
+      "description": "Lithography supplier taking the lead position in a model lab.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-09",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "ASML Holding",
+      "toName": "Mistral AI"
+    },
+    {
+      "id": "openai-oracle-2025",
+      "date": "2025-09-10",
+      "from": "openai",
+      "to": "oracle",
+      "type": "compute-commitment",
+      "amountUsd": 300000000000,
+      "circular": false,
+      "description": "Five-year OCI capacity commitment; Oracle is funding the build largely with debt.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-10",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "OpenAI",
+      "toName": "Oracle"
+    },
+    {
+      "id": "nvda-openai-2025",
+      "date": "2025-09-22",
+      "from": "nvidia",
+      "to": "openai",
+      "type": "investment",
+      "amountUsd": 100000000000,
+      "circular": true,
+      "description": "Up to $100B staged against 10GW of NVIDIA systems deployed by OpenAI — the supplier funding the customer that buys its chips.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-22",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "NVIDIA",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "meta-coreweave",
+      "date": "2025-09-30",
+      "from": "meta",
+      "to": "coreweave",
+      "type": "compute-commitment",
+      "amountUsd": 14200000000,
+      "circular": false,
+      "description": "Capacity contract running to 2031.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-30",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Meta Platforms",
+      "toName": "CoreWeave"
+    },
+    {
+      "id": "openai-amd-2025",
+      "date": "2025-10-06",
+      "from": "amd",
+      "to": "openai",
+      "type": "warrant",
+      "amountUsd": null,
+      "circular": true,
+      "description": "AMD issued OpenAI a warrant for up to 160M shares tied to 6GW of deployment — supplier equity granted against customer purchases.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-06",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "AMD",
+      "toName": "OpenAI"
+    },
+    {
+      "id": "openai-broadcom-2025",
+      "date": "2025-10-13",
+      "from": "openai",
+      "to": "broadcom",
+      "type": "supply",
+      "amountUsd": null,
+      "circular": false,
+      "description": "10GW of co-designed custom accelerators.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-13",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "OpenAI",
+      "toName": "Broadcom"
+    },
+    {
+      "id": "googl-terawulf",
+      "date": "2025-10-14",
+      "from": "alphabet",
+      "to": "core-scientific",
+      "type": "investment",
+      "amountUsd": 3200000000,
+      "circular": true,
+      "description": "Backstop of neocloud lease obligations in exchange for equity, enabling debt the operator could not otherwise raise.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-14",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "Alphabet",
+      "toName": "Core Scientific"
+    },
+    {
+      "id": "meta-blueowl-hyperion",
+      "date": "2025-10-21",
+      "from": "blue-owl",
+      "to": "meta",
+      "type": "jv",
+      "amountUsd": 27000000000,
+      "circular": false,
+      "description": "Blue Owl funding the Hyperion campus through a JV that keeps the build off Meta’s balance sheet.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-21",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Blue Owl Capital",
+      "toName": "Meta Platforms"
+    },
+    {
+      "id": "googl-anthropic-tpu",
+      "date": "2025-10-23",
+      "from": "anthropic",
+      "to": "alphabet",
+      "type": "compute-commitment",
+      "amountUsd": null,
+      "circular": true,
+      "description": "Up to 1GW of TPU capacity from an investor that is also the supplier.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-23",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "Anthropic",
+      "toName": "Alphabet"
+    },
+    {
+      "id": "msft-openai-restructure",
+      "date": "2025-10-28",
+      "from": "openai",
+      "to": "microsoft",
+      "type": "compute-commitment",
+      "amountUsd": 250000000000,
+      "circular": true,
+      "description": "Incremental Azure commitment alongside Microsoft’s ~27% stake — the investor is also the vendor being paid.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-28",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "OpenAI",
+      "toName": "Microsoft"
+    },
+    {
+      "id": "openai-aws-2025",
+      "date": "2025-11-03",
+      "from": "openai",
+      "to": "amazon",
+      "type": "compute-commitment",
+      "amountUsd": 38000000000,
+      "circular": false,
+      "description": "Seven-year AWS capacity agreement.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-11-03",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "fromName": "OpenAI",
+      "toName": "Amazon"
+    },
+    {
+      "id": "msft-nvda-anthropic",
+      "date": "2025-11-18",
+      "from": "microsoft",
+      "to": "anthropic",
+      "type": "investment",
+      "amountUsd": 15000000000,
+      "circular": true,
+      "description": "Microsoft and NVIDIA investing alongside a $30B Azure commitment from Anthropic.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-11-18",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "Microsoft",
+      "toName": "Anthropic"
+    },
+    {
+      "id": "nvda-xai",
+      "date": "2025-12-01",
+      "from": "nvidia",
+      "to": "xai",
+      "type": "investment",
+      "amountUsd": 2000000000,
+      "circular": true,
+      "description": "Equity into an SPV holding GPUs for the Colossus cluster.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-12-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "fromName": "NVIDIA",
+      "toName": "xAI"
+    }
+  ],
+  "debt": [
+    {
+      "id": "coreweave-ddtl2",
+      "issuer": "coreweave",
+      "date": "2024-05-17",
+      "instrument": "term-loan",
+      "amountUsd": 7500000000,
+      "collateral": "GPUs and customer contracts",
+      "counterparties": [
+        "Blackstone",
+        "Magnetar"
+      ],
+      "description": "GPU-backed delayed-draw term loan — the template for neocloud debt.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2024-05-17",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "CoreWeave"
+    },
+    {
+      "id": "coreweave-notes-2025",
+      "issuer": "coreweave",
+      "date": "2025-05-20",
+      "instrument": "bond",
+      "amountUsd": 2000000000,
+      "description": "High-yield senior notes.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-05-20",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "CoreWeave"
+    },
+    {
+      "id": "applied-digital-2025",
+      "issuer": "applied-digital",
+      "date": "2025-06-01",
+      "instrument": "credit-facility",
+      "amountUsd": 5000000000,
+      "counterparties": [
+        "Macquarie"
+      ],
+      "description": "Perpetual preferred and project financing for HPC campuses.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Applied Digital"
+    },
+    {
+      "id": "xai-debt-2025",
+      "issuer": "xai",
+      "date": "2025-06-25",
+      "instrument": "term-loan",
+      "amountUsd": 5000000000,
+      "counterparties": [
+        "Morgan Stanley"
+      ],
+      "description": "Debt package funding the Colossus cluster.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-06-25",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "xAI"
+    },
+    {
+      "id": "microsoft-bond-2025",
+      "issuer": "microsoft",
+      "date": "2025-09-01",
+      "instrument": "bond",
+      "amountUsd": 10000000000,
+      "description": "Issuance supporting Azure buildout.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Microsoft"
+    },
+    {
+      "id": "nebius-convertible-2025",
+      "issuer": "nebius",
+      "date": "2025-09-01",
+      "instrument": "convertible",
+      "amountUsd": 3000000000,
+      "description": "Convertible notes funding GPU purchases against a Microsoft capacity contract.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Nebius Group"
+    },
+    {
+      "id": "oracle-bond-2025-09",
+      "issuer": "oracle",
+      "date": "2025-09-24",
+      "instrument": "bond",
+      "amountUsd": 18000000000,
+      "description": "Four-part offering ahead of the OpenAI capacity build.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-09-24",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "Oracle"
+    },
+    {
+      "id": "xai-colossus-spv",
+      "issuer": "xai",
+      "date": "2025-10-01",
+      "instrument": "spv",
+      "amountUsd": 12500000000,
+      "collateral": "GPUs",
+      "counterparties": [
+        "Valor",
+        "NVIDIA"
+      ],
+      "description": "SPV holding GPUs for Colossus 2, with NVIDIA participating.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "xAI"
+    },
+    {
+      "id": "vantage-frontier-2025",
+      "issuer": "vantage",
+      "date": "2025-10-01",
+      "instrument": "abs",
+      "amountUsd": 25000000000,
+      "collateral": "Data center assets",
+      "counterparties": [
+        "Silver Lake",
+        "DigitalBridge"
+      ],
+      "description": "Frontier campus financing, among the largest private data center packages raised.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Vantage Data Centers"
+    },
+    {
+      "id": "meta-hyperion-spv",
+      "issuer": "meta",
+      "date": "2025-10-21",
+      "instrument": "spv",
+      "amountUsd": 27000000000,
+      "collateral": "Hyperion data center campus",
+      "counterparties": [
+        "Blue Owl"
+      ],
+      "description": "Off-balance-sheet JV financing the Louisiana campus.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-21",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "Meta Platforms"
+    },
+    {
+      "id": "meta-bond-2025-10",
+      "issuer": "meta",
+      "date": "2025-10-30",
+      "instrument": "bond",
+      "amountUsd": 30000000000,
+      "description": "Largest US corporate bond sale since 2023, funding AI infrastructure.",
+      "confidence": "high",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-10-30",
+        "confidence": "high",
+        "sourceUrl": null
+      },
+      "issuerName": "Meta Platforms"
+    },
+    {
+      "id": "alphabet-bond-2025-11",
+      "issuer": "alphabet",
+      "date": "2025-11-04",
+      "instrument": "bond",
+      "amountUsd": 25000000000,
+      "description": "Dual-currency issuance across US dollar and euro tranches.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-11-04",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Alphabet"
+    },
+    {
+      "id": "amazon-bond-2025-12",
+      "issuer": "amazon",
+      "date": "2025-12-01",
+      "instrument": "bond",
+      "amountUsd": 15000000000,
+      "description": "First major issuance since 2022, funding AWS capacity.",
+      "confidence": "medium",
+      "provenance": {
+        "origin": "curated",
+        "asOf": "2025-12-01",
+        "confidence": "medium",
+        "sourceUrl": null
+      },
+      "issuerName": "Amazon"
+    }
+  ],
+  "valuations": [
+    {
+      "company": "openai",
+      "name": "OpenAI",
+      "postMoneyUsd": 500000000000,
+      "date": "2025-10-02",
+      "round": "Secondary"
+    },
+    {
+      "company": "anthropic",
+      "name": "Anthropic",
+      "postMoneyUsd": 350000000000,
+      "date": "2025-11-18",
+      "round": "Strategic"
+    },
+    {
+      "company": "xai",
+      "name": "xAI",
+      "postMoneyUsd": 230000000000,
+      "date": "2025-12-01",
+      "round": "Series"
+    },
+    {
+      "company": "databricks",
+      "name": "Databricks",
+      "postMoneyUsd": 100000000000,
+      "date": "2025-09-16",
+      "round": "Series K"
+    },
+    {
+      "company": "ssi",
+      "name": "Safe Superintelligence",
+      "postMoneyUsd": 32000000000,
+      "date": "2025-04-12",
+      "round": "Series"
+    },
+    {
+      "company": "anysphere",
+      "name": "Anysphere (Cursor)",
+      "postMoneyUsd": 29300000000,
+      "date": "2025-11-13",
+      "round": "Series D"
+    },
+    {
+      "company": "surge",
+      "name": "Surge AI",
+      "postMoneyUsd": 24000000000,
+      "date": "2025-10-01",
+      "round": "Series A"
+    },
+    {
+      "company": "perplexity",
+      "name": "Perplexity",
+      "postMoneyUsd": 20000000000,
+      "date": "2025-09-10",
+      "round": "Series"
+    },
+    {
+      "company": "mistral",
+      "name": "Mistral AI",
+      "postMoneyUsd": 13700000000,
+      "date": "2025-09-09",
+      "round": "Series C"
+    },
+    {
+      "company": "crusoe",
+      "name": "Crusoe Energy",
+      "postMoneyUsd": 13000000000,
+      "date": "2025-12-01",
+      "round": "Series E"
+    },
+    {
+      "company": "thinking-machines",
+      "name": "Thinking Machines Lab",
+      "postMoneyUsd": 12000000000,
+      "date": "2025-07-15",
+      "round": "Seed"
+    },
+    {
+      "company": "cognition",
+      "name": "Cognition",
+      "postMoneyUsd": 10200000000,
+      "date": "2025-08-13",
+      "round": "Series C"
+    },
+    {
+      "company": "sierra",
+      "name": "Sierra",
+      "postMoneyUsd": 10000000000,
+      "date": "2025-09-24",
+      "round": "Series C"
+    },
+    {
+      "company": "mercor",
+      "name": "Mercor",
+      "postMoneyUsd": 10000000000,
+      "date": "2025-10-01",
+      "round": "Series C"
+    },
+    {
+      "company": "cerebras",
+      "name": "Cerebras Systems",
+      "postMoneyUsd": 8100000000,
+      "date": "2025-09-30",
+      "round": "Series G"
+    },
+    {
+      "company": "glean",
+      "name": "Glean",
+      "postMoneyUsd": 7200000000,
+      "date": "2025-06-10",
+      "round": "Series F"
+    },
+    {
+      "company": "groq",
+      "name": "Groq",
+      "postMoneyUsd": 6900000000,
+      "date": "2025-09-17",
+      "round": "Series E"
+    },
+    {
+      "company": "abridge",
+      "name": "Abridge",
+      "postMoneyUsd": 5300000000,
+      "date": "2025-06-24",
+      "round": "Series E"
+    },
+    {
+      "company": "harvey",
+      "name": "Harvey",
+      "postMoneyUsd": 5000000000,
+      "date": "2025-06-23",
+      "round": "Series E"
+    },
+    {
+      "company": "elevenlabs",
+      "name": "ElevenLabs",
+      "postMoneyUsd": 3300000000,
+      "date": "2025-01-30",
+      "round": "Series C"
+    },
+    {
+      "company": "together",
+      "name": "Together AI",
+      "postMoneyUsd": 3300000000,
+      "date": "2025-02-20",
+      "round": "Series B"
+    },
+    {
+      "company": "lambda",
+      "name": "Lambda",
+      "postMoneyUsd": 2500000000,
+      "date": "2025-02-19",
+      "round": "Series D"
+    }
+  ],
+  "circularity": [
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "exposure": {
+        "value": 100,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 250000000000,
+          "totalInboundUsd": 250000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 2,
+      "circularUsd": 250000000000,
+      "totalInboundUsd": 250000000000
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "exposure": {
+        "value": 18.0327868852459,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 110000000000,
+          "totalInboundUsd": 610000000000,
+          "dealCount": 3
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 4,
+      "outboundCount": 5,
+      "circularUsd": 110000000000,
+      "totalInboundUsd": 610000000000
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "exposure": {
+        "value": 100,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 23000000000,
+          "totalInboundUsd": 23000000000,
+          "dealCount": 2
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 2,
+      "outboundCount": 1,
+      "circularUsd": 23000000000,
+      "totalInboundUsd": 23000000000
+    },
+    {
+      "id": "core-scientific",
+      "name": "Core Scientific",
+      "exposure": {
+        "value": 100,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 3200000000,
+          "totalInboundUsd": 3200000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 3200000000,
+      "totalInboundUsd": 3200000000
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "exposure": {
+        "value": 100,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 2000000000,
+          "totalInboundUsd": 2000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 2000000000,
+      "totalInboundUsd": 2000000000
+    },
+    {
+      "id": "nebius",
+      "name": "Nebius Group",
+      "exposure": {
+        "value": 100,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 700000000,
+          "totalInboundUsd": 700000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 700000000,
+      "totalInboundUsd": 700000000
+    },
+    {
+      "id": "coreweave",
+      "name": "CoreWeave",
+      "exposure": {
+        "value": 0.2967359050445104,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 100000000,
+          "totalInboundUsd": 33700000000,
+          "dealCount": 4
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 4,
+      "outboundCount": 0,
+      "circularUsd": 100000000,
+      "totalInboundUsd": 33700000000
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 38000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 1,
+      "circularUsd": 0,
+      "totalInboundUsd": 38000000000
+    },
+    {
+      "id": "meta",
+      "name": "Meta Platforms",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 27000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 2,
+      "circularUsd": 0,
+      "totalInboundUsd": 27000000000
+    },
+    {
+      "id": "scale-ai",
+      "name": "Scale AI",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 14300000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 0,
+      "totalInboundUsd": 14300000000
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 1500000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 0,
+      "totalInboundUsd": 1500000000
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "exposure": {
+        "value": 0,
+        "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+        "inputs": {
+          "circularUsd": 0,
+          "totalInboundUsd": 300000000000,
+          "dealCount": 1
+        },
+        "unit": "percent",
+        "caveat": "Reflects disclosed deals only; private terms are not captured"
+      },
+      "inboundCount": 1,
+      "outboundCount": 0,
+      "circularUsd": 0,
+      "totalInboundUsd": 300000000000
+    }
+  ],
+  "fundingByYear": [
+    {
+      "year": "2024",
+      "total": 28845000000
+    },
+    {
+      "year": "2025",
+      "total": 118940000000
+    }
+  ],
+  "debtByYear": [
+    {
+      "year": "2024",
+      "total": 7500000000
+    },
+    {
+      "year": "2025",
+      "total": 177500000000
+    }
+  ],
+  "totals": {
+    "disclosedFunding": 147785000000,
+    "disclosedDebt": 185000000000,
+    "disclosedDealValue": 1303400000000,
+    "circularDealValue": 389000000000
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "coreweave-ddtl2",
+    "issuer": "coreweave",
+    "date": "2024-05-17",
+    "instrument": "term-loan",
+    "amountUsd": 7500000000,
+    "collateral": "GPUs and customer contracts",
+    "counterparties": [
+      "Blackstone",
+      "Magnetar"
+    ],
+    "description": "GPU-backed delayed-draw term loan — the template for neocloud debt.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2024-05-17",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "coreweave-notes-2025",
+    "issuer": "coreweave",
+    "date": "2025-05-20",
+    "instrument": "bond",
+    "amountUsd": 2000000000,
+    "description": "High-yield senior notes.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-05-20",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "applied-digital-2025",
+    "issuer": "applied-digital",
+    "date": "2025-06-01",
+    "instrument": "credit-facility",
+    "amountUsd": 5000000000,
+    "counterparties": [
+      "Macquarie"
+    ],
+    "description": "Perpetual preferred and project financing for HPC campuses.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai-debt-2025",
+    "issuer": "xai",
+    "date": "2025-06-25",
+    "instrument": "term-loan",
+    "amountUsd": 5000000000,
+    "counterparties": [
+      "Morgan Stanley"
+    ],
+    "description": "Debt package funding the Colossus cluster.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-06-25",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "microsoft-bond-2025",
+    "issuer": "microsoft",
+    "date": "2025-09-01",
+    "instrument": "bond",
+    "amountUsd": 10000000000,
+    "description": "Issuance supporting Azure buildout.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "nebius-convertible-2025",
+    "issuer": "nebius",
+    "date": "2025-09-01",
+    "instrument": "convertible",
+    "amountUsd": 3000000000,
+    "description": "Convertible notes funding GPU purchases against a Microsoft capacity contract.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "oracle-bond-2025-09",
+    "issuer": "oracle",
+    "date": "2025-09-24",
+    "instrument": "bond",
+    "amountUsd": 18000000000,
+    "description": "Four-part offering ahead of the OpenAI capacity build.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-09-24",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai-colossus-spv",
+    "issuer": "xai",
+    "date": "2025-10-01",
+    "instrument": "spv",
+    "amountUsd": 12500000000,
+    "collateral": "GPUs",
+    "counterparties": [
+      "Valor",
+      "NVIDIA"
+    ],
+    "description": "SPV holding GPUs for Colossus 2, with NVIDIA participating.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "vantage-frontier-2025",
+    "issuer": "vantage",
+    "date": "2025-10-01",
+    "instrument": "abs",
+    "amountUsd": 25000000000,
+    "collateral": "Data center assets",
+    "counterparties": [
+      "Silver Lake",
+      "DigitalBridge"
+    ],
+    "description": "Frontier campus financing, among the largest private data center packages raised.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-hyperion-spv",
+    "issuer": "meta",
+    "date": "2025-10-21",
+    "instrument": "spv",
+    "amountUsd": 27000000000,
+    "collateral": "Hyperion data center campus",
+    "counterparties": [
+      "Blue Owl"
+    ],
+    "description": "Off-balance-sheet JV financing the Louisiana campus.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-21",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "meta-bond-2025-10",
+    "issuer": "meta",
+    "date": "2025-10-30",
+    "instrument": "bond",
+    "amountUsd": 30000000000,
+    "description": "Largest US corporate bond sale since 2023, funding AI infrastructure.",
+    "confidence": "high",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-30",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "alphabet-bond-2025-11",
+    "issuer": "alphabet",
+    "date": "2025-11-04",
+    "instrument": "bond",
+    "amountUsd": 25000000000,
+    "description": "Dual-currency issuance across US dollar and euro tranches.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-11-04",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "amazon-bond-2025-12",
+    "issuer": "amazon",
+    "date": "2025-12-01",
+    "instrument": "bond",
+    "amountUsd": 15000000000,
+    "description": "First major issuance since 2022, funding AWS capacity.",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-12-01",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  }
+]

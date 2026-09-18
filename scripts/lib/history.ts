@@ -65,29 +65,48 @@ export interface AppendOptions {
   alwaysAppend?: boolean;
 }
 
-/** Appends only rows that differ from the last observation for their key. */
+export interface AppendResult {
+  /** Rows written to the series. */
+  appended: HistoryRow[];
+  /** Rows that genuinely moved against a prior observation. */
+  changed: HistoryRow[];
+  /** Rows recording a key for the first time. */
+  firstSeen: HistoryRow[];
+}
+
+/**
+ * Appends only rows that differ from the last observation for their key.
+ *
+ * A first observation is reported separately from a change. On the initial run
+ * every key is new, and treating those as movement would fill the "what
+ * changed" feed with hundreds of entries announcing that a price exists.
+ */
 export async function appendChanges(
   series: string,
   rows: HistoryRow[],
   options: AppendOptions,
-): Promise<HistoryRow[]> {
+): Promise<AppendResult> {
   const existing = await readSeries(series);
   const latest = latestByKey(existing);
   const seen = new Set(existing.map((row) => `${row.key}@${row.date}`));
 
   const changed: HistoryRow[] = [];
+  const firstSeen: HistoryRow[] = [];
   for (const row of rows) {
     if (seen.has(`${row.key}@${row.date}`)) continue;
     const previous = latest.get(row.key);
-    if (options.alwaysAppend || !previous || !valuesEqual(row, previous, options.trackedFields)) {
+    if (!previous) {
+      firstSeen.push(row);
+    } else if (options.alwaysAppend || !valuesEqual(row, previous, options.trackedFields)) {
       changed.push(row);
     }
   }
+  const appended = [...firstSeen, ...changed];
 
-  if (changed.length > 0) {
+  if (appended.length > 0) {
     await fs.mkdir(HISTORY_DIR, { recursive: true });
-    const payload = changed.map((row) => JSON.stringify(row)).join('\n');
+    const payload = appended.map((row) => JSON.stringify(row)).join('\n');
     await fs.appendFile(seriesPath(series), `${payload}\n`, 'utf8');
   }
-  return changed;
+  return { appended, changed, firstSeen };
 }

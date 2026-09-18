@@ -1,10 +1,31 @@
 {
   "source": "openrouter",
-  "fetchedAt": "2026-09-18T18:02:50.479Z",
+  "fetchedAt": "2026-09-18T19:28:13.724Z",
   "stale": false,
-  "lastSuccessAt": "2026-09-18T18:02:50.479Z",
-  "recordCount": 445,
+  "lastSuccessAt": "2026-09-18T19:28:13.724Z",
+  "recordCount": 446,
   "data": [
+    {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "name": "PrismML: Ternary Bonsai 2 27B",
+      "creator": "prism-ml",
+      "createdAt": "2026-09-18",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.075,
+        "outputPerMtok": 0.5,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.18125
+      }
+    },
     {
       "id": "unbiased/pareto",
       "name": "Pareto",
@@ -60,11 +81,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.6,
-        "cacheReadPerMtok": 0.015,
+        "inputPerMtok": 0.14,
+        "outputPerMtok": 0.42,
+        "cacheReadPerMtok": 0.004200000000000001,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.26249999999999996
+        "blended3to1": 0.21000000000000002
       }
     },
     {
@@ -923,11 +944,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.8987999999999999,
-        "outputPerMtok": 2.8248,
-        "cacheReadPerMtok": 0.16691999999999999,
+        "inputPerMtok": 0.8925000000000001,
+        "outputPerMtok": 2.8049999999999997,
+        "cacheReadPerMtok": 0.146625,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.3803
+        "blended3to1": 1.370625
       }
     },
     {
@@ -1889,11 +1910,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 2.0999999999999996,
-        "outputPerMtok": 10.950000000000001,
-        "cacheReadPerMtok": 0.22999999999999998,
+        "inputPerMtok": 1.95,
+        "outputPerMtok": 10.92,
+        "cacheReadPerMtok": 0.2262,
         "cacheWritePerMtok": null,
-        "blended3to1": 4.3125
+        "blended3to1": 4.1925
       }
     },
     {
@@ -3277,11 +3298,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 2.0999999999999996,
-        "outputPerMtok": 10.950000000000001,
-        "cacheReadPerMtok": 0.22999999999999998,
+        "inputPerMtok": 1.95,
+        "outputPerMtok": 10.92,
+        "cacheReadPerMtok": 0.2262,
         "cacheWritePerMtok": null,
-        "blended3to1": 4.3125
+        "blended3to1": 4.1925
       }
     },
     {
@@ -3559,11 +3580,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.04956,
-        "outputPerMtok": 0.09912,
-        "cacheReadPerMtok": 0.009911999999999999,
+        "inputPerMtok": 0.049,
+        "outputPerMtok": 0.098,
+        "cacheReadPerMtok": 0.0098,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.061950000000000005
+        "blended3to1": 0.061250000000000006
       }
     },
     {

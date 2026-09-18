@@ -1,0 +1,2848 @@
+[
+  {
+    "layer": "applications",
+    "companies": [
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "type": "public",
+        "ticker": "MSFT",
+        "country": "US",
+        "role": "Azure AI capacity, OpenAI's principal cloud partner",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 5.234823925942393,
+        "ttmCapex": 115948000000
+      },
+      {
+        "id": "palantir",
+        "name": "Palantir",
+        "type": "public",
+        "ticker": "PLTR",
+        "country": "US",
+        "role": "Enterprise AI deployment",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 4.923745978791842,
+        "ttmCapex": null
+      },
+      {
+        "id": "servicenow",
+        "name": "ServiceNow",
+        "type": "public",
+        "ticker": "NOW",
+        "country": "US",
+        "role": "Workflow automation with embedded agents",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -7.185486605629027,
+        "ttmCapex": null
+      },
+      {
+        "id": "salesforce",
+        "name": "Salesforce",
+        "type": "public",
+        "ticker": "CRM",
+        "country": "US",
+        "role": "Agentforce; the clearest seat-cannibalisation test case",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -5.447910600100285,
+        "ttmCapex": null
+      },
+      {
+        "id": "anysphere",
+        "name": "Anysphere (Cursor)",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Fastest-scaling AI coding product",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 29300000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "cognition",
+        "name": "Cognition",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Devin autonomous engineering; acquired Windsurf",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 10200000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "perplexity",
+        "name": "Perplexity",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "AI search and browser",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 20000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "harvey",
+        "name": "Harvey",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Legal domain agents",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 5000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "sierra",
+        "name": "Sierra",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Customer-service agents",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 10000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "glean",
+        "name": "Glean",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Enterprise search and agents",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 7200000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "abridge",
+        "name": "Abridge",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Clinical documentation",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 5300000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "elevenlabs",
+        "name": "ElevenLabs",
+        "type": "private",
+        "ticker": null,
+        "country": "UK",
+        "role": "Voice synthesis",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": 3300000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "synthesia",
+        "name": "Synthesia",
+        "type": "private",
+        "ticker": null,
+        "country": "UK",
+        "role": "AI video generation",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "suno",
+        "name": "Suno",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Music generation",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "replit",
+        "name": "Replit",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Agentic app building",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "lovable",
+        "name": "Lovable",
+        "type": "private",
+        "ticker": null,
+        "country": "SE",
+        "role": "Prompt-to-app generation",
+        "tags": [
+          "app"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 4,
+    "privateCount": 12,
+    "bottleneckCount": 0,
+    "ttmCapex": 115948000000,
+    "basket": {
+      "layer": "applications",
+      "constituentCount": 4,
+      "tickers": [
+        "MSFT",
+        "PLTR",
+        "NOW",
+        "CRM"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 7.7558854047580805,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 6.550517813152746,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": 40.473436597337354,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": 42.22103281556591,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": -12.425105861328955,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": -0.6187068252487691,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": -23.96869449031831,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": -7.970646238892054,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 6.550517813152746,
+        "m3": 42.22103281556591,
+        "ytd": -0.6187068252487691,
+        "y1": -7.970646238892054
+      }
+    }
+  },
+  {
+    "layer": "cloud",
+    "companies": [
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "type": "public",
+        "ticker": "MSFT",
+        "country": "US",
+        "role": "Azure AI capacity, OpenAI's principal cloud partner",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 5.234823925942393,
+        "ttmCapex": 115948000000
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "public",
+        "ticker": "AMZN",
+        "country": "US",
+        "role": "AWS plus in-house Trainium/Inferentia; Anthropic's primary partner",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 11.724061810154529,
+        "ttmCapex": 173028000000
+      },
+      {
+        "id": "alphabet",
+        "name": "Alphabet",
+        "type": "public",
+        "ticker": "GOOGL",
+        "country": "US",
+        "role": "GCP, TPUs and DeepMind — the only fully vertically integrated stack",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 11.266329897713517,
+        "ttmCapex": 132402000000
+      },
+      {
+        "id": "meta",
+        "name": "Meta Platforms",
+        "type": "public",
+        "ticker": "META",
+        "country": "US",
+        "role": "Largest non-cloud buildout; consumes its own capacity",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 3.3928592881837165,
+        "ttmCapex": 89325000000
+      },
+      {
+        "id": "oracle",
+        "name": "Oracle",
+        "type": "public",
+        "ticker": "ORCL",
+        "country": "US",
+        "role": "OCI capacity heavily contracted to OpenAI; debt-funded buildout",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": -24.46617137922301,
+        "ttmCapex": 75660000000
+      },
+      {
+        "id": "coreweave",
+        "name": "CoreWeave",
+        "type": "public",
+        "ticker": "CRWV",
+        "country": "US",
+        "role": "Largest neocloud; GPU-backed debt financing pioneer",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 1.361699445284924,
+        "ttmCapex": 20566000000
+      },
+      {
+        "id": "nebius",
+        "name": "Nebius Group",
+        "type": "public",
+        "ticker": "NBIS",
+        "country": "NL",
+        "role": "European neocloud spun out of Yandex",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 144.75819899944412,
+        "ttmCapex": null
+      },
+      {
+        "id": "iren",
+        "name": "IREN",
+        "type": "public",
+        "ticker": "IREN",
+        "country": "AU",
+        "role": "Bitcoin miner converted to AI compute",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 7.505854800936763,
+        "ttmCapex": 2998006000
+      },
+      {
+        "id": "cipher",
+        "name": "Cipher Mining",
+        "type": "public",
+        "ticker": "CIFR",
+        "country": "US",
+        "role": "Miner-to-AI-datacenter conversion",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 10.308641975308653,
+        "ttmCapex": null
+      },
+      {
+        "id": "core-scientific",
+        "name": "Core Scientific",
+        "type": "public",
+        "ticker": "CORZ",
+        "country": "US",
+        "role": "Hosting capacity converted to HPC",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 10.381488430268908,
+        "ttmCapex": 1477985000
+      },
+      {
+        "id": "applied-digital",
+        "name": "Applied Digital",
+        "type": "public",
+        "ticker": "APLD",
+        "country": "US",
+        "role": "Purpose-built AI data centers",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": -1.7787264318747775,
+        "ttmCapex": 2865765000
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "type": "public",
+        "ticker": "NET",
+        "country": "US",
+        "role": "Edge inference and AI gateway",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 63.01907968574635,
+        "ttmCapex": null
+      },
+      {
+        "id": "xai",
+        "name": "xAI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Frontier lab operating its own Colossus clusters",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 230000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "cerebras",
+        "name": "Cerebras Systems",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Wafer-scale accelerators and inference cloud",
+        "tags": [],
+        "latestValuation": 8100000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "groq",
+        "name": "Groq",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "LPU inference silicon and cloud",
+        "tags": [],
+        "latestValuation": 6900000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "sambanova",
+        "name": "SambaNova Systems",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Reconfigurable dataflow accelerators",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "crusoe",
+        "name": "Crusoe Energy",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Energy-first data centers; Stargate build partner",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": 13000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "lambda",
+        "name": "Lambda",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "GPU cloud and on-prem systems",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": 2500000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "together",
+        "name": "Together AI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Open-model inference and training cloud",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": 3300000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 12,
+    "privateCount": 7,
+    "bottleneckCount": 0,
+    "ttmCapex": 614270756000,
+    "basket": {
+      "layer": "cloud",
+      "constituentCount": 12,
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ORCL",
+        "CRWV",
+        "NBIS",
+        "IREN",
+        "CIFR",
+        "CORZ",
+        "APLD",
+        "NET"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 3.8578328123388665,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 2.652465220733532,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 12,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -12.54048094995534,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -10.79288473172678,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 12,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 8.419279334576988,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 20.225678370657175,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 12,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 4.609224386688762,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 20.607272638115017,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 12,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 2.652465220733532,
+        "m3": -10.79288473172678,
+        "ytd": 20.225678370657175,
+        "y1": 20.607272638115017
+      }
+    }
+  },
+  {
+    "layer": "data-labeling",
+    "companies": [
+      {
+        "id": "scale-ai",
+        "name": "Scale AI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Data labeling; Meta took a large stake",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "surge",
+        "name": "Surge AI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Human data for frontier RLHF",
+        "tags": [],
+        "latestValuation": 24000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "mercor",
+        "name": "Mercor",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Expert marketplace for model evaluation data",
+        "tags": [],
+        "latestValuation": 10000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "turing",
+        "name": "Turing",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Engineering data and evaluation",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 0,
+    "privateCount": 4,
+    "bottleneckCount": 0,
+    "ttmCapex": 0,
+    "basket": {
+      "layer": "data-labeling",
+      "constituentCount": 0,
+      "tickers": [],
+      "relativeStrength": {
+        "m1": {
+          "value": null,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": null,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": null,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": null,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": null,
+        "m3": null,
+        "ytd": null,
+        "y1": null
+      }
+    }
+  },
+  {
+    "layer": "datacenter",
+    "companies": [
+      {
+        "id": "equinix",
+        "name": "Equinix",
+        "type": "public",
+        "ticker": "EQIX",
+        "country": "US",
+        "role": "Interconnection-dense colocation",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 36.63990943775274,
+        "ttmCapex": 5406000000
+      },
+      {
+        "id": "digital-realty",
+        "name": "Digital Realty",
+        "type": "public",
+        "ticker": "DLR",
+        "country": "US",
+        "role": "Wholesale data center REIT",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 21.03409689310164,
+        "ttmCapex": 3263914000
+      },
+      {
+        "id": "vertiv",
+        "name": "Vertiv Holdings",
+        "type": "public",
+        "ticker": "VRT",
+        "country": "US",
+        "role": "Power and liquid cooling; direct beneficiary of rack density",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 41.462099838907015,
+        "ttmCapex": 424400000
+      },
+      {
+        "id": "eaton",
+        "name": "Eaton",
+        "type": "public",
+        "ticker": "ETN",
+        "country": "IE",
+        "role": "Electrical distribution gear for data centers",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 29.754891253615668,
+        "ttmCapex": 1016000000
+      },
+      {
+        "id": "nvent",
+        "name": "nVent Electric",
+        "type": "public",
+        "ticker": "NVT",
+        "country": "UK",
+        "role": "Liquid cooling and electrical connection",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 47.29880089878512,
+        "ttmCapex": null
+      },
+      {
+        "id": "modine",
+        "name": "Modine Manufacturing",
+        "type": "public",
+        "ticker": "MOD",
+        "country": "US",
+        "role": "Thermal management for data centers",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 33.172359917619495,
+        "ttmCapex": null
+      },
+      {
+        "id": "comfort-systems",
+        "name": "Comfort Systems USA",
+        "type": "public",
+        "ticker": "FIX",
+        "country": "US",
+        "role": "Mechanical contracting for data center builds",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 60.577611269688916,
+        "ttmCapex": null
+      },
+      {
+        "id": "quanta-services",
+        "name": "Quanta Services",
+        "type": "public",
+        "ticker": "PWR",
+        "country": "US",
+        "role": "Electrical infrastructure and grid interconnection build-out",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 43.70919614630744,
+        "ttmCapex": 787091000
+      },
+      {
+        "id": "schneider",
+        "name": "Schneider Electric",
+        "type": "private",
+        "ticker": null,
+        "country": "FR",
+        "role": "Data center electrical infrastructure",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 8,
+    "privateCount": 1,
+    "bottleneckCount": 1,
+    "ttmCapex": 10897405000,
+    "basket": {
+      "layer": "datacenter",
+      "constituentCount": 8,
+      "tickers": [
+        "EQIX",
+        "DLR",
+        "VRT",
+        "ETN",
+        "NVT",
+        "MOD",
+        "FIX",
+        "PWR"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": -2.5324544046661446,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": -3.7378219962714785,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 8,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -15.358120012666372,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -13.610523794437812,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 8,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 27.39972167089207,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 39.20612070697226,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 8,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 30.943728439929544,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 46.9417766913558,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 8,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": -3.7378219962714785,
+        "m3": -13.610523794437812,
+        "ytd": 39.20612070697226,
+        "y1": 46.9417766913558
+      }
+    }
+  },
+  {
+    "layer": "equipment",
+    "companies": [
+      {
+        "id": "asml",
+        "name": "ASML Holding",
+        "type": "public",
+        "ticker": "ASML",
+        "country": "NL",
+        "role": "Sole supplier of EUV lithography; the hardest single chokepoint in the chain",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 42.01494867840292,
+        "ttmCapex": null
+      },
+      {
+        "id": "applied-materials",
+        "name": "Applied Materials",
+        "type": "public",
+        "ticker": "AMAT",
+        "country": "US",
+        "role": "Deposition and etch tooling for logic and memory",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 62.05874097475618,
+        "ttmCapex": null
+      },
+      {
+        "id": "lam-research",
+        "name": "Lam Research",
+        "type": "public",
+        "ticker": "LRCX",
+        "country": "US",
+        "role": "Etch and deposition, heavily levered to HBM capacity",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 52.567506404689766,
+        "ttmCapex": null
+      },
+      {
+        "id": "kla",
+        "name": "KLA Corporation",
+        "type": "public",
+        "ticker": "KLAC",
+        "country": "US",
+        "role": "Process control and inspection",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 36.73471637902655,
+        "ttmCapex": null
+      },
+      {
+        "id": "teradyne",
+        "name": "Teradyne",
+        "type": "public",
+        "ticker": "TER",
+        "country": "US",
+        "role": "Automated test equipment for advanced packaging",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 73.32333889491032,
+        "ttmCapex": null
+      },
+      {
+        "id": "synopsys",
+        "name": "Synopsys",
+        "type": "public",
+        "ticker": "SNPS",
+        "country": "US",
+        "role": "EDA tooling and IP for accelerator design",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -19.799342242204737,
+        "ttmCapex": null
+      },
+      {
+        "id": "cadence",
+        "name": "Cadence Design Systems",
+        "type": "public",
+        "ticker": "CDNS",
+        "country": "US",
+        "role": "EDA tooling and simulation",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -8.835373711340193,
+        "ttmCapex": null
+      },
+      {
+        "id": "tokyo-electron",
+        "name": "Tokyo Electron",
+        "type": "private",
+        "ticker": null,
+        "country": "JP",
+        "role": "Coater/developer and etch tooling",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "advantest",
+        "name": "Advantest",
+        "type": "private",
+        "ticker": null,
+        "country": "JP",
+        "role": "Test equipment for HBM and logic",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 7,
+    "privateCount": 2,
+    "bottleneckCount": 1,
+    "ttmCapex": 0,
+    "basket": {
+      "layer": "equipment",
+      "constituentCount": 7,
+      "tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "TER",
+        "SNPS",
+        "CDNS"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": -6.437399583650158,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": -7.642767175255492,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -25.333228408107306,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -23.585632189878744,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 22.202820303668496,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 34.00921933974868,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 64.06165440075176,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 80.05970265217802,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": -7.642767175255492,
+        "m3": -23.585632189878744,
+        "ytd": 34.00921933974868,
+        "y1": 80.05970265217802
+      }
+    }
+  },
+  {
+    "layer": "financing",
+    "companies": [
+      {
+        "id": "blue-owl",
+        "name": "Blue Owl Capital",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Private credit behind the largest data center JVs and SPVs",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "blackstone",
+        "name": "Blackstone",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Private credit and data center real estate; lender on GPU-backed facilities",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "apollo",
+        "name": "Apollo Global Management",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Private credit exposure to data center and power financing",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "ares",
+        "name": "Ares Management",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Private credit to digital infrastructure",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "magnetar",
+        "name": "Magnetar Capital",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Lead on early GPU-backed neocloud lending",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "softbank",
+        "name": "SoftBank Group",
+        "type": "private",
+        "ticker": null,
+        "country": "JP",
+        "role": "Largest single backer of OpenAI; Stargate partner",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "mgx",
+        "name": "MGX",
+        "type": "private",
+        "ticker": null,
+        "country": "AE",
+        "role": "Abu Dhabi AI investment vehicle; Stargate partner",
+        "tags": [
+          "financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "vantage",
+        "name": "Vantage Data Centers",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Hyperscale data center developer financing campuses in private markets",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 0,
+    "privateCount": 8,
+    "bottleneckCount": 0,
+    "ttmCapex": 0,
+    "basket": {
+      "layer": "financing",
+      "constituentCount": 0,
+      "tickers": [],
+      "relativeStrength": {
+        "m1": {
+          "value": null,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": null,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": null,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": null,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": null,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 0,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": null,
+        "m3": null,
+        "ytd": null,
+        "y1": null
+      }
+    }
+  },
+  {
+    "layer": "foundry",
+    "companies": [
+      {
+        "id": "tsmc",
+        "name": "Taiwan Semiconductor",
+        "type": "public",
+        "ticker": "TSM",
+        "country": "TW",
+        "role": "Fabricates nearly all leading-edge AI silicon; CoWoS advanced packaging is the gating constraint",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 35.47071817455102,
+        "ttmCapex": null
+      },
+      {
+        "id": "intel",
+        "name": "Intel",
+        "type": "public",
+        "ticker": "INTC",
+        "country": "US",
+        "role": "Foundry ambitions plus Gaudi accelerators",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 171.08938547486034,
+        "ttmCapex": 12105000000
+      },
+      {
+        "id": "globalfoundries",
+        "name": "GlobalFoundries",
+        "type": "public",
+        "ticker": "GFS",
+        "country": "US",
+        "role": "Mature-node foundry, power and analog for DC infrastructure",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 27.998283397026917,
+        "ttmCapex": null
+      },
+      {
+        "id": "umc",
+        "name": "United Microelectronics",
+        "type": "public",
+        "ticker": "UMC",
+        "country": "TW",
+        "role": "Mature-node foundry",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 214.81601661366733,
+        "ttmCapex": null
+      },
+      {
+        "id": "ase",
+        "name": "ASE Technology",
+        "type": "public",
+        "ticker": "ASX",
+        "country": "TW",
+        "role": "Outsourced assembly and test; advanced packaging capacity",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 143.857872885976,
+        "ttmCapex": null
+      },
+      {
+        "id": "amkor",
+        "name": "Amkor Technology",
+        "type": "public",
+        "ticker": "AMKR",
+        "country": "US",
+        "role": "Outsourced semiconductor assembly and test",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 15.427335218865323,
+        "ttmCapex": null
+      },
+      {
+        "id": "samsung",
+        "name": "Samsung Electronics",
+        "type": "private",
+        "ticker": null,
+        "country": "KR",
+        "role": "Memory and foundry",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 6,
+    "privateCount": 1,
+    "bottleneckCount": 2,
+    "ttmCapex": 12105000000,
+    "basket": {
+      "layer": "foundry",
+      "constituentCount": 6,
+      "tickers": [
+        "TSM",
+        "INTC",
+        "GFS",
+        "UMC",
+        "ASX",
+        "AMKR"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 11.47724196419837,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 10.271874372593036,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 6,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -20.69156477404451,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -18.94396855581595,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 6,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 89.63686959141097,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 101.44326862749115,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 6,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 139.7475113545712,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 155.74555960599747,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 6,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 10.271874372593036,
+        "m3": -18.94396855581595,
+        "ytd": 101.44326862749115,
+        "y1": 155.74555960599747
+      }
+    }
+  },
+  {
+    "layer": "infra-software",
+    "companies": [
+      {
+        "id": "snowflake",
+        "name": "Snowflake",
+        "type": "public",
+        "ticker": "SNOW",
+        "country": "US",
+        "role": "Data platform for AI workloads",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 53.93152138803007,
+        "ttmCapex": null
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "type": "public",
+        "ticker": "MDB",
+        "country": "US",
+        "role": "Operational and vector data store",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -4.196171650193915,
+        "ttmCapex": null
+      },
+      {
+        "id": "datadog",
+        "name": "Datadog",
+        "type": "public",
+        "ticker": "DDOG",
+        "country": "US",
+        "role": "Observability; AI-native customers a growth driver",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 72.37796217388053,
+        "ttmCapex": null
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "type": "public",
+        "ticker": "NET",
+        "country": "US",
+        "role": "Edge inference and AI gateway",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 63.01907968574635,
+        "ttmCapex": null
+      },
+      {
+        "id": "together",
+        "name": "Together AI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Open-model inference and training cloud",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": 3300000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "fireworks",
+        "name": "Fireworks AI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Fast open-model inference",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "baseten",
+        "name": "Baseten",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Model deployment and inference infrastructure",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "modal",
+        "name": "Modal Labs",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Serverless GPU compute",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "databricks",
+        "name": "Databricks",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Data and AI platform; largest private data infra company",
+        "tags": [],
+        "latestValuation": 100000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "pinecone",
+        "name": "Pinecone",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Managed vector database",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "langchain",
+        "name": "LangChain",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Agent framework and observability",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 4,
+    "privateCount": 7,
+    "bottleneckCount": 0,
+    "ttmCapex": 0,
+    "basket": {
+      "layer": "infra-software",
+      "constituentCount": 4,
+      "tickers": [
+        "SNOW",
+        "MDB",
+        "DDOG",
+        "NET"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 0.649638507740063,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": -0.5557290838652711,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": 24.425936178853906,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": 26.173532397082468,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 34.47669886328557,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 46.28309789936576,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 29.681196362847373,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 45.67924461427363,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 4,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": -0.5557290838652711,
+        "m3": 26.173532397082468,
+        "ytd": 46.28309789936576,
+        "y1": 45.67924461427363
+      }
+    }
+  },
+  {
+    "layer": "labs",
+    "companies": [
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "type": "public",
+        "ticker": "MSFT",
+        "country": "US",
+        "role": "Azure AI capacity, OpenAI's principal cloud partner",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 5.234823925942393,
+        "ttmCapex": 115948000000
+      },
+      {
+        "id": "alphabet",
+        "name": "Alphabet",
+        "type": "public",
+        "ticker": "GOOGL",
+        "country": "US",
+        "role": "GCP, TPUs and DeepMind — the only fully vertically integrated stack",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 11.266329897713517,
+        "ttmCapex": 132402000000
+      },
+      {
+        "id": "meta",
+        "name": "Meta Platforms",
+        "type": "public",
+        "ticker": "META",
+        "country": "US",
+        "role": "Largest non-cloud buildout; consumes its own capacity",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 3.3928592881837165,
+        "ttmCapex": 89325000000
+      },
+      {
+        "id": "openai",
+        "name": "OpenAI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Largest private AI lab by revenue and capital raised",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 500000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Frontier lab; enterprise and coding-weighted revenue mix",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 350000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "xai",
+        "name": "xAI",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Frontier lab operating its own Colossus clusters",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 230000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "mistral",
+        "name": "Mistral AI",
+        "type": "private",
+        "ticker": null,
+        "country": "FR",
+        "role": "European frontier lab, open-weight lineage",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 13700000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "ssi",
+        "name": "Safe Superintelligence",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Research-only lab, no product revenue",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 32000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "thinking-machines",
+        "name": "Thinking Machines Lab",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Research lab founded by former OpenAI leadership",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": 12000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "deepseek",
+        "name": "DeepSeek",
+        "type": "private",
+        "ticker": null,
+        "country": "CN",
+        "role": "Open-weight lab that reset cost expectations",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "qwen",
+        "name": "Alibaba Qwen",
+        "type": "private",
+        "ticker": null,
+        "country": "CN",
+        "role": "Most-downloaded open-weight family",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "moonshot",
+        "name": "Moonshot AI",
+        "type": "private",
+        "ticker": null,
+        "country": "CN",
+        "role": "Kimi long-context models",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "zhipu",
+        "name": "Z.ai (Zhipu)",
+        "type": "private",
+        "ticker": null,
+        "country": "CN",
+        "role": "GLM open-weight series",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "cohere",
+        "name": "Cohere",
+        "type": "private",
+        "ticker": null,
+        "country": "CA",
+        "role": "Enterprise and sovereign deployments",
+        "tags": [
+          "lab"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 3,
+    "privateCount": 11,
+    "bottleneckCount": 0,
+    "ttmCapex": 337675000000,
+    "basket": {
+      "layer": "labs",
+      "constituentCount": 3,
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "META"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 10.150907531486759,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 8.945539939881424,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 3,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": 12.26880547143794,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": 14.0164016896665,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 3,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": -5.1750613321336445,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 6.631337703946542,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 3,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": -8.128735250008074,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 7.86931300141818,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 3,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 8.945539939881424,
+        "m3": 14.0164016896665,
+        "ytd": 6.631337703946542,
+        "y1": 7.86931300141818
+      }
+    }
+  },
+  {
+    "layer": "memory",
+    "companies": [
+      {
+        "id": "micron",
+        "name": "Micron Technology",
+        "type": "public",
+        "ticker": "MU",
+        "country": "US",
+        "role": "HBM supplier; capacity sold out well ahead of production",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 217.98403180316143,
+        "ttmCapex": 25260000000
+      },
+      {
+        "id": "sk-hynix",
+        "name": "SK Hynix",
+        "type": "private",
+        "ticker": null,
+        "country": "KR",
+        "role": "HBM market leader",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "samsung",
+        "name": "Samsung Electronics",
+        "type": "private",
+        "ticker": null,
+        "country": "KR",
+        "role": "Memory and foundry",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 1,
+    "privateCount": 2,
+    "bottleneckCount": 2,
+    "ttmCapex": 25260000000,
+    "basket": {
+      "layer": "memory",
+      "constituentCount": 1,
+      "tickers": [
+        "MU"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 8.173599709499706,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 6.968232117894373,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 1,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -13.33727623321512,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -11.589680014986559,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 1,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 206.17763276708123,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 217.98403180316143,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 1,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 478.4827766121421,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 494.4808248635684,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 1,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 6.968232117894373,
+        "m3": -11.589680014986559,
+        "ytd": 217.98403180316143,
+        "y1": 494.4808248635684
+      }
+    }
+  },
+  {
+    "layer": "networking",
+    "companies": [
+      {
+        "id": "nvidia",
+        "name": "NVIDIA",
+        "type": "public",
+        "ticker": "NVDA",
+        "country": "US",
+        "role": "Dominant AI accelerator supplier; also the chain's largest strategic investor",
+        "tags": [
+          "circular-financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 16.483227190194107,
+        "ttmCapex": 7354000000
+      },
+      {
+        "id": "broadcom",
+        "name": "Broadcom",
+        "type": "public",
+        "ticker": "AVGO",
+        "country": "US",
+        "role": "Custom XPUs for hyperscalers plus Tomahawk/Jericho switching silicon",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 2.2133768122511586,
+        "ttmCapex": 1250000000
+      },
+      {
+        "id": "marvell",
+        "name": "Marvell Technology",
+        "type": "public",
+        "ticker": "MRVL",
+        "country": "US",
+        "role": "Custom silicon and optical DSPs",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 166.5276330678139,
+        "ttmCapex": 470200000
+      },
+      {
+        "id": "arista",
+        "name": "Arista Networks",
+        "type": "public",
+        "ticker": "ANET",
+        "country": "US",
+        "role": "Ethernet switching for AI back-end fabrics",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 48.33083832335329,
+        "ttmCapex": 138300000
+      },
+      {
+        "id": "astera",
+        "name": "Astera Labs",
+        "type": "public",
+        "ticker": "ALAB",
+        "country": "US",
+        "role": "PCIe/CXL connectivity silicon",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 65.8777010470038,
+        "ttmCapex": null
+      },
+      {
+        "id": "credo",
+        "name": "Credo Technology",
+        "type": "public",
+        "ticker": "CRDO",
+        "country": "US",
+        "role": "Active electrical cables and SerDes",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 20.080994274542654,
+        "ttmCapex": null
+      },
+      {
+        "id": "coherent",
+        "name": "Coherent",
+        "type": "public",
+        "ticker": "COHR",
+        "country": "US",
+        "role": "Optical transceivers for cluster interconnect",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 58.719703596974206,
+        "ttmCapex": null
+      },
+      {
+        "id": "lumentum",
+        "name": "Lumentum",
+        "type": "public",
+        "ticker": "LITE",
+        "country": "US",
+        "role": "Photonics and optical components",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 136.93248038123852,
+        "ttmCapex": null
+      },
+      {
+        "id": "fabrinet",
+        "name": "Fabrinet",
+        "type": "public",
+        "ticker": "FN",
+        "country": "US",
+        "role": "Contract optical manufacturing",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -19.21488465228818,
+        "ttmCapex": null
+      },
+      {
+        "id": "ciena",
+        "name": "Ciena",
+        "type": "public",
+        "ticker": "CIEN",
+        "country": "US",
+        "role": "DCI and long-haul optical transport",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 40.075591319190444,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 10,
+    "privateCount": 0,
+    "bottleneckCount": 0,
+    "ttmCapex": 9212500000,
+    "basket": {
+      "layer": "networking",
+      "constituentCount": 10,
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "ANET",
+        "ALAB",
+        "CRDO",
+        "COHR",
+        "LITE",
+        "FN",
+        "CIEN"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": -1.712836636538923,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": -2.918204228144257,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 10,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -16.410917517125462,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -14.6633212988969,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 10,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 41.796267099947215,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 53.6026661360274,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 10,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 91.3486293941503,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 107.34667764557655,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 10,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": -2.918204228144257,
+        "m3": -14.6633212988969,
+        "ytd": 53.6026661360274,
+        "y1": 107.34667764557655
+      }
+    }
+  },
+  {
+    "layer": "power",
+    "companies": [
+      {
+        "id": "eaton",
+        "name": "Eaton",
+        "type": "public",
+        "ticker": "ETN",
+        "country": "IE",
+        "role": "Electrical distribution gear for data centers",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 29.754891253615668,
+        "ttmCapex": 1016000000
+      },
+      {
+        "id": "quanta-services",
+        "name": "Quanta Services",
+        "type": "public",
+        "ticker": "PWR",
+        "country": "US",
+        "role": "Electrical infrastructure and grid interconnection build-out",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 43.70919614630744,
+        "ttmCapex": 787091000
+      },
+      {
+        "id": "constellation",
+        "name": "Constellation Energy",
+        "type": "public",
+        "ticker": "CEG",
+        "country": "US",
+        "role": "Largest US nuclear fleet; PPA counterparty for hyperscalers",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -29.592007720662938,
+        "ttmCapex": 3897000000
+      },
+      {
+        "id": "vistra",
+        "name": "Vistra",
+        "type": "public",
+        "ticker": "VST",
+        "country": "US",
+        "role": "Nuclear and gas generation serving data center demand",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -13.718288421366948,
+        "ttmCapex": 2866000000
+      },
+      {
+        "id": "nrg",
+        "name": "NRG Energy",
+        "type": "public",
+        "ticker": "NRG",
+        "country": "US",
+        "role": "Retail and generation exposure to load growth",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -36.227272533911545,
+        "ttmCapex": null
+      },
+      {
+        "id": "talen",
+        "name": "Talen Energy",
+        "type": "public",
+        "ticker": "TLN",
+        "country": "US",
+        "role": "Nuclear capacity contracted to data centers",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -25.642124366697754,
+        "ttmCapex": 228000000
+      },
+      {
+        "id": "ge-vernova",
+        "name": "GE Vernova",
+        "type": "public",
+        "ticker": "GEV",
+        "country": "US",
+        "role": "Gas turbines and grid equipment; turbine slots sold out for years",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 37.34401838969025,
+        "ttmCapex": 1701000000
+      },
+      {
+        "id": "bloom",
+        "name": "Bloom Energy",
+        "type": "public",
+        "ticker": "BE",
+        "country": "US",
+        "role": "On-site fuel cells bypassing grid interconnect queues",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 175.85368325058263,
+        "ttmCapex": null
+      },
+      {
+        "id": "cameco",
+        "name": "Cameco",
+        "type": "public",
+        "ticker": "CCJ",
+        "country": "CA",
+        "role": "Uranium supply for the nuclear restart thesis",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -5.991274350649352,
+        "ttmCapex": null
+      },
+      {
+        "id": "oklo",
+        "name": "Oklo",
+        "type": "public",
+        "ticker": "OKLO",
+        "country": "US",
+        "role": "Small modular reactors targeting data center loads",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -50.976863753213365,
+        "ttmCapex": null
+      },
+      {
+        "id": "nuscale",
+        "name": "NuScale Power",
+        "type": "public",
+        "ticker": "SMR",
+        "country": "US",
+        "role": "Small modular reactor developer",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -49.38687921520539,
+        "ttmCapex": null
+      },
+      {
+        "id": "crusoe",
+        "name": "Crusoe Energy",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Energy-first data centers; Stargate build partner",
+        "tags": [
+          "neocloud"
+        ],
+        "latestValuation": 13000000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "siemens-energy",
+        "name": "Siemens Energy",
+        "type": "private",
+        "ticker": null,
+        "country": "DE",
+        "role": "Grid equipment and turbines",
+        "tags": [
+          "bottleneck"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 11,
+    "privateCount": 2,
+    "bottleneckCount": 3,
+    "ttmCapex": 10495091000,
+    "basket": {
+      "layer": "power",
+      "constituentCount": 11,
+      "tickers": [
+        "ETN",
+        "PWR",
+        "CEG",
+        "VST",
+        "NRG",
+        "TLN",
+        "GEV",
+        "BE",
+        "CCJ",
+        "OKLO",
+        "SMR"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": -2.1969845681772027,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": -3.4023521597825366,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 11,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -19.673934588806755,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -17.926338370578193,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 11,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": -4.9766646107630335,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 6.829734425317153,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 11,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": -5.117196304858355,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 10.8808519465679,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 11,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": -3.4023521597825366,
+        "m3": -17.926338370578193,
+        "ytd": 6.829734425317153,
+        "y1": 10.8808519465679
+      }
+    }
+  },
+  {
+    "layer": "silicon",
+    "companies": [
+      {
+        "id": "intel",
+        "name": "Intel",
+        "type": "public",
+        "ticker": "INTC",
+        "country": "US",
+        "role": "Foundry ambitions plus Gaudi accelerators",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 171.08938547486034,
+        "ttmCapex": 12105000000
+      },
+      {
+        "id": "nvidia",
+        "name": "NVIDIA",
+        "type": "public",
+        "ticker": "NVDA",
+        "country": "US",
+        "role": "Dominant AI accelerator supplier; also the chain's largest strategic investor",
+        "tags": [
+          "circular-financier"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 16.483227190194107,
+        "ttmCapex": 7354000000
+      },
+      {
+        "id": "amd",
+        "name": "AMD",
+        "type": "public",
+        "ticker": "AMD",
+        "country": "US",
+        "role": "MI-series accelerators; the credible second source",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 143.69042824540207,
+        "ttmCapex": 1677000000
+      },
+      {
+        "id": "broadcom",
+        "name": "Broadcom",
+        "type": "public",
+        "ticker": "AVGO",
+        "country": "US",
+        "role": "Custom XPUs for hyperscalers plus Tomahawk/Jericho switching silicon",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 2.2133768122511586,
+        "ttmCapex": 1250000000
+      },
+      {
+        "id": "marvell",
+        "name": "Marvell Technology",
+        "type": "public",
+        "ticker": "MRVL",
+        "country": "US",
+        "role": "Custom silicon and optical DSPs",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 166.5276330678139,
+        "ttmCapex": 470200000
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "type": "public",
+        "ticker": "AMZN",
+        "country": "US",
+        "role": "AWS plus in-house Trainium/Inferentia; Anthropic's primary partner",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 11.724061810154529,
+        "ttmCapex": 173028000000
+      },
+      {
+        "id": "alphabet",
+        "name": "Alphabet",
+        "type": "public",
+        "ticker": "GOOGL",
+        "country": "US",
+        "role": "GCP, TPUs and DeepMind — the only fully vertically integrated stack",
+        "tags": [
+          "hyperscaler"
+        ],
+        "latestValuation": null,
+        "marketReturnYtd": 11.266329897713517,
+        "ttmCapex": 132402000000
+      },
+      {
+        "id": "cerebras",
+        "name": "Cerebras Systems",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Wafer-scale accelerators and inference cloud",
+        "tags": [],
+        "latestValuation": 8100000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "groq",
+        "name": "Groq",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "LPU inference silicon and cloud",
+        "tags": [],
+        "latestValuation": 6900000000,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "tenstorrent",
+        "name": "Tenstorrent",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "RISC-V based AI silicon",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "sambanova",
+        "name": "SambaNova Systems",
+        "type": "private",
+        "ticker": null,
+        "country": "US",
+        "role": "Reconfigurable dataflow accelerators",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 7,
+    "privateCount": 4,
+    "bottleneckCount": 0,
+    "ttmCapex": 328286200000,
+    "basket": {
+      "layer": "silicon",
+      "constituentCount": 7,
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AMZN",
+        "GOOGL"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 5.13276324836983,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 3.927395656764496,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": -9.34600313970249,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": -7.598406921473929,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 62.90709274940405,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 74.71349178548424,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 97.1413303740398,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 113.13937862546605,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 7,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 3.927395656764496,
+        "m3": -7.598406921473929,
+        "ytd": 74.71349178548424,
+        "y1": 113.13937862546605
+      }
+    }
+  },
+  {
+    "layer": "systems",
+    "companies": [
+      {
+        "id": "fabrinet",
+        "name": "Fabrinet",
+        "type": "public",
+        "ticker": "FN",
+        "country": "US",
+        "role": "Contract optical manufacturing",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": -19.21488465228818,
+        "ttmCapex": null
+      },
+      {
+        "id": "dell",
+        "name": "Dell Technologies",
+        "type": "public",
+        "ticker": "DELL",
+        "country": "US",
+        "role": "AI server integration and shipment bellwether",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 354.78736844765075,
+        "ttmCapex": 3592000000
+      },
+      {
+        "id": "supermicro",
+        "name": "Super Micro Computer",
+        "type": "public",
+        "ticker": "SMCI",
+        "country": "US",
+        "role": "High-density GPU server systems",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 25.452196382428948,
+        "ttmCapex": 161999000
+      },
+      {
+        "id": "hpe",
+        "name": "Hewlett Packard Enterprise",
+        "type": "public",
+        "ticker": "HPE",
+        "country": "US",
+        "role": "AI systems and HPC integration",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 152.86061788508962,
+        "ttmCapex": null
+      },
+      {
+        "id": "celestica",
+        "name": "Celestica",
+        "type": "public",
+        "ticker": "CLS",
+        "country": "CA",
+        "role": "ODM for hyperscaler racks and switches",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": 9.947089947089962,
+        "ttmCapex": null
+      },
+      {
+        "id": "foxconn",
+        "name": "Hon Hai (Foxconn)",
+        "type": "private",
+        "ticker": null,
+        "country": "TW",
+        "role": "Largest AI server ODM",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "quanta-computer",
+        "name": "Quanta Computer",
+        "type": "private",
+        "ticker": null,
+        "country": "TW",
+        "role": "AI server ODM",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      },
+      {
+        "id": "wistron",
+        "name": "Wistron",
+        "type": "private",
+        "ticker": null,
+        "country": "TW",
+        "role": "AI server ODM",
+        "tags": [],
+        "latestValuation": null,
+        "marketReturnYtd": null,
+        "ttmCapex": null
+      }
+    ],
+    "publicCount": 5,
+    "privateCount": 3,
+    "bottleneckCount": 0,
+    "ttmCapex": 3753999000,
+    "basket": {
+      "layer": "systems",
+      "constituentCount": 5,
+      "tickers": [
+        "FN",
+        "DELL",
+        "SMCI",
+        "HPE",
+        "CLS"
+      ],
+      "relativeStrength": {
+        "m1": {
+          "value": 10.66576939811269,
+          "formula": "Equal-weighted basket m1 return − benchmark m1 return",
+          "inputs": {
+            "basketReturnPct": 9.460401806507356,
+            "benchmarkReturnPct": -1.2053675916053341,
+            "constituents": 5,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "m3": {
+          "value": 8.655737161683541,
+          "formula": "Equal-weighted basket m3 return − benchmark m3 return",
+          "inputs": {
+            "basketReturnPct": 10.403333379912102,
+            "benchmarkReturnPct": 1.7475962182285607,
+            "constituents": 5,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "ytd": {
+          "value": 92.96007856591402,
+          "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+          "inputs": {
+            "basketReturnPct": 104.76647760199421,
+            "benchmarkReturnPct": 11.806399036080187,
+            "constituents": 5,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        },
+        "y1": {
+          "value": 84.80878012677368,
+          "formula": "Equal-weighted basket y1 return − benchmark y1 return",
+          "inputs": {
+            "basketReturnPct": 100.80682837819994,
+            "benchmarkReturnPct": 15.998048251426255,
+            "constituents": 5,
+            "benchmark": "SPY"
+          },
+          "unit": "percent"
+        }
+      },
+      "averageReturns": {
+        "m1": 9.460401806507356,
+        "m3": 10.403333379912102,
+        "ytd": 104.76647760199421,
+        "y1": 100.80682837819994
+      }
+    }
+  }
+]

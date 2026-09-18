@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:24:28.447Z",
+  "generatedAt": "2026-09-18T19:39:01.791Z",
   "hyperscalerTtmCapex": 586363000000,
   "hyperscalerCapexCoverage": 1.1984083755523287,
   "trackedLongTermDebt": 794841570000,
@@ -26,5 +26,45 @@
       "benchmark": "SPY"
     },
     "unit": "percent"
+  },
+  "disclosedPrivateFunding": 147785000000,
+  "disclosedAiDebt": 185000000000,
+  "topValuation": {
+    "id": "openai-2025-10",
+    "company": "openai",
+    "date": "2025-10-02",
+    "round": "Secondary",
+    "amountUsd": null,
+    "postMoneyUsd": 500000000000,
+    "leadInvestors": [
+      "Employee tender"
+    ],
+    "note": "Secondary sale valuation, not primary capital",
+    "confidence": "medium",
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2025-10-02",
+      "confidence": "medium",
+      "sourceUrl": null
+    }
+  },
+  "mostCircular": {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "exposure": {
+      "value": 100,
+      "formula": "(Disclosed circular inbound $ ÷ total disclosed inbound $) × 100",
+      "inputs": {
+        "circularUsd": 250000000000,
+        "totalInboundUsd": 250000000000,
+        "dealCount": 1
+      },
+      "unit": "percent",
+      "caveat": "Reflects disclosed deals only; private terms are not captured"
+    },
+    "inboundCount": 1,
+    "outboundCount": 2,
+    "circularUsd": 250000000000,
+    "totalInboundUsd": 250000000000
   }
 }

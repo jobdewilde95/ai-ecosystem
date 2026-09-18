@@ -438,3 +438,4 @@
 {"date":"2026-09-18","key":"openai/gpt-3.5-turbo","inputPerMtok":0.5,"outputPerMtok":1.5,"blended3to1":0.75}
 {"date":"2026-09-18","key":"openai/gpt-3.5-turbo:batch","inputPerMtok":0.25,"outputPerMtok":0.75,"blended3to1":0.375}
 {"date":"2026-09-18","key":"openai/gpt-4","inputPerMtok":30,"outputPerMtok":60,"blended3to1":37.5}
+{"date":"2026-09-18","key":"prism-ml/ternary-bonsai-2-27b","inputPerMtok":0.075,"outputPerMtok":0.5,"blended3to1":0.18125}

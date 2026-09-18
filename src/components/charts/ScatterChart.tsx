@@ -23,7 +23,7 @@ export interface ScatterPoint {
  * Groups beyond that fold into "Other" rather than inventing a fourth hue.
  */
 export function ScatterChart({
-  points, xLabel, yLabel, xFormatter, yFormatter, height = 360, logX = false,
+  points, xLabel, yLabel, xFormatter, yFormatter, height = 360, logX = false, logY = false,
 }: {
   points: ScatterPoint[];
   xLabel: string;
@@ -32,6 +32,7 @@ export function ScatterChart({
   yFormatter?: (value: number) => string;
   height?: number;
   logX?: boolean;
+  logY?: boolean;
 }) {
   const groups = [...new Set(points.map((point) => point.group))];
   const visible = groups.slice(0, SCATTER_SLOTS);
@@ -66,6 +67,7 @@ export function ScatterChart({
         />
         <YAxis
           type="number" dataKey="y" name={yLabel}
+          scale={logY ? 'log' : 'auto'} domain={['auto', 'auto']}
           tickFormatter={yFormatter} stroke="var(--axis)"
           tick={{ fontSize: 11, fill: 'var(--text-muted)' }} tickLine={false} axisLine={false}
           width={56}

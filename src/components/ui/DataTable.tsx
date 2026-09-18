@@ -64,7 +64,7 @@ export function DataTable<T>({
   }
 
   return (
-    <div className="overflow-x-auto" style={maxHeight ? { maxHeight, overflowY: 'auto' } : undefined}>
+    <div className="scroll-x w-full min-w-0" style={maxHeight ? { maxHeight, overflowY: 'auto' } : undefined}>
       <table className="w-full min-w-full text-[13px]">
         <thead className="sticky top-0 z-10 bg-[var(--surface-1)]">
           <tr style={{ borderBottom: '1px solid var(--border)' }}>

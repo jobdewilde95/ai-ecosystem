@@ -8,7 +8,7 @@ export function Card({
 }) {
   return (
     <section
-      className={`rounded-lg border bg-[var(--surface-1)] ${className}`}
+      className={`min-w-0 rounded-lg border bg-[var(--surface-1)] ${className}`}
       style={{ borderColor: 'var(--border)' }}
     >
       {(title || action) && (
@@ -26,7 +26,7 @@ export function Card({
           {action && <div className="shrink-0">{action}</div>}
         </header>
       )}
-      <div className="px-4 pb-4 sm:px-5 sm:pb-5">{children}</div>
+      <div className="min-w-0 px-4 pb-4 sm:px-5 sm:pb-5">{children}</div>
     </section>
   );
 }

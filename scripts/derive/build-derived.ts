@@ -15,7 +15,7 @@ import { buildIndex, lookup } from '../lib/model-join.js';
 import {
   capexCoverage, capexIntensity, depreciationDrag, interestBurden,
   nearTermRefinancingRisk, intelligencePerDollar, frontierCostCurve,
-  basketRelativeStrength, ttm,
+  basketRelativeStrength, circularityExposure, ttm,
   type DerivedMetric, type Fact, type PricedModel, type Summary,
 } from './analytics.js';
 
@@ -222,11 +222,19 @@ async function main(): Promise<void> {
     provider: point.creator,
   }));
 
+  /*
+   * Two series on deliberately separate bases, never to be spliced into one
+   * line. `seeded` is the cheapest published list price among models positioned
+   * as flagships; `live` is the cheapest model clearing a fixed benchmark score.
+   * Joined end to end they drew a step from $0.478 to $10.00 — an apparent
+   * 2000% price rise that is purely an artefact of the changed definition.
+   */
   await write('cost-decline', {
     note:
-      'Cheapest frontier-tier blended $/Mtok over time. The seeded span comes from published ' +
-      'list prices and is marked as such; the tracked span is computed from live pricing and ' +
-      'Artificial Analysis quality scores.',
+      'Two separate measures, not a continuous series. `seeded` is the cheapest published ' +
+      'flagship list price (2023-2025). `live` is the cheapest model clearing a fixed ' +
+      'Artificial Analysis intelligence score. They answer different questions and must not be ' +
+      'joined into one line.',
     seeded: seededCurve,
     live: liveCurve,
   });
@@ -289,6 +297,130 @@ async function main(): Promise<void> {
     .sort((a, b) => a.date.localeCompare(b.date));
   await write('compute-trend', computeTrend);
 
+  /* --- capital: funding, deals, debt ------------------------------------ */
+
+  interface FundingRound { id: string; company: string; date: string; round: string; amountUsd: number | null; postMoneyUsd: number | null; leadInvestors: string[]; note?: string; confidence: string }
+  interface Deal { id: string; date: string; from: string; to: string; type: string; amountUsd: number | null; circular: boolean; description: string; confidence: string }
+  interface DebtItem { id: string; issuer: string; date: string; instrument: string; amountUsd: number; collateral?: string; counterparties?: string[]; description: string; confidence: string }
+
+  const [funding, deals, debt] = await Promise.all([
+    readCurated<FundingRound[]>('funding', []),
+    readCurated<Deal[]>('deals', []),
+    readCurated<DebtItem[]>('debt', []),
+  ]);
+
+  const nameOf = new Map(companies.map((company) => [company.id, company.name] as const));
+  const label = (id: string) => nameOf.get(id) ?? id;
+
+  // Latest disclosed valuation per private company, with the round behind it.
+  const latestValuation = new Map<string, FundingRound>();
+  for (const round of funding) {
+    if (round.postMoneyUsd === null) continue;
+    const current = latestValuation.get(round.company);
+    if (!current || round.date > current.date) latestValuation.set(round.company, round);
+  }
+
+  const circularity = [...new Set(deals.flatMap((deal) => [deal.from, deal.to]))]
+    .map((entityId) => ({
+      id: entityId,
+      name: label(entityId),
+      exposure: circularityExposure(entityId, deals),
+      inboundCount: deals.filter((deal) => deal.to === entityId).length,
+      outboundCount: deals.filter((deal) => deal.from === entityId).length,
+    }))
+    .map((entry) => ({
+      ...entry,
+      circularUsd: Number(entry.exposure.inputs.circularUsd ?? 0),
+      totalInboundUsd: Number(entry.exposure.inputs.totalInboundUsd ?? 0),
+    }))
+    .filter((entry) => entry.exposure.value !== null)
+    /*
+     * Ranked by absolute circular capital, not by share. A single $700M
+     * supplier investment and $365B of interlocking commitments both compute
+     * to 100%, and ranking on the percentage would put them side by side as
+     * though they were the same finding.
+     */
+    .sort((a, b) => b.circularUsd - a.circularUsd);
+
+  const byYear = (records: Array<{ date: string; amount: number | null }>) => {
+    const years = new Map<string, number>();
+    for (const record of records) {
+      if (record.amount === null) continue;
+      const year = record.date.slice(0, 4);
+      years.set(year, (years.get(year) ?? 0) + record.amount);
+    }
+    return [...years.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([year, total]) => ({ year, total }));
+  };
+
+  await write('capital', {
+    note:
+      'Announced figures, not cash deployed. Multi-year commitments and staged investments are ' +
+      'recorded at their headline amount. Coverage is limited to publicly disclosed terms.',
+    funding: funding.map((round) => ({ ...round, companyName: label(round.company) })),
+    deals: deals.map((deal) => ({ ...deal, fromName: label(deal.from), toName: label(deal.to) })),
+    debt: debt.map((item) => ({ ...item, issuerName: label(item.issuer) })),
+    valuations: [...latestValuation.values()]
+      .map((round) => ({
+        company: round.company,
+        name: label(round.company),
+        postMoneyUsd: round.postMoneyUsd,
+        date: round.date,
+        round: round.round,
+      }))
+      .sort((a, b) => (b.postMoneyUsd ?? 0) - (a.postMoneyUsd ?? 0)),
+    circularity,
+    fundingByYear: byYear(funding.map((r) => ({ date: r.date, amount: r.amountUsd }))),
+    debtByYear: byYear(debt.map((d) => ({ date: d.date, amount: d.amountUsd }))),
+    totals: {
+      disclosedFunding: funding.reduce((sum, r) => sum + (r.amountUsd ?? 0), 0),
+      disclosedDebt: debt.reduce((sum, d) => sum + d.amountUsd, 0),
+      disclosedDealValue: deals.reduce((sum, d) => sum + (d.amountUsd ?? 0), 0),
+      circularDealValue: deals
+        .filter((deal) => deal.circular)
+        .reduce((sum, d) => sum + (d.amountUsd ?? 0), 0),
+    },
+  });
+
+  /* --- supply chain rollup ---------------------------------------------- */
+
+  const fundamentalsByTicker = new Map(fundamentals.map((entry) => [entry.ticker, entry] as const));
+  const supplyChain = layers.map((layer) => {
+    const members = companies.filter((company) => company.layers.includes(layer));
+    const listed = members.filter((company) => company.ticker);
+    const layerFundamentals = listed
+      .map((company) => fundamentalsByTicker.get(company.ticker as string))
+      .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));
+
+    return {
+      layer,
+      companies: members.map((company) => ({
+        id: company.id,
+        name: company.name,
+        type: company.type,
+        ticker: company.ticker,
+        country: company.country,
+        role: company.role,
+        tags: company.tags,
+        latestValuation: latestValuation.get(company.id)?.postMoneyUsd ?? null,
+        marketReturnYtd:
+          company.ticker
+            ? (summaryByTicker.get(company.ticker)?.returns.ytd ?? null)
+            : null,
+        ttmCapex: company.ticker
+          ? (fundamentalsByTicker.get(company.ticker)?.ttm.capex ?? null)
+          : null,
+      })),
+      publicCount: listed.length,
+      privateCount: members.length - listed.length,
+      bottleneckCount: members.filter((company) => company.tags.includes('bottleneck')).length,
+      ttmCapex: layerFundamentals.reduce((sum, entry) => sum + (entry.ttm.capex ?? 0), 0),
+      basket: baskets.find((basket) => basket.layer === layer) ?? null,
+    };
+  });
+  await write('supply-chain', supplyChain);
+
   /* --- headline KPIs ---------------------------------------------------- */
 
   const hyperscalers = fundamentals.filter((f) => f.tags.includes('hyperscaler'));
@@ -309,11 +441,18 @@ async function main(): Promise<void> {
       ? { name: bestValue.name, creator: bestValue.creator, ratio: bestValue.intelligencePerDollar.value }
       : null,
     aiBasketVsSpy: baskets.find((b) => b.layer === 'silicon')?.relativeStrength.ytd ?? null,
+    disclosedPrivateFunding: funding.reduce((sum, r) => sum + (r.amountUsd ?? 0), 0),
+    disclosedAiDebt: debt.reduce((sum, d) => sum + d.amountUsd, 0),
+    topValuation: [...latestValuation.values()].sort(
+      (a, b) => (b.postMoneyUsd ?? 0) - (a.postMoneyUsd ?? 0),
+    )[0] ?? null,
+    mostCircular: circularity[0] ?? null,
   });
 
   console.log(
     `Derived: ${fundamentals.length} companies, ${models.length} models, ` +
-    `${baskets.length} baskets, ${computeTrend.length} compute points`,
+    `${baskets.length} baskets, ${computeTrend.length} compute points, ` +
+    `${deals.length} deals, ${funding.length} rounds, ${debt.length} debt items`,
   );
 }
 

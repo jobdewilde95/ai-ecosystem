@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build offline
+        # The site must build from committed JSON alone; if a page ever starts
+        # fetching at build time, this fails. The preload replaces fetch and the
+        # http primitives rather than blackholing a proxy, because Node's fetch
+        # ignores HTTP(S)_PROXY and a proxy-blocked build passes either way.
+        run: npm run build:offline

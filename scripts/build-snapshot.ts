@@ -84,7 +84,8 @@ async function recordPricing(models: schema.OpenRouterModel[]): Promise<ChangeEn
       blended3to1: model.pricing.blended3to1,
     }));
 
-  const changed = await appendChanges('token-pricing', rows, {
+  // Only genuine moves reach the feed; first observations are a backfill.
+  const { changed } = await appendChanges('token-pricing', rows, {
     trackedFields: ['inputPerMtok', 'outputPerMtok'],
   });
 
@@ -95,7 +96,7 @@ async function recordPricing(models: schema.OpenRouterModel[]): Promise<ChangeEn
       date,
       category: 'pricing' as const,
       severity: 'notable' as const,
-      title: `${model?.name ?? row.key} pricing observed`,
+      title: `${model?.name ?? row.key} price changed`,
       detail:
         `$${Number(row.inputPerMtok).toFixed(2)} in / ` +
         `$${Number(row.outputPerMtok).toFixed(2)} out per Mtok`,
@@ -189,7 +190,7 @@ async function main(): Promise<void> {
       // Sources that carry a time series append it before anything else, so a
       // later changelog failure cannot lose the day's observations.
       if (result.history) {
-        const appended = await appendChanges(result.history.series, result.history.rows, {
+        const { appended } = await appendChanges(result.history.series, result.history.rows, {
           trackedFields: result.history.trackedFields,
           alwaysAppend: result.history.alwaysAppend,
         });

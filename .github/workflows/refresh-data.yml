@@ -1,0 +1,101 @@
+name: Refresh data
+
+# Sources move on different clocks, so they refresh on different schedules.
+# Pulling 2.7 MB of XBRL per company daily for numbers that only change
+# quarterly would be both pointless and a good way to get blocked by EDGAR.
+on:
+  schedule:
+    # Daily 06:10 UTC — prices, token pricing, benchmarks.
+    - cron: '10 6 * * *'
+    # Mondays 06:40 UTC — SEC fundamentals and filings, HuggingFace.
+    - cron: '40 6 * * 1'
+    # 1st of the month 07:10 UTC — Epoch AI training compute.
+    - cron: '10 7 1 * *'
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: 'Which refresh tier to run'
+        required: false
+        default: 'daily'
+        type: choice
+        options: [daily, weekly, monthly, 'daily,weekly,monthly']
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Select tier
+        id: tier
+        run: |
+          case "${{ github.event.schedule }}" in
+            '40 6 * * 1')   echo "value=weekly"  >> "$GITHUB_OUTPUT" ;;
+            '10 7 1 * *')   echo "value=monthly" >> "$GITHUB_OUTPUT" ;;
+            '10 6 * * *')   echo "value=daily"   >> "$GITHUB_OUTPUT" ;;
+            *)              echo "value=${{ inputs.tier || 'daily' }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Fetch sources
+        id: fetch
+        env:
+          # SEC returns 403 without a contact address in the User-Agent.
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          # Absent, the Artificial Analysis fetcher skips rather than fails and
+          # the site keeps serving its last good benchmark snapshot.
+          ARTIFICIALANALYSIS_API_KEY: ${{ secrets.ARTIFICIALANALYSIS_API_KEY }}
+        # A failed source keeps its previous snapshot and is marked stale, so a
+        # non-zero exit is reported but must not stop the derive and commit.
+        continue-on-error: true
+        run: npm run data:fetch -- --tier ${{ steps.tier.outputs.value }}
+
+      - name: Rebuild seeded and derived data
+        run: |
+          npm run data:seed
+          npm run data:derive
+
+      - name: Verify tests still pass against the new data
+        run: npm test
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes."
+          else
+            # [skip ci] keeps this commit from re-triggering CI; the deploy below
+            # is dispatched explicitly instead, so the cron cannot loop.
+            git commit -m "chore(data): ${{ steps.tier.outputs.value }} refresh [skip ci]"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy the refreshed site
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "${{ github.ref_name }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Report source failures
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::warning::One or more sources failed to refresh. Previous snapshots were"
+          echo "::warning::retained and are flagged stale in the UI. See the fetch step log."

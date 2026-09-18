@@ -21,6 +21,10 @@ interface PricingRow {
 export function PricingTable({ rows }: { rows: PricingRow[] }) {
   const [query, setQuery] = useState('');
   const [creator, setCreator] = useState('all');
+  // Free-hosted open weights and promotional endpoints are real, but they
+  // occupy every row of a price-ascending sort with an answer of "free",
+  // burying the commercial pricing this table exists to show.
+  const [includeFree, setIncludeFree] = useState(false);
 
   const creators = useMemo(
     () =>
@@ -33,13 +37,14 @@ export function PricingTable({ rows }: { rows: PricingRow[] }) {
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
     return rows.filter((row) => {
+      if (!includeFree && (row.blended ?? 0) === 0) return false;
       if (creator !== 'all' && row.creator !== creator) return false;
       if (!needle) return true;
       return (
         row.name.toLowerCase().includes(needle) || row.creator.toLowerCase().includes(needle)
       );
     });
-  }, [rows, query, creator]);
+  }, [rows, query, creator, includeFree]);
 
   return (
     <div>
@@ -68,6 +73,15 @@ export function PricingTable({ rows }: { rows: PricingRow[] }) {
             </option>
           ))}
         </select>
+        <label className="flex items-center gap-1.5 text-[12px] text-[var(--text-secondary)]">
+          <input
+            type="checkbox"
+            checked={includeFree}
+            onChange={(event) => setIncludeFree(event.target.checked)}
+            className="size-3.5"
+          />
+          Include free tiers
+        </label>
         <span className="text-[12px] text-[var(--text-muted)]">
           {filtered.length} of {rows.length}
         </span>

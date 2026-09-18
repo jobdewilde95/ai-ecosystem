@@ -3,9 +3,7 @@ name: CI
 on:
   pull_request:
   push:
-    branches:
-      - main
-      - claude/exciting-wright-epveg3
+    branches: [main]
 
 jobs:
   check:

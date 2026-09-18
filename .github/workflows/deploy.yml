@@ -2,11 +2,10 @@ name: Deploy
 
 on:
   push:
-    # The repository's default branch. Both are listed so this keeps working
-    # if the default is later renamed to main.
-    branches:
-      - main
-      - claude/exciting-wright-epveg3
+    # main only. While the session branch was also listed, pushing the same
+    # commit to both raced two deploys into the `pages` concurrency group and
+    # cancel-in-progress killed one of them.
+    branches: [main]
     paths-ignore:
       - '**.md'
   workflow_dispatch:

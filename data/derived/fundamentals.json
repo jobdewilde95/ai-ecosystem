@@ -1,0 +1,8973 @@
+[
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "layers": [
+      "memory"
+    ],
+    "tags": [
+      "bottleneck"
+    ],
+    "ttm": {
+      "revenue": 90274000000,
+      "capex": 25260000000,
+      "operatingCashFlow": 51432000000,
+      "depreciation": 9011000000,
+      "interestExpense": 230000000,
+      "debtIssuance": 1748000000
+    },
+    "latest": {
+      "longTermDebt": 5140000000,
+      "cash": 24995000000,
+      "ppe": 30081000000,
+      "asOf": "2026-05-28"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-01",
+          "value": 3613000000
+        },
+        {
+          "end": "2022-12-01",
+          "value": 2449000000
+        },
+        {
+          "end": "2023-03-02",
+          "value": 2205000000
+        },
+        {
+          "end": "2023-06-01",
+          "value": 1561000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 1461000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 1796000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 1384000000
+        },
+        {
+          "end": "2024-05-30",
+          "value": 2086000000
+        },
+        {
+          "end": "2024-08-29",
+          "value": 3120000000
+        },
+        {
+          "end": "2024-11-28",
+          "value": 3206000000
+        },
+        {
+          "end": "2025-02-27",
+          "value": 4055000000
+        },
+        {
+          "end": "2025-05-29",
+          "value": 2938000000
+        },
+        {
+          "end": "2025-08-28",
+          "value": 5658000000
+        },
+        {
+          "end": "2025-11-27",
+          "value": 5389000000
+        },
+        {
+          "end": "2026-02-26",
+          "value": 6387000000
+        },
+        {
+          "end": "2026-05-28",
+          "value": 7826000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-01",
+          "value": 6643000000
+        },
+        {
+          "end": "2022-12-01",
+          "value": 4085000000
+        },
+        {
+          "end": "2023-03-02",
+          "value": 3693000000
+        },
+        {
+          "end": "2023-06-01",
+          "value": 3752000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 4010000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 4726000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 5824000000
+        },
+        {
+          "end": "2024-05-30",
+          "value": 6811000000
+        },
+        {
+          "end": "2024-08-29",
+          "value": 7750000000
+        },
+        {
+          "end": "2024-11-28",
+          "value": 8709000000
+        },
+        {
+          "end": "2025-02-27",
+          "value": 8053000000
+        },
+        {
+          "end": "2025-05-29",
+          "value": 9301000000
+        },
+        {
+          "end": "2025-08-28",
+          "value": 11315000000
+        },
+        {
+          "end": "2025-11-27",
+          "value": 13643000000
+        },
+        {
+          "end": "2026-02-26",
+          "value": 23860000000
+        },
+        {
+          "end": "2026-05-28",
+          "value": 41456000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-01",
+          "value": 1882000000
+        },
+        {
+          "end": "2022-12-01",
+          "value": 1921000000
+        },
+        {
+          "end": "2023-03-02",
+          "value": 1942000000
+        },
+        {
+          "end": "2023-06-01",
+          "value": 1956000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 1937000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 1915000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 1924000000
+        },
+        {
+          "end": "2024-05-30",
+          "value": 1955000000
+        },
+        {
+          "end": "2024-08-29",
+          "value": 1986000000
+        },
+        {
+          "end": "2024-11-28",
+          "value": 2030000000
+        },
+        {
+          "end": "2025-02-27",
+          "value": 2079000000
+        },
+        {
+          "end": "2025-05-29",
+          "value": 2094000000
+        },
+        {
+          "end": "2025-08-28",
+          "value": 2149000000
+        },
+        {
+          "end": "2025-11-27",
+          "value": 2212000000
+        },
+        {
+          "end": "2026-02-26",
+          "value": 2286000000
+        },
+        {
+          "end": "2026-05-28",
+          "value": 2364000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2021-09-02",
+          "value": 0
+        },
+        {
+          "end": "2021-12-02",
+          "value": 2000000000
+        },
+        {
+          "end": "2022-03-03",
+          "value": 0
+        },
+        {
+          "end": "2022-06-02",
+          "value": 0
+        },
+        {
+          "end": "2022-09-01",
+          "value": 0
+        },
+        {
+          "end": "2022-12-01",
+          "value": 3349000000
+        },
+        {
+          "end": "2023-03-02",
+          "value": 1872000000
+        },
+        {
+          "end": "2023-06-01",
+          "value": 1495000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 0
+        },
+        {
+          "end": "2023-11-30",
+          "value": 0
+        },
+        {
+          "end": "2024-02-29",
+          "value": 999000000
+        },
+        {
+          "end": "2024-05-30",
+          "value": 0
+        },
+        {
+          "end": "2024-08-29",
+          "value": 0
+        },
+        {
+          "end": "2025-05-29",
+          "value": 1748000000
+        },
+        {
+          "end": "2025-08-28",
+          "value": 0
+        },
+        {
+          "end": "2026-05-28",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 0
+      },
+      {
+        "label": "Year 2",
+        "value": 0
+      },
+      {
+        "label": "Year 3",
+        "value": 700000000
+      },
+      {
+        "label": "Year 4",
+        "value": 796000000
+      },
+      {
+        "label": "Year 5",
+        "value": 1955000000
+      },
+      {
+        "label": "After 5y",
+        "value": 7400000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 2.036104513064133,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 51432000000,
+          "ttmCapex": 25260000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 27.98147860956643,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 25260000000,
+          "ttmRevenue": 90274000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -156.9422999014387,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 10.03785566003175,
+          "revenueGrowthPct": 166.98015556147044
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 0.38823152102358083,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 230000000,
+          "ttmOperatingIncome": 59243000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 0,
+          "cash": 24995000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "layers": [
+      "foundry",
+      "silicon"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 57032000000,
+      "capex": 12105000000,
+      "operatingCashFlow": 14936000000,
+      "depreciation": 11435000000,
+      "interestExpense": 1150000000,
+      "debtIssuance": 0
+    },
+    "latest": {
+      "longTermDebt": 48549000000,
+      "cash": 12874000000,
+      "ppe": 80860000000,
+      "asOf": "2026-06-27"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-10-01",
+          "value": 7299000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 5699000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 7413000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 5888000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 5753000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 6696000000
+        },
+        {
+          "end": "2024-03-30",
+          "value": 5970000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 5682000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 6458000000
+        },
+        {
+          "end": "2024-12-28",
+          "value": 5834000000
+        },
+        {
+          "end": "2025-03-29",
+          "value": 5183000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 3550000000
+        },
+        {
+          "end": "2025-09-27",
+          "value": 2425000000
+        },
+        {
+          "end": "2025-12-27",
+          "value": 3488000000
+        },
+        {
+          "end": "2026-03-28",
+          "value": 3636000000
+        },
+        {
+          "end": "2026-06-27",
+          "value": 2556000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-10-01",
+          "value": 15338000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 14042000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 11715000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 12949000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 14158000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 15406000000
+        },
+        {
+          "end": "2024-03-30",
+          "value": 12724000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 12833000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 13284000000
+        },
+        {
+          "end": "2024-12-28",
+          "value": 14260000000
+        },
+        {
+          "end": "2025-03-29",
+          "value": 12667000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 12859000000
+        },
+        {
+          "end": "2025-09-27",
+          "value": 13653000000
+        },
+        {
+          "end": "2025-12-27",
+          "value": 13674000000
+        },
+        {
+          "end": "2026-03-28",
+          "value": 13577000000
+        },
+        {
+          "end": "2026-06-27",
+          "value": 16128000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-10-01",
+          "value": 2781000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 2819000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 1901000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 1832000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2020000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 2094000000
+        },
+        {
+          "end": "2024-03-30",
+          "value": 2200000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 2203000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 3248000000
+        },
+        {
+          "end": "2024-12-28",
+          "value": 2300000000
+        },
+        {
+          "end": "2025-03-29",
+          "value": 2425000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 2788000000
+        },
+        {
+          "end": "2025-09-27",
+          "value": 2758000000
+        },
+        {
+          "end": "2025-12-27",
+          "value": 2786000000
+        },
+        {
+          "end": "2026-03-28",
+          "value": 2902000000
+        },
+        {
+          "end": "2026-06-27",
+          "value": 2989000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-04-02",
+          "value": 0
+        },
+        {
+          "end": "2022-07-02",
+          "value": 0
+        },
+        {
+          "end": "2022-10-01",
+          "value": 6103000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 445000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 10968000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 0
+        },
+        {
+          "end": "2023-09-30",
+          "value": 423000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 0
+        },
+        {
+          "end": "2024-03-30",
+          "value": 2537000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 438000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 0
+        },
+        {
+          "end": "2024-12-28",
+          "value": 0
+        },
+        {
+          "end": "2025-03-29",
+          "value": 0
+        },
+        {
+          "end": "2025-06-28",
+          "value": 0
+        },
+        {
+          "end": "2025-09-27",
+          "value": 0
+        },
+        {
+          "end": "2025-12-27",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 2500000000
+      },
+      {
+        "label": "Year 2",
+        "value": 3826000000
+      },
+      {
+        "label": "Year 3",
+        "value": 3173000000
+      },
+      {
+        "label": "Year 4",
+        "value": 3288000000
+      },
+      {
+        "label": "Year 5",
+        "value": 2750000000
+      },
+      {
+        "label": "After 5y",
+        "value": 31698000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.2338703015282941,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 14936000000,
+          "ttmCapex": 12105000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 21.224926357132837,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 12105000000,
+          "ttmRevenue": 57032000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -1.2022530326285024,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 6.263358423938295,
+          "revenueGrowthPct": 7.465611456566798
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 1150000000,
+          "ttmOperatingIncome": -77000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.19418983998757186,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 2500000000,
+          "cash": 12874000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "tags": [
+      "circular-financier"
+    ],
+    "ttm": {
+      "revenue": 302969000000,
+      "capex": 7354000000,
+      "operatingCashFlow": 134360000000,
+      "depreciation": 3687000000,
+      "interestExpense": 463000000,
+      "debtIssuance": -8000000
+    },
+    "latest": {
+      "longTermDebt": 33366000000,
+      "cash": 22443000000,
+      "ppe": 14285000000,
+      "asOf": "2026-07-26"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-01-30",
+          "value": 273000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 509000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 248000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 289000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 278000000
+        },
+        {
+          "end": "2024-01-28",
+          "value": 254000000
+        },
+        {
+          "end": "2024-04-28",
+          "value": 369000000
+        },
+        {
+          "end": "2024-07-28",
+          "value": 977000000
+        },
+        {
+          "end": "2024-10-27",
+          "value": 813000000
+        },
+        {
+          "end": "2025-01-26",
+          "value": 1077000000
+        },
+        {
+          "end": "2025-04-27",
+          "value": 1227000000
+        },
+        {
+          "end": "2025-07-27",
+          "value": 1895000000
+        },
+        {
+          "end": "2025-10-26",
+          "value": 1636000000
+        },
+        {
+          "end": "2026-01-25",
+          "value": 1284000000
+        },
+        {
+          "end": "2026-04-26",
+          "value": 1757000000
+        },
+        {
+          "end": "2026-07-26",
+          "value": 2677000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-10-30",
+          "value": 5931000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 6051000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 7192000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 13507000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 18120000000
+        },
+        {
+          "end": "2024-01-28",
+          "value": 22103000000
+        },
+        {
+          "end": "2024-04-28",
+          "value": 26044000000
+        },
+        {
+          "end": "2024-07-28",
+          "value": 30040000000
+        },
+        {
+          "end": "2024-10-27",
+          "value": 35082000000
+        },
+        {
+          "end": "2025-01-26",
+          "value": 39331000000
+        },
+        {
+          "end": "2025-04-27",
+          "value": 44062000000
+        },
+        {
+          "end": "2025-07-27",
+          "value": 46743000000
+        },
+        {
+          "end": "2025-10-26",
+          "value": 57006000000
+        },
+        {
+          "end": "2026-01-25",
+          "value": 68127000000
+        },
+        {
+          "end": "2026-04-26",
+          "value": 81615000000
+        },
+        {
+          "end": "2026-07-26",
+          "value": 96221000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-10-30",
+          "value": 406000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 426000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 384000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 365000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 372000000
+        },
+        {
+          "end": "2024-01-28",
+          "value": 387000000
+        },
+        {
+          "end": "2024-04-28",
+          "value": 410000000
+        },
+        {
+          "end": "2024-07-28",
+          "value": 433000000
+        },
+        {
+          "end": "2024-10-27",
+          "value": 478000000
+        },
+        {
+          "end": "2025-01-26",
+          "value": 543000000
+        },
+        {
+          "end": "2025-04-27",
+          "value": 611000000
+        },
+        {
+          "end": "2025-07-27",
+          "value": 669000000
+        },
+        {
+          "end": "2025-10-26",
+          "value": 751000000
+        },
+        {
+          "end": "2026-01-25",
+          "value": 812000000
+        },
+        {
+          "end": "2026-04-26",
+          "value": 997000000
+        },
+        {
+          "end": "2026-07-26",
+          "value": 1127000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2019-04-28",
+          "value": 0
+        },
+        {
+          "end": "2019-07-28",
+          "value": 0
+        },
+        {
+          "end": "2019-10-27",
+          "value": 0
+        },
+        {
+          "end": "2020-01-26",
+          "value": 0
+        },
+        {
+          "end": "2020-04-26",
+          "value": 4979000000
+        },
+        {
+          "end": "2020-07-26",
+          "value": -8000000
+        },
+        {
+          "end": "2020-10-25",
+          "value": 0
+        },
+        {
+          "end": "2021-01-31",
+          "value": -3000000
+        },
+        {
+          "end": "2021-05-02",
+          "value": 0
+        },
+        {
+          "end": "2021-08-01",
+          "value": 4985000000
+        },
+        {
+          "end": "2021-10-31",
+          "value": -8000000
+        },
+        {
+          "end": "2022-01-30",
+          "value": 0
+        },
+        {
+          "end": "2022-10-30",
+          "value": 0
+        },
+        {
+          "end": "2023-01-29",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 18.270329072613542,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 134360000000,
+          "ttmCapex": 7354000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 2.4273110450244086,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 7354000000,
+          "ttmRevenue": 302969000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -23.140617517343415,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 60.234680573663624,
+          "revenueGrowthPct": 83.37529809100704
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 0.23433664508879992,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 463000000,
+          "ttmOperatingIncome": 197579000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": 22443000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "AMD",
+    "name": "AMD",
+    "layers": [
+      "silicon"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 41305000000,
+      "capex": 1677000000,
+      "operatingCashFlow": 10080000000,
+      "depreciation": 264000000,
+      "interestExpense": 147000000,
+      "debtIssuance": 0
+    },
+    "latest": {
+      "longTermDebt": 2351000000,
+      "cash": 5086000000,
+      "ppe": 3439000000,
+      "asOf": "2026-06-27"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-24",
+          "value": 123000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 124000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 158000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 125000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 124000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 139000000
+        },
+        {
+          "end": "2024-03-30",
+          "value": 142000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 154000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 132000000
+        },
+        {
+          "end": "2024-12-28",
+          "value": 208000000
+        },
+        {
+          "end": "2025-03-29",
+          "value": 212000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 282000000
+        },
+        {
+          "end": "2025-09-27",
+          "value": 258000000
+        },
+        {
+          "end": "2025-12-27",
+          "value": 222000000
+        },
+        {
+          "end": "2026-03-28",
+          "value": 389000000
+        },
+        {
+          "end": "2026-06-27",
+          "value": 808000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-24",
+          "value": 5565000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 5599000000
+        },
+        {
+          "end": "2023-04-01",
+          "value": 5353000000
+        },
+        {
+          "end": "2023-07-01",
+          "value": 5359000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 5800000000
+        },
+        {
+          "end": "2023-12-30",
+          "value": 6168000000
+        },
+        {
+          "end": "2024-03-30",
+          "value": 5473000000
+        },
+        {
+          "end": "2024-06-29",
+          "value": 5835000000
+        },
+        {
+          "end": "2024-09-28",
+          "value": 6819000000
+        },
+        {
+          "end": "2024-12-28",
+          "value": 7658000000
+        },
+        {
+          "end": "2025-03-29",
+          "value": 7438000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 7685000000
+        },
+        {
+          "end": "2025-09-27",
+          "value": 9246000000
+        },
+        {
+          "end": "2025-12-27",
+          "value": 10270000000
+        },
+        {
+          "end": "2026-03-28",
+          "value": 10253000000
+        },
+        {
+          "end": "2026-06-27",
+          "value": 11536000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2019-03-30",
+          "value": 46000000
+        },
+        {
+          "end": "2019-06-29",
+          "value": 52000000
+        },
+        {
+          "end": "2019-09-28",
+          "value": 60000000
+        },
+        {
+          "end": "2019-12-28",
+          "value": 64000000
+        },
+        {
+          "end": "2020-03-28",
+          "value": 68000000
+        },
+        {
+          "end": "2020-06-27",
+          "value": 72000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2024-03-30",
+          "value": 0
+        },
+        {
+          "end": "2024-06-29",
+          "value": 0
+        },
+        {
+          "end": "2024-09-28",
+          "value": 0
+        },
+        {
+          "end": "2025-03-29",
+          "value": 2441000000
+        },
+        {
+          "end": "2025-06-28",
+          "value": 0
+        },
+        {
+          "end": "2025-09-27",
+          "value": 0
+        },
+        {
+          "end": "2026-03-28",
+          "value": 0
+        },
+        {
+          "end": "2026-06-27",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 875000000
+      },
+      {
+        "label": "Year 2",
+        "value": 750000000
+      },
+      {
+        "label": "Year 3",
+        "value": 625000000
+      },
+      {
+        "label": "Year 4",
+        "value": 0
+      },
+      {
+        "label": "Year 5",
+        "value": 750000000
+      },
+      {
+        "label": "After 5y",
+        "value": 1000000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 6.010733452593918,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 10080000000,
+          "ttmCapex": 1677000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 4.060041157244886,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 1677000000,
+          "ttmRevenue": 41305000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": null,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": null,
+          "revenueGrowthPct": 39.54391891891892
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 2.2657213316892726,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 147000000,
+          "ttmOperatingIncome": 6488000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.1720408965788439,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 875000000,
+          "cash": 5086000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 89104000000,
+      "capex": 1250000000,
+      "operatingCashFlow": 40653000000,
+      "depreciation": 632000000,
+      "interestExpense": 3162000000,
+      "debtIssuance": 9445000000
+    },
+    "latest": {
+      "longTermDebt": 61079000000,
+      "cash": 23975000000,
+      "ppe": 3144000000,
+      "asOf": "2026-08-02"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-10-30",
+          "value": 122000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 103000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 122000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 122000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 105000000
+        },
+        {
+          "end": "2024-02-04",
+          "value": 122000000
+        },
+        {
+          "end": "2024-05-05",
+          "value": 132000000
+        },
+        {
+          "end": "2024-08-04",
+          "value": 172000000
+        },
+        {
+          "end": "2024-11-03",
+          "value": 122000000
+        },
+        {
+          "end": "2025-02-02",
+          "value": 100000000
+        },
+        {
+          "end": "2025-05-04",
+          "value": 144000000
+        },
+        {
+          "end": "2025-08-03",
+          "value": 142000000
+        },
+        {
+          "end": "2025-11-02",
+          "value": 237000000
+        },
+        {
+          "end": "2026-02-01",
+          "value": 250000000
+        },
+        {
+          "end": "2026-05-03",
+          "value": 231000000
+        },
+        {
+          "end": "2026-08-02",
+          "value": 532000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-10-30",
+          "value": 8930000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 8915000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 8733000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 8876000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 9295000000
+        },
+        {
+          "end": "2024-02-04",
+          "value": 11961000000
+        },
+        {
+          "end": "2024-05-05",
+          "value": 12487000000
+        },
+        {
+          "end": "2024-08-04",
+          "value": 13072000000
+        },
+        {
+          "end": "2024-11-03",
+          "value": 14054000000
+        },
+        {
+          "end": "2025-02-02",
+          "value": 14916000000
+        },
+        {
+          "end": "2025-05-04",
+          "value": 15004000000
+        },
+        {
+          "end": "2025-08-03",
+          "value": 15952000000
+        },
+        {
+          "end": "2025-11-02",
+          "value": 18015000000
+        },
+        {
+          "end": "2026-02-01",
+          "value": 19311000000
+        },
+        {
+          "end": "2026-05-03",
+          "value": 22187000000
+        },
+        {
+          "end": "2026-08-02",
+          "value": 29591000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-10-30",
+          "value": 129000000
+        },
+        {
+          "end": "2023-01-29",
+          "value": 127000000
+        },
+        {
+          "end": "2023-04-30",
+          "value": 129000000
+        },
+        {
+          "end": "2023-07-30",
+          "value": 122000000
+        },
+        {
+          "end": "2023-10-29",
+          "value": 124000000
+        },
+        {
+          "end": "2024-02-04",
+          "value": 139000000
+        },
+        {
+          "end": "2024-05-05",
+          "value": 149000000
+        },
+        {
+          "end": "2024-08-04",
+          "value": 149000000
+        },
+        {
+          "end": "2024-11-03",
+          "value": 156000000
+        },
+        {
+          "end": "2025-02-02",
+          "value": 142000000
+        },
+        {
+          "end": "2025-05-04",
+          "value": 142000000
+        },
+        {
+          "end": "2025-08-03",
+          "value": 142000000
+        },
+        {
+          "end": "2025-11-02",
+          "value": 148000000
+        },
+        {
+          "end": "2026-02-01",
+          "value": 150000000
+        },
+        {
+          "end": "2026-05-03",
+          "value": 163000000
+        },
+        {
+          "end": "2026-08-02",
+          "value": 171000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-10-30",
+          "value": 0
+        },
+        {
+          "end": "2023-01-29",
+          "value": 0
+        },
+        {
+          "end": "2023-04-30",
+          "value": 0
+        },
+        {
+          "end": "2023-07-30",
+          "value": 0
+        },
+        {
+          "end": "2023-10-29",
+          "value": 0
+        },
+        {
+          "end": "2024-02-04",
+          "value": 30010000000
+        },
+        {
+          "end": "2024-05-05",
+          "value": 0
+        },
+        {
+          "end": "2024-08-04",
+          "value": 4975000000
+        },
+        {
+          "end": "2024-11-03",
+          "value": 4969000000
+        },
+        {
+          "end": "2025-02-02",
+          "value": 2986000000
+        },
+        {
+          "end": "2025-05-04",
+          "value": 749000000
+        },
+        {
+          "end": "2025-08-03",
+          "value": 6960000000
+        },
+        {
+          "end": "2025-11-02",
+          "value": 4971000000
+        },
+        {
+          "end": "2026-02-01",
+          "value": 4474000000
+        },
+        {
+          "end": "2026-05-03",
+          "value": 0
+        },
+        {
+          "end": "2026-08-02",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 0
+      },
+      {
+        "label": "Year 2",
+        "value": 5127000000
+      },
+      {
+        "label": "Year 3",
+        "value": 2405000000
+      },
+      {
+        "label": "Year 4",
+        "value": 6406000000
+      },
+      {
+        "label": "Year 5",
+        "value": 6406000000
+      },
+      {
+        "label": "After 5y",
+        "value": 43287000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 32.5224,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 40653000000,
+          "ttmCapex": 1250000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 1.402855090680553,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 1250000000,
+          "ttmRevenue": 89104000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -40.098985770881455,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 8.59106529209622,
+          "revenueGrowthPct": 48.69005106297767
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 7.3854346709020415,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 3162000000,
+          "ttmOperatingIncome": 42814000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 0,
+          "cash": 23975000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 9450300000,
+      "capex": 470200000,
+      "operatingCashFlow": 2200300000,
+      "depreciation": null,
+      "interestExpense": 204600000,
+      "debtIssuance": 998900000
+    },
+    "latest": {
+      "longTermDebt": 4962900000,
+      "cash": 3932800000,
+      "ppe": 1071000000,
+      "asOf": "2026-08-01"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-10-29",
+          "value": 42700000
+        },
+        {
+          "end": "2023-01-28",
+          "value": 54000000
+        },
+        {
+          "end": "2023-04-29",
+          "value": 99800000
+        },
+        {
+          "end": "2023-07-29",
+          "value": 111100000
+        },
+        {
+          "end": "2023-10-28",
+          "value": 54400000
+        },
+        {
+          "end": "2024-02-03",
+          "value": 71000000
+        },
+        {
+          "end": "2024-05-04",
+          "value": 91500000
+        },
+        {
+          "end": "2024-08-03",
+          "value": 48200000
+        },
+        {
+          "end": "2024-11-02",
+          "value": 75000000
+        },
+        {
+          "end": "2025-02-01",
+          "value": 69900000
+        },
+        {
+          "end": "2025-05-03",
+          "value": 118800000
+        },
+        {
+          "end": "2025-08-02",
+          "value": 47500000
+        },
+        {
+          "end": "2025-11-01",
+          "value": 73500000
+        },
+        {
+          "end": "2026-01-31",
+          "value": 114300000
+        },
+        {
+          "end": "2026-05-02",
+          "value": 155700000
+        },
+        {
+          "end": "2026-08-01",
+          "value": 126700000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-10-29",
+          "value": 1537300000
+        },
+        {
+          "end": "2023-01-28",
+          "value": 1418500000
+        },
+        {
+          "end": "2023-04-29",
+          "value": 1321700000
+        },
+        {
+          "end": "2023-07-29",
+          "value": 1340900000
+        },
+        {
+          "end": "2023-10-28",
+          "value": 1418600000
+        },
+        {
+          "end": "2024-02-03",
+          "value": 1426500000
+        },
+        {
+          "end": "2024-05-04",
+          "value": 1160900000
+        },
+        {
+          "end": "2024-08-03",
+          "value": 1272900000
+        },
+        {
+          "end": "2024-11-02",
+          "value": 1516100000
+        },
+        {
+          "end": "2025-02-01",
+          "value": 1817400000
+        },
+        {
+          "end": "2025-05-03",
+          "value": 1895300000
+        },
+        {
+          "end": "2025-08-02",
+          "value": 2006100000
+        },
+        {
+          "end": "2025-11-01",
+          "value": 2074500000
+        },
+        {
+          "end": "2026-01-31",
+          "value": 2218700000
+        },
+        {
+          "end": "2026-05-02",
+          "value": 2417800000
+        },
+        {
+          "end": "2026-08-01",
+          "value": 2739300000
+        }
+      ],
+      "depreciation": [],
+      "debtIssuance": [
+        {
+          "end": "2024-11-02",
+          "value": 0
+        },
+        {
+          "end": "2025-02-01",
+          "value": 0
+        },
+        {
+          "end": "2025-05-03",
+          "value": 200000000
+        },
+        {
+          "end": "2025-08-02",
+          "value": 998600000
+        },
+        {
+          "end": "2025-11-01",
+          "value": 0
+        },
+        {
+          "end": "2026-01-31",
+          "value": 0
+        },
+        {
+          "end": "2026-05-02",
+          "value": 998900000
+        },
+        {
+          "end": "2026-08-01",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 0
+      },
+      {
+        "label": "Year 2",
+        "value": 1249900000
+      },
+      {
+        "label": "Year 3",
+        "value": 500000000
+      },
+      {
+        "label": "Year 4",
+        "value": 500000000
+      },
+      {
+        "label": "Year 5",
+        "value": 500000000
+      },
+      {
+        "label": "After 5y",
+        "value": 1750000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 4.679498085920884,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 2200300000,
+          "ttmCapex": 470200000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 4.975503423171751,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 470200000,
+          "ttmRevenue": 9450300000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": null,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": null,
+          "revenueGrowthPct": 30.621017567623603
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 13.10446422852751,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 204600000,
+          "ttmOperatingIncome": 1561300000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 0,
+          "cash": 3932800000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "layers": [
+      "networking"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 10540800000,
+      "capex": 138300000,
+      "operatingCashFlow": 5306600000,
+      "depreciation": 92700000,
+      "interestExpense": null,
+      "debtIssuance": null
+    },
+    "latest": {
+      "longTermDebt": null,
+      "cash": 2290200000,
+      "ppe": 312500000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2021-06-30",
+          "value": 4471000
+        },
+        {
+          "end": "2021-09-30",
+          "value": 45888000
+        },
+        {
+          "end": "2022-03-31",
+          "value": 14876000
+        },
+        {
+          "end": "2022-06-30",
+          "value": 8868000
+        },
+        {
+          "end": "2022-09-30",
+          "value": 10440000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 5631000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 11581000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 11212000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 9400000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 3200000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 7000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 28400000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 24000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 30100000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 54500000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 29700000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 1176801000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 1275552000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1351351000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 1458924000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1509456000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 1540469000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 1571400000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 1690400000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 1810900000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 1930400000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 2004800000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 2204800000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 2308300000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 2487800000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2709000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 3035700000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 17157000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 17531000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 20905000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 18322000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 17006000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 14367000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 15600000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 15500000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 15600000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 15300000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 13800000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 12800000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 23200000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 22800000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 23300000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 23400000
+        }
+      ],
+      "debtIssuance": []
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 38.370209689081705,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 5306600000,
+          "ttmCapex": 138300000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 1.3120446265938068,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 138300000,
+          "ttmRevenue": 10540800000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 28.64372039916727,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 61.21739130434782,
+          "revenueGrowthPct": 32.57367090518055
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": null,
+          "ttmOperatingIncome": 4546900000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": 2290200000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "layers": [
+      "systems"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 151197000000,
+      "capex": 3592000000,
+      "operatingCashFlow": 12152000000,
+      "depreciation": 3041000000,
+      "interestExpense": 1597000000,
+      "debtIssuance": 14585000000
+    },
+    "latest": {
+      "longTermDebt": 25985000000,
+      "cash": 11569000000,
+      "ppe": 7417000000,
+      "asOf": "2026-07-31"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-10-28",
+          "value": 747000000
+        },
+        {
+          "end": "2023-02-03",
+          "value": 759000000
+        },
+        {
+          "end": "2023-05-05",
+          "value": 701000000
+        },
+        {
+          "end": "2023-08-04",
+          "value": 624000000
+        },
+        {
+          "end": "2023-11-03",
+          "value": 704000000
+        },
+        {
+          "end": "2024-02-02",
+          "value": 727000000
+        },
+        {
+          "end": "2024-05-03",
+          "value": 596000000
+        },
+        {
+          "end": "2024-08-02",
+          "value": 682000000
+        },
+        {
+          "end": "2024-11-01",
+          "value": 639000000
+        },
+        {
+          "end": "2025-01-31",
+          "value": 735000000
+        },
+        {
+          "end": "2025-05-02",
+          "value": 568000000
+        },
+        {
+          "end": "2025-08-01",
+          "value": 675000000
+        },
+        {
+          "end": "2025-10-31",
+          "value": 669000000
+        },
+        {
+          "end": "2026-01-30",
+          "value": 721000000
+        },
+        {
+          "end": "2026-05-01",
+          "value": 963000000
+        },
+        {
+          "end": "2026-07-31",
+          "value": 1239000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-10-28",
+          "value": 24721000000
+        },
+        {
+          "end": "2023-02-03",
+          "value": 25039000000
+        },
+        {
+          "end": "2023-05-05",
+          "value": 20922000000
+        },
+        {
+          "end": "2023-08-04",
+          "value": 22934000000
+        },
+        {
+          "end": "2023-11-03",
+          "value": 22251000000
+        },
+        {
+          "end": "2024-02-02",
+          "value": 22318000000
+        },
+        {
+          "end": "2024-05-03",
+          "value": 22244000000
+        },
+        {
+          "end": "2024-08-02",
+          "value": 25026000000
+        },
+        {
+          "end": "2024-11-01",
+          "value": 24366000000
+        },
+        {
+          "end": "2025-01-31",
+          "value": 23931000000
+        },
+        {
+          "end": "2025-05-02",
+          "value": 23378000000
+        },
+        {
+          "end": "2025-08-01",
+          "value": 29776000000
+        },
+        {
+          "end": "2025-10-31",
+          "value": 27005000000
+        },
+        {
+          "end": "2026-01-30",
+          "value": 33379000000
+        },
+        {
+          "end": "2026-05-01",
+          "value": 43842000000
+        },
+        {
+          "end": "2026-07-31",
+          "value": 46971000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-10-28",
+          "value": 832000000
+        },
+        {
+          "end": "2023-02-03",
+          "value": 854000000
+        },
+        {
+          "end": "2023-05-05",
+          "value": 809000000
+        },
+        {
+          "end": "2023-08-04",
+          "value": 831000000
+        },
+        {
+          "end": "2023-11-03",
+          "value": 822000000
+        },
+        {
+          "end": "2024-02-02",
+          "value": 841000000
+        },
+        {
+          "end": "2024-05-03",
+          "value": 800000000
+        },
+        {
+          "end": "2024-08-02",
+          "value": 784000000
+        },
+        {
+          "end": "2024-11-01",
+          "value": 765000000
+        },
+        {
+          "end": "2025-01-31",
+          "value": 774000000
+        },
+        {
+          "end": "2025-05-02",
+          "value": 738000000
+        },
+        {
+          "end": "2025-08-01",
+          "value": 762000000
+        },
+        {
+          "end": "2025-10-31",
+          "value": 756000000
+        },
+        {
+          "end": "2026-01-30",
+          "value": 773000000
+        },
+        {
+          "end": "2026-05-01",
+          "value": 758000000
+        },
+        {
+          "end": "2026-07-31",
+          "value": 754000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-10-28",
+          "value": 2314000000
+        },
+        {
+          "end": "2023-02-03",
+          "value": 3700000000
+        },
+        {
+          "end": "2023-05-05",
+          "value": 2521000000
+        },
+        {
+          "end": "2023-08-04",
+          "value": 2134000000
+        },
+        {
+          "end": "2023-11-03",
+          "value": 2249000000
+        },
+        {
+          "end": "2024-02-02",
+          "value": 871000000
+        },
+        {
+          "end": "2024-05-03",
+          "value": 2992000000
+        },
+        {
+          "end": "2024-08-02",
+          "value": 1941000000
+        },
+        {
+          "end": "2024-11-01",
+          "value": 3680000000
+        },
+        {
+          "end": "2025-01-31",
+          "value": 645000000
+        },
+        {
+          "end": "2025-05-02",
+          "value": 6308000000
+        },
+        {
+          "end": "2025-08-01",
+          "value": 962000000
+        },
+        {
+          "end": "2025-10-31",
+          "value": 6502000000
+        },
+        {
+          "end": "2026-01-30",
+          "value": 1232000000
+        },
+        {
+          "end": "2026-05-01",
+          "value": 2465000000
+        },
+        {
+          "end": "2026-07-31",
+          "value": 4386000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 4489000000
+      },
+      {
+        "label": "Year 2",
+        "value": 3651000000
+      },
+      {
+        "label": "Year 3",
+        "value": 3942000000
+      },
+      {
+        "label": "Year 4",
+        "value": 1773000000
+      },
+      {
+        "label": "Year 5",
+        "value": 1763000000
+      },
+      {
+        "label": "After 5y",
+        "value": 12535000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 3.3830734966592426,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 12152000000,
+          "ttmCapex": 3592000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 2.375708512735041,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 3592000000,
+          "ttmRevenue": 151197000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -48.96869814840563,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 0.06581112207963145,
+          "revenueGrowthPct": 49.03450927048526
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 11.205444849845636,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 1597000000,
+          "ttmOperatingIncome": 14252000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.388019707839917,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 4489000000,
+          "cash": 11569000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "SMCI",
+    "name": "Super Micro Computer",
+    "layers": [
+      "systems"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 39063072000,
+      "capex": 161999000,
+      "operatingCashFlow": -6809886000,
+      "depreciation": 53000000,
+      "interestExpense": 194574000,
+      "debtIssuance": 4468808000
+    },
+    "latest": {
+      "longTermDebt": 4056148000,
+      "cash": 7521474000,
+      "ppe": 625553000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 10746000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 9885000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 7987000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 8175000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2631000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 14720000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 92945000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 13983000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 44300000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 27536000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 32700000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 22678000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 32270000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 21221000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 80278000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 28230000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 1852130000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 1803195000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1283296000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 2184861000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2119672000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 3664924000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 3850066000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 5354589000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 5937256000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 5677962000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 4599913000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 5756911000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 5017790000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 12682491000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 10243014000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 11119777000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 8547000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 8649000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 8736000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 968000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 7000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 7300000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 7600000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 8200000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 9000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 9500000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 10900000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 11600000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 12100000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 12800000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 13500000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 14600000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 79141000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 64896000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 20289000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 929534000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 0
+        },
+        {
+          "end": "2023-12-31",
+          "value": 857683000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 961167000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 337679000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 1185034000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 121743000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 51214000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 30000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 28588000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 210212000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 3996465000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 233543000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 2039774000
+      },
+      {
+        "label": "Year 2",
+        "value": 6061000
+      },
+      {
+        "label": "Year 3",
+        "value": 5381000
+      },
+      {
+        "label": "Year 4",
+        "value": 4932000
+      },
+      {
+        "label": "Year 5",
+        "value": 2000000000
+      },
+      {
+        "label": "After 5y",
+        "value": 4827000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": -42.03659281847419,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": -6809886000,
+          "ttmCapex": 161999000
+        },
+        "unit": "ratio",
+        "caveat": "Operations consumed cash over the trailing year"
+      },
+      "capexIntensity": {
+        "value": 0.41471136729850633,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 161999000,
+          "ttmRevenue": 39063072000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -48.51705835545185,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 29.268292682926827,
+          "revenueGrowthPct": 77.78535103837868
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 7.023099918209297,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 194574000,
+          "ttmOperatingIncome": 2770486000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.2711933857645456,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 2039774000,
+          "cash": 7521474000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "EQIX",
+    "name": "Equinix",
+    "layers": [
+      "datacenter"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 9805000000,
+      "capex": 5406000000,
+      "operatingCashFlow": 3942000000,
+      "depreciation": 2164000000,
+      "interestExpense": 569000000,
+      "debtIssuance": 4664000000
+    },
+    "latest": {
+      "longTermDebt": 19873000000,
+      "cash": 979000000,
+      "ppe": 25222000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 552729000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 827923000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 530000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 638000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 617000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 996000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 707000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 648000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 724000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 987000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 750000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 989000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 1136000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1436000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1256000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 1578000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 1840659000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 1870740000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 2225000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 2019000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2061000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 2110000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 2127000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 2159000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 2201000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 2261000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 2225000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 2256000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 2316000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 2420000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2444000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 2625000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 430192000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 438198000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 457000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 462000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 463000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 463000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 526000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 489000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 496000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 498000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 479000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 499000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 530000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 542000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 541000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 551000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 0
+        },
+        {
+          "end": "2022-12-31",
+          "value": 312000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 565000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": -1000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 338000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 0
+        },
+        {
+          "end": "2024-03-31",
+          "value": 0
+        },
+        {
+          "end": "2024-06-30",
+          "value": 744000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 780000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 1244000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 370000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 1696000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 500000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1745000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1492000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 927000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 1076000000
+      },
+      {
+        "label": "Year 2",
+        "value": 1426000000
+      },
+      {
+        "label": "Year 3",
+        "value": 2185000000
+      },
+      {
+        "label": "Year 4",
+        "value": 3194000000
+      },
+      {
+        "label": "Year 5",
+        "value": 2739000000
+      },
+      {
+        "label": "After 5y",
+        "value": 9598000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.7291897891231964,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 3942000000,
+          "ttmCapex": 5406000000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 55.13513513513514,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 5406000000,
+          "ttmRevenue": 9805000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 0.09748465546613616,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 9.73630831643002,
+          "revenueGrowthPct": 9.638823660963883
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 26.613657623947613,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 569000000,
+          "ttmOperatingIncome": 2138000000
+        },
+        "unit": "percent",
+        "caveat": "Interest consuming a quarter of operating income"
+      },
+      "refinancingRisk": {
+        "value": 1.0990806945863125,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 1076000000,
+          "cash": 979000000
+        },
+        "unit": "ratio",
+        "caveat": "Maturities exceed cash on hand"
+      }
+    }
+  },
+  {
+    "ticker": "DLR",
+    "name": "Digital Realty",
+    "layers": [
+      "datacenter"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 6340228000,
+      "capex": 3263914000,
+      "operatingCashFlow": 2545472000,
+      "depreciation": 1951138000,
+      "interestExpense": 455867000,
+      "debtIssuance": 2656630000
+    },
+    "latest": {
+      "longTermDebt": 842245000,
+      "cash": 2426631000,
+      "ppe": null,
+      "asOf": "2026-03-31"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-06-30",
+          "value": 548293000
+        },
+        {
+          "end": "2022-09-30",
+          "value": 686493000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 889577000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 738677000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 629983000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1097802000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 1059136000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 659315000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 655485000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 781530000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 735410000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 787303000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 704323000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 687392000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1002161000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 870038000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-06-30",
+          "value": 1139322000
+        },
+        {
+          "end": "2022-09-30",
+          "value": 1192083000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 1233107000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1338723000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 1366267000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1402432000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 1369639000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 1331143000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 1356749000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 1431214000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 1435862000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 1407637000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 1493150000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 1577234000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1634671000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1635173000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-06-30",
+          "value": 376967000
+        },
+        {
+          "end": "2022-09-30",
+          "value": 388704000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 430130000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 421198000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 432573000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 420613000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 420475000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 431102000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 425343000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 459997000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 455355000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 443009000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 461167000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 497002000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 493458000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 499511000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-06-30",
+          "value": 133000
+        },
+        {
+          "end": "2022-09-30",
+          "value": 1301414000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 364162000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 790962000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 15223000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 21574000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 41373000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 5568000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 41383000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 980556000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 1207492000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 871286000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 997607000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 7438000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1612577000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 39008000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 980936000
+      },
+      {
+        "label": "Year 2",
+        "value": 2795284000
+      },
+      {
+        "label": "Year 3",
+        "value": 3449538000
+      },
+      {
+        "label": "Year 4",
+        "value": 1396780000
+      },
+      {
+        "label": "Year 5",
+        "value": 2395725000
+      },
+      {
+        "label": "After 5y",
+        "value": 6519389000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.7798832934936398,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 2545472000,
+          "ttmCapex": 3263914000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 51.47944206422861,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 3263914000,
+          "ttmRevenue": 6340228000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -3.1989544834035097,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 9.386871364307083,
+          "revenueGrowthPct": 12.585825847710593
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 62.40069098813493,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 455867000,
+          "ttmOperatingIncome": 730548000
+        },
+        "unit": "percent",
+        "caveat": "Interest consuming a quarter of operating income"
+      },
+      "refinancingRisk": {
+        "value": 0.4042378095392336,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 980936000,
+          "cash": 2426631000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "VRT",
+    "name": "Vertiv Holdings",
+    "layers": [
+      "datacenter"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 11479600000,
+      "capex": 424400000,
+      "operatingCashFlow": 3354200000,
+      "depreciation": 117600000,
+      "interestExpense": 52500000,
+      "debtIssuance": 2100000000
+    },
+    "latest": {
+      "longTermDebt": 2939800000,
+      "cash": 2810600000,
+      "ppe": 1184200000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 23500000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 38300000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 27800000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 25800000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 26500000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 47800000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 35800000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 34100000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 36400000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 60700000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 36500000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 45000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 45200000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 93300000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 112600000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 173300000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 1481100000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 1654600000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1521100000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 1734100000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1742600000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 1865400000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 1639100000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 1952800000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 2073500000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 2346400000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 2036000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 2638100000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 2675800000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 2880000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2649500000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 3274300000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 17800000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 18700000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 17700000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 18000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 18900000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 19700000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 19800000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 20100000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 20800000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 20900000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 22900000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 23500000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 24500000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 26200000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 27500000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 39400000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2100000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 20900000
+      },
+      {
+        "label": "Year 2",
+        "value": 20900000
+      },
+      {
+        "label": "Year 3",
+        "value": 870900000
+      },
+      {
+        "label": "Year 4",
+        "value": 20900000
+      },
+      {
+        "label": "Year 5",
+        "value": 20900000
+      },
+      {
+        "label": "After 5y",
+        "value": 850000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 7.9033930254476905,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 3354200000,
+          "ttmCapex": 424400000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 3.696992926582808,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 424400000,
+          "ttmRevenue": 11479600000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 7.251995615474847,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 33.48467650397276,
+          "revenueGrowthPct": 26.23268088849791
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 2.41423710107606,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 52500000,
+          "ttmOperatingIncome": 2174600000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.007436134633174411,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 20900000,
+          "cash": 2810600000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "layers": [
+      "datacenter",
+      "power"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 30025000000,
+      "capex": 1016000000,
+      "operatingCashFlow": 4950000000,
+      "depreciation": 1184000000,
+      "interestExpense": 444000000,
+      "debtIssuance": 9871000000
+    },
+    "latest": {
+      "longTermDebt": 18509000000,
+      "cash": 483000000,
+      "ppe": 4702000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 135000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 209000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 126000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 160000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 228000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 243000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 183000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 187000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 183000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 255000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 147000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 202000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 178000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 392000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 193000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 253000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 5313000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 5384000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 5483000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 5866000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 5880000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 5967000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 5943000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 6350000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 6345000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 6240000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 6377000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 7028000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 6988000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 7055000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 7451000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 8531000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 237000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 238000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 238000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 228000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 229000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 231000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 225000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 227000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 235000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 234000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 232000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 261000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 258000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 255000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 272000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 399000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 1995000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 0
+        },
+        {
+          "end": "2023-03-31",
+          "value": 318000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 500000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 0
+        },
+        {
+          "end": "2023-12-31",
+          "value": 0
+        },
+        {
+          "end": "2024-03-31",
+          "value": 0
+        },
+        {
+          "end": "2024-06-30",
+          "value": 1084000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 0
+        },
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 1058000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
+          "end": "2025-12-31",
+          "value": 0
+        },
+        {
+          "end": "2026-03-31",
+          "value": 9871000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 1136000000
+      },
+      {
+        "label": "Year 2",
+        "value": 706000000
+      },
+      {
+        "label": "Year 3",
+        "value": 504000000
+      },
+      {
+        "label": "Year 4",
+        "value": 203000000
+      },
+      {
+        "label": "Year 5",
+        "value": 1206000000
+      },
+      {
+        "label": "After 5y",
+        "value": 685000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 4.872047244094488,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 4950000000,
+          "ttmCapex": 1016000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 3.3838467943380515,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 1016000000,
+          "ttmRevenue": 30025000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 7.551721076153548,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 23.076923076923077,
+          "revenueGrowthPct": 15.525202000769529
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 444000000,
+          "ttmOperatingIncome": null
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 2.351966873706004,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 1136000000,
+          "cash": 483000000
+        },
+        "unit": "ratio",
+        "caveat": "Maturities exceed cash on hand"
+      }
+    }
+  },
+  {
+    "ticker": "PWR",
+    "name": "Quanta Services",
+    "layers": [
+      "datacenter",
+      "power"
+    ],
+    "tags": [
+      "bottleneck"
+    ],
+    "ttm": {
+      "revenue": 32905140000,
+      "capex": 787091000,
+      "operatingCashFlow": 3178249000,
+      "depreciation": 445131000,
+      "interestExpense": 294369000,
+      "debtIssuance": null
+    },
+    "latest": {
+      "longTermDebt": 5421862000,
+      "cash": 506431000,
+      "ppe": 1390209000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 105958000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 90161000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 80319000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 105278000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 139800000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 109406000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 83139000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 161456000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 212498000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 146985000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 132762000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 140349000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 142449000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 193594000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 220093000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 230955000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 4459757000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 4416618000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 4428826000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 5048610000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 5620822000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 5783948000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 5031819000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 5594387000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 6493167000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 6553422000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 6233334000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 6773007000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 7631408000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 7841948000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 7874787000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 9556997000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 73507000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 72227000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 78382000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 79876000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 81488000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 85040000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 88895000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 83651000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 89979000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 96838000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 98114000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 98725000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 103875000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 110824000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 113294000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 117138000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2023-12-31",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 0
+        },
+        {
+          "end": "2025-12-31",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 689829000
+      },
+      {
+        "label": "Year 2",
+        "value": 615086000
+      },
+      {
+        "label": "Year 3",
+        "value": 511556000
+      },
+      {
+        "label": "Year 4",
+        "value": 9026000
+      },
+      {
+        "label": "Year 5",
+        "value": 1321920000
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 4.037968926083515,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 3178249000,
+          "ttmCapex": 787091000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 2.3920001555987906,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 787091000,
+          "ttmRevenue": 32905140000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -10.277641913016094,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 16.023468940926247,
+          "revenueGrowthPct": 26.30111085394234
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 14.45991396820547,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 294369000,
+          "ttmOperatingIncome": 2035759000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 1.362138178744982,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 689829000,
+          "cash": 506431000
+        },
+        "unit": "ratio",
+        "caveat": "Maturities exceed cash on hand"
+      }
+    }
+  },
+  {
+    "ticker": "CEG",
+    "name": "Constellation Energy",
+    "layers": [
+      "power"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 31270000000,
+      "capex": 3897000000,
+      "operatingCashFlow": 4206000000,
+      "depreciation": 3669000000,
+      "interestExpense": 783000000,
+      "debtIssuance": 5001000000
+    },
+    "latest": {
+      "longTermDebt": 19111000000,
+      "cash": 697000000,
+      "ppe": 41228000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 290000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 599000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 660000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 676000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 399000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 687000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 738000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 546000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 552000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 729000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 806000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 767000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 390000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 986000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1275000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 1246000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 6051000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 7333000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 7565000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 5446000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 6111000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 5796000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 6161000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 5475000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 6550000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 5382000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 6788000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 6101000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 6570000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 6074000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 11122000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 7504000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 603000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 617000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 605000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 614000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 621000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 674000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 694000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 694000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 661000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 651000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 640000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 660000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 645000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 656000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1202000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 1166000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 3000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 5000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1353000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 438000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1401000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 3000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 900000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 0
+        },
+        {
+          "end": "2024-09-30",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 20000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        },
+        {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
+          "end": "2025-12-31",
+          "value": 0
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2770000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 2231000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 92000000
+      },
+      {
+        "label": "Year 2",
+        "value": 666000000
+      },
+      {
+        "label": "Year 3",
+        "value": 828000000
+      },
+      {
+        "label": "Year 4",
+        "value": 157000000
+      },
+      {
+        "label": "Year 5",
+        "value": 99000000
+      },
+      {
+        "label": "After 5y",
+        "value": 5561000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.0792917628945342,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 4206000000,
+          "ttmCapex": 3897000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 12.46242404860889,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 3897000000,
+          "ttmRevenue": 31270000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 14.485043693858746,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 40.46707503828484,
+          "revenueGrowthPct": 25.982031344426094
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 17.036553524804177,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 783000000,
+          "ttmOperatingIncome": 4596000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.13199426111908177,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 92000000,
+          "cash": 697000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "VST",
+    "name": "Vistra",
+    "layers": [
+      "power"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 18985000000,
+      "capex": 2866000000,
+      "operatingCashFlow": 5121000000,
+      "depreciation": 1852000000,
+      "interestExpense": 1132000000,
+      "debtIssuance": 8719000000
+    },
+    "latest": {
+      "longTermDebt": 17719000000,
+      "cash": 435000000,
+      "ppe": 19944000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 296000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 392000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 484000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 442000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 336000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 414000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 465000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 498000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 685000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 430000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 768000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 690000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 458000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 836000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 883000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 689000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 4838000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 4006000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 3107000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 3027000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 4789000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 2880000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 3159000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 3599000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 4341000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 3662000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 4250000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 3753000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 4778000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 4805000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 5001000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 4401000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 390000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 382000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 366000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 369000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 375000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 393000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 403000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 437000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 466000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 537000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 522000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 541000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 460000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 463000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 484000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 445000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 0
+        },
+        {
+          "end": "2022-12-31",
+          "value": 0
+        },
+        {
+          "end": "2023-03-31",
+          "value": 0
+        },
+        {
+          "end": "2023-06-30",
+          "value": 0
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1750000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 748000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 700000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 1500000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 1617000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 209000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 215000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 2082000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2250000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 4172000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 1201000000
+      },
+      {
+        "label": "Year 2",
+        "value": 3435000000
+      },
+      {
+        "label": "Year 3",
+        "value": 786000000
+      },
+      {
+        "label": "Year 4",
+        "value": 2362000000
+      },
+      {
+        "label": "Year 5",
+        "value": 2853000000
+      },
+      {
+        "label": "After 5y",
+        "value": 6559000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.7868108862526169,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 5121000000,
+          "ttmCapex": 2866000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 15.096128522517777,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 2866000000,
+          "ttmRevenue": 18985000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -28.969950644113492,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": -10.358180058083253,
+          "revenueGrowthPct": 18.61177058603024
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": 31.77097951164749,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 1132000000,
+          "ttmOperatingIncome": 3563000000
+        },
+        "unit": "percent",
+        "caveat": "Interest consuming a quarter of operating income"
+      },
+      "refinancingRisk": {
+        "value": 2.760919540229885,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 1201000000,
+          "cash": 435000000
+        },
+        "unit": "ratio",
+        "caveat": "Maturities exceed cash on hand"
+      }
+    }
+  },
+  {
+    "ticker": "TLN",
+    "name": "Talen Energy",
+    "layers": [
+      "power"
+    ],
+    "tags": [],
+    "ttm": {
+      "revenue": 3917000000,
+      "capex": 228000000,
+      "operatingCashFlow": 796000000,
+      "depreciation": 296000000,
+      "interestExpense": null,
+      "debtIssuance": null
+    },
+    "latest": {
+      "longTermDebt": 9543000000,
+      "cash": 231000000,
+      "ppe": 11928000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2023-09-30",
+          "value": 40000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 56000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 25000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 20000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 13000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 27000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 18000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 33000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 21000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 26000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 42000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 139000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2023-09-30",
+          "value": 666000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 322000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 416000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 346000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 459000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 353000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 654000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 409000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 697000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 758000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1568000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 894000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2023-09-30",
+          "value": 62000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 68000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 74000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 70000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 72000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 69000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 72000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 69000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 67000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 71000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 66000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 92000000
+        }
+      ],
+      "debtIssuance": []
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 29000000
+      },
+      {
+        "label": "Year 2",
+        "value": 29000000
+      },
+      {
+        "label": "Year 3",
+        "value": 29000000
+      },
+      {
+        "label": "Year 4",
+        "value": 29000000
+      },
+      {
+        "label": "Year 5",
+        "value": 2034000000
+      },
+      {
+        "label": "After 5y",
+        "value": 4761000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 3.491228070175439,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 796000000,
+          "ttmCapex": 228000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 5.820781210109778,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 228000000,
+          "ttmRevenue": 3917000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -103.94212765957447,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 4.964539007092199,
+          "revenueGrowthPct": 108.90666666666667
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": null,
+          "ttmOperatingIncome": 88000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.12554112554112554,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 29000000,
+          "cash": 231000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "layers": [
+      "power"
+    ],
+    "tags": [
+      "bottleneck"
+    ],
+    "ttm": {
+      "revenue": 41368000000,
+      "capex": 1701000000,
+      "operatingCashFlow": 14139000000,
+      "depreciation": 669000000,
+      "interestExpense": null,
+      "debtIssuance": 2567000000
+    },
+    "latest": {
+      "longTermDebt": 2794000000,
+      "cash": null,
+      "ppe": null,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2023-03-31",
+          "value": 124000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 159000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 181000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 280000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 217000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 157000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 159000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 350000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 186000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 173000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 247000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 671000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 397000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 386000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2023-03-31",
+          "value": 6822000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 8119000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 8253000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 10045000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 7260000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 8204000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 8913000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 10559000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 8032000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 9111000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 9969000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 10956000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 9339000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 11104000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2023-03-31",
+          "value": 176000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 170000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 184000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 193000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 188000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 191000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 336000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 180000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 149000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 145000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 152000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 169000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 166000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 182000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2567000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 8.312169312169312,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 14139000000,
+          "ttmCapex": 1701000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 4.111873912202669,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 1701000000,
+          "ttmRevenue": 41368000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -30.388426115587116,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": -17.40740740740741,
+          "revenueGrowthPct": 12.98101870817971
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": null,
+          "ttmOperatingIncome": 1799000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": null
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "layers": [
+      "cloud",
+      "labs",
+      "applications"
+    ],
+    "tags": [
+      "hyperscaler"
+    ],
+    "ttm": {
+      "revenue": 331839000000,
+      "capex": 115948000000,
+      "operatingCashFlow": 182935000000,
+      "depreciation": 34300000000,
+      "interestExpense": 3051000000,
+      "debtIssuance": 0
+    },
+    "latest": {
+      "longTermDebt": 31067000000,
+      "cash": 20935000000,
+      "ppe": 313076000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 6283000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 6274000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 6607000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 8943000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 9917000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 9735000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 10952000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 13873000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 14923000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 15804000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 16745000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 17079000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 19394000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 29876000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 30876000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 35802000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 50122000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 52747000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 52857000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 56189000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 56517000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 62020000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 61858000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 64727000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 65585000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 69632000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 70066000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 76441000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 77673000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 81273000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 82886000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 90007000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2024-09-30",
+          "value": 4700000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 5200000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 5800000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 6300000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 7100000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 7900000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 9000000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 10300000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2019-03-31",
+          "value": 0
+        },
+        {
+          "end": "2019-06-30",
+          "value": 0
+        },
+        {
+          "end": "2022-09-30",
+          "value": 0
+        },
+        {
+          "end": "2022-12-31",
+          "value": 0
+        },
+        {
+          "end": "2023-03-31",
+          "value": 0
+        },
+        {
+          "end": "2023-06-30",
+          "value": 0
+        },
+        {
+          "end": "2023-09-30",
+          "value": 7073000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 10773000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 6352000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 197000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 0
+        },
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 9250000000
+      },
+      {
+        "label": "Year 2",
+        "value": 0
+      },
+      {
+        "label": "Year 3",
+        "value": 2001000000
+      },
+      {
+        "label": "Year 4",
+        "value": 0
+      },
+      {
+        "label": "Year 5",
+        "value": 500000000
+      },
+      {
+        "label": "After 5y",
+        "value": 34385000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.57773312174423,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 182935000000,
+          "ttmCapex": 115948000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 34.941040685392615,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 115948000000,
+          "ttmRevenue": 331839000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 38.12040410924425,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 55.90909090909091,
+          "revenueGrowthPct": 17.78868679984666
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 1.9653819643512822,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 3051000000,
+          "ttmOperatingIncome": 155237000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.44184380224504416,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 9250000000,
+          "cash": 20935000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "layers": [
+      "cloud",
+      "silicon"
+    ],
+    "tags": [
+      "hyperscaler"
+    ],
+    "ttm": {
+      "revenue": 775680000000,
+      "capex": 173028000000,
+      "operatingCashFlow": 161403000000,
+      "depreciation": 75200000000,
+      "interestExpense": 3331000000,
+      "debtIssuance": 81925000000
+    },
+    "latest": {
+      "longTermDebt": 128894000000,
+      "cash": 78213000000,
+      "ppe": 357025000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 16378000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 16592000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 14207000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 11455000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 12479000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 14588000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 14925000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 17620000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 22620000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 27834000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 25019000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 32183000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 35095000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 39522000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 44203000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 54208000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 127101000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 149204000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 127358000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 134383000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 143083000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 169961000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 143313000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 147977000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 158877000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 187792000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 155667000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 167702000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 180169000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 213386000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 181519000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 200606000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 10327000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 12685000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 11123000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 11589000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 12131000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 13820000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 11684000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 12038000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 13442000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 15631000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 14262000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 15227000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 16796000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 19471000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 18945000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 19988000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 107000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 8235000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 0
+        },
+        {
+          "end": "2023-06-30",
+          "value": 0
+        },
+        {
+          "end": "2023-09-30",
+          "value": 0
+        },
+        {
+          "end": "2023-12-31",
+          "value": 0
+        },
+        {
+          "end": "2024-03-31",
+          "value": 0
+        },
+        {
+          "end": "2024-06-30",
+          "value": 0
+        },
+        {
+          "end": "2024-09-30",
+          "value": 0
+        },
+        {
+          "end": "2024-12-31",
+          "value": 0
+        },
+        {
+          "end": "2025-03-31",
+          "value": 746000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        },
+        {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
+          "end": "2025-12-31",
+          "value": 14927000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 53441000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 13557000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 2752000000
+      },
+      {
+        "label": "Year 2",
+        "value": 8832000000
+      },
+      {
+        "label": "Year 3",
+        "value": 4752000000
+      },
+      {
+        "label": "Year 4",
+        "value": 3000000000
+      },
+      {
+        "label": "Year 5",
+        "value": 4500000000
+      },
+      {
+        "label": "After 5y",
+        "value": 45000000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.9328143421873917,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 161403000000,
+          "ttmCapex": 173028000000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 22.306621287128714,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 173028000000,
+          "ttmRevenue": 775680000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 12.644346464487676,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 28.41091492776886,
+          "revenueGrowthPct": 15.766568463281185
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 3.554507427010415,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 3331000000,
+          "ttmOperatingIncome": 93712000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.035185966527303644,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 2752000000,
+          "cash": 78213000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "layers": [
+      "cloud",
+      "labs",
+      "silicon"
+    ],
+    "tags": [
+      "hyperscaler"
+    ],
+    "ttm": {
+      "revenue": 445867000000,
+      "capex": 132402000000,
+      "operatingCashFlow": 185675000000,
+      "depreciation": 25237000000,
+      "interestExpense": 2252000000,
+      "debtIssuance": 89412000000
+    },
+    "latest": {
+      "longTermDebt": 98165000000,
+      "cash": 55911000000,
+      "ppe": 185062000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 7276000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 7595000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 6289000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 6888000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 8055000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 11019000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 12012000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 13186000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 13061000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 14276000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 17197000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 22446000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 23953000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 27851000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 35674000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 44924000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2019-03-31",
+          "value": 36339000000
+        },
+        {
+          "end": "2020-03-31",
+          "value": 41159000000
+        },
+        {
+          "end": "2020-06-30",
+          "value": 38297000000
+        },
+        {
+          "end": "2021-03-31",
+          "value": 55314000000
+        },
+        {
+          "end": "2021-06-30",
+          "value": 61880000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 84742000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 88268000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 96469000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 90234000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 96428000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 102346000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 113829000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 109896000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 119796000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2023-03-31",
+          "value": 2635000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 2824000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 3171000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 3316000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 3413000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 3708000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 3985000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 4205000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 4487000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 4998000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 5611000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 6040000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 6482000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 7104000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-09-30",
+          "value": 15094000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 8550000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 6927000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 1123000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 1248000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 1492000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 1982000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 2893000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 3819000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 4895000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 4532000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 26846000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 6624000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 26562000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 31379000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 24847000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 2000000000
+      },
+      {
+        "label": "Year 2",
+        "value": 1000000000
+      },
+      {
+        "label": "Year 3",
+        "value": 2676000000
+      },
+      {
+        "label": "Year 4",
+        "value": 1764000000
+      },
+      {
+        "label": "Year 5",
+        "value": 5500000000
+      },
+      {
+        "label": "After 5y",
+        "value": 36145000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.4023579704234075,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 185675000000,
+          "ttmCapex": 132402000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 29.69540244063813,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 132402000000,
+          "ttmRevenue": 445867000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 22.732919379838055,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 42.78359264497878,
+          "revenueGrowthPct": 20.050673265140727
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 1.5254558755791583,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 2252000000,
+          "ttmOperatingIncome": 147628000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.03577113627014362,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 2000000000,
+          "cash": 55911000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "layers": [
+      "cloud",
+      "labs"
+    ],
+    "tags": [
+      "hyperscaler"
+    ],
+    "ttm": {
+      "revenue": 228247000000,
+      "capex": 89325000000,
+      "operatingCashFlow": 130301000000,
+      "depreciation": 22729000000,
+      "interestExpense": 1429000000,
+      "debtIssuance": 40338000000
+    },
+    "latest": {
+      "longTermDebt": 83664000000,
+      "cash": 15462000000,
+      "ppe": 42291000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 9375000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 8798000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 6823000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 6134000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 6496000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 7592000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 6400000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 8173000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 8258000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 14425000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 12941000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 16538000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 18829000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 21383000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 18997000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 30116000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 27714000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 32165000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 28645000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 31999000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 34146000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 40111000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 36455000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 39071000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 40589000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 48385000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 42314000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 47516000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 51242000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 59893000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 56311000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 60801000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 2175000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 2376000000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 2524000000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 2623000000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2859000000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 3172000000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 3374000000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 3637000000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 4027000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 4460000000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 3900000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 4342000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 4963000000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 5411000000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 5999000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 6356000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2021-12-31",
+          "value": 0
+        },
+        {
+          "end": "2022-09-30",
+          "value": 9921000000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 0
+        },
+        {
+          "end": "2023-09-30",
+          "value": 0
+        },
+        {
+          "end": "2023-12-31",
+          "value": 0
+        },
+        {
+          "end": "2024-09-30",
+          "value": 10432000000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 0
+        },
+        {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
+          "end": "2025-12-31",
+          "value": 29906000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 2750000000
+      },
+      {
+        "label": "Year 2",
+        "value": 1500000000
+      },
+      {
+        "label": "Year 3",
+        "value": 1000000000
+      },
+      {
+        "label": "Year 4",
+        "value": 5000000000
+      },
+      {
+        "label": "Year 5",
+        "value": 5000000000
+      },
+      {
+        "label": "After 5y",
+        "value": 48750000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 1.4587293590820039,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 130301000000,
+          "ttmCapex": 89325000000
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": 39.13523507428356,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 89325000000,
+          "ttmRevenue": 228247000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 8.213795728019178,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 35.8658616773268,
+          "revenueGrowthPct": 27.65206594930762
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 1.6439081068022592,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 1429000000,
+          "ttmOperatingIncome": 86927000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.1778553874013711,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 2750000000,
+          "cash": 15462000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "hyperscaler"
+    ],
+    "ttm": {
+      "revenue": 71777000000,
+      "capex": 75660000000,
+      "operatingCashFlow": 46940000000,
+      "depreciation": 9428000000,
+      "interestExpense": 5104000000,
+      "debtIssuance": 35924000000
+    },
+    "latest": {
+      "longTermDebt": 117712000000,
+      "cash": 36369000000,
+      "ppe": 127845000000,
+      "asOf": "2026-08-31"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-11-30",
+          "value": 2435000000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 2628000000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 1913000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 1314000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 1080000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 1674000000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 2798000000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 2303000000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 3970000000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 5862000000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 9080000000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 8502000000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 12033000000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 18635000000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 16493000000
+        },
+        {
+          "end": "2026-08-31",
+          "value": 28499000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-11-30",
+          "value": 12275000000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 12398000000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 13836000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 12453000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 12941000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 13280000000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 14287000000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 13307000000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 14059000000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 14130000000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 15903000000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 14926000000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 16058000000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 17190000000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 19184000000
+        },
+        {
+          "end": "2026-08-31",
+          "value": 19345000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-11-30",
+          "value": 591000000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 672000000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 716000000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 712000000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 798000000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 808000000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 811000000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 804000000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 908000000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 1003000000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 1152000000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 1351000000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 1704000000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 2153000000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 2415000000
+        },
+        {
+          "end": "2026-08-31",
+          "value": 3156000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2022-02-28",
+          "value": 0
+        },
+        {
+          "end": "2022-05-31",
+          "value": 0
+        },
+        {
+          "end": "2022-08-31",
+          "value": 20046000000
+        },
+        {
+          "end": "2022-11-30",
+          "value": 8234000000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 5214000000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 0
+        },
+        {
+          "end": "2023-08-31",
+          "value": 0
+        },
+        {
+          "end": "2023-11-30",
+          "value": 0
+        },
+        {
+          "end": "2024-02-29",
+          "value": 0
+        },
+        {
+          "end": "2024-05-31",
+          "value": 0
+        },
+        {
+          "end": "2025-02-28",
+          "value": 7711000000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 0
+        },
+        {
+          "end": "2026-02-28",
+          "value": 26664000000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 1549000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 7210000000
+      },
+      {
+        "label": "Year 2",
+        "value": 10145000000
+      },
+      {
+        "label": "Year 3",
+        "value": 5500000000
+      },
+      {
+        "label": "Year 4",
+        "value": 7250000000
+      },
+      {
+        "label": "Year 5",
+        "value": 9750000000
+      },
+      {
+        "label": "After 5y",
+        "value": 90250000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.6204070843246101,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 46940000000,
+          "ttmCapex": 75660000000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 105.40981094222384,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 75660000000,
+          "ttmRevenue": 71777000000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 91.97428466871398,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 113.59311282283645,
+          "revenueGrowthPct": 21.618828154122472
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": 22.137404580152673,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 5104000000,
+          "ttmOperatingIncome": 23056000000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.19824575875058428,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 7210000000,
+          "cash": 36369000000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "neocloud"
+    ],
+    "ttm": {
+      "revenue": 7589580000,
+      "capex": 20566000000,
+      "operatingCashFlow": 6911000000,
+      "depreciation": 3991000000,
+      "interestExpense": 1619467000,
+      "debtIssuance": 24180000000
+    },
+    "latest": {
+      "longTermDebt": 35551000000,
+      "cash": 5524000000,
+      "ppe": 46736000000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2024-03-31",
+          "value": 1741935000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 2247161000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 1215155000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 3497749000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 1407000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 2453000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 2389239000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 4059761000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 7695000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 6422000000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2024-03-31",
+          "value": 188684000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 395371000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 583941000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 747004000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 982000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 1212000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 1364676000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 1571904000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 2078000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 2575000000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2024-03-31",
+          "value": 79510000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 164460000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 254024000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 365006000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 443000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 560000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 630457000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 820543000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 1147000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 1393000000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2024-03-31",
+          "value": 931647000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 889894000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 1507580000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 3688879000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 785000000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 3611000000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 3166686000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 4266314000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 3290000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 13457000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 6184000000
+      },
+      {
+        "label": "Year 2",
+        "value": 4416000000
+      },
+      {
+        "label": "Year 3",
+        "value": 2421000000
+      },
+      {
+        "label": "Year 4",
+        "value": 3221000000
+      },
+      {
+        "label": "Year 5",
+        "value": 2109000000
+      },
+      {
+        "label": "After 5y",
+        "value": 4338000000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.3360400661285617,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 6911000000,
+          "ttmCapex": 20566000000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 270.97678659425156,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 20566000000,
+          "ttmRevenue": 7589580000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 30.73910965113484,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 146.0497031497568,
+          "revenueGrowthPct": 115.31059349862196
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 1619467000,
+          "ttmOperatingIncome": -230739000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 1.119478638667632,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 6184000000,
+          "cash": 5524000000
+        },
+        "unit": "ratio",
+        "caveat": "Maturities exceed cash on hand"
+      }
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "neocloud"
+    ],
+    "ttm": {
+      "revenue": null,
+      "capex": null,
+      "operatingCashFlow": null,
+      "depreciation": null,
+      "interestExpense": null,
+      "debtIssuance": null
+    },
+    "latest": {
+      "longTermDebt": 4103200000,
+      "cash": 3678100000,
+      "ppe": 5553300000,
+      "asOf": "2025-12-31"
+    },
+    "quarterly": {
+      "capex": [],
+      "revenue": [],
+      "depreciation": [],
+      "debtIssuance": []
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": null,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": null,
+          "ttmCapex": null
+        },
+        "unit": "ratio"
+      },
+      "capexIntensity": {
+        "value": null,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": null,
+          "ttmRevenue": null
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": null,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": null,
+          "revenueGrowthPct": null
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": null,
+          "ttmOperatingIncome": null
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": 3678100000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "IREN",
+    "name": "IREN",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "neocloud"
+    ],
+    "ttm": {
+      "revenue": 707007000,
+      "capex": 2998006000,
+      "operatingCashFlow": 2100418000,
+      "depreciation": 417729000,
+      "interestExpense": 59251000,
+      "debtIssuance": 3389565000
+    },
+    "latest": {
+      "longTermDebt": 7423574000,
+      "cash": 5895591000,
+      "ppe": 2115436000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2024-09-30",
+          "value": 105831000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 139059000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 144452000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 184114000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 180307000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 539694000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 949156000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 1328849000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2024-09-30",
+          "value": 52764000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 116144000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 144823000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 187292000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 240295000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 184692000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 144795000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 137225000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2024-09-30",
+          "value": 33931000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 36077000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 47311000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 63817000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 85226000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 99176000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 121245000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 112082000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 389565000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 0
+        },
+        {
+          "end": "2026-06-30",
+          "value": 3000000000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": 177362000
+      },
+      {
+        "label": "Year 2",
+        "value": 269927000
+      },
+      {
+        "label": "Year 3",
+        "value": 194181000
+      },
+      {
+        "label": "Year 4",
+        "value": 573467000
+      },
+      {
+        "label": "Year 5",
+        "value": 127922000
+      },
+      {
+        "label": "After 5y",
+        "value": 6362790000
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.7006050021247456,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 2100418000,
+          "ttmCapex": 2998006000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 424.04191189054706,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 2998006000,
+          "ttmRevenue": 707007000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 89.5035386155266,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 130.6162220651886,
+          "revenueGrowthPct": 41.11268344966199
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 59251000,
+          "ttmOperatingIncome": -1046714000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": 0.03008383722683612,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": 177362000,
+          "cash": 5895591000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "CORZ",
+    "name": "Core Scientific",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "neocloud"
+    ],
+    "ttm": {
+      "revenue": 440311000,
+      "capex": 1477985000,
+      "operatingCashFlow": 520240000,
+      "depreciation": 62572000,
+      "interestExpense": 58308000,
+      "debtIssuance": 4275250000
+    },
+    "latest": {
+      "longTermDebt": 1060325000,
+      "cash": 1769735000,
+      "ppe": 1774142000,
+      "asOf": "2026-06-30"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-09-30",
+          "value": 5200000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 140225000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 1539000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 235000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 2742000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 11645000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 31894000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 3135000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 31174000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 28758000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 83980000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 121279000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 244493000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 279248000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 389226000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 565018000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-09-30",
+          "value": 162572000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 121250000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 120655000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 126912000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 112904000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 141929000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 179291000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 141102000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 95354000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 94925000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 79525000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 78628000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 81103000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 79763000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 115244000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 164201000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-09-30",
+          "value": 64570000
+        },
+        {
+          "end": "2022-12-31",
+          "value": 68715000
+        },
+        {
+          "end": "2023-03-31",
+          "value": 20094000
+        },
+        {
+          "end": "2023-06-30",
+          "value": 20473000
+        },
+        {
+          "end": "2023-09-30",
+          "value": 24233000
+        },
+        {
+          "end": "2023-12-31",
+          "value": 31203000
+        },
+        {
+          "end": "2024-03-31",
+          "value": 28996000
+        },
+        {
+          "end": "2024-06-30",
+          "value": 29477000
+        },
+        {
+          "end": "2024-09-30",
+          "value": 28691000
+        },
+        {
+          "end": "2024-12-31",
+          "value": 26041000
+        },
+        {
+          "end": "2025-03-31",
+          "value": 19731000
+        },
+        {
+          "end": "2025-06-30",
+          "value": 18756000
+        },
+        {
+          "end": "2025-09-30",
+          "value": 16329000
+        },
+        {
+          "end": "2025-12-31",
+          "value": 14097000
+        },
+        {
+          "end": "2026-03-31",
+          "value": 16648000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 15498000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2025-03-31",
+          "value": 0
+        },
+        {
+          "end": "2025-06-30",
+          "value": 0
+        },
+        {
+          "end": "2026-03-31",
+          "value": 995000000
+        },
+        {
+          "end": "2026-06-30",
+          "value": 3280250000
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.35199274688173426,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 520240000,
+          "ttmCapex": 1477985000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 335.6684252721372,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 1477985000,
+          "ttmRevenue": 440311000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": -59.245622170220926,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": -32.87634495113657,
+          "revenueGrowthPct": 26.369277219084353
+        },
+        "unit": "percent"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 58308000,
+          "ttmOperatingIncome": -561157000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": 1769735000
+        },
+        "unit": "ratio"
+      }
+    }
+  },
+  {
+    "ticker": "APLD",
+    "name": "Applied Digital",
+    "layers": [
+      "cloud"
+    ],
+    "tags": [
+      "neocloud"
+    ],
+    "ttm": {
+      "revenue": 284142000,
+      "capex": 2865765000,
+      "operatingCashFlow": 89685000,
+      "depreciation": 48500000,
+      "interestExpense": 23676000,
+      "debtIssuance": 0
+    },
+    "latest": {
+      "longTermDebt": 4959516000,
+      "cash": 1591988000,
+      "ppe": 4236300000,
+      "asOf": "2026-02-28"
+    },
+    "quarterly": {
+      "capex": [
+        {
+          "end": "2022-08-31",
+          "value": 31673000
+        },
+        {
+          "end": "2022-11-30",
+          "value": 38632000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 25909000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 35064000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 32591000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 13237000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 38609000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 57372000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 54798000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 171049000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 257493000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 198263000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 249420000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 552070000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 775207000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 1289068000
+        }
+      ],
+      "revenue": [
+        {
+          "end": "2022-05-31",
+          "value": 7523000
+        },
+        {
+          "end": "2022-08-31",
+          "value": 6924000
+        },
+        {
+          "end": "2022-11-30",
+          "value": 12340000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 14090000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 22038000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 36323000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 42203000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 43348000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 14742000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 34849000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 36163000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 52921000
+        },
+        {
+          "end": "2025-05-31",
+          "value": -33300000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 64216000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 126589000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 126637000
+        }
+      ],
+      "depreciation": [
+        {
+          "end": "2022-08-31",
+          "value": 800000
+        },
+        {
+          "end": "2022-11-30",
+          "value": 800000
+        },
+        {
+          "end": "2023-02-28",
+          "value": 900000
+        },
+        {
+          "end": "2023-05-31",
+          "value": 1300000
+        },
+        {
+          "end": "2023-08-31",
+          "value": 2200000
+        },
+        {
+          "end": "2023-11-30",
+          "value": 2600000
+        },
+        {
+          "end": "2024-02-29",
+          "value": 7900000
+        },
+        {
+          "end": "2024-05-31",
+          "value": 2900000
+        },
+        {
+          "end": "2024-08-31",
+          "value": 2600000
+        },
+        {
+          "end": "2024-11-30",
+          "value": 2600000
+        },
+        {
+          "end": "2025-02-28",
+          "value": 3200000
+        },
+        {
+          "end": "2025-05-31",
+          "value": 3200000
+        },
+        {
+          "end": "2025-08-31",
+          "value": 2700000
+        },
+        {
+          "end": "2025-11-30",
+          "value": 7400000
+        },
+        {
+          "end": "2026-02-28",
+          "value": 17600000
+        },
+        {
+          "end": "2026-05-31",
+          "value": 20800000
+        }
+      ],
+      "debtIssuance": [
+        {
+          "end": "2024-02-29",
+          "value": 0
+        },
+        {
+          "end": "2024-05-31",
+          "value": 0
+        },
+        {
+          "end": "2025-02-28",
+          "value": 0
+        },
+        {
+          "end": "2025-05-31",
+          "value": 0
+        },
+        {
+          "end": "2026-02-28",
+          "value": 0
+        },
+        {
+          "end": "2026-05-31",
+          "value": 0
+        }
+      ]
+    },
+    "maturityWall": [
+      {
+        "label": "Next 12m",
+        "value": null
+      },
+      {
+        "label": "Year 2",
+        "value": null
+      },
+      {
+        "label": "Year 3",
+        "value": null
+      },
+      {
+        "label": "Year 4",
+        "value": null
+      },
+      {
+        "label": "Year 5",
+        "value": null
+      },
+      {
+        "label": "After 5y",
+        "value": null
+      }
+    ],
+    "metrics": {
+      "capexCoverage": {
+        "value": 0.031295308582525085,
+        "formula": "TTM operating cash flow ÷ TTM capex",
+        "inputs": {
+          "ttmOperatingCashFlow": 89685000,
+          "ttmCapex": 2865765000
+        },
+        "unit": "ratio",
+        "caveat": "Capex exceeds operating cash flow"
+      },
+      "capexIntensity": {
+        "value": 1008.567899149017,
+        "formula": "(TTM capex ÷ TTM revenue) × 100",
+        "inputs": {
+          "ttmCapex": 2865765000,
+          "ttmRevenue": 284142000
+        },
+        "unit": "percent"
+      },
+      "depreciationDrag": {
+        "value": 213.20566569068086,
+        "formula": "TTM D&A growth % − TTM revenue growth %",
+        "inputs": {
+          "daGrowthPct": 318.10344827586204,
+          "revenueGrowthPct": 104.89778258518119
+        },
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
+      },
+      "interestBurden": {
+        "value": null,
+        "formula": "(TTM interest expense ÷ TTM operating income) × 100",
+        "inputs": {
+          "ttmInterestExpense": 23676000,
+          "ttmOperatingIncome": -263736000
+        },
+        "unit": "percent"
+      },
+      "refinancingRisk": {
+        "value": null,
+        "formula": "Principal due within 12 months ÷ cash and equivalents",
+        "inputs": {
+          "debtDueNext12Months": null,
+          "cash": 1591988000
+        },
+        "unit": "ratio"
+      }
+    }
+  }
+]

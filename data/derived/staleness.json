@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-18T18:24:28.411Z",
+  "sources": {
+    "sec-financials": {
+      "stale": false,
+      "fetchedAt": "2026-09-18T18:11:19.098Z",
+      "lastSuccessAt": "2026-09-18T18:11:19.098Z",
+      "records": 28,
+      "reason": null
+    },
+    "market": {
+      "stale": false,
+      "fetchedAt": "2026-09-18T18:07:19.232Z",
+      "lastSuccessAt": "2026-09-18T18:07:19.232Z",
+      "records": 67,
+      "reason": null
+    },
+    "artificialanalysis": {
+      "stale": false,
+      "fetchedAt": "2026-09-18T18:02:50.707Z",
+      "lastSuccessAt": "2026-09-18T18:02:50.707Z",
+      "records": 652,
+      "reason": null
+    },
+    "openrouter": {
+      "stale": false,
+      "fetchedAt": "2026-09-18T18:02:50.479Z",
+      "lastSuccessAt": "2026-09-18T18:02:50.479Z",
+      "records": 445,
+      "reason": null
+    },
+    "epoch-models": {
+      "stale": false,
+      "fetchedAt": "2026-09-18T18:03:57.832Z",
+      "lastSuccessAt": "2026-09-18T18:03:57.832Z",
+      "records": 786,
+      "reason": null
+    }
+  }
+}

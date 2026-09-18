@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-18T18:24:28.447Z",
+  "hyperscalerTtmCapex": 586363000000,
+  "hyperscalerCapexCoverage": 1.1984083755523287,
+  "trackedLongTermDebt": 794841570000,
+  "trackedTtmDebtIssuance": 346260153000,
+  "modelsTracked": 652,
+  "cheapestFrontier": {
+    "month": "2026-09",
+    "cheapestPerMtok": 0.237,
+    "model": "GLM 5.3 Flash",
+    "creator": "Z AI"
+  },
+  "bestValueModel": {
+    "name": "Agnes 3.0 Flash",
+    "creator": "Sapiens AI",
+    "ratio": 473.33333333333337
+  },
+  "aiBasketVsSpy": {
+    "value": 62.90709274940405,
+    "formula": "Equal-weighted basket ytd return − benchmark ytd return",
+    "inputs": {
+      "basketReturnPct": 74.71349178548424,
+      "benchmarkReturnPct": 11.806399036080187,
+      "constituents": 7,
+      "benchmark": "SPY"
+    },
+    "unit": "percent"
+  }
+}

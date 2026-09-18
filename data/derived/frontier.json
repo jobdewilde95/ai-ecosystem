@@ -1,0 +1,229 @@
+{
+  "note": "Cheapest blended $/Mtok available at or below each month, holding quality at or above the threshold.",
+  "curves": [
+    {
+      "threshold": 20,
+      "points": [
+        {
+          "month": "2025-04",
+          "cheapestPerMtok": 3.5,
+          "model": "o3",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-05",
+          "cheapestPerMtok": 3.5,
+          "model": "o3",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-06",
+          "cheapestPerMtok": 3.5,
+          "model": "o3",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-07",
+          "cheapestPerMtok": 3.5,
+          "model": "o3",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-08",
+          "cheapestPerMtok": 0.688,
+          "model": "GPT-5 mini (medium)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-09",
+          "cheapestPerMtok": 0.688,
+          "model": "GPT-5 mini (medium)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-11",
+          "cheapestPerMtok": 0.688,
+          "model": "GPT-5 mini (medium)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2025-12",
+          "cheapestPerMtok": 0.15,
+          "model": "MiMo-V2-Flash (Reasoning)",
+          "creator": "Xiaomi"
+        },
+        {
+          "month": "2026-01",
+          "cheapestPerMtok": 0.15,
+          "model": "MiMo-V2-Flash (Reasoning)",
+          "creator": "Xiaomi"
+        },
+        {
+          "month": "2026-02",
+          "cheapestPerMtok": 0.15,
+          "model": "MiMo-V2-Flash (Reasoning)",
+          "creator": "Xiaomi"
+        },
+        {
+          "month": "2026-03",
+          "cheapestPerMtok": 0.15,
+          "model": "MiMo-V2-Flash (Reasoning)",
+          "creator": "Xiaomi"
+        },
+        {
+          "month": "2026-04",
+          "cheapestPerMtok": 0.1,
+          "model": "Hy3-preview (Reasoning)",
+          "creator": "Tencent"
+        },
+        {
+          "month": "2026-05",
+          "cheapestPerMtok": 0.1,
+          "model": "Hy3-preview (Reasoning)",
+          "creator": "Tencent"
+        },
+        {
+          "month": "2026-06",
+          "cheapestPerMtok": 0.1,
+          "model": "Hy3-preview (Reasoning)",
+          "creator": "Tencent"
+        },
+        {
+          "month": "2026-07",
+          "cheapestPerMtok": 0.1,
+          "model": "Hy3-preview (Reasoning)",
+          "creator": "Tencent"
+        },
+        {
+          "month": "2026-08",
+          "cheapestPerMtok": 0.1,
+          "model": "Hy3-preview (Reasoning)",
+          "creator": "Tencent"
+        },
+        {
+          "month": "2026-09",
+          "cheapestPerMtok": 0.075,
+          "model": "Agnes 3.0 Flash",
+          "creator": "Sapiens AI"
+        }
+      ]
+    },
+    {
+      "threshold": 30,
+      "points": [
+        {
+          "month": "2025-12",
+          "cheapestPerMtok": 4.813,
+          "model": "GPT-5.2 (xhigh)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2026-02",
+          "cheapestPerMtok": 4.5,
+          "model": "Gemini 3.1 Pro Preview",
+          "creator": "Google"
+        },
+        {
+          "month": "2026-03",
+          "cheapestPerMtok": 4.5,
+          "model": "Gemini 3.1 Pro Preview",
+          "creator": "Google"
+        },
+        {
+          "month": "2026-04",
+          "cheapestPerMtok": 0.544,
+          "model": "DeepSeek V4 Pro 0424 (Reasoning, Max Effort)",
+          "creator": "DeepSeek"
+        },
+        {
+          "month": "2026-05",
+          "cheapestPerMtok": 0.544,
+          "model": "DeepSeek V4 Pro 0424 (Reasoning, Max Effort)",
+          "creator": "DeepSeek"
+        },
+        {
+          "month": "2026-06",
+          "cheapestPerMtok": 0.544,
+          "model": "DeepSeek V4 Pro 0424 (Reasoning, Max Effort)",
+          "creator": "DeepSeek"
+        },
+        {
+          "month": "2026-07",
+          "cheapestPerMtok": 0.45,
+          "model": "GPT-5.6 Luna (max)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2026-08",
+          "cheapestPerMtok": 0.15,
+          "model": "Agnes 2.5 Pro Beta",
+          "creator": "Sapiens AI"
+        },
+        {
+          "month": "2026-09",
+          "cheapestPerMtok": 0.075,
+          "model": "Agnes 3.0 Flash",
+          "creator": "Sapiens AI"
+        }
+      ]
+    },
+    {
+      "threshold": 40,
+      "points": [
+        {
+          "month": "2026-04",
+          "cheapestPerMtok": 10,
+          "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+          "creator": "Anthropic"
+        },
+        {
+          "month": "2026-05",
+          "cheapestPerMtok": 10,
+          "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+          "creator": "Anthropic"
+        },
+        {
+          "month": "2026-06",
+          "cheapestPerMtok": 10,
+          "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+          "creator": "Anthropic"
+        },
+        {
+          "month": "2026-07",
+          "cheapestPerMtok": 4.5,
+          "model": "GPT-5.6 Terra (max)",
+          "creator": "OpenAI"
+        },
+        {
+          "month": "2026-08",
+          "cheapestPerMtok": 0.237,
+          "model": "GLM 5.3 Flash",
+          "creator": "Z AI"
+        },
+        {
+          "month": "2026-09",
+          "cheapestPerMtok": 0.237,
+          "model": "GLM 5.3 Flash",
+          "creator": "Z AI"
+        }
+      ]
+    },
+    {
+      "threshold": 50,
+      "points": [
+        {
+          "month": "2026-07",
+          "cheapestPerMtok": 10,
+          "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "creator": "Anthropic"
+        },
+        {
+          "month": "2026-09",
+          "cheapestPerMtok": 10,
+          "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "creator": "Anthropic"
+        }
+      ]
+    }
+  ]
+}

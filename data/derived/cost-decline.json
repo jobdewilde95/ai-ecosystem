@@ -1,0 +1,145 @@
+{
+  "note": "Cheapest frontier-tier blended $/Mtok over time. The seeded span comes from published list prices and is marked as such; the tracked span is computed from live pricing and Artificial Analysis quality scores.",
+  "seeded": [
+    {
+      "month": "2023-03",
+      "price": 37.5,
+      "model": "GPT-4 (8k)",
+      "provider": "OpenAI"
+    },
+    {
+      "month": "2023-07",
+      "price": 12,
+      "model": "Claude 2",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2023-11",
+      "price": 12,
+      "model": "Claude 2",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2024-02",
+      "price": 12,
+      "model": "Claude 2",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2024-03",
+      "price": 12,
+      "model": "Claude 2",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2024-05",
+      "price": 2.1875,
+      "model": "Gemini 1.5 Pro",
+      "provider": "Google"
+    },
+    {
+      "month": "2024-06",
+      "price": 2.1875,
+      "model": "Gemini 1.5 Pro",
+      "provider": "Google"
+    },
+    {
+      "month": "2024-07",
+      "price": 2.1875,
+      "model": "Gemini 1.5 Pro",
+      "provider": "Google"
+    },
+    {
+      "month": "2024-08",
+      "price": 2.1875,
+      "model": "Gemini 1.5 Pro",
+      "provider": "Google"
+    },
+    {
+      "month": "2024-12",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-01",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-02",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-04",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-05",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-06",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-08",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    },
+    {
+      "month": "2025-09",
+      "price": 0.47750000000000004,
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek"
+    }
+  ],
+  "live": [
+    {
+      "month": "2026-04",
+      "price": 10,
+      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2026-05",
+      "price": 10,
+      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2026-06",
+      "price": 10,
+      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+      "provider": "Anthropic"
+    },
+    {
+      "month": "2026-07",
+      "price": 4.5,
+      "model": "GPT-5.6 Terra (max)",
+      "provider": "OpenAI"
+    },
+    {
+      "month": "2026-08",
+      "price": 0.237,
+      "model": "GLM 5.3 Flash",
+      "provider": "Z AI"
+    },
+    {
+      "month": "2026-09",
+      "price": 0.237,
+      "model": "GLM 5.3 Flash",
+      "provider": "Z AI"
+    }
+  ]
+}

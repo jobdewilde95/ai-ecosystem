@@ -2,7 +2,11 @@ name: Deploy
 
 on:
   push:
-    branches: [main]
+    # The repository's default branch. Both are listed so this keeps working
+    # if the default is later renamed to main.
+    branches:
+      - main
+      - claude/exciting-wright-epveg3
     paths-ignore:
       - '**.md'
   workflow_dispatch:

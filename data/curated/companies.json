@@ -1,0 +1,2262 @@
+[
+  {
+    "id": "asml",
+    "name": "ASML Holding",
+    "type": "public",
+    "ticker": "ASML",
+    "cik": "0000937966",
+    "layers": [
+      "equipment"
+    ],
+    "country": "NL",
+    "role": "Sole supplier of EUV lithography; the hardest single chokepoint in the chain",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000937966"
+    }
+  },
+  {
+    "id": "applied-materials",
+    "name": "Applied Materials",
+    "type": "public",
+    "ticker": "AMAT",
+    "cik": "0000006951",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "Deposition and etch tooling for logic and memory",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006951"
+    }
+  },
+  {
+    "id": "lam-research",
+    "name": "Lam Research",
+    "type": "public",
+    "ticker": "LRCX",
+    "cik": "0000707549",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "Etch and deposition, heavily levered to HBM capacity",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000707549"
+    }
+  },
+  {
+    "id": "kla",
+    "name": "KLA Corporation",
+    "type": "public",
+    "ticker": "KLAC",
+    "cik": "0000319201",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "Process control and inspection",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000319201"
+    }
+  },
+  {
+    "id": "teradyne",
+    "name": "Teradyne",
+    "type": "public",
+    "ticker": "TER",
+    "cik": "0000097210",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "Automated test equipment for advanced packaging",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000097210"
+    }
+  },
+  {
+    "id": "synopsys",
+    "name": "Synopsys",
+    "type": "public",
+    "ticker": "SNPS",
+    "cik": "0000883241",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "EDA tooling and IP for accelerator design",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883241"
+    }
+  },
+  {
+    "id": "cadence",
+    "name": "Cadence Design Systems",
+    "type": "public",
+    "ticker": "CDNS",
+    "cik": "0000813672",
+    "layers": [
+      "equipment"
+    ],
+    "country": "US",
+    "role": "EDA tooling and simulation",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000813672"
+    }
+  },
+  {
+    "id": "micron",
+    "name": "Micron Technology",
+    "type": "public",
+    "ticker": "MU",
+    "cik": "0000723125",
+    "layers": [
+      "memory"
+    ],
+    "country": "US",
+    "role": "HBM supplier; capacity sold out well ahead of production",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000723125"
+    }
+  },
+  {
+    "id": "tsmc",
+    "name": "Taiwan Semiconductor",
+    "type": "public",
+    "ticker": "TSM",
+    "cik": "0001046179",
+    "layers": [
+      "foundry"
+    ],
+    "country": "TW",
+    "role": "Fabricates nearly all leading-edge AI silicon; CoWoS advanced packaging is the gating constraint",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001046179"
+    }
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "type": "public",
+    "ticker": "INTC",
+    "cik": "0000050863",
+    "layers": [
+      "foundry",
+      "silicon"
+    ],
+    "country": "US",
+    "role": "Foundry ambitions plus Gaudi accelerators",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863"
+    }
+  },
+  {
+    "id": "globalfoundries",
+    "name": "GlobalFoundries",
+    "type": "public",
+    "ticker": "GFS",
+    "cik": "0001709048",
+    "layers": [
+      "foundry"
+    ],
+    "country": "US",
+    "role": "Mature-node foundry, power and analog for DC infrastructure",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001709048"
+    }
+  },
+  {
+    "id": "umc",
+    "name": "United Microelectronics",
+    "type": "public",
+    "ticker": "UMC",
+    "cik": "0001033767",
+    "layers": [
+      "foundry"
+    ],
+    "country": "TW",
+    "role": "Mature-node foundry",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001033767"
+    }
+  },
+  {
+    "id": "ase",
+    "name": "ASE Technology",
+    "type": "public",
+    "ticker": "ASX",
+    "cik": "0001122411",
+    "layers": [
+      "foundry"
+    ],
+    "country": "TW",
+    "role": "Outsourced assembly and test; advanced packaging capacity",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001122411"
+    }
+  },
+  {
+    "id": "amkor",
+    "name": "Amkor Technology",
+    "type": "public",
+    "ticker": "AMKR",
+    "cik": "0001047127",
+    "layers": [
+      "foundry"
+    ],
+    "country": "US",
+    "role": "Outsourced semiconductor assembly and test",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001047127"
+    }
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "type": "public",
+    "ticker": "NVDA",
+    "cik": "0001045810",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "country": "US",
+    "role": "Dominant AI accelerator supplier; also the chain's largest strategic investor",
+    "tags": [
+      "circular-financier"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810"
+    }
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "type": "public",
+    "ticker": "AMD",
+    "cik": "0000002488",
+    "layers": [
+      "silicon"
+    ],
+    "country": "US",
+    "role": "MI-series accelerators; the credible second source",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488"
+    }
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "type": "public",
+    "ticker": "AVGO",
+    "cik": "0001730168",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "country": "US",
+    "role": "Custom XPUs for hyperscalers plus Tomahawk/Jericho switching silicon",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001730168"
+    }
+  },
+  {
+    "id": "marvell",
+    "name": "Marvell Technology",
+    "type": "public",
+    "ticker": "MRVL",
+    "cik": "0001835632",
+    "layers": [
+      "silicon",
+      "networking"
+    ],
+    "country": "US",
+    "role": "Custom silicon and optical DSPs",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835632"
+    }
+  },
+  {
+    "id": "arista",
+    "name": "Arista Networks",
+    "type": "public",
+    "ticker": "ANET",
+    "cik": "0001596532",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "Ethernet switching for AI back-end fabrics",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596532"
+    }
+  },
+  {
+    "id": "astera",
+    "name": "Astera Labs",
+    "type": "public",
+    "ticker": "ALAB",
+    "cik": "0001736297",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "PCIe/CXL connectivity silicon",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001736297"
+    }
+  },
+  {
+    "id": "credo",
+    "name": "Credo Technology",
+    "type": "public",
+    "ticker": "CRDO",
+    "cik": "0001807794",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "Active electrical cables and SerDes",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807794"
+    }
+  },
+  {
+    "id": "coherent",
+    "name": "Coherent",
+    "type": "public",
+    "ticker": "COHR",
+    "cik": "0000820318",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "Optical transceivers for cluster interconnect",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000820318"
+    }
+  },
+  {
+    "id": "lumentum",
+    "name": "Lumentum",
+    "type": "public",
+    "ticker": "LITE",
+    "cik": "0001633978",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "Photonics and optical components",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001633978"
+    }
+  },
+  {
+    "id": "fabrinet",
+    "name": "Fabrinet",
+    "type": "public",
+    "ticker": "FN",
+    "cik": "0001408710",
+    "layers": [
+      "networking",
+      "systems"
+    ],
+    "country": "US",
+    "role": "Contract optical manufacturing",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001408710"
+    }
+  },
+  {
+    "id": "ciena",
+    "name": "Ciena",
+    "type": "public",
+    "ticker": "CIEN",
+    "cik": "0000936395",
+    "layers": [
+      "networking"
+    ],
+    "country": "US",
+    "role": "DCI and long-haul optical transport",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000936395"
+    }
+  },
+  {
+    "id": "dell",
+    "name": "Dell Technologies",
+    "type": "public",
+    "ticker": "DELL",
+    "cik": "0001571996",
+    "layers": [
+      "systems"
+    ],
+    "country": "US",
+    "role": "AI server integration and shipment bellwether",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001571996"
+    }
+  },
+  {
+    "id": "supermicro",
+    "name": "Super Micro Computer",
+    "type": "public",
+    "ticker": "SMCI",
+    "cik": "0001375365",
+    "layers": [
+      "systems"
+    ],
+    "country": "US",
+    "role": "High-density GPU server systems",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001375365"
+    }
+  },
+  {
+    "id": "hpe",
+    "name": "Hewlett Packard Enterprise",
+    "type": "public",
+    "ticker": "HPE",
+    "cik": "0001645590",
+    "layers": [
+      "systems"
+    ],
+    "country": "US",
+    "role": "AI systems and HPC integration",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001645590"
+    }
+  },
+  {
+    "id": "celestica",
+    "name": "Celestica",
+    "type": "public",
+    "ticker": "CLS",
+    "cik": "0001030894",
+    "layers": [
+      "systems"
+    ],
+    "country": "CA",
+    "role": "ODM for hyperscaler racks and switches",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001030894"
+    }
+  },
+  {
+    "id": "equinix",
+    "name": "Equinix",
+    "type": "public",
+    "ticker": "EQIX",
+    "cik": "0001101239",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "US",
+    "role": "Interconnection-dense colocation",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001101239"
+    }
+  },
+  {
+    "id": "digital-realty",
+    "name": "Digital Realty",
+    "type": "public",
+    "ticker": "DLR",
+    "cik": "0001297996",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "US",
+    "role": "Wholesale data center REIT",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001297996"
+    }
+  },
+  {
+    "id": "vertiv",
+    "name": "Vertiv Holdings",
+    "type": "public",
+    "ticker": "VRT",
+    "cik": "0001674101",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "US",
+    "role": "Power and liquid cooling; direct beneficiary of rack density",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674101"
+    }
+  },
+  {
+    "id": "eaton",
+    "name": "Eaton",
+    "type": "public",
+    "ticker": "ETN",
+    "cik": "0001551182",
+    "layers": [
+      "datacenter",
+      "power"
+    ],
+    "country": "IE",
+    "role": "Electrical distribution gear for data centers",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001551182"
+    }
+  },
+  {
+    "id": "nvent",
+    "name": "nVent Electric",
+    "type": "public",
+    "ticker": "NVT",
+    "cik": "0001720635",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "UK",
+    "role": "Liquid cooling and electrical connection",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001720635"
+    }
+  },
+  {
+    "id": "modine",
+    "name": "Modine Manufacturing",
+    "type": "public",
+    "ticker": "MOD",
+    "cik": "0000067347",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "US",
+    "role": "Thermal management for data centers",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000067347"
+    }
+  },
+  {
+    "id": "comfort-systems",
+    "name": "Comfort Systems USA",
+    "type": "public",
+    "ticker": "FIX",
+    "cik": "0001035983",
+    "layers": [
+      "datacenter"
+    ],
+    "country": "US",
+    "role": "Mechanical contracting for data center builds",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001035983"
+    }
+  },
+  {
+    "id": "quanta-services",
+    "name": "Quanta Services",
+    "type": "public",
+    "ticker": "PWR",
+    "cik": "0001050915",
+    "layers": [
+      "datacenter",
+      "power"
+    ],
+    "country": "US",
+    "role": "Electrical infrastructure and grid interconnection build-out",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001050915"
+    }
+  },
+  {
+    "id": "constellation",
+    "name": "Constellation Energy",
+    "type": "public",
+    "ticker": "CEG",
+    "cik": "0001868275",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Largest US nuclear fleet; PPA counterparty for hyperscalers",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001868275"
+    }
+  },
+  {
+    "id": "vistra",
+    "name": "Vistra",
+    "type": "public",
+    "ticker": "VST",
+    "cik": "0001692819",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Nuclear and gas generation serving data center demand",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001692819"
+    }
+  },
+  {
+    "id": "nrg",
+    "name": "NRG Energy",
+    "type": "public",
+    "ticker": "NRG",
+    "cik": "0001013871",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Retail and generation exposure to load growth",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871"
+    }
+  },
+  {
+    "id": "talen",
+    "name": "Talen Energy",
+    "type": "public",
+    "ticker": "TLN",
+    "cik": "0001622536",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Nuclear capacity contracted to data centers",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001622536"
+    }
+  },
+  {
+    "id": "ge-vernova",
+    "name": "GE Vernova",
+    "type": "public",
+    "ticker": "GEV",
+    "cik": "0001996810",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Gas turbines and grid equipment; turbine slots sold out for years",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001996810"
+    }
+  },
+  {
+    "id": "bloom",
+    "name": "Bloom Energy",
+    "type": "public",
+    "ticker": "BE",
+    "cik": "0001664703",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "On-site fuel cells bypassing grid interconnect queues",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001664703"
+    }
+  },
+  {
+    "id": "cameco",
+    "name": "Cameco",
+    "type": "public",
+    "ticker": "CCJ",
+    "cik": "0001009001",
+    "layers": [
+      "power"
+    ],
+    "country": "CA",
+    "role": "Uranium supply for the nuclear restart thesis",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001009001"
+    }
+  },
+  {
+    "id": "oklo",
+    "name": "Oklo",
+    "type": "public",
+    "ticker": "OKLO",
+    "cik": "0001849056",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Small modular reactors targeting data center loads",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001849056"
+    }
+  },
+  {
+    "id": "nuscale",
+    "name": "NuScale Power",
+    "type": "public",
+    "ticker": "SMR",
+    "cik": "0001822966",
+    "layers": [
+      "power"
+    ],
+    "country": "US",
+    "role": "Small modular reactor developer",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001822966"
+    }
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "type": "public",
+    "ticker": "MSFT",
+    "cik": "0000789019",
+    "layers": [
+      "cloud",
+      "labs",
+      "applications"
+    ],
+    "country": "US",
+    "role": "Azure AI capacity, OpenAI's principal cloud partner",
+    "tags": [
+      "hyperscaler"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019"
+    }
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "type": "public",
+    "ticker": "AMZN",
+    "cik": "0001018724",
+    "layers": [
+      "cloud",
+      "silicon"
+    ],
+    "country": "US",
+    "role": "AWS plus in-house Trainium/Inferentia; Anthropic's primary partner",
+    "tags": [
+      "hyperscaler"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724"
+    }
+  },
+  {
+    "id": "alphabet",
+    "name": "Alphabet",
+    "type": "public",
+    "ticker": "GOOGL",
+    "cik": "0001652044",
+    "layers": [
+      "cloud",
+      "labs",
+      "silicon"
+    ],
+    "country": "US",
+    "role": "GCP, TPUs and DeepMind \u2014 the only fully vertically integrated stack",
+    "tags": [
+      "hyperscaler"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044"
+    }
+  },
+  {
+    "id": "meta",
+    "name": "Meta Platforms",
+    "type": "public",
+    "ticker": "META",
+    "cik": "0001326801",
+    "layers": [
+      "cloud",
+      "labs"
+    ],
+    "country": "US",
+    "role": "Largest non-cloud buildout; consumes its own capacity",
+    "tags": [
+      "hyperscaler"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801"
+    }
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "type": "public",
+    "ticker": "ORCL",
+    "cik": "0001341439",
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "OCI capacity heavily contracted to OpenAI; debt-funded buildout",
+    "tags": [
+      "hyperscaler"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341439"
+    }
+  },
+  {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "type": "public",
+    "ticker": "CRWV",
+    "cik": "0001769628",
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Largest neocloud; GPU-backed debt financing pioneer",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001769628"
+    }
+  },
+  {
+    "id": "nebius",
+    "name": "Nebius Group",
+    "type": "public",
+    "ticker": "NBIS",
+    "cik": "0001513845",
+    "layers": [
+      "cloud"
+    ],
+    "country": "NL",
+    "role": "European neocloud spun out of Yandex",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001513845"
+    }
+  },
+  {
+    "id": "iren",
+    "name": "IREN",
+    "type": "public",
+    "ticker": "IREN",
+    "cik": "0001878848",
+    "layers": [
+      "cloud"
+    ],
+    "country": "AU",
+    "role": "Bitcoin miner converted to AI compute",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848"
+    }
+  },
+  {
+    "id": "cipher",
+    "name": "Cipher Mining",
+    "type": "public",
+    "ticker": "CIFR",
+    "cik": "0001819989",
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Miner-to-AI-datacenter conversion",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001819989"
+    }
+  },
+  {
+    "id": "core-scientific",
+    "name": "Core Scientific",
+    "type": "public",
+    "ticker": "CORZ",
+    "cik": "0001839341",
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Hosting capacity converted to HPC",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001839341"
+    }
+  },
+  {
+    "id": "applied-digital",
+    "name": "Applied Digital",
+    "type": "public",
+    "ticker": "APLD",
+    "cik": "0001144879",
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Purpose-built AI data centers",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001144879"
+    }
+  },
+  {
+    "id": "palantir",
+    "name": "Palantir",
+    "type": "public",
+    "ticker": "PLTR",
+    "cik": "0001321655",
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Enterprise AI deployment",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655"
+    }
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "type": "public",
+    "ticker": "NOW",
+    "cik": "0001373715",
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Workflow automation with embedded agents",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001373715"
+    }
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "type": "public",
+    "ticker": "CRM",
+    "cik": "0001108524",
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Agentforce; the clearest seat-cannibalisation test case",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001108524"
+    }
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "type": "public",
+    "ticker": "SNOW",
+    "cik": "0001640147",
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Data platform for AI workloads",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001640147"
+    }
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "type": "public",
+    "ticker": "MDB",
+    "cik": "0001441816",
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Operational and vector data store",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001441816"
+    }
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "type": "public",
+    "ticker": "DDOG",
+    "cik": "0001561550",
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Observability; AI-native customers a growth driver",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001561550"
+    }
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "type": "public",
+    "ticker": "NET",
+    "cik": "0001477333",
+    "layers": [
+      "infra-software",
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Edge inference and AI gateway",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001477333"
+    }
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "US",
+    "role": "Largest private AI lab by revenue and capital raised",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "US",
+    "role": "Frontier lab; enterprise and coding-weighted revenue mix",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs",
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Frontier lab operating its own Colossus clusters",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "FR",
+    "role": "European frontier lab, open-weight lineage",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "ssi",
+    "name": "Safe Superintelligence",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "US",
+    "role": "Research-only lab, no product revenue",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "thinking-machines",
+    "name": "Thinking Machines Lab",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "US",
+    "role": "Research lab founded by former OpenAI leadership",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "CN",
+    "role": "Open-weight lab that reset cost expectations",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "qwen",
+    "name": "Alibaba Qwen",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "CN",
+    "role": "Most-downloaded open-weight family",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "CN",
+    "role": "Kimi long-context models",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "zhipu",
+    "name": "Z.ai (Zhipu)",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "CN",
+    "role": "GLM open-weight series",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "labs"
+    ],
+    "country": "CA",
+    "role": "Enterprise and sovereign deployments",
+    "tags": [
+      "lab"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras Systems",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "silicon",
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Wafer-scale accelerators and inference cloud",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "silicon",
+      "cloud"
+    ],
+    "country": "US",
+    "role": "LPU inference silicon and cloud",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "tenstorrent",
+    "name": "Tenstorrent",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "silicon"
+    ],
+    "country": "US",
+    "role": "RISC-V based AI silicon",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "sambanova",
+    "name": "SambaNova Systems",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "silicon",
+      "cloud"
+    ],
+    "country": "US",
+    "role": "Reconfigurable dataflow accelerators",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "crusoe",
+    "name": "Crusoe Energy",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "cloud",
+      "power"
+    ],
+    "country": "US",
+    "role": "Energy-first data centers; Stargate build partner",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "cloud"
+    ],
+    "country": "US",
+    "role": "GPU cloud and on-prem systems",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "cloud",
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Open-model inference and training cloud",
+    "tags": [
+      "neocloud"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Fast open-model inference",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "baseten",
+    "name": "Baseten",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Model deployment and inference infrastructure",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "modal",
+    "name": "Modal Labs",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Serverless GPU compute",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Data and AI platform; largest private data infra company",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Managed vector database",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "infra-software"
+    ],
+    "country": "US",
+    "role": "Agent framework and observability",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "anysphere",
+    "name": "Anysphere (Cursor)",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Fastest-scaling AI coding product",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "cognition",
+    "name": "Cognition",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Devin autonomous engineering; acquired Windsurf",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "AI search and browser",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Legal domain agents",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "sierra",
+    "name": "Sierra",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Customer-service agents",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Enterprise search and agents",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "abridge",
+    "name": "Abridge",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Clinical documentation",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "UK",
+    "role": "Voice synthesis",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "UK",
+    "role": "AI video generation",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Music generation",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "US",
+    "role": "Agentic app building",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "applications"
+    ],
+    "country": "SE",
+    "role": "Prompt-to-app generation",
+    "tags": [
+      "app"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "scale-ai",
+    "name": "Scale AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "data-labeling"
+    ],
+    "country": "US",
+    "role": "Data labeling; Meta took a large stake",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "surge",
+    "name": "Surge AI",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "data-labeling"
+    ],
+    "country": "US",
+    "role": "Human data for frontier RLHF",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "mercor",
+    "name": "Mercor",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "data-labeling"
+    ],
+    "country": "US",
+    "role": "Expert marketplace for model evaluation data",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "turing",
+    "name": "Turing",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "data-labeling"
+    ],
+    "country": "US",
+    "role": "Engineering data and evaluation",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK Hynix",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "memory"
+    ],
+    "country": "KR",
+    "role": "HBM market leader",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung Electronics",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "memory",
+      "foundry"
+    ],
+    "country": "KR",
+    "role": "Memory and foundry",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "tokyo-electron",
+    "name": "Tokyo Electron",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "equipment"
+    ],
+    "country": "JP",
+    "role": "Coater/developer and etch tooling",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "advantest",
+    "name": "Advantest",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "equipment"
+    ],
+    "country": "JP",
+    "role": "Test equipment for HBM and logic",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "foxconn",
+    "name": "Hon Hai (Foxconn)",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "systems"
+    ],
+    "country": "TW",
+    "role": "Largest AI server ODM",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "quanta-computer",
+    "name": "Quanta Computer",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "systems"
+    ],
+    "country": "TW",
+    "role": "AI server ODM",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "wistron",
+    "name": "Wistron",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "systems"
+    ],
+    "country": "TW",
+    "role": "AI server ODM",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "siemens-energy",
+    "name": "Siemens Energy",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "power"
+    ],
+    "country": "DE",
+    "role": "Grid equipment and turbines",
+    "tags": [
+      "bottleneck"
+    ],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  },
+  {
+    "id": "schneider",
+    "name": "Schneider Electric",
+    "type": "private",
+    "ticker": null,
+    "cik": null,
+    "layers": [
+      "datacenter"
+    ],
+    "country": "FR",
+    "role": "Data center electrical infrastructure",
+    "tags": [],
+    "provenance": {
+      "origin": "curated",
+      "asOf": "2026-09-18",
+      "confidence": "high",
+      "sourceUrl": null
+    }
+  }
+]

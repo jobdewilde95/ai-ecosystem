@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-09-18T18:08:23.874Z",
+  "entries": [
+    {
+      "date": "2026-09-18",
+      "category": "markets",
+      "severity": "notable",
+      "title": "SMR -8.7%",
+      "detail": "Closed at $8.26",
+      "changePct": -8.683628318584054,
+      "entity": "SMR",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "markets",
+      "severity": "notable",
+      "title": "IREN +5.6%",
+      "detail": "Closed at $45.91",
+      "changePct": 5.577276908923653,
+      "entity": "IREN",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Pareto pricing observed",
+      "detail": "$2.50 in / $7.50 out per Mtok",
+      "entity": "unbiased",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Pro Latest pricing observed",
+      "detail": "$0.58 in / $1.73 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Flash Latest pricing observed",
+      "detail": "$0.15 in / $0.60 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Inference.net: Schematron V2 Turbo pricing observed",
+      "detail": "$0.03 in / $0.15 out per Mtok",
+      "entity": "inference-net",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Inference.net: Schematron V2 Small pricing observed",
+      "detail": "$0.05 in / $0.23 out per Mtok",
+      "entity": "inference-net",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT Astra Latest pricing observed",
+      "detail": "$10.00 in / $50.00 out per Mtok",
+      "entity": "~openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT Sol Latest pricing observed",
+      "detail": "$2.00 in / $10.00 out per Mtok",
+      "entity": "~openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT Terra Latest pricing observed",
+      "detail": "$2.00 in / $12.00 out per Mtok",
+      "entity": "~openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT Luna Latest pricing observed",
+      "detail": "$0.20 in / $1.20 out per Mtok",
+      "entity": "~openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Sakana: Fugu Ultra v2 pricing observed",
+      "detail": "$5.00 in / $30.00 out per Mtok",
+      "entity": "sakana",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Sakana: Fugu Max pricing observed",
+      "detail": "$2.00 in / $6.00 out per Mtok",
+      "entity": "sakana",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash VL pricing observed",
+      "detail": "$0.06 in / $0.18 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash VL (free) pricing observed",
+      "detail": "$0.00 in / $0.00 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4.1 Flash pricing observed",
+      "detail": "$0.15 in / $0.60 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Inception: Mercury 2.5 pricing observed",
+      "detail": "$0.04 in / $0.15 out per Mtok",
+      "entity": "inception",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Nex AGI: Nex-N2.5-Mini (free) pricing observed",
+      "detail": "$0.00 in / $0.00 out per Mtok",
+      "entity": "nex-agi",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Nex AGI: Nex-N2.5-Pro (free) pricing observed",
+      "detail": "$0.00 in / $0.00 out per Mtok",
+      "entity": "nex-agi",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-6 Astra pricing observed",
+      "detail": "$10.00 in / $50.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-6 Astra (batch) pricing observed",
+      "detail": "$5.00 in / $25.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-6 Astra Pro pricing observed",
+      "detail": "$10.00 in / $50.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-6 Astra Pro (batch) pricing observed",
+      "detail": "$5.00 in / $25.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash Sante (free) pricing observed",
+      "detail": "$0.00 in / $0.00 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.8 Max (0902) pricing observed",
+      "detail": "$2.00 in / $6.00 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Muse Spark 1.3 Contributor pricing observed",
+      "detail": "$0.10 in / $0.20 out per Mtok",
+      "entity": "meta",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Muse Spark 1.3 pricing observed",
+      "detail": "$1.25 in / $4.25 out per Mtok",
+      "entity": "meta",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Google: Gemini 3.8 Flash pricing observed",
+      "detail": "$0.75 in / $3.75 out per Mtok",
+      "entity": "google",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Google: Gemini 3.8 Flash (batch) pricing observed",
+      "detail": "$0.38 in / $1.88 out per Mtok",
+      "entity": "google",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Anthropic: Claude Fable 5.1 pricing observed",
+      "detail": "$10.00 in / $50.00 out per Mtok",
+      "entity": "anthropic",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Anthropic: Claude Fable 5.1 (batch) pricing observed",
+      "detail": "$5.00 in / $25.00 out per Mtok",
+      "entity": "anthropic",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "IBM: Granite 4.2 8B pricing observed",
+      "detail": "$0.06 in / $0.25 out per Mtok",
+      "entity": "ibm-granite",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Tencent: Hy4 preview pricing observed",
+      "detail": "$0.83 in / $2.50 out per Mtok",
+      "entity": "tencent",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash Fin pricing observed",
+      "detail": "$0.06 in / $0.18 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash Fin (free) pricing observed",
+      "detail": "$0.00 in / $0.00 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM Flash Latest pricing observed",
+      "detail": "$0.07 in / $0.25 out per Mtok",
+      "entity": "~z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.8 Flash pricing observed",
+      "detail": "$0.15 in / $0.47 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.3 Flash pricing observed",
+      "detail": "$0.09 in / $0.30 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.3 Flash (batch) pricing observed",
+      "detail": "$0.07 in / $0.25 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Muse Spark 1.2 Contributor pricing observed",
+      "detail": "$0.10 in / $0.20 out per Mtok",
+      "entity": "meta",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash Vision Exp pricing observed",
+      "detail": "$0.22 in / $0.65 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch) pricing observed",
+      "detail": "$0.11 in / $0.33 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "markets",
+      "severity": "notable",
+      "title": "SMR -8.4%",
+      "detail": "Closed at $8.28",
+      "changePct": -8.407079646017698,
+      "entity": "SMR",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "markets",
+      "severity": "notable",
+      "title": "CIFR +5.5%",
+      "detail": "Closed at $17.88",
+      "changePct": 5.548996458087354,
+      "entity": "CIFR",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-18",
+      "category": "markets",
+      "severity": "notable",
+      "title": "IREN +5.5%",
+      "detail": "Closed at $45.88",
+      "changePct": 5.51977920883166,
+      "entity": "IREN",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "filings",
+      "severity": "notable",
+      "title": "CRWV filed 424B5",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
+      "entity": "CRWV",
+      "href": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "filings",
+      "severity": "notable",
+      "title": "VST filed 424B2",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
+      "entity": "VST",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036415/ny20081693x3_424b2.htm"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "filings",
+      "severity": "notable",
+      "title": "DELL filed 424B2",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
+      "entity": "DELL",
+      "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526389295/d207421d424b2.htm"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "filings",
+      "severity": "notable",
+      "title": "AMZN filed 424B5",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
+      "entity": "AMZN",
+      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm"
+    }
+  ]
+}

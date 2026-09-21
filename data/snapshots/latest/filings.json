@@ -1,9 +1,9 @@
 {
   "source": "filings",
-  "fetchedAt": "2026-09-18T18:04:43.166Z",
+  "fetchedAt": "2026-09-21T13:36:13.150Z",
   "stale": false,
-  "lastSuccessAt": "2026-09-18T18:04:43.166Z",
-  "recordCount": 576,
+  "lastSuccessAt": "2026-09-21T13:36:13.150Z",
+  "recordCount": 575,
   "data": [
     {
       "ticker": "CRWV",
@@ -3810,15 +3810,6 @@
       "reportDate": "2025-11-27",
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm",
       "accession": "0000723125-25-000046",
-      "items": null
-    },
-    {
-      "ticker": "AVGO",
-      "form": "10-K",
-      "filed": "2025-12-18",
-      "reportDate": "2025-11-02",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
-      "accession": "0001730168-25-000121",
       "items": null
     },
     {

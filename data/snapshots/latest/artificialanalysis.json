@@ -1,7 +1,7 @@
 {
   "source": "artificialanalysis",
-  "fetchedAt": "2026-09-18T18:02:50.707Z",
-  "stale": false,
+  "fetchedAt": "2026-09-21T13:35:09.476Z",
+  "stale": true,
   "lastSuccessAt": "2026-09-18T18:02:50.707Z",
   "recordCount": 652,
   "data": [
@@ -16957,5 +16957,6 @@
       "medianOutputTokensPerSecond": 0,
       "medianTimeToFirstTokenSeconds": 0
     }
-  ]
+  ],
+  "staleReason": "ARTIFICIALANALYSIS_API_KEY is not set"
 }

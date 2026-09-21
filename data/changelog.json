@@ -1,6 +1,234 @@
 {
-  "generatedAt": "2026-09-18T18:08:23.874Z",
+  "generatedAt": "2026-09-21T13:36:17.108Z",
   "entries": [
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Pro Latest price changed",
+      "detail": "$0.65 in / $1.96 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Flash Latest price changed",
+      "detail": "$0.12 in / $0.48 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "IBM: Granite 4.2 8B price changed",
+      "detail": "$0.10 in / $0.15 out per Mtok",
+      "entity": "ibm-granite",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash Vision Exp price changed",
+      "detail": "$0.22 in / $0.66 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM Latest price changed",
+      "detail": "$0.77 in / $2.43 out per Mtok",
+      "entity": "~z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.8 27B price changed",
+      "detail": "$0.20 in / $2.50 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Pro 0813 price changed",
+      "detail": "$0.66 in / $1.98 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "NVIDIA: Nemotron 3.5 Lightning price changed",
+      "detail": "$0.07 in / $0.20 out per Mtok",
+      "entity": "nvidia",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Muse Glimmer 30B price changed",
+      "detail": "$0.30 in / $1.20 out per Mtok",
+      "entity": "meta",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash Latest price changed",
+      "detail": "$0.04 in / $0.16 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash 0731 price changed",
+      "detail": "$0.04 in / $0.16 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MoonshotAI: Kimi K3 price changed",
+      "detail": "$1.70 in / $8.50 out per Mtok",
+      "entity": "moonshotai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Tencent: Hy3 price changed",
+      "detail": "$0.13 in / $0.53 out per Mtok",
+      "entity": "tencent",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.2 price changed",
+      "detail": "$0.65 in / $2.04 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "NVIDIA: Nemotron 3 Ultra price changed",
+      "detail": "$0.60 in / $2.40 out per Mtok",
+      "entity": "nvidia",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MoonshotAI: Kimi Latest price changed",
+      "detail": "$1.70 in / $8.50 out per Mtok",
+      "entity": "~moonshotai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.6 35B A3B price changed",
+      "detail": "$0.15 in / $1.00 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Pro 0423 price changed",
+      "detail": "$0.95 in / $1.90 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash 0423 price changed",
+      "detail": "$0.06 in / $0.12 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.5-35B-A3B price changed",
+      "detail": "$0.31 in / $1.25 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Llama 4 Maverick price changed",
+      "detail": "$0.20 in / $0.80 out per Mtok",
+      "entity": "meta-llama",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Meta: Llama 3.1 70B Instruct price changed",
+      "detail": "$0.72 in / $0.72 out per Mtok",
+      "entity": "meta-llama",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "markets",
+      "severity": "notable",
+      "title": "SMR +6.9%",
+      "detail": "Closed at $8.84",
+      "changePct": 6.89238210399033,
+      "entity": "SMR",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "markets",
+      "severity": "notable",
+      "title": "INTC +6.7%",
+      "detail": "Closed at $115.92",
+      "changePct": 6.740331491712714,
+      "entity": "INTC",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-09-21",
+      "category": "markets",
+      "severity": "notable",
+      "title": "OKLO +6.4%",
+      "detail": "Closed at $40.45",
+      "changePct": 6.436578947368425,
+      "entity": "OKLO",
+      "href": "/markets/"
+    },
     {
       "date": "2026-09-18",
       "category": "markets",
@@ -56,7 +284,7 @@
       "category": "filings",
       "severity": "notable",
       "title": "CRWV filed 424B5",
-      "detail": "Shelf registration or pricing supplement \u2014 a financing signal",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
       "entity": "CRWV",
       "href": "https://www.sec.gov/Archives/edgar/data/1769628/000162828026062362/coreweave-424b5.htm"
     },
@@ -65,7 +293,7 @@
       "category": "filings",
       "severity": "notable",
       "title": "VST filed 424B2",
-      "detail": "Shelf registration or pricing supplement \u2014 a financing signal",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
       "entity": "VST",
       "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036415/ny20081693x3_424b2.htm"
     },
@@ -74,7 +302,7 @@
       "category": "filings",
       "severity": "notable",
       "title": "DELL filed 424B2",
-      "detail": "Shelf registration or pricing supplement \u2014 a financing signal",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
       "entity": "DELL",
       "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526389295/d207421d424b2.htm"
     },
@@ -83,7 +311,7 @@
       "category": "filings",
       "severity": "notable",
       "title": "AMZN filed 424B5",
-      "detail": "Shelf registration or pricing supplement \u2014 a financing signal",
+      "detail": "Shelf registration or pricing supplement — a financing signal",
       "entity": "AMZN",
       "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm"
     }

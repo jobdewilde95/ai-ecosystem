@@ -1,10 +1,32 @@
 {
   "source": "epoch-models",
-  "fetchedAt": "2026-09-21T13:36:16.630Z",
+  "fetchedAt": "2026-09-28T14:56:17.038Z",
   "stale": false,
-  "lastSuccessAt": "2026-09-21T13:36:16.630Z",
-  "recordCount": 786,
+  "lastSuccessAt": "2026-09-28T14:56:17.038Z",
+  "recordCount": 790,
   "data": [
+    {
+      "model": "Grok 4.7",
+      "organization": "xAI",
+      "publicationDate": "2026-09-21",
+      "domain": "Language",
+      "parameters": 2100000000,
+      "trainingComputeFlop": null,
+      "trainingHardware": null,
+      "hardwareQuantity": null,
+      "country": "United States of America"
+    },
+    {
+      "model": "Step 5 Preview",
+      "organization": "StepFun",
+      "publicationDate": "2026-09-18",
+      "domain": "Language,Vision,Multimodal",
+      "parameters": 600000000000,
+      "trainingComputeFlop": null,
+      "trainingHardware": null,
+      "hardwareQuantity": null,
+      "country": "China"
+    },
     {
       "model": "DeepSeek V4.1 Flash",
       "organization": "DeepSeek",
@@ -26,6 +48,28 @@
       "trainingHardware": null,
       "hardwareQuantity": null,
       "country": "United States of America,United States of America"
+    },
+    {
+      "model": "GPT-6 Astra",
+      "organization": "OpenAI",
+      "publicationDate": "2026-09-03",
+      "domain": "Multimodal,Language,Vision",
+      "parameters": null,
+      "trainingComputeFlop": 1.0001e+27,
+      "trainingHardware": "NVIDIA GB200",
+      "hardwareQuantity": 100000,
+      "country": "United States of America"
+    },
+    {
+      "model": "Tencent Hy4 preview",
+      "organization": "Tencent",
+      "publicationDate": "2026-08-28",
+      "domain": "Language",
+      "parameters": 770000000000,
+      "trainingComputeFlop": null,
+      "trainingHardware": null,
+      "hardwareQuantity": null,
+      "country": "China"
     },
     {
       "model": "GLM-5.3-Flash",
@@ -161,7 +205,7 @@
     },
     {
       "model": "Nemotron 3 Ultra",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2026-06-04",
       "domain": "Language",
       "parameters": 550000000000,
@@ -315,7 +359,7 @@
     },
     {
       "model": "Nemotron 3 Super",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2026-03-11",
       "domain": "Language",
       "parameters": 120000000000,
@@ -469,7 +513,7 @@
     },
     {
       "model": "Nemotron 3-Nano-30B-A3B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2025-12-15",
       "domain": "Language",
       "parameters": 31600000000,
@@ -931,7 +975,7 @@
     },
     {
       "model": "Diffusion Renderer",
-      "organization": "NVIDIA,University of Toronto,Vector Institute,University of Illinois Urbana-Champaign (UIUC)",
+      "organization": "Nvidia,University of Toronto,Vector Institute,University of Illinois Urbana-Champaign (UIUC)",
       "publicationDate": "2025-03-22",
       "domain": "Video",
       "parameters": 1100000000,
@@ -1019,7 +1063,7 @@
     },
     {
       "model": "Eagle 2",
-      "organization": "NVIDIA,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",
+      "organization": "Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",
       "publicationDate": "2025-01-20",
       "domain": "Vision,Robotics,Language",
       "parameters": 8930000000,
@@ -1063,7 +1107,7 @@
     },
     {
       "model": "STORM-B/8",
-      "organization": "University of Southern California,Georgia Institute of Technology,Stanford University,NVIDIA",
+      "organization": "University of Southern California,Georgia Institute of Technology,Stanford University,Nvidia",
       "publicationDate": "2024-12-31",
       "domain": "3D modeling",
       "parameters": 100598707,
@@ -1118,7 +1162,7 @@
     },
     {
       "model": "NVILA 15B",
-      "organization": "NVIDIA,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",
+      "organization": "Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",
       "publicationDate": "2024-12-05",
       "domain": "Vision,Language,Multimodal,Video",
       "parameters": 15000000000,
@@ -1151,7 +1195,7 @@
     },
     {
       "model": "Fugatto 1",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2024-11-25",
       "domain": "Multimodal,Language,Audio",
       "parameters": 2500000000,
@@ -1195,7 +1239,7 @@
     },
     {
       "model": "NVLM-X 72B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2024-10-22",
       "domain": "Vision,Language",
       "parameters": 72000000000,
@@ -1206,7 +1250,7 @@
     },
     {
       "model": "NVLM-H 72B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2024-10-22",
       "domain": "Vision,Language",
       "parameters": 72000000000,
@@ -1217,7 +1261,7 @@
     },
     {
       "model": "NVLM-D 72B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2024-10-22",
       "domain": "Vision,Language",
       "parameters": 72000000000,
@@ -1250,7 +1294,7 @@
     },
     {
       "model": "Llama-3.1-Nemotron-70B-Instruct",
-      "organization": "NVIDIA,Meta AI",
+      "organization": "Nvidia,Meta AI",
       "publicationDate": "2024-10-12",
       "domain": "Language",
       "parameters": null,
@@ -1536,7 +1580,7 @@
     },
     {
       "model": "Nemotron-4 340B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2024-06-14",
       "domain": "Language",
       "parameters": 340000000000,
@@ -1613,7 +1657,7 @@
     },
     {
       "model": "VILA1.5-13B",
-      "organization": "NVIDIA,Massachusetts Institute of Technology (MIT)",
+      "organization": "Nvidia,Massachusetts Institute of Technology (MIT)",
       "publicationDate": "2024-05-03",
       "domain": "Multimodal,Language,Vision,Video",
       "parameters": 13493916736,
@@ -1866,7 +1910,7 @@
     },
     {
       "model": "VILA-13B",
-      "organization": "NVIDIA,Massachusetts Institute of Technology (MIT)",
+      "organization": "Nvidia,Massachusetts Institute of Technology (MIT)",
       "publicationDate": "2023-12-12",
       "domain": "Multimodal,Language,Vision",
       "parameters": 13350839296,
@@ -1987,7 +2031,7 @@
     },
     {
       "model": "Nemotron-3-8B",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2023-11-15",
       "domain": "Language",
       "parameters": 8000000000,
@@ -2845,7 +2889,7 @@
     },
     {
       "model": "Nucleotide Transformer",
-      "organization": "NVIDIA,Technical University of Munich,InstaDeep",
+      "organization": "Nvidia,Technical University of Munich,InstaDeep",
       "publicationDate": "2023-01-15",
       "domain": "Biology",
       "parameters": 2500000000,
@@ -3021,7 +3065,7 @@
     },
     {
       "model": "eDiff-I",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2022-11-02",
       "domain": "Image generation",
       "parameters": 9100000000,
@@ -3065,7 +3109,7 @@
     },
     {
       "model": "GenSLM",
-      "organization": "University of Chicago,NVIDIA,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",
+      "organization": "University of Chicago,Nvidia,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",
       "publicationDate": "2022-10-11",
       "domain": "Biology",
       "parameters": 25000000000,
@@ -3527,7 +3571,7 @@
     },
     {
       "model": "FourCastNet",
-      "organization": "NVIDIA,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",
+      "organization": "Nvidia,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",
       "publicationDate": "2022-02-22",
       "domain": "Earth science",
       "parameters": null,
@@ -3956,7 +4000,7 @@
     },
     {
       "model": "Megatron-Turing NLG 530B",
-      "organization": "Microsoft,NVIDIA",
+      "organization": "Microsoft,Nvidia",
       "publicationDate": "2021-10-11",
       "domain": "Language",
       "parameters": 530000000000,
@@ -4220,7 +4264,7 @@
     },
     {
       "model": "StyleGAN3-T",
-      "organization": "NVIDIA,Aalto University",
+      "organization": "Nvidia,Aalto University",
       "publicationDate": "2021-06-21",
       "domain": "Image generation",
       "parameters": 2230000,
@@ -4231,7 +4275,7 @@
     },
     {
       "model": "StyleGAN3-R",
-      "organization": "NVIDIA,Aalto University",
+      "organization": "Nvidia,Aalto University",
       "publicationDate": "2021-06-21",
       "domain": "Image generation",
       "parameters": 1580000,
@@ -4363,7 +4407,7 @@
     },
     {
       "model": "ProtT5-XL-U50",
-      "organization": "Technical University of Munich,Med AI Technology,NVIDIA,Oak Ridge National Laboratory,Google,Seoul National University",
+      "organization": "Technical University of Munich,Med AI Technology,Nvidia,Oak Ridge National Laboratory,Google,Seoul National University",
       "publicationDate": "2021-05-04",
       "domain": "Biology",
       "parameters": 3000000000,
@@ -4374,7 +4418,7 @@
     },
     {
       "model": "ProtBERT-BFD",
-      "organization": "Technical University of Munich,NVIDIA,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",
+      "organization": "Technical University of Munich,Nvidia,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",
       "publicationDate": "2021-05-04",
       "domain": "Biology",
       "parameters": 420000000,
@@ -5111,7 +5155,7 @@
     },
     {
       "model": "StyleGAN2",
-      "organization": "NVIDIA,Aalto University",
+      "organization": "Nvidia,Aalto University",
       "publicationDate": "2019-12-03",
       "domain": "Image generation",
       "parameters": 30000000,
@@ -5320,7 +5364,7 @@
     },
     {
       "model": "Megatron-LM (8.3B)",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2019-09-17",
       "domain": "Language",
       "parameters": 8300000000,
@@ -5331,7 +5375,7 @@
     },
     {
       "model": "Megatron-LM (1.2B)",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2019-09-17",
       "domain": "Language",
       "parameters": 1200000000,
@@ -5342,7 +5386,7 @@
     },
     {
       "model": "Megatron-BERT",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2019-09-17",
       "domain": "Language",
       "parameters": 3900000000,
@@ -5705,7 +5749,7 @@
     },
     {
       "model": "StyleGAN",
-      "organization": "NVIDIA",
+      "organization": "Nvidia",
       "publicationDate": "2018-12-12",
       "domain": "Image generation",
       "parameters": 26200000,

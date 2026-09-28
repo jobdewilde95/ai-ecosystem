@@ -3,6 +3,24 @@
   "curatedThrough": "2026-09-01",
   "events": [
     {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-09-24",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm"
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "filed": "2026-09-22",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm"
+    },
+    {
       "ticker": "CRWV",
       "name": "CoreWeave",
       "filed": "2026-09-17",
@@ -1405,24 +1423,6 @@
       "kind": "item-1.01",
       "detail": "Entry into a material definitive agreement",
       "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125038083/ef20056955_8k.htm"
-    },
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital",
-      "filed": "2025-10-09",
-      "form": "8-K",
-      "kind": "item-1.01",
-      "detail": "Entry into a material definitive agreement",
-      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225017609/form8-k.htm"
-    },
-    {
-      "ticker": "VST",
-      "name": "Vistra",
-      "filed": "2025-10-06",
-      "form": "8-K",
-      "kind": "item-1.01",
-      "detail": "Entry into a material definitive agreement",
-      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525230840/d69542d8k.htm"
     },
     {
       "ticker": "INTC",

@@ -844,8 +844,8 @@
       "tokensPerSecond": 53.172,
       "timeToFirstTokenSeconds": 2.992
     },
-    "contextLength": 1310720,
-    "cacheReadPerMtok": 0.26,
+    "contextLength": 1048576,
+    "cacheReadPerMtok": 0.045,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-5.3",
     "intelligencePerDollar": {
@@ -1017,7 +1017,7 @@
       "timeToFirstTokenSeconds": 3.836
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.3,
+    "cacheReadPerMtok": 0.22,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k3",
     "intelligencePerDollar": {
@@ -1231,7 +1231,7 @@
       "tokensPerSecond": 103.661,
       "timeToFirstTokenSeconds": 2.196
     },
-    "contextLength": 1310720,
+    "contextLength": 1048576,
     "cacheReadPerMtok": 0.03,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-5.3-flash",
@@ -1662,7 +1662,7 @@
       "timeToFirstTokenSeconds": 0.805
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.004,
+    "cacheReadPerMtok": 0.006,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v4.1-flash",
     "intelligencePerDollar": {
@@ -2135,7 +2135,7 @@
       "timeToFirstTokenSeconds": 1.091
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.0785755,
+    "cacheReadPerMtok": 0.0174,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v4-pro",
     "intelligencePerDollar": {
@@ -2436,7 +2436,7 @@
       "timeToFirstTokenSeconds": 0.764
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.015848,
+    "cacheReadPerMtok": 0.03,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v4-flash",
     "intelligencePerDollar": {
@@ -2651,7 +2651,7 @@
       "timeToFirstTokenSeconds": 8.623
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.12064,
+    "cacheReadPerMtok": 0.0192,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-5.2",
     "intelligencePerDollar": {
@@ -2695,7 +2695,7 @@
     },
     "contextLength": 1000000,
     "cacheReadPerMtok": 0.08499999999999999,
-    "cacheWritePerMtok": null,
+    "cacheWritePerMtok": 0.53125,
     "openRouterId": "qwen/qwen3.8-27b",
     "intelligencePerDollar": {
       "value": 30.133333333333333,
@@ -3382,7 +3382,7 @@
       "timeToFirstTokenSeconds": 3.391
     },
     "contextLength": 1048576,
-    "cacheReadPerMtok": 0.3,
+    "cacheReadPerMtok": 0.22,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k3",
     "intelligencePerDollar": {
@@ -4286,7 +4286,7 @@
     },
     "contextLength": 1000000,
     "cacheReadPerMtok": 0.08499999999999999,
-    "cacheWritePerMtok": null,
+    "cacheWritePerMtok": 0.53125,
     "openRouterId": "qwen/qwen3.8-27b",
     "intelligencePerDollar": {
       "value": 24.711111111111112,
@@ -4414,7 +4414,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 262144,
-    "cacheReadPerMtok": 0.15,
+    "cacheReadPerMtok": 0.16,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k2.6",
     "intelligencePerDollar": {
@@ -4759,7 +4759,7 @@
     },
     "contextLength": 1000000,
     "cacheReadPerMtok": 0.08499999999999999,
-    "cacheWritePerMtok": null,
+    "cacheWritePerMtok": 0.53125,
     "openRouterId": "qwen/qwen3.8-27b",
     "intelligencePerDollar": {
       "value": 23.555555555555557,
@@ -4801,7 +4801,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 204800,
-    "cacheReadPerMtok": 0.17914,
+    "cacheReadPerMtok": 0.26,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-5.1",
     "intelligencePerDollar": {
@@ -5231,7 +5231,7 @@
       "timeToFirstTokenSeconds": 2.541
     },
     "contextLength": 524288,
-    "cacheReadPerMtok": 0.16999999999999998,
+    "cacheReadPerMtok": 0.16,
     "cacheWritePerMtok": null,
     "openRouterId": "thinkingmachines/inkling",
     "intelligencePerDollar": {
@@ -6349,7 +6349,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 204800,
-    "cacheReadPerMtok": 0.06,
+    "cacheReadPerMtok": 0.041999999999999996,
     "cacheWritePerMtok": null,
     "openRouterId": "minimax/minimax-m2.7",
     "intelligencePerDollar": {
@@ -6435,7 +6435,7 @@
       "timeToFirstTokenSeconds": 1.575
     },
     "contextLength": 262144,
-    "cacheReadPerMtok": 0.012,
+    "cacheReadPerMtok": 0.008400000000000001,
     "cacheWritePerMtok": null,
     "openRouterId": "inclusionai/ling-3.0-flash-fin",
     "intelligencePerDollar": {
@@ -7166,7 +7166,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 262144,
-    "cacheReadPerMtok": 0.15,
+    "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
     "openRouterId": "moonshotai/kimi-k2-thinking",
     "intelligencePerDollar": {
@@ -7209,7 +7209,7 @@
       "timeToFirstTokenSeconds": 1.369
     },
     "contextLength": 262144,
-    "cacheReadPerMtok": null,
+    "cacheReadPerMtok": 0.03,
     "cacheWritePerMtok": null,
     "openRouterId": "qwen/qwen3.6-27b",
     "intelligencePerDollar": {
@@ -8628,7 +8628,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 262144,
-    "cacheReadPerMtok": null,
+    "cacheReadPerMtok": 0.049999999999999996,
     "cacheWritePerMtok": null,
     "openRouterId": "qwen/qwen3.5-35b-a3b",
     "intelligencePerDollar": {
@@ -10520,7 +10520,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 163840,
-    "cacheReadPerMtok": 0.135,
+    "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v3.1-terminus",
     "intelligencePerDollar": {
@@ -11466,7 +11466,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 163840,
-    "cacheReadPerMtok": 0.135,
+    "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
     "openRouterId": "deepseek/deepseek-v3.1-terminus",
     "intelligencePerDollar": {
@@ -11809,8 +11809,8 @@
       "tokensPerSecond": 272.843,
       "timeToFirstTokenSeconds": 0.482
     },
-    "contextLength": 1000000,
-    "cacheReadPerMtok": 0.04,
+    "contextLength": 262144,
+    "cacheReadPerMtok": 0.03,
     "cacheWritePerMtok": null,
     "openRouterId": "nvidia/nemotron-3.5-lightning",
     "intelligencePerDollar": {
@@ -12971,7 +12971,7 @@
       "timeToFirstTokenSeconds": 0.541
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": 0.075,
+    "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
     "openRouterId": "openai/gpt-oss-120b",
     "intelligencePerDollar": {
@@ -14089,7 +14089,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": 0.055,
+    "cacheReadPerMtok": 0.049999999999999996,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-4.6v",
     "intelligencePerDollar": {
@@ -14949,7 +14949,7 @@
       "timeToFirstTokenSeconds": 0.554
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": 0.075,
+    "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
     "openRouterId": "openai/gpt-oss-120b",
     "intelligencePerDollar": {
@@ -15164,7 +15164,7 @@
       "timeToFirstTokenSeconds": 0.478
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": null,
+    "cacheReadPerMtok": 0.009,
     "cacheWritePerMtok": null,
     "openRouterId": "openai/gpt-oss-20b",
     "intelligencePerDollar": {
@@ -16540,7 +16540,7 @@
       "timeToFirstTokenSeconds": 0.435
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": null,
+    "cacheReadPerMtok": 0.009,
     "cacheWritePerMtok": null,
     "openRouterId": "openai/gpt-oss-20b",
     "intelligencePerDollar": {
@@ -17873,7 +17873,7 @@
       "timeToFirstTokenSeconds": 0
     },
     "contextLength": 131072,
-    "cacheReadPerMtok": 0.055,
+    "cacheReadPerMtok": 0.049999999999999996,
     "cacheWritePerMtok": null,
     "openRouterId": "z-ai/glm-4.6v",
     "intelligencePerDollar": {
@@ -18431,10 +18431,10 @@
       "tokensPerSecond": 0,
       "timeToFirstTokenSeconds": 0
     },
-    "contextLength": 8192,
+    "contextLength": null,
     "cacheReadPerMtok": null,
     "cacheWritePerMtok": null,
-    "openRouterId": "deepseek/deepseek-r1-distill-llama-70b",
+    "openRouterId": null,
     "intelligencePerDollar": {
       "value": 9.875,
       "formula": "Intelligence index ÷ blended $/Mtok (3:1 input:output)",

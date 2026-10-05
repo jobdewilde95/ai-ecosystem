@@ -1,10 +1,55 @@
 {
   "source": "filings",
-  "fetchedAt": "2026-09-28T14:56:13.457Z",
+  "fetchedAt": "2026-10-05T15:32:39.361Z",
   "stale": false,
-  "lastSuccessAt": "2026-09-28T14:56:13.457Z",
-  "recordCount": 573,
+  "lastSuccessAt": "2026-10-05T15:32:39.361Z",
+  "recordCount": 570,
   "data": [
+    {
+      "ticker": "ETN",
+      "form": "8-K",
+      "filed": "2026-10-05",
+      "reportDate": "2026-09-30",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126038523/ef20083229_8k.htm",
+      "accession": "0001140361-26-038523",
+      "items": "5.02"
+    },
+    {
+      "ticker": "VST",
+      "form": "8-K",
+      "filed": "2026-10-05",
+      "reportDate": "2026-09-30",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
+      "accession": "0001140361-26-038468",
+      "items": "1.01,2.03,9.01"
+    },
+    {
+      "ticker": "MU",
+      "form": "8-K",
+      "filed": "2026-09-30",
+      "reportDate": "2026-09-30",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+      "accession": "0000723125-26-000018",
+      "items": "2.02,9.01"
+    },
+    {
+      "ticker": "TLN",
+      "form": "8-K",
+      "filed": "2026-09-29",
+      "reportDate": "2026-09-25",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm",
+      "accession": "0001622536-26-000074",
+      "items": "5.02,7.01,8.01,9.01"
+    },
+    {
+      "ticker": "AMD",
+      "form": "8-K",
+      "filed": "2026-09-28",
+      "reportDate": "2026-09-26",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
+      "accession": "0000002488-26-000182",
+      "items": "3.02"
+    },
     {
       "ticker": "MRVL",
       "form": "8-K",
@@ -517,15 +562,6 @@
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
       "accession": "0001193125-26-342390",
       "items": "8.01,9.01"
-    },
-    {
-      "ticker": "CRWV",
-      "form": "8-K",
-      "filed": "2026-08-10",
-      "reportDate": "2026-08-07",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
-      "accession": "0001769628-26-000357",
-      "items": "1.01,2.03,7.01,9.01"
     },
     {
       "ticker": "VST",
@@ -1752,15 +1788,6 @@
       "items": "1.01,9.01"
     },
     {
-      "ticker": "GOOGL",
-      "form": "8-K",
-      "filed": "2026-05-21",
-      "reportDate": "2026-05-21",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526234488/d144566d8k.htm",
-      "accession": "0001193125-26-234488",
-      "items": "8.01,9.01"
-    },
-    {
       "ticker": "NVDA",
       "form": "10-Q",
       "filed": "2026-05-20",
@@ -1786,15 +1813,6 @@
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000015/smci-20260512.htm",
       "accession": "0001375365-26-000015",
       "items": "5.02,9.01"
-    },
-    {
-      "ticker": "GOOGL",
-      "form": "424B5",
-      "filed": "2026-05-18",
-      "reportDate": null,
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526228923/d137872d424b5.htm",
-      "accession": "0001193125-26-228923",
-      "items": null
     },
     {
       "ticker": "INTC",
@@ -2325,15 +2343,6 @@
       "reportDate": "2026-04-29",
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm",
       "accession": "0001018724-26-000012",
-      "items": "2.02,9.01"
-    },
-    {
-      "ticker": "META",
-      "form": "8-K",
-      "filed": "2026-04-29",
-      "reportDate": "2026-04-29",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
-      "accession": "0001628280-26-028364",
       "items": "2.02,9.01"
     },
     {
@@ -4533,15 +4542,6 @@
       "items": "2.01,7.01,9.01"
     },
     {
-      "ticker": "NBIS",
-      "form": "424B5",
-      "filed": "2025-09-12",
-      "reportDate": null,
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1513845/000141057825002147/tm2525503-7_424b5.htm",
-      "accession": "0001410578-25-002147",
-      "items": null
-    },
-    {
       "ticker": "TLN",
       "form": "8-K",
       "filed": "2025-09-09",
@@ -4839,15 +4839,6 @@
       "items": "7.01,9.01"
     },
     {
-      "ticker": "ETN",
-      "form": "8-K",
-      "filed": "2025-07-21",
-      "reportDate": "2025-07-19",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125026628/ef20052342_8k.htm",
-      "accession": "0001140361-25-026628",
-      "items": "5.02"
-    },
-    {
       "ticker": "TLN",
       "form": "8-K",
       "filed": "2025-07-17",
@@ -5082,15 +5073,6 @@
       "items": null
     },
     {
-      "ticker": "DLR",
-      "form": "10-K",
-      "filed": "2025-02-25",
-      "reportDate": "2024-12-31",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1297996/000155837025001424/dlr-20241231x10k.htm",
-      "accession": "0001558370-25-001424",
-      "items": null
-    },
-    {
       "ticker": "CEG",
       "form": "10-K",
       "filed": "2025-02-18",
@@ -5106,15 +5088,6 @@
       "reportDate": "2025-02-18",
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000020/ceg-20250218.htm",
       "accession": "0001868275-25-000020",
-      "items": "2.02,7.01,9.01"
-    },
-    {
-      "ticker": "DLR",
-      "form": "8-K",
-      "filed": "2025-02-13",
-      "reportDate": "2025-02-13",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1297996/000155837025000945/dlr-20250213x8k.htm",
-      "accession": "0001558370-25-000945",
       "items": "2.02,7.01,9.01"
     },
     {

@@ -13,7 +13,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 7.624396622254944,
+        "marketReturnYtd": 11.977972523105759,
         "ttmCapex": 115948000000
       },
       {
@@ -25,7 +25,7 @@
         "role": "Enterprise AI deployment",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 11.146550697009411,
+        "marketReturnYtd": 12.164899320862615,
         "ttmCapex": null
       },
       {
@@ -37,7 +37,7 @@
         "role": "Workflow automation with embedded agents",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -11.393692777212603,
+        "marketReturnYtd": -7.806035944387922,
         "ttmCapex": null
       },
       {
@@ -49,7 +49,7 @@
         "role": "Agentforce; the clearest seat-cannibalisation test case",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -8.818390673178955,
+        "marketReturnYtd": -9.255084204437674,
         "ttmCapex": null
       },
       {
@@ -251,44 +251,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": -4.829344610674944,
+          "value": -1.142566511037529,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": -5.298994329879317,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": -0.5297968802950725,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": 40.44147512529091,
+          "value": 32.4970830630118,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": 43.77977126911276,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 35.64230580953642,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": -13.041775746670767,
+          "value": -12.260859572966284,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": -0.3602840327818009,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 1.770437923785694,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": -24.230901154045632,
+          "value": -21.316433589888067,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": -7.570666908041646,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": -4.562424329196694,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 4,
             "benchmark": "SPY"
           },
@@ -296,10 +296,10 @@
         }
       },
       "averageReturns": {
-        "m1": -5.298994329879317,
-        "m3": 43.77977126911276,
-        "ytd": -0.3602840327818009,
-        "y1": -7.570666908041646
+        "m1": -0.5297968802950725,
+        "m3": 35.64230580953642,
+        "ytd": 1.770437923785694,
+        "y1": -4.562424329196694
       }
     }
   },
@@ -317,7 +317,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 7.624396622254944,
+        "marketReturnYtd": 11.977972523105759,
         "ttmCapex": 115948000000
       },
       {
@@ -331,7 +331,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 8.763796909492271,
+        "marketReturnYtd": 11.143487858719652,
         "ttmCapex": 173028000000
       },
       {
@@ -345,7 +345,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 8.173509028000105,
+        "marketReturnYtd": 9.9198793405314,
         "ttmCapex": 132402000000
       },
       {
@@ -359,7 +359,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 10.799412830935776,
+        "marketReturnYtd": 14.946961023978947,
         "ttmCapex": 89325000000
       },
       {
@@ -373,7 +373,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": -31.85627550101811,
+        "marketReturnYtd": -26.03963159363662,
         "ttmCapex": 75660000000
       },
       {
@@ -387,7 +387,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 5.635400907715599,
+        "marketReturnYtd": 10.49546142208775,
         "ttmCapex": 20566000000
       },
       {
@@ -401,7 +401,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 156.7982212340189,
+        "marketReturnYtd": 161.1839911061701,
         "ttmCapex": null
       },
       {
@@ -415,7 +415,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": -1.084543325526942,
+        "marketReturnYtd": -6.135831381733031,
         "ttmCapex": 2998006000
       },
       {
@@ -429,7 +429,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 3.889506172839521,
+        "marketReturnYtd": -6.450617283950617,
         "ttmCapex": null
       },
       {
@@ -443,7 +443,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 4.90931832395246,
+        "marketReturnYtd": 1.8136335209505998,
         "ttmCapex": 1477985000
       },
       {
@@ -457,7 +457,7 @@
           "neocloud"
         ],
         "latestValuation": null,
-        "marketReturnYtd": -11.5795090715048,
+        "marketReturnYtd": -13.565279260049797,
         "ttmCapex": 2865765000
       },
       {
@@ -469,7 +469,7 @@
         "role": "Edge inference and AI gateway",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 75.83409856137129,
+        "marketReturnYtd": 84.2209978573615,
         "ttmCapex": null
       },
       {
@@ -603,44 +603,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 5.123093004500224,
+          "value": -0.13514704119216253,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 4.653443285295851,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 0.47762258955029385,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 12,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -6.525787701068115,
+          "value": -1.4187008328164954,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -3.187491557246265,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 1.72652191370812,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 12,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 7.144119343821952,
+          "value": 7.094621264375995,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 19.82561105771092,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 21.125918761127974,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 12,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": -0.04685298621028977,
+          "value": -8.818725826279884,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 16.613381259793695,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 7.935283434411488,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 12,
             "benchmark": "SPY"
           },
@@ -648,10 +648,10 @@
         }
       },
       "averageReturns": {
-        "m1": 4.653443285295851,
-        "m3": -3.187491557246265,
-        "ytd": 19.82561105771092,
-        "y1": 16.613381259793695
+        "m1": 0.47762258955029385,
+        "m3": 1.72652191370812,
+        "ytd": 21.125918761127974,
+        "y1": 7.935283434411488
       }
     }
   },
@@ -721,7 +721,7 @@
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -732,7 +732,7 @@
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -743,7 +743,7 @@
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 12.681491713888967,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -754,7 +754,7 @@
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 16.660234246003984,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -781,7 +781,7 @@
         "role": "Interconnection-dense colocation",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 36.14365064443889,
+        "marketReturnYtd": 36.25525904775445,
         "ttmCapex": 5406000000
       },
       {
@@ -793,7 +793,7 @@
         "role": "Wholesale data center REIT",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 17.71656134807795,
+        "marketReturnYtd": 17.400605581885205,
         "ttmCapex": 3263914000
       },
       {
@@ -805,7 +805,7 @@
         "role": "Power and liquid cooling; direct beneficiary of rack density",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 40.37228607881876,
+        "marketReturnYtd": 45.673197191614044,
         "ttmCapex": 424400000
       },
       {
@@ -817,7 +817,7 @@
         "role": "Electrical distribution gear for data centers",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 32.431305871599264,
+        "marketReturnYtd": 34.801954560564305,
         "ttmCapex": 1016000000
       },
       {
@@ -829,7 +829,7 @@
         "role": "Liquid cooling and electrical connection",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 52.9138563956611,
+        "marketReturnYtd": 58.95686000829562,
         "ttmCapex": null
       },
       {
@@ -841,7 +841,7 @@
         "role": "Thermal management for data centers",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 28.648533484837728,
+        "marketReturnYtd": 30.367161423194368,
         "ttmCapex": null
       },
       {
@@ -853,7 +853,7 @@
         "role": "Mechanical contracting for data center builds",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 65.05821651614885,
+        "marketReturnYtd": 71.96837299763153,
         "ttmCapex": null
       },
       {
@@ -867,7 +867,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 46.71470320902153,
+        "marketReturnYtd": 55.99452225867174,
         "ttmCapex": 787091000
       },
       {
@@ -902,44 +902,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 3.6140365046232925,
+          "value": 0.8137125832097996,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 3.1443867854189196,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 1.426482213952256,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 8,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -13.249815108525013,
+          "value": -6.052478902243876,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -9.911518964703163,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": -2.9072561557192604,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 8,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 27.31839747968654,
+          "value": 29.895944136949428,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 39.999889193575505,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 43.927241633701406,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 8,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 33.48334483968402,
+          "value": 31.88283432154726,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 50.143579085688,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 48.63684358223863,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 8,
             "benchmark": "SPY"
           },
@@ -947,10 +947,10 @@
         }
       },
       "averageReturns": {
-        "m1": 3.1443867854189196,
-        "m3": -9.911518964703163,
-        "ytd": 39.999889193575505,
-        "y1": 50.143579085688
+        "m1": 1.426482213952256,
+        "m3": -2.9072561557192604,
+        "ytd": 43.927241633701406,
+        "y1": 48.63684358223863
       }
     }
   },
@@ -968,7 +968,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 50.363995112829095,
+        "marketReturnYtd": 60.381132674636426,
         "ttmCapex": null
       },
       {
@@ -980,7 +980,7 @@
         "role": "Deposition and etch tooling for logic and memory",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 76.32071640578808,
+        "marketReturnYtd": 100.83593614695994,
         "ttmCapex": null
       },
       {
@@ -992,7 +992,7 @@
         "role": "Etch and deposition, heavily levered to HBM capacity",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 66.17311356851897,
+        "marketReturnYtd": 86.87090948900995,
         "ttmCapex": null
       },
       {
@@ -1004,7 +1004,7 @@
         "role": "Process control and inspection",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 44.484224553025065,
+        "marketReturnYtd": 60.6920373803512,
         "ttmCapex": null
       },
       {
@@ -1016,7 +1016,7 @@
         "role": "Automated test equipment for advanced packaging",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 86.19465133542965,
+        "marketReturnYtd": 114.45354009086644,
         "ttmCapex": null
       },
       {
@@ -1028,7 +1028,7 @@
         "role": "EDA tooling and IP for accelerator design",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -12.98447192040298,
+        "marketReturnYtd": 2.12938678656175,
         "ttmCapex": null
       },
       {
@@ -1040,7 +1040,7 @@
         "role": "EDA tooling and simulation",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 4.867912371134025,
+        "marketReturnYtd": 15.391430412371147,
         "ttmCapex": null
       },
       {
@@ -1086,44 +1086,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 1.9040530178920572,
+          "value": 16.567062874436175,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 1.434403298687684,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 17.17983250517863,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -22.55013376369227,
+          "value": -2.8106254222233176,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -19.21183761987042,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 0.334597324301298,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 32.3785284898713,
+          "value": 48.933612929070435,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 45.06002020376027,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 62.96491042582242,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 68.34170357098343,
+          "value": 78.56583405431243,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 85.00193781698741,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 95.31984331500381,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 7,
             "benchmark": "SPY"
           },
@@ -1131,10 +1131,10 @@
         }
       },
       "averageReturns": {
-        "m1": 1.434403298687684,
-        "m3": -19.21183761987042,
-        "ytd": 45.06002020376027,
-        "y1": 85.00193781698741
+        "m1": 17.17983250517863,
+        "m3": 0.334597324301298,
+        "ytd": 62.96491042582242,
+        "y1": 95.31984331500381
       }
     }
   },
@@ -1266,7 +1266,7 @@
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -1277,7 +1277,7 @@
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -1288,7 +1288,7 @@
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 12.681491713888967,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -1299,7 +1299,7 @@
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
             "basketReturnPct": null,
-            "benchmarkReturnPct": 16.660234246003984,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 0,
             "benchmark": "SPY"
           },
@@ -1328,7 +1328,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 39.8602721712683,
+        "marketReturnYtd": 52.74197337571525,
         "ttmCapex": null
       },
       {
@@ -1340,7 +1340,7 @@
         "role": "Foundry ambitions plus Gaudi accelerators",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 192.8643981716607,
+        "marketReturnYtd": 197.2254951752158,
         "ttmCapex": 12105000000
       },
       {
@@ -1352,7 +1352,7 @@
         "role": "Mature-node foundry, power and analog for DC infrastructure",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 27.20287108438984,
+        "marketReturnYtd": 31.20561582363961,
         "ttmCapex": null
       },
       {
@@ -1364,7 +1364,7 @@
         "role": "Mature-node foundry",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 204.6920630800182,
+        "marketReturnYtd": 205.60062301252518,
         "ttmCapex": null
       },
       {
@@ -1378,7 +1378,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 155.89949736701797,
+        "marketReturnYtd": 184.1763468946388,
         "ttmCapex": null
       },
       {
@@ -1390,7 +1390,7 @@
         "role": "Outsourced semiconductor assembly and test",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 21.326490475566136,
+        "marketReturnYtd": 29.755193017288217,
         "ttmCapex": null
       },
       {
@@ -1423,44 +1423,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 13.82906428702138,
+          "value": 15.73630871748065,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 13.359414567817007,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 16.349078348223106,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 6,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -20.413077211461513,
+          "value": -10.629831506690474,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -17.074781067639663,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": -7.484608760165858,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 6,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 94.29277367776456,
+          "value": 102.75291038641848,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 106.97426539165353,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 116.78420788317045,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 6,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 133.91260914864114,
+          "value": 145.45594078432603,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 150.57284339464513,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 162.2099500450174,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 6,
             "benchmark": "SPY"
           },
@@ -1468,10 +1468,10 @@
         }
       },
       "averageReturns": {
-        "m1": 13.359414567817007,
-        "m3": -17.074781067639663,
-        "ytd": 106.97426539165353,
-        "y1": 150.57284339464513
+        "m1": 16.349078348223106,
+        "m3": -7.484608760165858,
+        "ytd": 116.78420788317045,
+        "y1": 162.2099500450174
       }
     }
   },
@@ -1487,7 +1487,7 @@
         "role": "Data platform for AI workloads",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 50.44529555627334,
+        "marketReturnYtd": 56.40487287157953,
         "ttmCapex": null
       },
       {
@@ -1499,7 +1499,7 @@
         "role": "Operational and vector data store",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -17.950706868509936,
+        "marketReturnYtd": -11.379957462779924,
         "ttmCapex": null
       },
       {
@@ -1511,7 +1511,7 @@
         "role": "Observability; AI-native customers a growth driver",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 99.20011960828288,
+        "marketReturnYtd": 107.46243552365998,
         "ttmCapex": null
       },
       {
@@ -1523,7 +1523,7 @@
         "role": "Edge inference and AI gateway",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 75.83409856137129,
+        "marketReturnYtd": 84.2209978573615,
         "ttmCapex": null
       },
       {
@@ -1628,44 +1628,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 0.5234354860291328,
+          "value": 13.480851139474833,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 0.05378576682475966,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 14.093620770217289,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": 15.441340565214215,
+          "value": 17.56156974375979,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": 18.779636709036065,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 20.706792490284407,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 39.20071000046542,
+          "value": 45.14578970070329,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 51.88220171435439,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 59.177087197455265,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 4,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 33.10107062481961,
+          "value": 34.220628295666714,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 49.7613048708236,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 50.97463755635809,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 4,
             "benchmark": "SPY"
           },
@@ -1673,10 +1673,10 @@
         }
       },
       "averageReturns": {
-        "m1": 0.05378576682475966,
-        "m3": 18.779636709036065,
-        "ytd": 51.88220171435439,
-        "y1": 49.7613048708236
+        "m1": 14.093620770217289,
+        "m3": 20.706792490284407,
+        "ytd": 59.177087197455265,
+        "y1": 50.97463755635809
       }
     }
   },
@@ -1694,7 +1694,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 7.624396622254944,
+        "marketReturnYtd": 11.977972523105759,
         "ttmCapex": 115948000000
       },
       {
@@ -1708,7 +1708,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 8.173509028000105,
+        "marketReturnYtd": 9.9198793405314,
         "ttmCapex": 132402000000
       },
       {
@@ -1722,7 +1722,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 10.799412830935776,
+        "marketReturnYtd": 14.946961023978947,
         "ttmCapex": 89325000000
       },
       {
@@ -1909,44 +1909,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 7.529459064995197,
+          "value": 8.87545320965467,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 7.059809345790824,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 9.488222840397126,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 3,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": 17.203508075019688,
+          "value": 15.207606374150307,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": 20.541804218841538,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 18.352829120674922,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 3,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": -3.8157188868253584,
+          "value": -1.7496932008799444,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 8.865772827063608,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 12.281604295872034,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 3,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": -4.978242654786735,
+          "value": -0.3729908836595328,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 11.68199159121725,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 16.38101837703184,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 3,
             "benchmark": "SPY"
           },
@@ -1954,10 +1954,10 @@
         }
       },
       "averageReturns": {
-        "m1": 7.059809345790824,
-        "m3": 20.541804218841538,
-        "ytd": 8.865772827063608,
-        "y1": 11.68199159121725
+        "m1": 9.488222840397126,
+        "m3": 18.352829120674922,
+        "ytd": 12.281604295872034,
+        "y1": 16.38101837703184
       }
     }
   },
@@ -1975,7 +1975,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 228.74722710475953,
+        "marketReturnYtd": 237.60247380480405,
         "ttmCapex": 25260000000
       },
       {
@@ -2017,44 +2017,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 11.562396755201195,
+          "value": 4.075944600166767,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 11.092747035996823,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 4.688714230909223,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 1,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -12.836482290947897,
+          "value": 4.928400000365469,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -9.498186147126047,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 8.073622746890084,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 1,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 216.06573539087057,
+          "value": 223.57117630805206,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 228.74722710475953,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 237.60247380480405,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 1,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 543.3531400168193,
+          "value": 450.4055167629755,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 560.0133742628233,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 467.15952602366684,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 1,
             "benchmark": "SPY"
           },
@@ -2062,10 +2062,10 @@
         }
       },
       "averageReturns": {
-        "m1": 11.092747035996823,
-        "m3": -9.498186147126047,
-        "ytd": 228.74722710475953,
-        "y1": 560.0133742628233
+        "m1": 4.688714230909223,
+        "m3": 8.073622746890084,
+        "ytd": 237.60247380480405,
+        "y1": 467.15952602366684
       }
     }
   },
@@ -2083,7 +2083,7 @@
           "circular-financier"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 21.607714277070485,
+        "marketReturnYtd": 25.589475242968636,
         "ttmCapex": 7354000000
       },
       {
@@ -2095,7 +2095,7 @@
         "role": "Custom XPUs for hyperscalers plus Tomahawk/Jericho switching silicon",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 0.9156107378745291,
+        "marketReturnYtd": 4.86829309494016,
         "ttmCapex": 1250000000
       },
       {
@@ -2107,7 +2107,7 @@
         "role": "Custom silicon and optical DSPs",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 179.04188933328848,
+        "marketReturnYtd": 205.12889456525394,
         "ttmCapex": 470200000
       },
       {
@@ -2119,7 +2119,7 @@
         "role": "Ethernet switching for AI back-end fabrics",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 52.90044910179642,
+        "marketReturnYtd": 55.84580838323354,
         "ttmCapex": 138300000
       },
       {
@@ -2131,7 +2131,7 @@
         "role": "PCIe/CXL connectivity silicon",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 93.80708398306973,
+        "marketReturnYtd": 101.1427378035197,
         "ttmCapex": null
       },
       {
@@ -2143,7 +2143,7 @@
         "role": "Active electrical cables and SerDes",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 34.11883815109622,
+        "marketReturnYtd": 47.60508308895407,
         "ttmCapex": null
       },
       {
@@ -2155,7 +2155,7 @@
         "role": "Optical transceivers for cluster interconnect",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 42.221942057325165,
+        "marketReturnYtd": 69.7736839396902,
         "ttmCapex": null
       },
       {
@@ -2167,7 +2167,7 @@
         "role": "Photonics and optical components",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 128.82598223304237,
+        "marketReturnYtd": 180.72052005905056,
         "ttmCapex": null
       },
       {
@@ -2179,7 +2179,7 @@
         "role": "Contract optical manufacturing",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -15.81911476367278,
+        "marketReturnYtd": -4.490363355721505,
         "ttmCapex": null
       },
       {
@@ -2191,7 +2191,7 @@
         "role": "DCI and long-haul optical transport",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 38.62878972608307,
+        "marketReturnYtd": 58.84337153539788,
         "ttmCapex": null
       }
     ],
@@ -2216,44 +2216,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 1.2428667329982261,
+          "value": 14.195988103402685,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 0.773217013793853,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 14.808757734145141,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 10,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -13.116398552138543,
+          "value": 0.7379345132079571,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -9.778102408316693,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 3.8831572597325725,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 10,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 44.9434267698084,
+          "value": 60.47145293897674,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 57.624918483697364,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 74.50275043572871,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 10,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 98.18891382299012,
+          "value": 118.86648015646573,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 114.8491480689941,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 135.6204894171571,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 10,
             "benchmark": "SPY"
           },
@@ -2261,10 +2261,10 @@
         }
       },
       "averageReturns": {
-        "m1": 0.773217013793853,
-        "m3": -9.778102408316693,
-        "ytd": 57.624918483697364,
-        "y1": 114.8491480689941
+        "m1": 14.808757734145141,
+        "m3": 3.8831572597325725,
+        "ytd": 74.50275043572871,
+        "y1": 135.6204894171571
       }
     }
   },
@@ -2280,7 +2280,7 @@
         "role": "Electrical distribution gear for data centers",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 32.431305871599264,
+        "marketReturnYtd": 34.801954560564305,
         "ttmCapex": 1016000000
       },
       {
@@ -2294,7 +2294,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 46.71470320902153,
+        "marketReturnYtd": 55.99452225867174,
         "ttmCapex": 787091000
       },
       {
@@ -2306,7 +2306,7 @@
         "role": "Largest US nuclear fleet; PPA counterparty for hyperscalers",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -28.977709032668546,
+        "marketReturnYtd": -26.339432633449622,
         "ttmCapex": 3897000000
       },
       {
@@ -2318,7 +2318,7 @@
         "role": "Nuclear and gas generation serving data center demand",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -16.68322140144238,
+        "marketReturnYtd": -11.339919163403852,
         "ttmCapex": 2866000000
       },
       {
@@ -2330,7 +2330,7 @@
         "role": "Retail and generation exposure to load growth",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -40.28675242216646,
+        "marketReturnYtd": -40.942771664587305,
         "ttmCapex": null
       },
       {
@@ -2342,7 +2342,7 @@
         "role": "Nuclear capacity contracted to data centers",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -23.938194742015988,
+        "marketReturnYtd": -15.811761147379835,
         "ttmCapex": 228000000
       },
       {
@@ -2356,7 +2356,7 @@
           "bottleneck"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 40.02652246153212,
+        "marketReturnYtd": 45.85437266785888,
         "ttmCapex": 1701000000
       },
       {
@@ -2368,7 +2368,7 @@
         "role": "On-site fuel cells bypassing grid interconnect queues",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 164.25169723376231,
+        "marketReturnYtd": 192.592866551829,
         "ttmCapex": null
       },
       {
@@ -2380,7 +2380,7 @@
         "role": "Uranium supply for the nuclear restart thesis",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -12.159902597402604,
+        "marketReturnYtd": -10.683847402597403,
         "ttmCapex": null
       },
       {
@@ -2392,7 +2392,7 @@
         "role": "Small modular reactors targeting data center loads",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -52.48071979434448,
+        "marketReturnYtd": -53.52827763496144,
         "ttmCapex": null
       },
       {
@@ -2404,7 +2404,7 @@
         "role": "Small modular reactor developer",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -50.9196811771919,
+        "marketReturnYtd": -52.666462293071724,
         "ttmCapex": null
       },
       {
@@ -2458,44 +2458,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": -0.39462843949208465,
+          "value": -3.811793919831932,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": -0.8642781586964577,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": -3.199024289089476,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 11,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -18.354150907709574,
+          "value": -12.979049308848067,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -15.015854763887724,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": -9.833826562323452,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 11,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": -7.410760113099616,
+          "value": -3.310275305890821,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 5.270731600789351,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 10.721022190861158,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 11,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": -3.9648443781844342,
+          "value": -7.368938917492713,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 12.69538986781955,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 9.38507034319866,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 11,
             "benchmark": "SPY"
           },
@@ -2503,10 +2503,10 @@
         }
       },
       "averageReturns": {
-        "m1": -0.8642781586964577,
-        "m3": -15.015854763887724,
-        "ytd": 5.270731600789351,
-        "y1": 12.69538986781955
+        "m1": -3.199024289089476,
+        "m3": -9.833826562323452,
+        "ytd": 10.721022190861158,
+        "y1": 9.38507034319866
       }
     }
   },
@@ -2522,7 +2522,7 @@
         "role": "Foundry ambitions plus Gaudi accelerators",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 192.8643981716607,
+        "marketReturnYtd": 197.2254951752158,
         "ttmCapex": 12105000000
       },
       {
@@ -2536,7 +2536,7 @@
           "circular-financier"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 21.607714277070485,
+        "marketReturnYtd": 25.589475242968636,
         "ttmCapex": 7354000000
       },
       {
@@ -2548,7 +2548,7 @@
         "role": "MI-series accelerators; the credible second source",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 166.98214525439653,
+        "marketReturnYtd": 181.88347429185123,
         "ttmCapex": 1677000000
       },
       {
@@ -2560,7 +2560,7 @@
         "role": "Custom XPUs for hyperscalers plus Tomahawk/Jericho switching silicon",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 0.9156107378745291,
+        "marketReturnYtd": 4.86829309494016,
         "ttmCapex": 1250000000
       },
       {
@@ -2572,7 +2572,7 @@
         "role": "Custom silicon and optical DSPs",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 179.04188933328848,
+        "marketReturnYtd": 205.12889456525394,
         "ttmCapex": 470200000
       },
       {
@@ -2586,7 +2586,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 8.763796909492271,
+        "marketReturnYtd": 11.143487858719652,
         "ttmCapex": 173028000000
       },
       {
@@ -2600,7 +2600,7 @@
           "hyperscaler"
         ],
         "latestValuation": null,
-        "marketReturnYtd": 8.173509028000105,
+        "marketReturnYtd": 9.9198793405314,
         "ttmCapex": 132402000000
       },
       {
@@ -2670,44 +2670,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 9.460545178600178,
+          "value": 10.78158522016256,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 8.990895459395805,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 11.394354850905016,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": -3.5967388285307065,
+          "value": 1.8501234601001664,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": -0.2584426847088568,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 4.995346206624782,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 69.93980310208005,
+          "value": 76.79141672745959,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 82.62129481596902,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 90.82271422421157,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 7,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 95.27513465158738,
+          "value": 98.56403095311825,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 111.93536889759136,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 115.31804021380962,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 7,
             "benchmark": "SPY"
           },
@@ -2715,10 +2715,10 @@
         }
       },
       "averageReturns": {
-        "m1": 8.990895459395805,
-        "m3": -0.2584426847088568,
-        "ytd": 82.62129481596902,
-        "y1": 111.93536889759136
+        "m1": 11.394354850905016,
+        "m3": 4.995346206624782,
+        "ytd": 90.82271422421157,
+        "y1": 115.31804021380962
       }
     }
   },
@@ -2734,7 +2734,7 @@
         "role": "Contract optical manufacturing",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": -15.81911476367278,
+        "marketReturnYtd": -4.490363355721505,
         "ttmCapex": null
       },
       {
@@ -2746,7 +2746,7 @@
         "role": "AI server integration and shipment bellwether",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 325.80794936261077,
+        "marketReturnYtd": 339.1763843792245,
         "ttmCapex": 3592000000
       },
       {
@@ -2758,7 +2758,7 @@
         "role": "High-density GPU server systems",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 32.525839793281655,
+        "marketReturnYtd": 40.326227390180875,
         "ttmCapex": 161999000
       },
       {
@@ -2770,7 +2770,7 @@
         "role": "AI systems and HPC integration",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 156.25191021867556,
+        "marketReturnYtd": 186.79447512424275,
         "ttmCapex": null
       },
       {
@@ -2782,7 +2782,7 @@
         "role": "ODM for hyperscaler racks and switches",
         "tags": [],
         "latestValuation": null,
-        "marketReturnYtd": 16.84193121693122,
+        "marketReturnYtd": 27.480158730158738,
         "ttmCapex": null
       },
       {
@@ -2838,44 +2838,44 @@
       ],
       "relativeStrength": {
         "m1": {
-          "value": 12.836661735272672,
+          "value": 16.132667556025787,
           "formula": "Equal-weighted basket m1 return − benchmark m1 return",
           "inputs": {
-            "basketReturnPct": 12.3670120160683,
-            "benchmarkReturnPct": -0.4696497192043731,
+            "basketReturnPct": 16.745437186768243,
+            "benchmarkReturnPct": 0.6127696307424564,
             "constituents": 5,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "m3": {
-          "value": 15.36915634474482,
+          "value": 28.002451842329464,
           "formula": "Equal-weighted basket m3 return − benchmark m3 return",
           "inputs": {
-            "basketReturnPct": 18.70745248856667,
-            "benchmarkReturnPct": 3.3382961438218497,
+            "basketReturnPct": 31.14767458885408,
+            "benchmarkReturnPct": 3.1452227465246154,
             "constituents": 5,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "ytd": {
-          "value": 90.4402114516763,
+          "value": 103.8260789568651,
           "formula": "Equal-weighted basket ytd return − benchmark ytd return",
           "inputs": {
-            "basketReturnPct": 103.12170316556528,
-            "benchmarkReturnPct": 12.681491713888967,
+            "basketReturnPct": 117.85737645361708,
+            "benchmarkReturnPct": 14.031297496751979,
             "constituents": 5,
             "benchmark": "SPY"
           },
           "unit": "percent"
         },
         "y1": {
-          "value": 88.17947701665862,
+          "value": 95.11860553597691,
           "formula": "Equal-weighted basket y1 return − benchmark y1 return",
           "inputs": {
-            "basketReturnPct": 104.8397112626626,
-            "benchmarkReturnPct": 16.660234246003984,
+            "basketReturnPct": 111.87261479666829,
+            "benchmarkReturnPct": 16.754009260691372,
             "constituents": 5,
             "benchmark": "SPY"
           },
@@ -2883,10 +2883,10 @@
         }
       },
       "averageReturns": {
-        "m1": 12.3670120160683,
-        "m3": 18.70745248856667,
-        "ytd": 103.12170316556528,
-        "y1": 104.8397112626626
+        "m1": 16.745437186768243,
+        "m3": 31.14767458885408,
+        "ytd": 117.85737645361708,
+        "y1": 111.87261479666829
       }
     }
   }

@@ -5,6 +5,24 @@
     {
       "ticker": "VST",
       "name": "Vistra",
+      "filed": "2026-10-05",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "filed": "2026-09-28",
+      "form": "8-K",
+      "kind": "item-3.02",
+      "detail": "Unregistered sale of equity securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
       "filed": "2026-09-24",
       "form": "8-K",
       "kind": "item-1.01",
@@ -199,15 +217,6 @@
       "kind": "shelf",
       "detail": "Shelf registration — capacity to issue securities",
       "href": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341177/d120558ds3asr.htm"
-    },
-    {
-      "ticker": "CRWV",
-      "name": "CoreWeave",
-      "filed": "2026-08-10",
-      "form": "8-K",
-      "kind": "item-1.01",
-      "detail": "Entry into a material definitive agreement",
-      "href": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm"
     },
     {
       "ticker": "GOOGL",
@@ -640,15 +649,6 @@
       "kind": "item-1.01",
       "detail": "Entry into a material definitive agreement",
       "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000042/tln-20260520.htm"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-05-18",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526228923/d137872d424b5.htm"
     },
     {
       "ticker": "AMD",
@@ -1477,15 +1477,6 @@
       "kind": "item-2.01",
       "detail": "Completion of acquisition or disposition",
       "href": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000153/intc-20250912.htm"
-    },
-    {
-      "ticker": "NBIS",
-      "name": "Nebius Group",
-      "filed": "2025-09-12",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1513845/000141057825002147/tm2525503-7_424b5.htm"
     },
     {
       "ticker": "INTC",

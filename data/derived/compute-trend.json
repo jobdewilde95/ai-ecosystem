@@ -2992,7 +2992,7 @@
     "model": "Inkling",
     "organization": "Thinking Machines",
     "date": "2026-07-15",
-    "flop": 1.845e+24,
+    "flop": 1.1e+25,
     "parameters": 975000000000
   },
   {

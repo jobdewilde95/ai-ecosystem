@@ -1,8 +1,8 @@
 {
   "source": "epoch-models",
-  "fetchedAt": "2026-10-05T15:32:42.904Z",
+  "fetchedAt": "2026-10-12T16:29:02.245Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-05T15:32:42.904Z",
+  "lastSuccessAt": "2026-10-12T16:29:02.245Z",
   "recordCount": 790,
   "data": [
     {
@@ -165,7 +165,7 @@
       "publicationDate": "2026-07-15",
       "domain": "Language,Multimodal,Audio,Video,Vision",
       "parameters": 975000000000,
-      "trainingComputeFlop": 1.845e+24,
+      "trainingComputeFlop": 1.1e+25,
       "trainingHardware": "NVIDIA GB300 (Blackwell Ultra)",
       "hardwareQuantity": null,
       "country": "United States of America"

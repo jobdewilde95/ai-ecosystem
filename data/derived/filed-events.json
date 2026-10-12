@@ -3,6 +3,24 @@
   "curatedThrough": "2026-09-01",
   "events": [
     {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-10-09",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526419168/d368817d8k.htm"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "filed": "2026-10-06",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1297996/000119312526415814/d191285d8k.htm"
+    },
+    {
       "ticker": "VST",
       "name": "Vistra",
       "filed": "2026-10-05",
@@ -91,15 +109,6 @@
       "kind": "pricing",
       "detail": "Pricing supplement — a specific issuance priced",
       "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036130/ny20081693x2_424b5.htm"
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "filed": "2026-09-09",
-      "form": "424B2",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526385954/d207421d424b2.htm"
     },
     {
       "ticker": "VST",
@@ -1396,15 +1405,6 @@
       "kind": "item-1.01",
       "detail": "Entry into a material definitive agreement",
       "href": "https://www.sec.gov/Archives/edgar/data/1622536/000162253625000023/tln-20251027.htm"
-    },
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital",
-      "filed": "2025-10-21",
-      "form": "8-K",
-      "kind": "item-1.01",
-      "detail": "Entry into a material definitive agreement",
-      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225018800/form8-k.htm"
     },
     {
       "ticker": "VST",

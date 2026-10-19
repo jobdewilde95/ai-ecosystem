@@ -1,16 +1,430 @@
 {
   "source": "openrouter",
-  "fetchedAt": "2026-10-12T16:27:51.999Z",
+  "fetchedAt": "2026-10-19T14:18:30.290Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-12T16:27:51.999Z",
-  "recordCount": 458,
+  "lastSuccessAt": "2026-10-19T14:18:30.290Z",
+  "recordCount": 469,
   "data": [
+    {
+      "id": "minimax/minimax-m3.1-flash:free",
+      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "creator": "minimax",
+      "createdAt": "2026-10-19",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "creator": "deepseek",
+      "createdAt": "2026-10-17",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 0.6,
+        "cacheReadPerMtok": 0.003,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.26249999999999996
+      }
+    },
+    {
+      "id": "elorian/glimpse",
+      "name": "Elorian: Glimpse",
+      "creator": "elorian",
+      "createdAt": "2026-10-17",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.6,
+        "outputPerMtok": 3,
+        "cacheReadPerMtok": 0.06,
+        "cacheWritePerMtok": null,
+        "blended3to1": 1.2
+      }
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "creator": "xingchen-agi",
+      "createdAt": "2026-10-16",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0
+      }
+    },
+    {
+      "id": "reflection/beam-1.0-501b-a23b",
+      "name": "Reflection: Beam 1.0 501B A23B",
+      "creator": "reflection",
+      "createdAt": "2026-10-16",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 1,
+        "outputPerMtok": 3,
+        "cacheReadPerMtok": 0.09999999999999999,
+        "cacheWritePerMtok": null,
+        "blended3to1": 1.5
+      }
+    },
+    {
+      "id": "moondream/moondream3-preview",
+      "name": "Moondream: Moondream 3 Preview",
+      "creator": "moondream",
+      "createdAt": "2026-10-15",
+      "contextLength": 32000,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.3,
+        "outputPerMtok": 2.5,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.85
+      }
+    },
+    {
+      "id": "moondream/moondream3.1-9b-a2b",
+      "name": "Moondream: Moondream 3.1",
+      "creator": "moondream",
+      "createdAt": "2026-10-15",
+      "contextLength": 32000,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.3,
+        "outputPerMtok": 2.5,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.85
+      }
+    },
+    {
+      "id": "meta/muse-spark-open",
+      "name": "Meta: Muse Spark Open",
+      "creator": "meta",
+      "createdAt": "2026-10-15",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 1.25,
+        "outputPerMtok": 4.25,
+        "cacheReadPerMtok": 0.15,
+        "cacheWritePerMtok": null,
+        "blended3to1": 2
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "name": "NVIDIA: Nemotron 3.5 Super VL",
+      "creator": "nvidia",
+      "createdAt": "2026-10-15",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.09999999999999999,
+        "outputPerMtok": 0.39999999999999997,
+        "cacheReadPerMtok": 0.08,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.175
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+      "creator": "nvidia",
+      "createdAt": "2026-10-15",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0
+      }
+    },
+    {
+      "id": "unbiased/pareto-26.10",
+      "name": "Pareto 26.10",
+      "creator": "unbiased",
+      "createdAt": "2026-10-15",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.7999999999999999,
+        "outputPerMtok": 3.1999999999999997,
+        "cacheReadPerMtok": 0.03,
+        "cacheWritePerMtok": null,
+        "blended3to1": 1.4
+      }
+    },
+    {
+      "id": "~unbiased/pareto-latest",
+      "name": "Pareto Latest",
+      "creator": "~unbiased",
+      "createdAt": "2026-10-13",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.7999999999999999,
+        "outputPerMtok": 3.1999999999999997,
+        "cacheReadPerMtok": 0.03,
+        "cacheWritePerMtok": null,
+        "blended3to1": 1.4
+      }
+    },
+    {
+      "id": "unbiased/pareto-26.9",
+      "name": "Pareto 26.9",
+      "creator": "unbiased",
+      "createdAt": "2026-10-13",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 2.5,
+        "outputPerMtok": 7.5,
+        "cacheReadPerMtok": 0.25,
+        "cacheWritePerMtok": null,
+        "blended3to1": 3.75
+      }
+    },
+    {
+      "id": "liquid/lfm-2.5-24b-a2b",
+      "name": "LiquidAI: LFM2.5-24B-A2B",
+      "creator": "liquid",
+      "createdAt": "2026-10-13",
+      "contextLength": 128000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.7,
+        "cacheReadPerMtok": 0.024999999999999998,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.2125
+      }
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "name": "Google: Gemini 4 Argon",
+      "creator": "google",
+      "createdAt": "2026-10-13",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 2,
+        "outputPerMtok": 10,
+        "cacheReadPerMtok": 0.09999999999999999,
+        "cacheWritePerMtok": 0.1875,
+        "blended3to1": 4
+      }
+    },
+    {
+      "id": "google/gemini-4-argon:batch",
+      "name": "Google: Gemini 4 Argon (batch)",
+      "creator": "google",
+      "createdAt": "2026-10-13",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 1,
+        "outputPerMtok": 5,
+        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheWritePerMtok": 0.1875,
+        "blended3to1": 2
+      }
+    },
+    {
+      "id": "scaledown/summarize",
+      "name": "ScaleDown: Summarize",
+      "creator": "scaledown",
+      "createdAt": "2026-10-13",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.04,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.03
+      }
+    },
+    {
+      "id": "scaledown/extract",
+      "name": "ScaleDown: Extract",
+      "creator": "scaledown",
+      "createdAt": "2026-10-13",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.04,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.03
+      }
+    },
+    {
+      "id": "meta/muse-wonder",
+      "name": "Meta: Muse Wonder",
+      "creator": "meta",
+      "createdAt": "2026-10-12",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 4,
+        "outputPerMtok": 20,
+        "cacheReadPerMtok": 0.19999999999999998,
+        "cacheWritePerMtok": null,
+        "blended3to1": 8
+      }
+    },
     {
       "id": "stepfun/step-5-preview",
       "name": "StepFun: Step 5 Preview",
       "creator": "stepfun",
       "createdAt": "2026-10-08",
-      "contextLength": 1000000,
+      "contextLength": 1048576,
       "inputModalities": [
         "text",
         "image",
@@ -22,7 +436,7 @@
       "pricing": {
         "inputPerMtok": 1,
         "outputPerMtok": 2.7,
-        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheReadPerMtok": 0.09999999999999999,
         "cacheWritePerMtok": null,
         "blended3to1": 1.425
       }
@@ -127,52 +541,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
+        "inputPerMtok": 0.075,
+        "outputPerMtok": 0.22499999999999998,
+        "cacheReadPerMtok": 0.015,
         "cacheWritePerMtok": null,
-        "blended3to1": 0
-      }
-    },
-    {
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "creator": "apodex",
-      "createdAt": "2026-10-01",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0
-      }
-    },
-    {
-      "id": "unbiased/pareto-26.10-preview",
-      "name": "Pareto 26.10 Preview",
-      "creator": "unbiased",
-      "createdAt": "2026-10-01",
-      "contextLength": 1048576,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.7999999999999999,
-        "outputPerMtok": 3.1999999999999997,
-        "cacheReadPerMtok": 0.03,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.4
+        "blended3to1": 0.11249999999999999
       }
     },
     {
@@ -896,27 +1269,6 @@
       }
     },
     {
-      "id": "unbiased/pareto",
-      "name": "Pareto",
-      "creator": "unbiased",
-      "createdAt": "2026-09-17",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 2.5,
-        "outputPerMtok": 7.5,
-        "cacheReadPerMtok": 0.25,
-        "cacheWritePerMtok": null,
-        "blended3to1": 3.75
-      }
-    },
-    {
       "id": "~deepseek/deepseek-pro-latest",
       "name": "DeepSeek: DeepSeek Pro Latest",
       "creator": "~deepseek",
@@ -929,11 +1281,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.24947999999999998,
-        "outputPerMtok": 0.7484400000000001,
-        "cacheReadPerMtok": 0.007937999999999999,
+        "inputPerMtok": 0.1307,
+        "outputPerMtok": 8,
+        "cacheReadPerMtok": 0.13,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.37422
+        "blended3to1": 2.098025
       }
     },
     {
@@ -950,11 +1302,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0333,
-        "outputPerMtok": 0.1332,
-        "cacheReadPerMtok": 0.0006659999999999999,
+        "inputPerMtok": 0.043000000000000003,
+        "outputPerMtok": 0.6,
+        "cacheReadPerMtok": 0.005,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.05827500000000001
+        "blended3to1": 0.18225
       }
     },
     {
@@ -1134,7 +1486,7 @@
       "name": "inclusionAI: Ling 3.0 Flash VL",
       "creator": "inclusionai",
       "createdAt": "2026-09-10",
-      "contextLength": 262144,
+      "contextLength": 131072,
       "inputModalities": [
         "text",
         "image",
@@ -1144,11 +1496,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.020999999999999998,
-        "outputPerMtok": 0.061599999999999995,
-        "cacheReadPerMtok": 0.004200000000000001,
+        "inputPerMtok": 0.06,
+        "outputPerMtok": 0.18,
+        "cacheReadPerMtok": 0.012,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.031149999999999997
+        "blended3to1": 0.09
       }
     },
     {
@@ -1165,11 +1517,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.6,
-        "cacheReadPerMtok": 0.003,
+        "inputPerMtok": 0.0344,
+        "outputPerMtok": 0.08,
+        "cacheReadPerMtok": 0.0016,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.26249999999999996
+        "blended3to1": 0.0458
       }
     },
     {
@@ -1186,11 +1538,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.112,
-        "outputPerMtok": 0.33599999999999997,
-        "cacheReadPerMtok": 0.00336,
+        "inputPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.15,
+        "cacheReadPerMtok": 0.004,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.16799999999999998
+        "blended3to1": 0.075
       }
     },
     {
@@ -1344,26 +1696,6 @@
       }
     },
     {
-      "id": "inclusionai/ling-3.0-flash-sante",
-      "name": "inclusionAI: Ling 3.0 Flash Sante",
-      "creator": "inclusionai",
-      "createdAt": "2026-09-04",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.041999999999999996,
-        "outputPerMtok": 0.12319999999999999,
-        "cacheReadPerMtok": 0.008400000000000001,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.062299999999999994
-      }
-    },
-    {
       "id": "qwen/qwen3.8-max-0902",
       "name": "Qwen: Qwen3.8 Max (0902)",
       "creator": "qwen",
@@ -1448,11 +1780,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.75,
-        "outputPerMtok": 3.75,
-        "cacheReadPerMtok": 0.075,
+        "inputPerMtok": 0.8250000000000001,
+        "outputPerMtok": 4.125,
+        "cacheReadPerMtok": 0.0825,
         "cacheWritePerMtok": 0.0416666666666667,
-        "blended3to1": 1.5
+        "blended3to1": 1.65
       }
     },
     {
@@ -1556,31 +1888,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.7505999999999999,
-        "outputPerMtok": 2.2509,
-        "cacheReadPerMtok": 0.0378,
+        "inputPerMtok": 0.834,
+        "outputPerMtok": 2.501,
+        "cacheReadPerMtok": 0.041999999999999996,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.125675
-      }
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-fin",
-      "name": "inclusionAI: Ling 3.0 Flash Fin",
-      "creator": "inclusionai",
-      "createdAt": "2026-08-27",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.041999999999999996,
-        "outputPerMtok": 0.12319999999999999,
-        "cacheReadPerMtok": 0.008400000000000001,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.062299999999999994
+        "blended3to1": 1.25075
       }
     },
     {
@@ -1598,11 +1910,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0232,
-        "outputPerMtok": 1.2,
-        "cacheReadPerMtok": 0.0232,
+        "inputPerMtok": 0.048,
+        "outputPerMtok": 0.16,
+        "cacheReadPerMtok": 0.006,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3174
+        "blended3to1": 0.07600000000000001
       }
     },
     {
@@ -1642,11 +1954,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0232,
-        "outputPerMtok": 1.2,
-        "cacheReadPerMtok": 0.0232,
+        "inputPerMtok": 0.048,
+        "outputPerMtok": 0.16,
+        "cacheReadPerMtok": 0.006,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3174
+        "blended3to1": 0.07600000000000001
       }
     },
     {
@@ -1664,11 +1976,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.06,
-        "outputPerMtok": 0.19999999999999998,
-        "cacheReadPerMtok": 0.012,
+        "inputPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.18,
+        "cacheReadPerMtok": 0.01,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.095
+        "blended3to1": 0.08249999999999999
       }
     },
     {
@@ -1768,11 +2080,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.055,
-        "outputPerMtok": 5,
-        "cacheReadPerMtok": 0.06,
+        "inputPerMtok": 0.053,
+        "outputPerMtok": 6,
+        "cacheReadPerMtok": 0.032999999999999995,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.29125
+        "blended3to1": 1.53975
       }
     },
     {
@@ -1809,10 +2121,10 @@
       ],
       "pricing": {
         "inputPerMtok": 0.079,
-        "outputPerMtok": 4.8,
-        "cacheReadPerMtok": 0.059,
+        "outputPerMtok": 1.4,
+        "cacheReadPerMtok": 0.078,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.25925
+        "blended3to1": 0.40925
       }
     },
     {
@@ -1850,11 +2162,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.04,
-        "outputPerMtok": 2.3,
-        "cacheReadPerMtok": 0.019799999999999998,
+        "inputPerMtok": 0.24,
+        "outputPerMtok": 2.2,
+        "cacheReadPerMtok": 0.049999999999999996,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.605
+        "blended3to1": 0.73
       }
     },
     {
@@ -2191,11 +2503,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0128,
-        "outputPerMtok": 0.768,
-        "cacheReadPerMtok": 0.0128,
+        "inputPerMtok": 0.011399999999999999,
+        "outputPerMtok": 0.44999999999999996,
+        "cacheReadPerMtok": 0.011399999999999999,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.2016
+        "blended3to1": 0.12104999999999999
       }
     },
     {
@@ -2211,11 +2523,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.016,
-        "outputPerMtok": 0.64,
-        "cacheReadPerMtok": 0.016,
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 0.15,
+        "cacheReadPerMtok": 0.041999999999999996,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.17200000000000001
+        "blended3to1": 0.15
       }
     },
     {
@@ -2588,11 +2900,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.73,
-        "outputPerMtok": 10,
-        "cacheReadPerMtok": 0.55,
+        "inputPerMtok": 0.23900000000000002,
+        "outputPerMtok": 11.936,
+        "cacheReadPerMtok": 0.21,
         "cacheWritePerMtok": null,
-        "blended3to1": 3.0475
+        "blended3to1": 3.16325
       }
     },
     {
@@ -2831,11 +3143,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 2,
-        "outputPerMtok": 10,
-        "cacheReadPerMtok": 0.19999999999999998,
-        "cacheWritePerMtok": 2.5,
-        "blended3to1": 4
+        "inputPerMtok": 4,
+        "outputPerMtok": 20,
+        "cacheReadPerMtok": 0.39999999999999997,
+        "cacheWritePerMtok": 5,
+        "blended3to1": 8
       }
     },
     {
@@ -2853,11 +3165,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 1,
-        "outputPerMtok": 5,
-        "cacheReadPerMtok": 0.09999999999999999,
-        "cacheWritePerMtok": 1.25,
-        "blended3to1": 2
+        "inputPerMtok": 2,
+        "outputPerMtok": 10,
+        "cacheReadPerMtok": 0.19999999999999998,
+        "cacheWritePerMtok": 2.5,
+        "blended3to1": 4
       }
     },
     {
@@ -2875,11 +3187,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 2,
-        "outputPerMtok": 10,
-        "cacheReadPerMtok": 0.19999999999999998,
-        "cacheWritePerMtok": 2.5,
-        "blended3to1": 4
+        "inputPerMtok": 4,
+        "outputPerMtok": 20,
+        "cacheReadPerMtok": 0.39999999999999997,
+        "cacheWritePerMtok": 5,
+        "blended3to1": 8
       }
     },
     {
@@ -2897,11 +3209,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 1,
-        "outputPerMtok": 5,
-        "cacheReadPerMtok": 0.09999999999999999,
-        "cacheWritePerMtok": 1.25,
-        "blended3to1": 2
+        "inputPerMtok": 2,
+        "outputPerMtok": 10,
+        "cacheReadPerMtok": 0.19999999999999998,
+        "cacheWritePerMtok": 2.5,
+        "blended3to1": 4
       }
     },
     {
@@ -3001,11 +3313,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0825,
-        "outputPerMtok": 0.33,
-        "cacheReadPerMtok": 0.020625,
+        "inputPerMtok": 0.13199999999999998,
+        "outputPerMtok": 0.5279999999999999,
+        "cacheReadPerMtok": 0.032999999999999995,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.144375
+        "blended3to1": 0.23099999999999996
       }
     },
     {
@@ -3212,11 +3524,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.06,
-        "outputPerMtok": 7,
-        "cacheReadPerMtok": 0.059,
+        "inputPerMtok": 0.62,
+        "outputPerMtok": 2.42,
+        "cacheReadPerMtok": 0.14,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.795
+        "blended3to1": 1.0699999999999998
       }
     },
     {
@@ -3427,6 +3739,27 @@
         "cacheReadPerMtok": 0.064,
         "cacheWritePerMtok": 0.39999999999999997,
         "blended3to1": 0.56
+      }
+    },
+    {
+      "id": "qwen/qwen3.7-plus:batch",
+      "name": "Qwen: Qwen3.7 Plus (batch)",
+      "creator": "qwen",
+      "createdAt": "2026-06-03",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.22999999999999998,
+        "outputPerMtok": 0.9199999999999999,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.40249999999999997
       }
     },
     {
@@ -3872,10 +4205,10 @@
       ],
       "pricing": {
         "inputPerMtok": 2,
-        "outputPerMtok": 12,
-        "cacheReadPerMtok": 0.19999999999999998,
-        "cacheWritePerMtok": 0.375,
-        "blended3to1": 4.5
+        "outputPerMtok": 10,
+        "cacheReadPerMtok": 0.09999999999999999,
+        "cacheWritePerMtok": 0.1875,
+        "blended3to1": 4
       }
     },
     {
@@ -3893,11 +4226,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.73,
-        "outputPerMtok": 10,
-        "cacheReadPerMtok": 0.55,
+        "inputPerMtok": 0.238,
+        "outputPerMtok": 13,
+        "cacheReadPerMtok": 0.228,
         "cacheWritePerMtok": null,
-        "blended3to1": 3.0475
+        "blended3to1": 3.4285
       }
     },
     {
@@ -4005,11 +4338,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.09999999999999999,
-        "outputPerMtok": 0.95,
-        "cacheReadPerMtok": 0.09999999999999999,
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 1,
+        "cacheReadPerMtok": 0.049999999999999996,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3125
+        "blended3to1": 0.3625
       }
     },
     {
@@ -4027,11 +4360,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.32,
-        "outputPerMtok": 3.1999999999999997,
-        "cacheReadPerMtok": null,
+        "inputPerMtok": 0.25,
+        "outputPerMtok": 2,
+        "cacheReadPerMtok": 0.024999999999999998,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.04
+        "blended3to1": 0.6875
       }
     },
     {
@@ -4135,11 +4468,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.415686,
-        "outputPerMtok": 0.831372,
-        "cacheReadPerMtok": 0.0346405,
+        "inputPerMtok": 0.43934999999999996,
+        "outputPerMtok": 0.8786999999999999,
+        "cacheReadPerMtok": 0.0366125,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.5196075
+        "blended3to1": 0.5491874999999999
       }
     },
     {
@@ -4155,11 +4488,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.03,
-        "outputPerMtok": 1.28,
-        "cacheReadPerMtok": 0.03,
+        "inputPerMtok": 0.091,
+        "outputPerMtok": 0.182,
+        "cacheReadPerMtok": 0.0182,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3425
+        "blended3to1": 0.11375
       }
     },
     {
@@ -4434,11 +4767,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.09,
-        "outputPerMtok": 0.33999999999999997,
-        "cacheReadPerMtok": 0.049999999999999996,
+        "inputPerMtok": 0.19999999999999998,
+        "outputPerMtok": 0.39999999999999997,
+        "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.1525
+        "blended3to1": 0.25
       }
     },
     {
@@ -4650,11 +4983,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.21,
-        "outputPerMtok": 0.84,
-        "cacheReadPerMtok": 0.041999999999999996,
+        "inputPerMtok": 0.3,
+        "outputPerMtok": 1.2,
+        "cacheReadPerMtok": 0.06,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3675
+        "blended3to1": 0.5249999999999999
       }
     },
     {
@@ -5082,11 +5415,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.08,
-        "outputPerMtok": 0.75,
-        "cacheReadPerMtok": 0.04,
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 1,
+        "cacheReadPerMtok": 0.049999999999999996,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.2475
+        "blended3to1": 0.3625
       }
     },
     {
@@ -5104,11 +5437,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.26,
-        "outputPerMtok": 2.6,
-        "cacheReadPerMtok": null,
+        "inputPerMtok": 0.27,
+        "outputPerMtok": 2.16,
+        "cacheReadPerMtok": 0.27,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.845
+        "blended3to1": 0.7425
       }
     },
     {
@@ -5350,11 +5683,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.55,
-        "outputPerMtok": 3.5,
-        "cacheReadPerMtok": 0.22499999999999998,
+        "inputPerMtok": 0.5,
+        "outputPerMtok": 3.5999999999999996,
+        "cacheReadPerMtok": 0.3,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.2875
+        "blended3to1": 1.275
       }
     },
     {
@@ -5371,10 +5704,10 @@
       ],
       "pricing": {
         "inputPerMtok": 0.27,
-        "outputPerMtok": 1.08,
-        "cacheReadPerMtok": 0.027,
+        "outputPerMtok": 0.95,
+        "cacheReadPerMtok": 0.03,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.47250000000000003
+        "blended3to1": 0.44
       }
     },
     {
@@ -5390,11 +5723,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.6,
-        "outputPerMtok": 1.92,
-        "cacheReadPerMtok": 0.12,
+        "inputPerMtok": 1,
+        "outputPerMtok": 3.1999999999999997,
+        "cacheReadPerMtok": 0.19999999999999998,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.9299999999999999
+        "blended3to1": 1.5499999999999998
       }
     },
     {
@@ -5745,11 +6078,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.6,
-        "outputPerMtok": 2.2,
-        "cacheReadPerMtok": 0.11,
+        "inputPerMtok": 0.54,
+        "outputPerMtok": 1.9800000000000002,
+        "cacheReadPerMtok": 0.099,
         "cacheWritePerMtok": null,
-        "blended3to1": 1
+        "blended3to1": 0.9000000000000001
       }
     },
     {
@@ -6198,11 +6531,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.25899999999999995,
-        "outputPerMtok": 0.7999999999999999,
-        "cacheReadPerMtok": 0.14,
+        "inputPerMtok": 0.28,
+        "outputPerMtok": 0.42,
+        "cacheReadPerMtok": 0.028,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.39425
+        "blended3to1": 0.315
       }
     },
     {
@@ -6474,11 +6807,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.3,
-        "outputPerMtok": 1.2,
+        "inputPerMtok": 0.255,
+        "outputPerMtok": 1.02,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.5249999999999999
+        "blended3to1": 0.44625000000000004
       }
     },
     {
@@ -6733,11 +7066,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.5,
-        "outputPerMtok": 2,
-        "cacheReadPerMtok": 0.09999999999999999,
+        "inputPerMtok": 0.55,
+        "outputPerMtok": 2.2,
+        "cacheReadPerMtok": 0.11,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.875
+        "blended3to1": 0.9625000000000001
       }
     },
     {
@@ -6938,11 +7271,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.09999999999999999,
+        "inputPerMtok": 0.09,
         "outputPerMtok": 1.1,
-        "cacheReadPerMtok": 0.07,
+        "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.35000000000000003
+        "blended3to1": 0.3425
       }
     },
     {
@@ -7215,11 +7548,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.037,
-        "outputPerMtok": 0.16999999999999998,
-        "cacheReadPerMtok": null,
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 0.6,
+        "cacheReadPerMtok": 0.075,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.07024999999999999
+        "blended3to1": 0.26249999999999996
       }
     },
     {
@@ -7401,11 +7734,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.09999999999999999,
+        "inputPerMtok": 0.09,
         "outputPerMtok": 0.3,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.15
+        "blended3to1": 0.14250000000000002
       }
     },
     {
@@ -7662,7 +7995,7 @@
       "name": "Morph: Morph V3 Fast",
       "creator": "morph",
       "createdAt": "2025-07-07",
-      "contextLength": 81920,
+      "contextLength": 262144,
       "inputModalities": [
         "text"
       ],
@@ -7877,28 +8210,6 @@
         "cacheReadPerMtok": 0.35,
         "cacheWritePerMtok": null,
         "blended3to1": 0.9125000000000001
-      }
-    },
-    {
-      "id": "anthropic/claude-sonnet-4",
-      "name": "Anthropic: Claude Sonnet 4",
-      "creator": "anthropic",
-      "createdAt": "2025-05-22",
-      "contextLength": 200000,
-      "inputModalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 3,
-        "outputPerMtok": 15,
-        "cacheReadPerMtok": 0.3,
-        "cacheWritePerMtok": 3.75,
-        "blended3to1": 6
       }
     },
     {
@@ -8251,7 +8562,7 @@
       "name": "Meta: Llama 4 Maverick",
       "creator": "meta-llama",
       "createdAt": "2025-04-05",
-      "contextLength": 1048576,
+      "contextLength": 524288,
       "inputModalities": [
         "text",
         "image"
@@ -8281,11 +8592,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.18,
-        "outputPerMtok": 0.59,
+        "inputPerMtok": 0.09999999999999999,
+        "outputPerMtok": 0.3,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.2825
+        "blended3to1": 0.15
       }
     },
     {
@@ -8448,10 +8759,10 @@
       ],
       "pricing": {
         "inputPerMtok": 0.08,
-        "outputPerMtok": 0.44999999999999996,
+        "outputPerMtok": 0.35,
         "cacheReadPerMtok": 0.04,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.1725
+        "blended3to1": 0.1475
       }
     },
     {
@@ -8723,26 +9034,6 @@
       }
     },
     {
-      "id": "deepseek/deepseek-r1",
-      "name": "DeepSeek: R1",
-      "creator": "deepseek",
-      "createdAt": "2025-01-20",
-      "contextLength": 64000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.7,
-        "outputPerMtok": 2.5,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.15
-      }
-    },
-    {
       "id": "minimax/minimax-01",
       "name": "MiniMax: MiniMax-01",
       "creator": "minimax",
@@ -8804,26 +9095,6 @@
       }
     },
     {
-      "id": "sao10k/l3.3-euryale-70b",
-      "name": "Sao10K: Llama 3.3 Euryale 70B",
-      "creator": "sao10k",
-      "createdAt": "2024-12-18",
-      "contextLength": 131072,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.65,
-        "outputPerMtok": 0.75,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.675
-      }
-    },
-    {
       "id": "openai/o1",
       "name": "OpenAI: o1",
       "creator": "openai",
@@ -8878,11 +9149,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.22,
-        "outputPerMtok": 0.5,
-        "cacheReadPerMtok": 0.11,
+        "inputPerMtok": 0.09999999999999999,
+        "outputPerMtok": 0.32,
+        "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.29000000000000004
+        "blended3to1": 0.155
       }
     },
     {
@@ -9103,11 +9374,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.049999999999999996,
-        "outputPerMtok": 0.33,
+        "inputPerMtok": 0.0509,
+        "outputPerMtok": 0.335,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.12
+        "blended3to1": 0.121925
       }
     },
     {
@@ -9503,26 +9774,6 @@
         "cacheReadPerMtok": 0.19999999999999998,
         "cacheWritePerMtok": null,
         "blended3to1": 3
-      }
-    },
-    {
-      "id": "microsoft/wizardlm-2-8x22b",
-      "name": "WizardLM-2 8x22B",
-      "creator": "microsoft",
-      "createdAt": "2024-04-16",
-      "contextLength": 65535,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.62,
-        "outputPerMtok": 0.62,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.62
       }
     },
     {

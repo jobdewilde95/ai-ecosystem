@@ -1,8 +1,8 @@
 {
   "source": "epoch-models",
-  "fetchedAt": "2026-10-12T16:29:02.245Z",
+  "fetchedAt": "2026-10-19T14:19:38.613Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-12T16:29:02.245Z",
+  "lastSuccessAt": "2026-10-19T14:19:38.613Z",
   "recordCount": 790,
   "data": [
     {
@@ -55,7 +55,7 @@
       "publicationDate": "2026-09-03",
       "domain": "Multimodal,Language,Vision",
       "parameters": null,
-      "trainingComputeFlop": 1.0001e+27,
+      "trainingComputeFlop": 9.4e+26,
       "trainingHardware": "NVIDIA GB200",
       "hardwareQuantity": 100000,
       "country": "United States of America"

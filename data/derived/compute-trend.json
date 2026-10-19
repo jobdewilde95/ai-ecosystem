@@ -3041,7 +3041,7 @@
     "model": "GPT-6 Astra",
     "organization": "OpenAI",
     "date": "2026-09-03",
-    "flop": 1.0001e+27,
+    "flop": 9.4e+26,
     "parameters": null
   },
   {

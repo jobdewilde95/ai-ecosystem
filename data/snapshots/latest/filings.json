@@ -1,10 +1,28 @@
 {
   "source": "filings",
-  "fetchedAt": "2026-10-12T16:28:58.601Z",
+  "fetchedAt": "2026-10-19T14:19:35.156Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-12T16:28:58.601Z",
-  "recordCount": 570,
+  "lastSuccessAt": "2026-10-19T14:19:35.156Z",
+  "recordCount": 565,
   "data": [
+    {
+      "ticker": "ETN",
+      "form": "8-K",
+      "filed": "2026-10-16",
+      "reportDate": "2026-10-16",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000034/etn-20261016.htm",
+      "accession": "0001551182-26-000034",
+      "items": "8.01,9.01"
+    },
+    {
+      "ticker": "SMCI",
+      "form": "8-K",
+      "filed": "2026-10-15",
+      "reportDate": "2026-10-14",
+      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000024/smci-20261014.htm",
+      "accession": "0001375365-26-000024",
+      "items": "5.02,9.01"
+    },
     {
       "ticker": "MU",
       "form": "10-K",
@@ -256,15 +274,6 @@
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
       "accession": "0001730168-26-000080",
       "items": null
-    },
-    {
-      "ticker": "DELL",
-      "form": "8-K",
-      "filed": "2026-09-10",
-      "reportDate": "2026-09-09",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
-      "accession": "0001193125-26-387958",
-      "items": "8.01,9.01"
     },
     {
       "ticker": "VST",
@@ -561,15 +570,6 @@
       "reportDate": null,
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm",
       "accession": "0001193125-26-345221",
-      "items": null
-    },
-    {
-      "ticker": "CRWV",
-      "form": "10-Q",
-      "filed": "2026-08-12",
-      "reportDate": "2026-06-30",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
-      "accession": "0001769628-26-000366",
       "items": null
     },
     {
@@ -2307,24 +2307,6 @@
       "reportDate": "2026-03-31",
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
       "accession": "0001018724-26-000014",
-      "items": null
-    },
-    {
-      "ticker": "META",
-      "form": "424B2",
-      "filed": "2026-04-30",
-      "reportDate": null,
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194082/d109954d424b2.htm",
-      "accession": "0001193125-26-194082",
-      "items": null
-    },
-    {
-      "ticker": "META",
-      "form": "S-3ASR",
-      "filed": "2026-04-30",
-      "reportDate": null,
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526194008/d102985ds3asr.htm",
-      "accession": "0001193125-26-194008",
       "items": null
     },
     {
@@ -4164,15 +4146,6 @@
       "items": "5.02,9.01"
     },
     {
-      "ticker": "NBIS",
-      "form": "424B5",
-      "filed": "2025-11-12",
-      "reportDate": null,
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110025/tm2530771-1_424b5.htm",
-      "accession": "0001104659-25-110025",
-      "items": null
-    },
-    {
       "ticker": "APLD",
       "form": "8-K",
       "filed": "2025-11-12",
@@ -4405,15 +4378,6 @@
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000159/gev-20251022.htm",
       "accession": "0001996810-25-000159",
       "items": "2.02,9.01"
-    },
-    {
-      "ticker": "MU",
-      "form": "8-K",
-      "filed": "2025-10-21",
-      "reportDate": "2025-10-15",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/723125/000110465925101237/tm2529116d1_8k.htm",
-      "accession": "0001104659-25-101237",
-      "items": "5.02,9.01"
     },
     {
       "ticker": "VST",
@@ -4720,15 +4684,6 @@
       "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1551182/000155118225000028/etn-20250630.htm",
       "accession": "0001551182-25-000028",
       "items": null
-    },
-    {
-      "ticker": "ETN",
-      "form": "8-K",
-      "filed": "2025-08-05",
-      "reportDate": "2025-08-05",
-      "primaryDoc": "https://www.sec.gov/Archives/edgar/data/1551182/000155118225000025/etn-20250805.htm",
-      "accession": "0001551182-25-000025",
-      "items": "2.02,9.01"
     },
     {
       "ticker": "PWR",

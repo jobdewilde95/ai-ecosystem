@@ -1,6 +1,406 @@
 {
-  "generatedAt": "2026-10-12T16:29:02.638Z",
+  "generatedAt": "2026-10-19T14:19:39.198Z",
   "entries": [
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.1 Flash price changed",
+      "detail": "$0.07 in / $0.22 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Pro Latest price changed",
+      "detail": "$0.13 in / $8.00 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek Flash Latest price changed",
+      "detail": "$0.04 in / $0.60 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "inclusionAI: Ling 3.0 Flash VL price changed",
+      "detail": "$0.06 in / $0.18 out per Mtok",
+      "entity": "inclusionai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4.1 Flash price changed",
+      "detail": "$0.03 in / $0.08 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4.1 Flash (batch) price changed",
+      "detail": "$0.05 in / $0.15 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Google: Gemini 3.8 Flash price changed",
+      "detail": "$0.83 in / $4.13 out per Mtok",
+      "entity": "google",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Tencent: Hy4 preview price changed",
+      "detail": "$0.83 in / $2.50 out per Mtok",
+      "entity": "tencent",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM Flash Latest price changed",
+      "detail": "$0.05 in / $0.16 out per Mtok",
+      "entity": "~z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.3 Flash price changed",
+      "detail": "$0.05 in / $0.16 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.3 Flash (batch) price changed",
+      "detail": "$0.05 in / $0.18 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM Latest price changed",
+      "detail": "$0.05 in / $6.00 out per Mtok",
+      "entity": "~z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.3 price changed",
+      "detail": "$0.08 in / $1.40 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.8 27B price changed",
+      "detail": "$0.24 in / $2.20 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash Latest price changed",
+      "detail": "$0.01 in / $0.45 out per Mtok",
+      "entity": "~deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash 0731 price changed",
+      "detail": "$0.15 in / $0.15 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MoonshotAI: Kimi K3 price changed",
+      "detail": "$0.24 in / $11.94 out per Mtok",
+      "entity": "moonshotai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-5.6 Sol Pro price changed",
+      "detail": "$4.00 in / $20.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-5.6 Sol Pro (batch) price changed",
+      "detail": "$2.00 in / $10.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-5.6 Sol price changed",
+      "detail": "$4.00 in / $20.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "OpenAI: GPT-5.6 Sol (batch) price changed",
+      "detail": "$2.00 in / $10.00 out per Mtok",
+      "entity": "openai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Tencent: Hy3 price changed",
+      "detail": "$0.13 in / $0.53 out per Mtok",
+      "entity": "tencent",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5.2 price changed",
+      "detail": "$0.62 in / $2.42 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Google: Gemini Pro Latest price changed",
+      "detail": "$2.00 in / $10.00 out per Mtok",
+      "entity": "~google",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MoonshotAI: Kimi Latest price changed",
+      "detail": "$0.24 in / $13.00 out per Mtok",
+      "entity": "~moonshotai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.6 35B A3B price changed",
+      "detail": "$0.15 in / $1.00 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.6 27B price changed",
+      "detail": "$0.25 in / $2.00 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Pro 0423 price changed",
+      "detail": "$0.44 in / $0.88 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V4 Flash 0423 price changed",
+      "detail": "$0.09 in / $0.18 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Google: Gemma 4 31B price changed",
+      "detail": "$0.20 in / $0.40 out per Mtok",
+      "entity": "google",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MiniMax: MiniMax M2.7 price changed",
+      "detail": "$0.30 in / $1.20 out per Mtok",
+      "entity": "minimax",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.5-35B-A3B price changed",
+      "detail": "$0.15 in / $1.00 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.5-27B price changed",
+      "detail": "$0.27 in / $2.16 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Qwen: Qwen3.5 397B A17B price changed",
+      "detail": "$0.50 in / $3.60 out per Mtok",
+      "entity": "qwen",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MiniMax: MiniMax M2.5 price changed",
+      "detail": "$0.27 in / $0.95 out per Mtok",
+      "entity": "minimax",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 5 price changed",
+      "detail": "$1.00 in / $3.20 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 4.7 price changed",
+      "detail": "$0.54 in / $1.98 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "DeepSeek: DeepSeek V3.2 price changed",
+      "detail": "$0.28 in / $0.42 out per Mtok",
+      "entity": "deepseek",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "MiniMax: MiniMax M2 price changed",
+      "detail": "$0.26 in / $1.02 out per Mtok",
+      "entity": "minimax",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "pricing",
+      "severity": "notable",
+      "title": "Z.ai: GLM 4.6 price changed",
+      "detail": "$0.55 in / $2.20 out per Mtok",
+      "entity": "z-ai",
+      "href": "/costs/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "markets",
+      "severity": "notable",
+      "title": "APLD +8.7%",
+      "detail": "Closed at $19.62",
+      "changePct": 8.698614958448754,
+      "entity": "APLD",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "markets",
+      "severity": "notable",
+      "title": "DDOG +6.0%",
+      "detail": "Closed at $261.82",
+      "changePct": 5.954837926429515,
+      "entity": "DDOG",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "markets",
+      "severity": "notable",
+      "title": "MRVL +5.4%",
+      "detail": "Closed at $240.12",
+      "changePct": 5.394372997410346,
+      "entity": "MRVL",
+      "href": "/markets/"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "markets",
+      "severity": "notable",
+      "title": "INTC +5.2%",
+      "detail": "Closed at $94.54",
+      "changePct": 5.220255982192556,
+      "entity": "INTC",
+      "href": "/markets/"
+    },
     {
       "date": "2026-10-12",
       "category": "pricing",

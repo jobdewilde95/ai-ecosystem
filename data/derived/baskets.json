@@ -10,44 +10,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": 4.774570225975667,
+        "value": 7.078452476376839,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": 5.67388622067166,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": 5.9907490991810155,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 33.75957146116345,
+        "value": 39.56863279888171,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 37.58100087207471,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": 43.05461120566478,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": -8.28620526881027,
+        "value": -4.910280519868848,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 5.088629306221437,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 7.64139380725297,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": -19.085489745173973,
+        "value": -17.051526087819482,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": -2.1614616094073673,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": -3.180536295553134,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 4,
           "benchmark": "SPY"
         },
@@ -55,10 +55,10 @@
       }
     },
     "averageReturns": {
-      "m1": 5.67388622067166,
-      "m3": 37.58100087207471,
-      "ytd": 5.088629306221437,
-      "y1": -2.1614616094073673
+      "m1": 5.9907490991810155,
+      "m3": 43.05461120566478,
+      "ytd": 7.64139380725297,
+      "y1": -3.180536295553134
     }
   },
   {
@@ -80,44 +80,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -17.048527493140735,
+        "value": -21.504739531839842,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -16.149211498444743,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -22.592442909035665,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 12,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -13.213326228109832,
+        "value": -14.95321150087587,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -9.391896817198576,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -11.467233094092805,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 12,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": -12.211934231645458,
+        "value": -17.91495235710075,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 1.1629003433862497,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": -5.3632780299789315,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 12,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": -27.67308103263101,
+        "value": -32.18148123794931,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": -10.749052896864404,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": -18.310491445682963,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 12,
           "benchmark": "SPY"
         },
@@ -125,10 +125,10 @@
       }
     },
     "averageReturns": {
-      "m1": -16.149211498444743,
-      "m3": -9.391896817198576,
-      "ytd": 1.1629003433862497,
-      "y1": -10.749052896864404
+      "m1": -22.592442909035665,
+      "m3": -11.467233094092805,
+      "ytd": -5.3632780299789315,
+      "y1": -18.310491445682963
     }
   },
   {
@@ -141,7 +141,7 @@
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 0.899315994695993,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -152,7 +152,7 @@
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 3.821429410911255,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -163,7 +163,7 @@
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 13.374834575031707,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -174,7 +174,7 @@
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 16.924028135766605,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -203,44 +203,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -10.018238418204826,
+        "value": -15.995547658997753,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -9.118922423508833,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -17.083251036193577,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 8,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -14.964952640360332,
+        "value": -22.060884702477672,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -11.143523229449077,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -18.574906295694607,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 8,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 13.819677977943615,
+        "value": 4.766211711503635,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 27.194512552975322,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 17.317886038625453,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 8,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 10.604565412108922,
+        "value": -2.8484714653415235,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 27.528593547875527,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 11.022518326924823,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 8,
           "benchmark": "SPY"
         },
@@ -248,10 +248,10 @@
       }
     },
     "averageReturns": {
-      "m1": -9.118922423508833,
-      "m3": -11.143523229449077,
-      "ytd": 27.194512552975322,
-      "y1": 27.528593547875527
+      "m1": -17.083251036193577,
+      "m3": -18.574906295694607,
+      "ytd": 17.317886038625453,
+      "y1": 11.022518326924823
     }
   },
   {
@@ -268,44 +268,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": 1.2175980096804897,
+        "value": -12.321239209981112,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": 2.1169140043764827,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -13.408942587176936,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -7.704521762576233,
+        "value": -13.80255996336887,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -3.8830923516649785,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -10.316581556585804,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 22.7451413460836,
+        "value": 12.484526550532385,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 36.119975921115305,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 25.036200877654203,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 48.05960130397561,
+        "value": 31.355040643967033,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 64.98362943974222,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 45.22603043623338,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 7,
           "benchmark": "SPY"
         },
@@ -313,10 +313,10 @@
       }
     },
     "averageReturns": {
-      "m1": 2.1169140043764827,
-      "m3": -3.8830923516649785,
-      "ytd": 36.119975921115305,
-      "y1": 64.98362943974222
+      "m1": -13.408942587176936,
+      "m3": -10.316581556585804,
+      "ytd": 25.036200877654203,
+      "y1": 45.22603043623338
     }
   },
   {
@@ -329,7 +329,7 @@
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 0.899315994695993,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -340,7 +340,7 @@
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 3.821429410911255,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -351,7 +351,7 @@
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 13.374834575031707,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -362,7 +362,7 @@
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
           "basketReturnPct": null,
-          "benchmarkReturnPct": 16.924028135766605,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 0,
           "benchmark": "SPY"
         },
@@ -389,44 +389,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -9.51727348021033,
+        "value": -16.496020761310813,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -8.617957485514337,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -17.583724138506636,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 6,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -9.67498078680265,
+        "value": -10.796847319300175,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -5.853551375891395,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -7.310868912517109,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 6,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 71.70472154190206,
+        "value": 62.20603125337826,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 85.07955611693377,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 74.75770558050007,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 6,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 95.78779229376683,
+        "value": 82.75900349823644,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 112.71182042953343,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 96.62999329050278,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 6,
           "benchmark": "SPY"
         },
@@ -434,10 +434,10 @@
       }
     },
     "averageReturns": {
-      "m1": -8.617957485514337,
-      "m3": -5.853551375891395,
-      "ytd": 85.07955611693377,
-      "y1": 112.71182042953343
+      "m1": -17.583724138506636,
+      "m3": -7.310868912517109,
+      "ytd": 74.75770558050007,
+      "y1": 96.62999329050278
     }
   },
   {
@@ -451,44 +451,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -3.0686209599369496,
+        "value": -3.826653556262703,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -2.1693049652409564,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -4.914356933458526,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 3.9702916423765457,
+        "value": 13.409335068683202,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 7.791721053287801,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": 16.895313475466267,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 31.74473843841158,
+        "value": 39.71134764167874,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 45.119573013443286,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 52.26302196880056,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 4,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 21.394943601632704,
+        "value": 25.581938119786304,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 38.31897173739931,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 39.45292791205265,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 4,
           "benchmark": "SPY"
         },
@@ -496,10 +496,10 @@
       }
     },
     "averageReturns": {
-      "m1": -2.1693049652409564,
-      "m3": 7.791721053287801,
-      "ytd": 45.119573013443286,
-      "y1": 38.31897173739931
+      "m1": -4.914356933458526,
+      "m3": 16.895313475466267,
+      "ytd": 52.26302196880056,
+      "y1": 39.45292791205265
     }
   },
   {
@@ -512,44 +512,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": 3.0632269166454336,
+        "value": -6.128700613876136,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": 3.9625429113414263,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -7.216403991071959,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 3,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 9.2851402016349,
+        "value": 9.570821796262075,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 13.106569612546155,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": 13.05680020304514,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 3,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": -3.0289083436913575,
+        "value": -9.104088194905726,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 10.34592623134035,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 3.4475861322160912,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 3,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": -3.8318438668994528,
+        "value": -10.593759316893452,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 13.092184268867152,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 3.2772304753728942,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 3,
           "benchmark": "SPY"
         },
@@ -557,10 +557,10 @@
       }
     },
     "averageReturns": {
-      "m1": 3.9625429113414263,
-      "m3": 13.106569612546155,
-      "ytd": 10.34592623134035,
-      "y1": 13.092184268867152
+      "m1": -7.216403991071959,
+      "m3": 13.05680020304514,
+      "ytd": 3.4475861322160912,
+      "y1": 3.2772304753728942
     }
   },
   {
@@ -571,44 +571,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -10.602073890923204,
+        "value": -15.649111753469759,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -9.702757896227212,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -16.736815130665583,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 1,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 2.161428568626817,
+        "value": -3.3814629548395647,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 5.982857979538072,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": 0.10451545194350106,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 1,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 177.5913936781303,
+        "value": 173.30778482364306,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 190.966228253162,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 185.85945915076488,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 1,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 336.7456158520761,
+        "value": 297.9737888923429,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 353.66964398784273,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 311.84477868460925,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 1,
           "benchmark": "SPY"
         },
@@ -616,10 +616,10 @@
       }
     },
     "averageReturns": {
-      "m1": -9.702757896227212,
-      "m3": 5.982857979538072,
-      "ytd": 190.966228253162,
-      "y1": 353.66964398784273
+      "m1": -16.736815130665583,
+      "m3": 0.10451545194350106,
+      "ytd": 185.85945915076488,
+      "y1": 311.84477868460925
     }
   },
   {
@@ -639,44 +639,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -7.315079426243511,
+        "value": -15.866484691318961,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -6.415763431547518,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -16.954188068514785,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 10,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -7.571835912092597,
+        "value": -10.397009315230482,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -3.7504065011813426,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -6.911030908447417,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 10,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 32.68933298631504,
+        "value": 24.07921040299307,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 46.06416756134674,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 36.630884730114886,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 10,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 76.29185435758396,
+        "value": 58.42687798065367,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 93.21588249335056,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 72.29786777292001,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 10,
           "benchmark": "SPY"
         },
@@ -684,10 +684,10 @@
       }
     },
     "averageReturns": {
-      "m1": -6.415763431547518,
-      "m3": -3.7504065011813426,
-      "ytd": 46.06416756134674,
-      "y1": 93.21588249335056
+      "m1": -16.954188068514785,
+      "m3": -6.911030908447417,
+      "ytd": 36.630884730114886,
+      "y1": 72.29786777292001
     }
   },
   {
@@ -708,44 +708,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -6.620118696460698,
+        "value": -12.802788913692828,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -5.720802701764705,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -13.890492290888652,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 11,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": -11.94659574767556,
+        "value": -18.56063510773825,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": -8.125166336764305,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -15.074656700955183,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 11,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": -13.39202947098758,
+        "value": -20.672959811418004,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": -0.017194895955872817,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": -8.121285484296186,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 11,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": -23.639110222537113,
+        "value": -27.679853609950527,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": -6.715082086770509,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": -13.80886381768418,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 11,
           "benchmark": "SPY"
         },
@@ -753,10 +753,10 @@
       }
     },
     "averageReturns": {
-      "m1": -5.720802701764705,
-      "m3": -8.125166336764305,
-      "ytd": -0.017194895955872817,
-      "y1": -6.715082086770509
+      "m1": -13.890492290888652,
+      "m3": -15.074656700955183,
+      "ytd": -8.121285484296186,
+      "y1": -13.80886381768418
     }
   },
   {
@@ -773,44 +773,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -4.275555927781186,
+        "value": -9.920629025798643,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -3.3762399330851927,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -11.008332402994467,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 0.11309656876289642,
+        "value": -0.11974807888671579,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 3.9345259796741514,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": 3.36623032789635,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 56.785574838766216,
+        "value": 49.57832187983174,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 70.16040941379792,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 62.12999620695356,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 7,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 59.968057805335334,
+        "value": 50.842897370627156,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 76.89208594110194,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 64.7138871628935,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 7,
           "benchmark": "SPY"
         },
@@ -818,10 +818,10 @@
       }
     },
     "averageReturns": {
-      "m1": -3.3762399330851927,
-      "m3": 3.9345259796741514,
-      "ytd": 70.16040941379792,
-      "y1": 76.89208594110194
+      "m1": -11.008332402994467,
+      "m3": 3.36623032789635,
+      "ytd": 62.12999620695356,
+      "y1": 64.7138871628935
     }
   },
   {
@@ -836,44 +836,44 @@
     ],
     "relativeStrength": {
       "m1": {
-        "value": -11.353696283008684,
+        "value": -18.815780601337526,
         "formula": "Equal-weighted basket m1 return − benchmark m1 return",
         "inputs": {
-          "basketReturnPct": -10.454380288312692,
-          "benchmarkReturnPct": 0.899315994695993,
+          "basketReturnPct": -19.903483978533348,
+          "benchmarkReturnPct": -1.0877033771958236,
           "constituents": 5,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "m3": {
-        "value": 8.940189719997973,
+        "value": -5.124648411848039,
         "formula": "Equal-weighted basket m3 return − benchmark m3 return",
         "inputs": {
-          "basketReturnPct": 12.761619130909228,
-          "benchmarkReturnPct": 3.821429410911255,
+          "basketReturnPct": -1.638670005064973,
+          "benchmarkReturnPct": 3.4859784067830657,
           "constituents": 5,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "ytd": {
-        "value": 64.95636254417828,
+        "value": 61.59103484671601,
         "formula": "Equal-weighted basket ytd return − benchmark ytd return",
         "inputs": {
-          "basketReturnPct": 78.33119711920999,
-          "benchmarkReturnPct": 13.374834575031707,
+          "basketReturnPct": 74.14270917383783,
+          "benchmarkReturnPct": 12.551674327121818,
           "constituents": 5,
           "benchmark": "SPY"
         },
         "unit": "percent"
       },
       "y1": {
-        "value": 49.59341788964069,
+        "value": 42.15862487643251,
         "formula": "Equal-weighted basket y1 return − benchmark y1 return",
         "inputs": {
-          "basketReturnPct": 66.5174460254073,
-          "benchmarkReturnPct": 16.924028135766605,
+          "basketReturnPct": 56.029614668698855,
+          "benchmarkReturnPct": 13.870989792266347,
           "constituents": 5,
           "benchmark": "SPY"
         },
@@ -881,10 +881,10 @@
       }
     },
     "averageReturns": {
-      "m1": -10.454380288312692,
-      "m3": 12.761619130909228,
-      "ytd": 78.33119711920999,
-      "y1": 66.5174460254073
+      "m1": -19.903483978533348,
+      "m3": -1.638670005064973,
+      "ytd": 74.14270917383783,
+      "y1": 56.029614668698855
     }
   }
 ]

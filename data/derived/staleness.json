@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-10-19T14:19:39.808Z",
+  "generatedAt": "2026-10-26T13:51:15.159Z",
   "sources": {
     "sec-financials": {
       "stale": false,
-      "fetchedAt": "2026-10-19T14:19:30.371Z",
-      "lastSuccessAt": "2026-10-19T14:19:30.371Z",
+      "fetchedAt": "2026-10-26T13:51:05.000Z",
+      "lastSuccessAt": "2026-10-26T13:51:05.000Z",
       "records": 28,
       "reason": null
     },
     "market": {
       "stale": false,
-      "fetchedAt": "2026-10-19T14:18:30.682Z",
-      "lastSuccessAt": "2026-10-19T14:18:30.682Z",
+      "fetchedAt": "2026-10-26T13:50:05.260Z",
+      "lastSuccessAt": "2026-10-26T13:50:05.260Z",
       "records": 67,
       "reason": null
     },
     "artificialanalysis": {
       "stale": true,
-      "fetchedAt": "2026-10-19T14:18:30.676Z",
+      "fetchedAt": "2026-10-26T13:50:05.204Z",
       "lastSuccessAt": "2026-09-18T18:02:50.707Z",
       "records": 652,
       "reason": "ARTIFICIALANALYSIS_API_KEY is not set"
     },
     "openrouter": {
       "stale": false,
-      "fetchedAt": "2026-10-19T14:18:30.290Z",
-      "lastSuccessAt": "2026-10-19T14:18:30.290Z",
-      "records": 469,
+      "fetchedAt": "2026-10-26T13:50:04.985Z",
+      "lastSuccessAt": "2026-10-26T13:50:04.985Z",
+      "records": 466,
       "reason": null
     },
     "epoch-models": {
       "stale": false,
-      "fetchedAt": "2026-10-19T14:19:38.613Z",
-      "lastSuccessAt": "2026-10-19T14:19:38.613Z",
+      "fetchedAt": "2026-10-26T13:51:14.049Z",
+      "lastSuccessAt": "2026-10-26T13:51:14.049Z",
       "records": 790,
       "reason": null
     }

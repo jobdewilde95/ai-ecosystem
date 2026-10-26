@@ -3,6 +3,51 @@
   "curatedThrough": "2026-09-01",
   "events": [
     {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-26",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431043/d133631d424b5.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-26",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431040/d94886d424b5.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-26",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431009/d127909ds3asr.htm"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-10-23",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526430424/d147430d8k.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-21",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm"
+    },
+    {
       "ticker": "DLR",
       "name": "Digital Realty",
       "filed": "2026-10-09",
@@ -723,15 +768,6 @@
       "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926054230/tm2613041-2_424b2.htm"
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "filed": "2026-05-01",
-      "form": "424B2",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526201738/d109954d424b2.htm"
-    },
-    {
       "ticker": "EQIX",
       "name": "Equinix",
       "filed": "2026-04-30",
@@ -1414,24 +1450,6 @@
       "kind": "item-1.01",
       "detail": "Entry into a material definitive agreement",
       "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125036514/ef20056153_8k.htm"
-    },
-    {
-      "ticker": "ORCL",
-      "name": "Oracle",
-      "filed": "2025-09-25",
-      "form": "424B2",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525217490/d37885d424b2.htm"
-    },
-    {
-      "ticker": "ORCL",
-      "name": "Oracle",
-      "filed": "2025-09-24",
-      "form": "424B2",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525214032/d37885d424b2.htm"
     },
     {
       "ticker": "INTC",

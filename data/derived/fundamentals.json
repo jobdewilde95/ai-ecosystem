@@ -7052,25 +7052,21 @@
       "hyperscaler"
     ],
     "ttm": {
-      "revenue": 228247000000,
-      "capex": 89325000000,
-      "operatingCashFlow": 130301000000,
-      "depreciation": 22729000000,
-      "interestExpense": 1429000000,
-      "debtIssuance": 40338000000
+      "revenue": 241606000000,
+      "capex": 104438000000,
+      "operatingCashFlow": 133087000000,
+      "depreciation": 24920000000,
+      "interestExpense": 2263000000,
+      "debtIssuance": 29906000000
     },
     "latest": {
-      "longTermDebt": 83664000000,
-      "cash": 15462000000,
+      "longTermDebt": 80922000000,
+      "cash": 11222000000,
       "ppe": 42291000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 9375000000
-        },
         {
           "end": "2022-12-31",
           "value": 8798000000
@@ -7130,13 +7126,13 @@
         {
           "end": "2026-06-30",
           "value": 30116000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 33942000000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 27714000000
-        },
         {
           "end": "2022-12-31",
           "value": 32165000000
@@ -7196,13 +7192,13 @@
         {
           "end": "2026-06-30",
           "value": 60801000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 64601000000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-09-30",
-          "value": 2175000000
-        },
         {
           "end": "2022-12-31",
           "value": 2376000000
@@ -7262,6 +7258,10 @@
         {
           "end": "2026-06-30",
           "value": 6356000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 7154000000
         }
       ],
       "debtIssuance": [
@@ -7300,6 +7300,10 @@
         {
           "end": "2025-12-31",
           "value": 29906000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 0
         }
       ]
     },
@@ -7331,48 +7335,48 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 1.4587293590820039,
+        "value": 1.2743158620425517,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 130301000000,
-          "ttmCapex": 89325000000
+          "ttmOperatingCashFlow": 133087000000,
+          "ttmCapex": 104438000000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 39.13523507428356,
+        "value": 43.22657549895284,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 89325000000,
-          "ttmRevenue": 228247000000
+          "ttmCapex": 104438000000,
+          "ttmRevenue": 241606000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 8.213795728019178,
+        "value": 13.544405148719598,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 35.8658616773268,
-          "revenueGrowthPct": 27.65206594930762
+          "daGrowthPct": 41.0699122558732,
+          "revenueGrowthPct": 27.5255071071536
         },
         "unit": "percent",
         "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": 1.6439081068022592,
+        "value": 2.850844041320232,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 1429000000,
-          "ttmOperatingIncome": 86927000000
+          "ttmInterestExpense": 2263000000,
+          "ttmOperatingIncome": 79380000000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 0.1778553874013711,
+        "value": 0.24505435751202995,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 2750000000,
-          "cash": 15462000000
+          "cash": 11222000000
         },
         "unit": "ratio"
       }

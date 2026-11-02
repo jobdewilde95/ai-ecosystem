@@ -3,6 +3,132 @@
   "curatedThrough": "2026-09-01",
   "events": [
     {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "filed": "2026-11-02",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "filed": "2026-11-02",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/789019/000119312526442618/d150456d424b2.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-11-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-11-02",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-11-02",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442722/d181336d424b2.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-11-02",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442669/d181173ds3asr.htm"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "filed": "2026-10-29",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/789019/000119312526437008/d150456d424b2.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-29",
+      "form": "8-K",
+      "kind": "item-1.01",
+      "detail": "Entry into a material definitive agreement",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-10-28",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926119687/tm2628001-1_s3asr.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-10-28",
+      "form": "S-3ASR",
+      "kind": "shelf",
+      "detail": "Shelf registration — capacity to issue securities",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926119683/tm2628000-1_s3asr.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-28",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436410/d94886d424b5.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-10-28",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436405/d133631d424b5.htm"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "filed": "2026-10-27",
+      "form": "8-K",
+      "kind": "item-2.03",
+      "detail": "Creation of a direct financial obligation",
+      "href": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm"
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "filed": "2026-10-27",
+      "form": "8-K",
+      "kind": "item-2.01",
+      "detail": "Completion of acquisition or disposition",
+      "href": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm"
+    },
+    {
       "ticker": "META",
       "name": "Meta Platforms",
       "filed": "2026-10-26",
@@ -633,51 +759,6 @@
       "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526256375/d152107d424b5.htm"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-02",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252439/d150348d424b5.htm"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-02",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252392/d152175d424b5.htm"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-02",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252374/d159942d424b5.htm"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-02",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526252362/d152107d424b5.htm"
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-01",
-      "form": "S-3ASR",
-      "kind": "shelf",
-      "detail": "Shelf registration — capacity to issue securities",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526251560/d135361ds3asr.htm"
-    },
-    {
       "ticker": "IREN",
       "name": "IREN",
       "filed": "2026-06-01",
@@ -1027,24 +1108,6 @@
       "kind": "pricing",
       "detail": "Pricing supplement — a specific issuance priced",
       "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926018224/tm265546-5_424b2.htm"
-    },
-    {
-      "ticker": "EQIX",
-      "name": "Equinix",
-      "filed": "2026-02-19",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926017312/tm265546-4_424b5.htm"
-    },
-    {
-      "ticker": "EQIX",
-      "name": "Equinix",
-      "filed": "2026-02-19",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926017310/tm265546-3_424b5.htm"
     },
     {
       "ticker": "VRT",
@@ -1710,10 +1773,28 @@
     },
     {
       "quarter": "2026-Q3",
-      "total": 4386000000
+      "total": 84464000000
     }
   ],
   "debtDetail": [
+    {
+      "end": "2026-09-30",
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "value": 2980000000
+    },
+    {
+      "end": "2026-09-30",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "value": 48102000000
+    },
+    {
+      "end": "2026-09-30",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "value": 28996000000
+    },
     {
       "end": "2026-07-31",
       "ticker": "DELL",
@@ -2415,24 +2496,6 @@
       "ticker": "DLR",
       "name": "Digital Realty",
       "value": 21574000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "CEG",
-      "name": "Constellation Energy",
-      "value": 1401000000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "VST",
-      "name": "Vistra",
-      "value": 1750000000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "value": 7073000000
     }
   ]
 }

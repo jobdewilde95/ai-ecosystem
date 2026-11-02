@@ -371,25 +371,21 @@
     ],
     "tags": [],
     "ttm": {
-      "revenue": 57032000000,
-      "capex": 12105000000,
-      "operatingCashFlow": 14936000000,
-      "depreciation": 11435000000,
-      "interestExpense": 1150000000,
+      "revenue": 59892000000,
+      "capex": 13704000000,
+      "operatingCashFlow": 17472000000,
+      "depreciation": 11719000000,
+      "interestExpense": 1192000000,
       "debtIssuance": 0
     },
     "latest": {
-      "longTermDebt": 48549000000,
-      "cash": 12874000000,
+      "longTermDebt": 46317000000,
+      "cash": 21846000000,
       "ppe": 80860000000,
-      "asOf": "2026-06-27"
+      "asOf": "2026-09-26"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-10-01",
-          "value": 7299000000
-        },
         {
           "end": "2022-12-31",
           "value": 5699000000
@@ -449,13 +445,13 @@
         {
           "end": "2026-06-27",
           "value": 2556000000
+        },
+        {
+          "end": "2026-09-26",
+          "value": 4024000000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-10-01",
-          "value": 15338000000
-        },
         {
           "end": "2022-12-31",
           "value": 14042000000
@@ -515,13 +511,13 @@
         {
           "end": "2026-06-27",
           "value": 16128000000
+        },
+        {
+          "end": "2026-09-26",
+          "value": 16513000000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-10-01",
-          "value": 2781000000
-        },
         {
           "end": "2022-12-31",
           "value": 2819000000
@@ -581,13 +577,13 @@
         {
           "end": "2026-06-27",
           "value": 2989000000
+        },
+        {
+          "end": "2026-09-26",
+          "value": 3042000000
         }
       ],
       "debtIssuance": [
-        {
-          "end": "2022-04-02",
-          "value": 0
-        },
         {
           "end": "2022-07-02",
           "value": 0
@@ -647,6 +643,10 @@
         {
           "end": "2025-12-27",
           "value": 0
+        },
+        {
+          "end": "2026-09-26",
+          "value": 0
         }
       ]
     },
@@ -678,47 +678,49 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 1.2338703015282941,
+        "value": 1.274956217162872,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 14936000000,
-          "ttmCapex": 12105000000
+          "ttmOperatingCashFlow": 17472000000,
+          "ttmCapex": 13704000000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 21.224926357132837,
+        "value": 22.881186135043077,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 12105000000,
-          "ttmRevenue": 57032000000
+          "ttmCapex": 13704000000,
+          "ttmRevenue": 59892000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": -1.2022530326285024,
+        "value": 2.02249515861139,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 6.263358423938295,
-          "revenueGrowthPct": 7.465611456566798
+          "daGrowthPct": 14.097945672281181,
+          "revenueGrowthPct": 12.075450513669791
         },
-        "unit": "percent"
+        "unit": "percent",
+        "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": null,
+        "value": 67.65039727582293,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 1150000000,
-          "ttmOperatingIncome": -77000000
+          "ttmInterestExpense": 1192000000,
+          "ttmOperatingIncome": 1762000000
         },
-        "unit": "percent"
+        "unit": "percent",
+        "caveat": "Interest consuming a quarter of operating income"
       },
       "refinancingRisk": {
-        "value": 0.19418983998757186,
+        "value": 0.11443742561567335,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 2500000000,
-          "cash": 12874000000
+          "cash": 21846000000
         },
         "unit": "ratio"
       }
@@ -3024,25 +3026,21 @@
     ],
     "tags": [],
     "ttm": {
-      "revenue": 9805000000,
-      "capex": 5406000000,
-      "operatingCashFlow": 3942000000,
-      "depreciation": 2164000000,
-      "interestExpense": 569000000,
-      "debtIssuance": 4664000000
+      "revenue": 10060000000,
+      "capex": 5828000000,
+      "operatingCashFlow": 4171000000,
+      "depreciation": 2178000000,
+      "interestExpense": 604000000,
+      "debtIssuance": 7144000000
     },
     "latest": {
-      "longTermDebt": 19873000000,
-      "cash": 979000000,
-      "ppe": 25222000000,
-      "asOf": "2026-06-30"
+      "longTermDebt": 22839000000,
+      "cash": 2362000000,
+      "ppe": 26282000000,
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 552729000
-        },
         {
           "end": "2022-12-31",
           "value": 827923000
@@ -3102,13 +3100,13 @@
         {
           "end": "2026-06-30",
           "value": 1578000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 1558000000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 1840659000
-        },
         {
           "end": "2022-12-31",
           "value": 1870740000
@@ -3168,13 +3166,13 @@
         {
           "end": "2026-06-30",
           "value": 2625000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 2571000000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-09-30",
-          "value": 430192000
-        },
         {
           "end": "2022-12-31",
           "value": 438198000
@@ -3234,13 +3232,13 @@
         {
           "end": "2026-06-30",
           "value": 551000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 544000000
         }
       ],
       "debtIssuance": [
-        {
-          "end": "2022-09-30",
-          "value": 0
-        },
         {
           "end": "2022-12-31",
           "value": 312000
@@ -3300,25 +3298,29 @@
         {
           "end": "2026-06-30",
           "value": 927000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 2980000000
         }
       ]
     },
     "maturityWall": [
       {
         "label": "Next 12m",
-        "value": 1076000000
+        "value": 1072000000
       },
       {
         "label": "Year 2",
-        "value": 1426000000
+        "value": 1414000000
       },
       {
         "label": "Year 3",
-        "value": 2185000000
+        "value": 3025000000
       },
       {
         "label": "Year 4",
-        "value": 3194000000
+        "value": 3199000000
       },
       {
         "label": "Year 5",
@@ -3331,53 +3333,51 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 0.7291897891231964,
+        "value": 0.7156829100892245,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 3942000000,
-          "ttmCapex": 5406000000
+          "ttmOperatingCashFlow": 4171000000,
+          "ttmCapex": 5828000000
         },
         "unit": "ratio",
         "caveat": "Capex exceeds operating cash flow"
       },
       "capexIntensity": {
-        "value": 55.13513513513514,
+        "value": 57.932405566600394,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 5406000000,
-          "ttmRevenue": 9805000000
+          "ttmCapex": 5828000000,
+          "ttmRevenue": 10060000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 0.09748465546613616,
+        "value": -2.487767432962759,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 9.73630831643002,
-          "revenueGrowthPct": 9.638823660963883
+          "daGrowthPct": 8.574277168494516,
+          "revenueGrowthPct": 11.062044601457275
         },
-        "unit": "percent",
-        "caveat": "Depreciation compounding faster than revenue"
+        "unit": "percent"
       },
       "interestBurden": {
-        "value": 26.613657623947613,
+        "value": 26.67844522968198,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 569000000,
-          "ttmOperatingIncome": 2138000000
+          "ttmInterestExpense": 604000000,
+          "ttmOperatingIncome": 2264000000
         },
         "unit": "percent",
         "caveat": "Interest consuming a quarter of operating income"
       },
       "refinancingRisk": {
-        "value": 1.0990806945863125,
+        "value": 0.45385266723116,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
-          "debtDueNext12Months": 1076000000,
-          "cash": 979000000
+          "debtDueNext12Months": 1072000000,
+          "cash": 2362000000
         },
-        "unit": "ratio",
-        "caveat": "Maturities exceed cash on hand"
+        "unit": "ratio"
       }
     }
   },
@@ -3752,25 +3752,21 @@
     ],
     "tags": [],
     "ttm": {
-      "revenue": 11479600000,
-      "capex": 424400000,
-      "operatingCashFlow": 3354200000,
-      "depreciation": 117600000,
-      "interestExpense": 52500000,
+      "revenue": 13116600000,
+      "capex": 518300000,
+      "operatingCashFlow": 3665500000,
+      "depreciation": 132900000,
+      "interestExpense": 36100000,
       "debtIssuance": 2100000000
     },
     "latest": {
-      "longTermDebt": 2939800000,
-      "cash": 2810600000,
-      "ppe": 1184200000,
-      "asOf": "2026-06-30"
+      "longTermDebt": 2925100000,
+      "cash": 3512900000,
+      "ppe": 1324600000,
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 23500000
-        },
         {
           "end": "2022-12-31",
           "value": 38300000
@@ -3830,13 +3826,13 @@
         {
           "end": "2026-06-30",
           "value": 173300000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 139100000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 1481100000
-        },
         {
           "end": "2022-12-31",
           "value": 1654600000
@@ -3896,13 +3892,13 @@
         {
           "end": "2026-06-30",
           "value": 3274300000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 4312800000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-09-30",
-          "value": 17800000
-        },
         {
           "end": "2022-12-31",
           "value": 18700000
@@ -3962,6 +3958,10 @@
         {
           "end": "2026-06-30",
           "value": 39400000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 39800000
         }
       ],
       "debtIssuance": [
@@ -3974,11 +3974,19 @@
           "value": 0
         },
         {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
           "end": "2026-03-31",
           "value": 2100000000
         },
         {
           "end": "2026-06-30",
+          "value": 0
+        },
+        {
+          "end": "2026-09-30",
           "value": 0
         }
       ]
@@ -4011,48 +4019,48 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 7.9033930254476905,
+        "value": 7.07215898128497,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 3354200000,
-          "ttmCapex": 424400000
+          "ttmOperatingCashFlow": 3665500000,
+          "ttmCapex": 518300000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 3.696992926582808,
+        "value": 3.9514813290029425,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 424400000,
-          "ttmRevenue": 11479600000
+          "ttmCapex": 518300000,
+          "ttmRevenue": 13116600000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 7.251995615474847,
+        "value": 9.496961950111157,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 33.48467650397276,
-          "revenueGrowthPct": 26.23268088849791
+          "daGrowthPct": 44.771241830065364,
+          "revenueGrowthPct": 35.27427987995421
         },
         "unit": "percent",
         "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": 2.41423710107606,
+        "value": 1.3665442707347542,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 52500000,
-          "ttmOperatingIncome": 2174600000
+          "ttmInterestExpense": 36100000,
+          "ttmOperatingIncome": 2641700000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 0.007436134633174411,
+        "value": 0.0059495004127643825,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 20900000,
-          "cash": 2810600000
+          "cash": 3512900000
         },
         "unit": "ratio"
       }
@@ -4433,25 +4441,21 @@
       "bottleneck"
     ],
     "ttm": {
-      "revenue": 32905140000,
-      "capex": 787091000,
-      "operatingCashFlow": 3178249000,
-      "depreciation": 445131000,
-      "interestExpense": 294369000,
+      "revenue": 37288609000,
+      "capex": 912599000,
+      "operatingCashFlow": 4068494000,
+      "depreciation": 461643000,
+      "interestExpense": 306548000,
       "debtIssuance": null
     },
     "latest": {
-      "longTermDebt": 5421862000,
-      "cash": 506431000,
+      "longTermDebt": 6351734000,
+      "cash": 2315271000,
       "ppe": 1390209000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 105958000
-        },
         {
           "end": "2022-12-31",
           "value": 90161000
@@ -4511,13 +4515,13 @@
         {
           "end": "2026-06-30",
           "value": 230955000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 267957000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 4459757000
-        },
         {
           "end": "2022-12-31",
           "value": 4416618000
@@ -4577,13 +4581,13 @@
         {
           "end": "2026-06-30",
           "value": 9556997000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 12014877000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-09-30",
-          "value": 73507000
-        },
         {
           "end": "2022-12-31",
           "value": 72227000
@@ -4643,6 +4647,10 @@
         {
           "end": "2026-06-30",
           "value": 117138000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 120387000
         }
       ],
       "debtIssuance": [
@@ -4688,50 +4696,49 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 4.037968926083515,
+        "value": 4.458139884001626,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 3178249000,
-          "ttmCapex": 787091000
+          "ttmOperatingCashFlow": 4068494000,
+          "ttmCapex": 912599000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 2.3920001555987906,
+        "value": 2.4473935190234637,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 787091000,
-          "ttmRevenue": 32905140000
+          "ttmCapex": 912599000,
+          "ttmRevenue": 37288609000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": -10.277641913016094,
+        "value": -21.01357462884558,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 16.023468940926247,
-          "revenueGrowthPct": 26.30111085394234
+          "daGrowthPct": 16.121413047852858,
+          "revenueGrowthPct": 37.13498767669844
         },
         "unit": "percent"
       },
       "interestBurden": {
-        "value": 14.45991396820547,
+        "value": 12.044686845921694,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 294369000,
-          "ttmOperatingIncome": 2035759000
+          "ttmInterestExpense": 306548000,
+          "ttmOperatingIncome": 2545089000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 1.362138178744982,
+        "value": 0.29794741090783755,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 689829000,
-          "cash": 506431000
+          "cash": 2315271000
         },
-        "unit": "ratio",
-        "caveat": "Maturities exceed cash on hand"
+        "unit": "ratio"
       }
     }
   },
@@ -5718,18 +5725,18 @@
       "bottleneck"
     ],
     "ttm": {
-      "revenue": 41368000000,
-      "capex": 1701000000,
-      "operatingCashFlow": 14139000000,
-      "depreciation": 669000000,
+      "revenue": 44041000000,
+      "capex": 2101000000,
+      "operatingCashFlow": 19216000000,
+      "depreciation": 717000000,
       "interestExpense": null,
       "debtIssuance": 2567000000
     },
     "latest": {
-      "longTermDebt": 2794000000,
+      "longTermDebt": 2795000000,
       "cash": null,
       "ppe": null,
-      "asOf": "2026-06-30"
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
@@ -5788,6 +5795,10 @@
         {
           "end": "2026-06-30",
           "value": 386000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 647000000
         }
       ],
       "revenue": [
@@ -5846,6 +5857,10 @@
         {
           "end": "2026-06-30",
           "value": 11104000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 12642000000
         }
       ],
       "depreciation": [
@@ -5904,6 +5919,10 @@
         {
           "end": "2026-06-30",
           "value": 182000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 200000000
         }
       ],
       "debtIssuance": [
@@ -5916,11 +5935,19 @@
           "value": 0
         },
         {
+          "end": "2025-09-30",
+          "value": 0
+        },
+        {
           "end": "2026-03-31",
           "value": 2567000000
         },
         {
           "end": "2026-06-30",
+          "value": 0
+        },
+        {
+          "end": "2026-09-30",
           "value": 0
         }
       ]
@@ -5953,29 +5980,29 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 8.312169312169312,
+        "value": 9.146120894811995,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 14139000000,
-          "ttmCapex": 1701000000
+          "ttmOperatingCashFlow": 19216000000,
+          "ttmCapex": 2101000000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 4.111873912202669,
+        "value": 4.7705547103835055,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 1701000000,
-          "ttmRevenue": 41368000000
+          "ttmCapex": 2101000000,
+          "ttmRevenue": 44041000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": -30.388426115587116,
+        "value": -2.37281786321679,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": -17.40740740740741,
-          "revenueGrowthPct": 12.98101870817971
+          "daGrowthPct": 14.536741214057509,
+          "revenueGrowthPct": 16.9095590772743
         },
         "unit": "percent"
       },
@@ -5984,7 +6011,7 @@
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
           "ttmInterestExpense": null,
-          "ttmOperatingIncome": 1799000000
+          "ttmOperatingIncome": 2827000000
         },
         "unit": "percent"
       },
@@ -6011,25 +6038,21 @@
       "hyperscaler"
     ],
     "ttm": {
-      "revenue": 331839000000,
-      "capex": 115948000000,
-      "operatingCashFlow": 182935000000,
-      "depreciation": 34300000000,
-      "interestExpense": 3051000000,
+      "revenue": 346445000000,
+      "capex": 135921000000,
+      "operatingCashFlow": 195878000000,
+      "depreciation": 38300000000,
+      "interestExpense": 3223000000,
       "debtIssuance": 0
     },
     "latest": {
-      "longTermDebt": 31067000000,
-      "cash": 20935000000,
-      "ppe": 313076000000,
-      "asOf": "2026-06-30"
+      "longTermDebt": 31090000000,
+      "cash": 20281000000,
+      "ppe": 346844000000,
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 6283000000
-        },
         {
           "end": "2022-12-31",
           "value": 6274000000
@@ -6089,13 +6112,13 @@
         {
           "end": "2026-06-30",
           "value": 35802000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 39367000000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 50122000000
-        },
         {
           "end": "2022-12-31",
           "value": 52747000000
@@ -6155,6 +6178,10 @@
         {
           "end": "2026-06-30",
           "value": 90007000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 92279000000
         }
       ],
       "depreciation": [
@@ -6189,6 +6216,10 @@
         {
           "end": "2026-06-30",
           "value": 10300000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 11100000000
         }
       ],
       "debtIssuance": [
@@ -6253,19 +6284,19 @@
     "maturityWall": [
       {
         "label": "Next 12m",
-        "value": 9250000000
+        "value": 0
       },
       {
         "label": "Year 2",
-        "value": 0
+        "value": 1988000000
       },
       {
         "label": "Year 3",
-        "value": 2001000000
+        "value": 0
       },
       {
         "label": "Year 4",
-        "value": 0
+        "value": 500000000
       },
       {
         "label": "Year 5",
@@ -6278,48 +6309,48 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 1.57773312174423,
+        "value": 1.4411165309260527,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 182935000000,
-          "ttmCapex": 115948000000
+          "ttmOperatingCashFlow": 195878000000,
+          "ttmCapex": 135921000000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 34.941040685392615,
+        "value": 39.23306729783948,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 115948000000,
-          "ttmRevenue": 331839000000
+          "ttmCapex": 135921000000,
+          "ttmRevenue": 346445000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 38.12040410924425,
+        "value": 39.05337705632218,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 55.90909090909091,
-          "revenueGrowthPct": 17.78868679984666
+          "daGrowthPct": 56.9672131147541,
+          "revenueGrowthPct": 17.913836058431922
         },
         "unit": "percent",
         "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": 1.9653819643512822,
+        "value": 1.9749863656696756,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 3051000000,
-          "ttmOperatingIncome": 155237000000
+          "ttmInterestExpense": 3223000000,
+          "ttmOperatingIncome": 163191000000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 0.44184380224504416,
+        "value": 0,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
-          "debtDueNext12Months": 9250000000,
-          "cash": 20935000000
+          "debtDueNext12Months": 0,
+          "cash": 20281000000
         },
         "unit": "ratio"
       }
@@ -6336,25 +6367,21 @@
       "hyperscaler"
     ],
     "ttm": {
-      "revenue": 775680000000,
-      "capex": 173028000000,
-      "operatingCashFlow": 161403000000,
-      "depreciation": 75200000000,
-      "interestExpense": 3331000000,
-      "debtIssuance": 81925000000
+      "revenue": 797455000000,
+      "capex": 215192000000,
+      "operatingCashFlow": 168300000000,
+      "depreciation": 79353000000,
+      "interestExpense": 4484000000,
+      "debtIssuance": 130027000000
     },
     "latest": {
-      "longTermDebt": 128894000000,
-      "cash": 78213000000,
+      "longTermDebt": 173125000000,
+      "cash": 55783000000,
       "ppe": 357025000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 16378000000
-        },
         {
           "end": "2022-12-31",
           "value": 16592000000
@@ -6414,13 +6441,13 @@
         {
           "end": "2026-06-30",
           "value": 54208000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 77259000000
         }
       ],
       "revenue": [
-        {
-          "end": "2022-09-30",
-          "value": 127101000000
-        },
         {
           "end": "2022-12-31",
           "value": 149204000000
@@ -6480,13 +6507,13 @@
         {
           "end": "2026-06-30",
           "value": 200606000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 201944000000
         }
       ],
       "depreciation": [
-        {
-          "end": "2022-09-30",
-          "value": 10327000000
-        },
         {
           "end": "2022-12-31",
           "value": 12685000000
@@ -6546,13 +6573,13 @@
         {
           "end": "2026-06-30",
           "value": 19988000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 20949000000
         }
       ],
       "debtIssuance": [
-        {
-          "end": "2022-09-30",
-          "value": 107000000
-        },
         {
           "end": "2022-12-31",
           "value": 8235000000
@@ -6612,6 +6639,10 @@
         {
           "end": "2026-06-30",
           "value": 13557000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 48102000000
         }
       ]
     },
@@ -6643,49 +6674,49 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 0.9328143421873917,
+        "value": 0.7820922710881445,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 161403000000,
-          "ttmCapex": 173028000000
+          "ttmOperatingCashFlow": 168300000000,
+          "ttmCapex": 215192000000
         },
         "unit": "ratio",
         "caveat": "Capex exceeds operating cash flow"
       },
       "capexIntensity": {
-        "value": 22.306621287128714,
+        "value": 26.984845539873724,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 173028000000,
-          "ttmRevenue": 775680000000
+          "ttmCapex": 215192000000,
+          "ttmRevenue": 797455000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 12.644346464487676,
+        "value": 12.81150351718097,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 28.41091492776886,
-          "revenueGrowthPct": 15.766568463281185
+          "daGrowthPct": 28.162348988952772,
+          "revenueGrowthPct": 15.350845471771802
         },
         "unit": "percent",
         "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": 3.554507427010415,
+        "value": 4.296418373799896,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 3331000000,
-          "ttmOperatingIncome": 93712000000
+          "ttmInterestExpense": 4484000000,
+          "ttmOperatingIncome": 104366000000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 0.035185966527303644,
+        "value": 0.04933402649552731,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 2752000000,
-          "cash": 78213000000
+          "cash": 55783000000
         },
         "unit": "ratio"
       }
@@ -6703,25 +6734,21 @@
       "hyperscaler"
     ],
     "ttm": {
-      "revenue": 445867000000,
-      "capex": 132402000000,
-      "operatingCashFlow": 185675000000,
-      "depreciation": 25237000000,
-      "interestExpense": 2252000000,
-      "debtIssuance": 89412000000
+      "revenue": 471098000000,
+      "capex": 159804000000,
+      "operatingCashFlow": 179551000000,
+      "depreciation": 27995000000,
+      "interestExpense": 3076000000,
+      "debtIssuance": 111784000000
     },
     "latest": {
-      "longTermDebt": 98165000000,
-      "cash": 55911000000,
+      "longTermDebt": 125102000000,
+      "cash": 56334000000,
       "ppe": 185062000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-09-30"
     },
     "quarterly": {
       "capex": [
-        {
-          "end": "2022-09-30",
-          "value": 7276000000
-        },
         {
           "end": "2022-12-31",
           "value": 7595000000
@@ -6781,6 +6808,10 @@
         {
           "end": "2026-06-30",
           "value": 44924000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 51355000000
         }
       ],
       "revenue": [
@@ -6839,6 +6870,10 @@
         {
           "end": "2026-06-30",
           "value": 119796000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 127577000000
         }
       ],
       "depreciation": [
@@ -6897,13 +6932,13 @@
         {
           "end": "2026-06-30",
           "value": 7104000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 8369000000
         }
       ],
       "debtIssuance": [
-        {
-          "end": "2022-09-30",
-          "value": 15094000000
-        },
         {
           "end": "2022-12-31",
           "value": 8550000000
@@ -6963,6 +6998,10 @@
         {
           "end": "2026-06-30",
           "value": 24847000000
+        },
+        {
+          "end": "2026-09-30",
+          "value": 28996000000
         }
       ]
     },
@@ -6994,48 +7033,48 @@
     ],
     "metrics": {
       "capexCoverage": {
-        "value": 1.4023579704234075,
+        "value": 1.1235701234011664,
         "formula": "TTM operating cash flow ÷ TTM capex",
         "inputs": {
-          "ttmOperatingCashFlow": 185675000000,
-          "ttmCapex": 132402000000
+          "ttmOperatingCashFlow": 179551000000,
+          "ttmCapex": 159804000000
         },
         "unit": "ratio"
       },
       "capexIntensity": {
-        "value": 29.69540244063813,
+        "value": 33.92160442200986,
         "formula": "(TTM capex ÷ TTM revenue) × 100",
         "inputs": {
-          "ttmCapex": 132402000000,
-          "ttmRevenue": 445867000000
+          "ttmCapex": 159804000000,
+          "ttmRevenue": 471098000000
         },
         "unit": "percent"
       },
       "depreciationDrag": {
-        "value": 22.732919379838055,
+        "value": 22.832596876246757,
         "formula": "TTM D&A growth % − TTM revenue growth %",
         "inputs": {
-          "daGrowthPct": 42.78359264497878,
-          "revenueGrowthPct": 20.050673265140727
+          "daGrowthPct": 45.044298222890006,
+          "revenueGrowthPct": 22.21170134664325
         },
         "unit": "percent",
         "caveat": "Depreciation compounding faster than revenue"
       },
       "interestBurden": {
-        "value": 1.5254558755791583,
+        "value": 1.9595352155743553,
         "formula": "(TTM interest expense ÷ TTM operating income) × 100",
         "inputs": {
-          "ttmInterestExpense": 2252000000,
-          "ttmOperatingIncome": 147628000000
+          "ttmInterestExpense": 3076000000,
+          "ttmOperatingIncome": 156976000000
         },
         "unit": "percent"
       },
       "refinancingRisk": {
-        "value": 0.03577113627014362,
+        "value": 0.03550253843149785,
         "formula": "Principal due within 12 months ÷ cash and equivalents",
         "inputs": {
           "debtDueNext12Months": 2000000000,
-          "cash": 55911000000
+          "cash": 56334000000
         },
         "unit": "ratio"
       }

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-26T13:51:15.210Z",
-  "hyperscalerTtmCapex": 601476000000,
-  "hyperscalerCapexCoverage": 1.1615256761444381,
-  "trackedLongTermDebt": 792952001000,
-  "trackedTtmDebtIssuance": 335828153000,
+  "generatedAt": "2026-11-02T16:49:10.356Z",
+  "hyperscalerTtmCapex": 691015000000,
+  "hyperscalerCapexCoverage": 1.048300374356505,
+  "trackedLongTermDebt": 865793173000,
+  "trackedTtmDebtIssuance": 408782153000,
   "modelsTracked": 652,
   "cheapestFrontier": {
     "month": "2026-09",
@@ -17,11 +17,11 @@
     "ratio": 473.33333333333337
   },
   "aiBasketVsSpy": {
-    "value": 49.57832187983174,
+    "value": 28.948443560104653,
     "formula": "Equal-weighted basket ytd return − benchmark ytd return",
     "inputs": {
-      "basketReturnPct": 62.12999620695356,
-      "benchmarkReturnPct": 12.551674327121818,
+      "basketReturnPct": 41.09148815842532,
+      "benchmarkReturnPct": 12.143044598320667,
       "constituents": 7,
       "benchmark": "SPY"
     },

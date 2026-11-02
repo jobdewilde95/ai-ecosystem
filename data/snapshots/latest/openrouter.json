@@ -1,10 +1,141 @@
 {
   "source": "openrouter",
-  "fetchedAt": "2026-10-26T13:50:04.985Z",
+  "fetchedAt": "2026-11-02T16:48:00.654Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-26T13:50:04.985Z",
-  "recordCount": 466,
+  "lastSuccessAt": "2026-11-02T16:48:00.654Z",
+  "recordCount": 451,
   "data": [
+    {
+      "id": "z-ai/glm-5.3-flashx-legal",
+      "name": "Z.ai: GLM 5.3 FlashX Legal",
+      "creator": "z-ai",
+      "createdAt": "2026-11-02",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.37,
+        "outputPerMtok": 1.25,
+        "cacheReadPerMtok": 0.075,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.59
+      }
+    },
+    {
+      "id": "particle-ai/particle-1",
+      "name": "Particle AI: Particle-1",
+      "creator": "particle-ai",
+      "createdAt": "2026-10-28",
+      "contextLength": 1048576,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.5,
+        "cacheReadPerMtok": 0.003,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.1625
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-terra-pro",
+      "name": "OpenAI: GPT-6.1 Terra Pro",
+      "creator": "openai",
+      "createdAt": "2026-10-26",
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 1,
+        "outputPerMtok": 5,
+        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheWritePerMtok": 1.25,
+        "blended3to1": 2
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-terra-pro:batch",
+      "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
+      "creator": "openai",
+      "createdAt": "2026-10-26",
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.5,
+        "outputPerMtok": 2.5,
+        "cacheReadPerMtok": 0.024999999999999998,
+        "cacheWritePerMtok": 0.625,
+        "blended3to1": 1
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-terra",
+      "name": "OpenAI: GPT-6.1 Terra",
+      "creator": "openai",
+      "createdAt": "2026-10-26",
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 1,
+        "outputPerMtok": 5,
+        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheWritePerMtok": 1.25,
+        "blended3to1": 2
+      }
+    },
+    {
+      "id": "openai/gpt-6.1-terra:batch",
+      "name": "OpenAI: GPT-6.1 Terra (batch)",
+      "creator": "openai",
+      "createdAt": "2026-10-26",
+      "contextLength": 1050000,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.5,
+        "outputPerMtok": 2.5,
+        "cacheReadPerMtok": 0.024999999999999998,
+        "cacheWritePerMtok": 0.625,
+        "blended3to1": 1
+      }
+    },
     {
       "id": "moonshotai/kimi-k3.1-pro",
       "name": "MoonshotAI: Kimi K3.1 Pro",
@@ -62,11 +193,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.6,
-        "cacheReadPerMtok": 0.015,
+        "inputPerMtok": 0.075,
+        "outputPerMtok": 0.3,
+        "cacheReadPerMtok": 0.0075,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.26249999999999996
+        "blended3to1": 0.13124999999999998
       }
     },
     {
@@ -170,6 +301,27 @@
         "cacheReadPerMtok": 0.01,
         "cacheWritePerMtok": null,
         "blended3to1": 0.16249999999999998
+      }
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "name": "PrismML: Ternary Bonsai 2 9B",
+      "creator": "prism-ml",
+      "createdAt": "2026-10-16",
+      "contextLength": 262144,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0.08,
+        "outputPerMtok": 0.13,
+        "cacheReadPerMtok": 0.04,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0.0925
       }
     },
     {
@@ -583,11 +735,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 1.3599999999999999,
-        "outputPerMtok": 4.18,
-        "cacheReadPerMtok": 0.14,
+        "inputPerMtok": 0.7,
+        "outputPerMtok": 2.0999999999999996,
+        "cacheReadPerMtok": 0.07,
         "cacheWritePerMtok": null,
-        "blended3to1": 2.065
+        "blended3to1": 1.0499999999999998
       }
     },
     {
@@ -595,7 +747,7 @@
       "name": "inclusionAI: Ling 3.1 Flash",
       "creator": "inclusionai",
       "createdAt": "2026-10-02",
-      "contextLength": 262144,
+      "contextLength": 1000000,
       "inputModalities": [
         "text"
       ],
@@ -740,30 +892,6 @@
         "cacheReadPerMtok": 0.049999999999999996,
         "cacheWritePerMtok": 1.25,
         "blended3to1": 2
-      }
-    },
-    {
-      "id": "typesafe/jev-router",
-      "name": "TypeSafe: Jev Router",
-      "creator": "typesafe",
-      "createdAt": "2026-09-25",
-      "contextLength": 1000000,
-      "inputModalities": [
-        "audio",
-        "file",
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
       }
     },
     {
@@ -1154,26 +1282,6 @@
       }
     },
     {
-      "id": "nvidia/switchyard",
-      "name": "NVIDIA: Switchyard",
-      "creator": "nvidia",
-      "createdAt": "2026-09-21",
-      "contextLength": 1000000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
-      }
-    },
-    {
       "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
       "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
       "creator": "xiaomi",
@@ -1325,7 +1433,7 @@
       "pricing": {
         "inputPerMtok": 0.37,
         "outputPerMtok": 1.25,
-        "cacheReadPerMtok": 0.09,
+        "cacheReadPerMtok": 0.075,
         "cacheWritePerMtok": null,
         "blended3to1": 0.59
       }
@@ -1343,11 +1451,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.1663,
+        "inputPerMtok": 0.1035,
         "outputPerMtok": 8,
-        "cacheReadPerMtok": 0.16999999999999998,
+        "cacheReadPerMtok": 0.09999999999999999,
         "cacheWritePerMtok": null,
-        "blended3to1": 2.124725
+        "blended3to1": 2.077625
       }
     },
     {
@@ -1364,11 +1472,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.02,
-        "outputPerMtok": 1,
-        "cacheReadPerMtok": 0.015,
+        "inputPerMtok": 0.035,
+        "outputPerMtok": 0.5,
+        "cacheReadPerMtok": 0.005,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.265
+        "blended3to1": 0.15125
       }
     },
     {
@@ -1470,11 +1578,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 2,
-        "outputPerMtok": 12,
-        "cacheReadPerMtok": 0.19999999999999998,
-        "cacheWritePerMtok": 2.5,
-        "blended3to1": 4.5
+        "inputPerMtok": 1,
+        "outputPerMtok": 5,
+        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheWritePerMtok": 1.25,
+        "blended3to1": 2
       }
     },
     {
@@ -1579,11 +1687,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.02,
-        "outputPerMtok": 1,
-        "cacheReadPerMtok": 0.015,
+        "inputPerMtok": 0.045,
+        "outputPerMtok": 0.5,
+        "cacheReadPerMtok": 0.006,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.265
+        "blended3to1": 0.15875
       }
     },
     {
@@ -1931,10 +2039,10 @@
       ],
       "pricing": {
         "inputPerMtok": 0.06,
-        "outputPerMtok": 0.25,
+        "outputPerMtok": 0.15,
         "cacheReadPerMtok": 0.015,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.1075
+        "blended3to1": 0.08249999999999999
       }
     },
     {
@@ -1950,11 +2058,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.834,
-        "outputPerMtok": 2.501,
-        "cacheReadPerMtok": 0.041999999999999996,
+        "inputPerMtok": 0.7505999999999999,
+        "outputPerMtok": 2.2509,
+        "cacheReadPerMtok": 0.0378,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.25075
+        "blended3to1": 1.125675
       }
     },
     {
@@ -1972,11 +2080,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.041299999999999996,
-        "outputPerMtok": 0.0758,
-        "cacheReadPerMtok": 0.03,
+        "inputPerMtok": 0.0285,
+        "outputPerMtok": 0.0923,
+        "cacheReadPerMtok": 0.0285,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.049925
+        "blended3to1": 0.04445
       }
     },
     {
@@ -2016,11 +2124,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.5,
-        "cacheReadPerMtok": 0.03,
+        "inputPerMtok": 0.0285,
+        "outputPerMtok": 0.0923,
+        "cacheReadPerMtok": 0.0285,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.2375
+        "blended3to1": 0.04445
       }
     },
     {
@@ -2182,11 +2290,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0699,
-        "outputPerMtok": 1.4,
-        "cacheReadPerMtok": 0.0689,
+        "inputPerMtok": 0.08,
+        "outputPerMtok": 3.5999999999999996,
+        "cacheReadPerMtok": 0.07600000000000001,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.402425
+        "blended3to1": 0.96
       }
     },
     {
@@ -2214,7 +2322,7 @@
       "name": "Qwen: Qwen3.8 27B",
       "creator": "qwen",
       "createdAt": "2026-08-14",
-      "contextLength": 1000000,
+      "contextLength": 1024000,
       "inputModalities": [
         "text",
         "image",
@@ -2224,11 +2332,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.19999999999999998,
-        "outputPerMtok": 2.5,
-        "cacheReadPerMtok": 0.09,
+        "inputPerMtok": 0.15,
+        "outputPerMtok": 1.875,
+        "cacheReadPerMtok": 0.0375,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.775
+        "blended3to1": 0.58125
       }
     },
     {
@@ -2377,11 +2485,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.66,
-        "outputPerMtok": 1.9800000000000002,
-        "cacheReadPerMtok": 0.022,
+        "inputPerMtok": 0.11499999999999999,
+        "outputPerMtok": 4,
+        "cacheReadPerMtok": 0.11,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.99
+        "blended3to1": 1.08625
       }
     },
     {
@@ -2585,11 +2693,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.04444,
-        "outputPerMtok": 0.13332,
-        "cacheReadPerMtok": 0.0014140000000000001,
+        "inputPerMtok": 0.059,
+        "outputPerMtok": 0.3,
+        "cacheReadPerMtok": 0.035,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.06666
+        "blended3to1": 0.11925
       }
     },
     {
@@ -2605,11 +2713,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.04444,
-        "outputPerMtok": 0.13332,
-        "cacheReadPerMtok": 0.0014140000000000001,
+        "inputPerMtok": 0.119,
+        "outputPerMtok": 0.238,
+        "cacheReadPerMtok": 0.0238,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.06666
+        "blended3to1": 0.14875
       }
     },
     {
@@ -2740,46 +2848,6 @@
         "cacheReadPerMtok": 0.004200000000000001,
         "cacheWritePerMtok": null,
         "blended3to1": 0.0315
-      }
-    },
-    {
-      "id": "poolside/laguna-s-2.1",
-      "name": "Poolside: Laguna S 2.1",
-      "creator": "poolside",
-      "createdAt": "2026-07-21",
-      "contextLength": 1048576,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.09,
-        "outputPerMtok": 0.18,
-        "cacheReadPerMtok": 0.009,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.1125
-      }
-    },
-    {
-      "id": "poolside/laguna-s-2.1:free",
-      "name": "Poolside: Laguna S 2.1 (free)",
-      "creator": "poolside",
-      "createdAt": "2026-07-21",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0
       }
     },
     {
@@ -2943,31 +3011,6 @@
       }
     },
     {
-      "id": "openrouter/auto-beta",
-      "name": "Auto Router (Beta)",
-      "creator": "openrouter",
-      "createdAt": "2026-07-17",
-      "contextLength": 2000000,
-      "inputModalities": [
-        "text",
-        "image",
-        "audio",
-        "file",
-        "video"
-      ],
-      "outputModalities": [
-        "text",
-        "image"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
-      }
-    },
-    {
       "id": "moonshotai/kimi-k3",
       "name": "MoonshotAI: Kimi K3",
       "creator": "moonshotai",
@@ -2982,11 +3025,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.21400000000000002,
-        "outputPerMtok": 20,
-        "cacheReadPerMtok": 0.204,
+        "inputPerMtok": 0.192,
+        "outputPerMtok": 15,
+        "cacheReadPerMtok": 0.182,
         "cacheWritePerMtok": null,
-        "blended3to1": 5.1605
+        "blended3to1": 3.894
       }
     },
     {
@@ -3395,51 +3438,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.13199999999999998,
-        "outputPerMtok": 0.5279999999999999,
-        "cacheReadPerMtok": 0.032999999999999995,
+        "inputPerMtok": 0.0825,
+        "outputPerMtok": 0.33,
+        "cacheReadPerMtok": 0.020625,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.23099999999999996
-      }
-    },
-    {
-      "id": "poolside/laguna-xs-2.1",
-      "name": "Poolside: Laguna XS 2.1",
-      "creator": "poolside",
-      "createdAt": "2026-07-02",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.06,
-        "outputPerMtok": 0.12,
-        "cacheReadPerMtok": 0.03,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.075
-      }
-    },
-    {
-      "id": "poolside/laguna-xs-2.1:free",
-      "name": "Poolside: Laguna XS 2.1 (free)",
-      "creator": "poolside",
-      "createdAt": "2026-07-02",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0
+        "blended3to1": 0.144375
       }
     },
     {
@@ -3606,31 +3609,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.0341,
-        "outputPerMtok": 7,
-        "cacheReadPerMtok": 0.032999999999999995,
+        "inputPerMtok": 0.006,
+        "outputPerMtok": 6.8,
+        "cacheReadPerMtok": 0.005,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.775575
-      }
-    },
-    {
-      "id": "openrouter/fusion",
-      "name": "OpenRouter: Fusion",
-      "creator": "openrouter",
-      "createdAt": "2026-06-13",
-      "contextLength": 1000000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
+        "blended3to1": 1.7045
       }
     },
     {
@@ -3647,11 +3630,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.6712,
-        "outputPerMtok": 3.35,
+        "inputPerMtok": 0.6,
+        "outputPerMtok": 3.5,
         "cacheReadPerMtok": 0.15,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.3409
+        "blended3to1": 1.325
       }
     },
     {
@@ -4308,11 +4291,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.2033,
-        "outputPerMtok": 7.6972,
-        "cacheReadPerMtok": 0.19999999999999998,
+        "inputPerMtok": 0.14950000000000002,
+        "outputPerMtok": 7.15,
+        "cacheReadPerMtok": 0.07475000000000001,
         "cacheWritePerMtok": null,
-        "blended3to1": 2.076775
+        "blended3to1": 1.8996250000000001
       }
     },
     {
@@ -4421,10 +4404,10 @@
       ],
       "pricing": {
         "inputPerMtok": 0.09999999999999999,
-        "outputPerMtok": 0.95,
-        "cacheReadPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.8999999999999999,
+        "cacheReadPerMtok": 0.024999999999999998,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.3125
+        "blended3to1": 0.3
       }
     },
     {
@@ -4442,11 +4425,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.32,
-        "outputPerMtok": 3.1999999999999997,
+        "inputPerMtok": 0.44999999999999996,
+        "outputPerMtok": 2.7,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 1.04
+        "blended3to1": 1.0125
       }
     },
     {
@@ -4550,11 +4533,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.7943100000000001,
-        "outputPerMtok": 1.5886200000000001,
-        "cacheReadPerMtok": 0.0661925,
+        "inputPerMtok": 1.5999999999999999,
+        "outputPerMtok": 3.1999999999999997,
+        "cacheReadPerMtok": 0.135,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.9928875
+        "blended3to1": 2
       }
     },
     {
@@ -4610,11 +4593,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.3045,
-        "outputPerMtok": 0.609,
-        "cacheReadPerMtok": 0.0028,
+        "inputPerMtok": 0.48,
+        "outputPerMtok": 1.7999999999999998,
+        "cacheReadPerMtok": 0.096,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.380625
+        "blended3to1": 0.8099999999999999
       }
     },
     {
@@ -4633,11 +4616,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.119,
-        "outputPerMtok": 0.238,
-        "cacheReadPerMtok": 0.00255,
+        "inputPerMtok": 0.39999999999999997,
+        "outputPerMtok": 2,
+        "cacheReadPerMtok": 0.08,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.14875
+        "blended3to1": 0.8
       }
     },
     {
@@ -4683,26 +4666,6 @@
         "cacheReadPerMtok": 0.19999999999999998,
         "cacheWritePerMtok": 5,
         "blended3to1": 8
-      }
-    },
-    {
-      "id": "openrouter/pareto-code",
-      "name": "Pareto Code Router",
-      "creator": "openrouter",
-      "createdAt": "2026-04-21",
-      "contextLength": 2000000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
       }
     },
     {
@@ -4805,11 +4768,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.09,
-        "outputPerMtok": 0.3,
-        "cacheReadPerMtok": 0.049999999999999996,
+        "inputPerMtok": 0.068,
+        "outputPerMtok": 0.204,
+        "cacheReadPerMtok": 0.034,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.14250000000000002
+        "blended3to1": 0.10200000000000001
       }
     },
     {
@@ -5162,27 +5125,6 @@
       }
     },
     {
-      "id": "mistralai/mistral-small-2603:batch",
-      "name": "Mistral: Mistral Small 4 (batch)",
-      "creator": "mistralai",
-      "createdAt": "2026-03-16",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.075,
-        "outputPerMtok": 0.3,
-        "cacheReadPerMtok": 0.0075,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.13124999999999998
-      }
-    },
-    {
       "id": "z-ai/glm-5-turbo",
       "name": "Z.ai: GLM 5 Turbo",
       "creator": "z-ai",
@@ -5207,7 +5149,7 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "creator": "nvidia",
       "createdAt": "2026-03-11",
-      "contextLength": 262144,
+      "contextLength": 1048576,
       "inputModalities": [
         "text"
       ],
@@ -5220,26 +5162,6 @@
         "cacheReadPerMtok": 0.15,
         "cacheWritePerMtok": null,
         "blended3to1": 0.825
-      }
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "creator": "nvidia",
-      "createdAt": "2026-03-11",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0
       }
     },
     {
@@ -5499,11 +5421,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.27,
-        "outputPerMtok": 2.16,
-        "cacheReadPerMtok": 0.27,
+        "inputPerMtok": 0.26,
+        "outputPerMtok": 2.6,
+        "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.7425
+        "blended3to1": 0.845
       }
     },
     {
@@ -5765,11 +5687,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.3,
-        "outputPerMtok": 1.2,
+        "inputPerMtok": 0.27,
+        "outputPerMtok": 0.95,
         "cacheReadPerMtok": 0.03,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.5249999999999999
+        "blended3to1": 0.44
       }
     },
     {
@@ -5857,27 +5779,6 @@
       }
     },
     {
-      "id": "openrouter/free",
-      "name": "Free Models Router",
-      "creator": "openrouter",
-      "createdAt": "2026-02-01",
-      "contextLength": 200000,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0,
-        "outputPerMtok": 0,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0
-      }
-    },
-    {
       "id": "stepfun/step-3.5-flash",
       "name": "StepFun: Step 3.5 Flash",
       "creator": "stepfun",
@@ -5916,26 +5817,6 @@
         "cacheReadPerMtok": 0.15,
         "cacheWritePerMtok": null,
         "blended3to1": 1
-      }
-    },
-    {
-      "id": "upstage/solar-pro-3",
-      "name": "Upstage: Solar Pro 3",
-      "creator": "upstage",
-      "createdAt": "2026-01-27",
-      "contextLength": 131072,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.6,
-        "cacheReadPerMtok": 0.015,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.26249999999999996
       }
     },
     {
@@ -6140,11 +6021,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.54,
-        "outputPerMtok": 1.9800000000000002,
-        "cacheReadPerMtok": 0.099,
+        "inputPerMtok": 0.6,
+        "outputPerMtok": 2.2,
+        "cacheReadPerMtok": 0.11,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.9000000000000001
+        "blended3to1": 1
       }
     },
     {
@@ -6210,7 +6091,7 @@
       "pricing": {
         "inputPerMtok": 0.06,
         "outputPerMtok": 0.24,
-        "cacheReadPerMtok": null,
+        "cacheReadPerMtok": 0.012,
         "cacheWritePerMtok": null,
         "blended3to1": 0.105
       }
@@ -6383,29 +6264,9 @@
       "pricing": {
         "inputPerMtok": 0.3,
         "outputPerMtok": 0.8999999999999999,
-        "cacheReadPerMtok": 0.049999999999999996,
+        "cacheReadPerMtok": 0.055,
         "cacheWritePerMtok": null,
         "blended3to1": 0.44999999999999996
-      }
-    },
-    {
-      "id": "openrouter/bodybuilder",
-      "name": "Body Builder (beta)",
-      "creator": "openrouter",
-      "createdAt": "2025-12-05",
-      "contextLength": 128000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
       }
     },
     {
@@ -6495,27 +6356,6 @@
       }
     },
     {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
-      "creator": "mistralai",
-      "createdAt": "2025-12-02",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.075,
-        "outputPerMtok": 0.075,
-        "cacheReadPerMtok": 0.0075,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.075
-      }
-    },
-    {
       "id": "mistralai/ministral-3b-2512",
       "name": "Mistral: Ministral 3 3B 2512",
       "creator": "mistralai",
@@ -6559,28 +6399,6 @@
       }
     },
     {
-      "id": "mistralai/mistral-large-2512:batch",
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
-      "creator": "mistralai",
-      "createdAt": "2025-12-01",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.25,
-        "outputPerMtok": 0.75,
-        "cacheReadPerMtok": 0.024999999999999998,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.375
-      }
-    },
-    {
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "creator": "deepseek",
@@ -6593,11 +6411,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.28,
-        "outputPerMtok": 0.42,
-        "cacheReadPerMtok": 0.028,
+        "inputPerMtok": 0.26,
+        "outputPerMtok": 0.38,
+        "cacheReadPerMtok": 0.13,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.315
+        "blended3to1": 0.29000000000000004
       }
     },
     {
@@ -6877,26 +6695,6 @@
       }
     },
     {
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "name": "IBM: Granite 4.0 Micro",
-      "creator": "ibm-granite",
-      "createdAt": "2025-10-20",
-      "contextLength": 131000,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.017,
-        "outputPerMtok": 0.112,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.04075
-      }
-    },
-    {
       "id": "openai/gpt-5-image-mini",
       "name": "OpenAI: GPT-5 Image Mini",
       "creator": "openai",
@@ -7128,11 +6926,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.55,
-        "outputPerMtok": 2.2,
-        "cacheReadPerMtok": 0.11,
+        "inputPerMtok": 0.5,
+        "outputPerMtok": 2,
+        "cacheReadPerMtok": 0.09999999999999999,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.9625000000000001
+        "blended3to1": 0.875
       }
     },
     {
@@ -7301,26 +7099,6 @@
       }
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "creator": "qwen",
-      "createdAt": "2025-09-11",
-      "contextLength": 262144,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 1.2,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.4125
-      }
-    },
-    {
       "id": "qwen/qwen3-next-80b-a3b-instruct",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "creator": "qwen",
@@ -7375,7 +7153,7 @@
       "pricing": {
         "inputPerMtok": 1,
         "outputPerMtok": 3,
-        "cacheReadPerMtok": null,
+        "cacheReadPerMtok": 0.19999999999999998,
         "cacheWritePerMtok": null,
         "blended3to1": 1.5
       }
@@ -7420,28 +7198,6 @@
         "cacheReadPerMtok": 0.04,
         "cacheWritePerMtok": null,
         "blended3to1": 0.8
-      }
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "creator": "mistralai",
-      "createdAt": "2025-08-13",
-      "contextLength": 131072,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.19999999999999998,
-        "outputPerMtok": 1,
-        "cacheReadPerMtok": 0.02,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.4
       }
     },
     {
@@ -7743,27 +7499,6 @@
       }
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "name": "Mistral: Codestral 2508 (batch)",
-      "creator": "mistralai",
-      "createdAt": "2025-08-01",
-      "contextLength": 256000,
-      "inputModalities": [
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.15,
-        "outputPerMtok": 0.44999999999999996,
-        "cacheReadPerMtok": 0.015,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.22499999999999998
-      }
-    },
-    {
       "id": "qwen/qwen3-coder-30b-a3b-instruct",
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "creator": "qwen",
@@ -7798,7 +7533,7 @@
       "pricing": {
         "inputPerMtok": 0.09999999999999999,
         "outputPerMtok": 0.3,
-        "cacheReadPerMtok": null,
+        "cacheReadPerMtok": 0.09999999999999999,
         "cacheWritePerMtok": null,
         "blended3to1": 0.15
       }
@@ -8306,28 +8041,6 @@
       }
     },
     {
-      "id": "openai/o4-mini-high",
-      "name": "OpenAI: o4 Mini High",
-      "creator": "openai",
-      "createdAt": "2025-04-16",
-      "contextLength": 200000,
-      "inputModalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 1.1,
-        "outputPerMtok": 4.4,
-        "cacheReadPerMtok": 0.275,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.9250000000000003
-      }
-    },
-    {
       "id": "openai/o3",
       "name": "OpenAI: o3",
       "creator": "openai",
@@ -8369,28 +8082,6 @@
         "cacheReadPerMtok": 0.25,
         "cacheWritePerMtok": null,
         "blended3to1": 1.75
-      }
-    },
-    {
-      "id": "openai/o4-mini",
-      "name": "OpenAI: o4 Mini",
-      "creator": "openai",
-      "createdAt": "2025-04-16",
-      "contextLength": 200000,
-      "inputModalities": [
-        "image",
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 1.1,
-        "outputPerMtok": 4.4,
-        "cacheReadPerMtok": 0.275,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.9250000000000003
       }
     },
     {
@@ -8610,28 +8301,6 @@
       }
     },
     {
-      "id": "openai/o1-pro",
-      "name": "OpenAI: o1-pro",
-      "creator": "openai",
-      "createdAt": "2025-03-19",
-      "contextLength": 200000,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 150,
-        "outputPerMtok": 600,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 262.5
-      }
-    },
-    {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
       "name": "Mistral: Mistral Small 3.1 24B",
       "creator": "mistralai",
@@ -8666,11 +8335,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.04,
-        "outputPerMtok": 0.049999999999999996,
-        "cacheReadPerMtok": 0.02,
+        "inputPerMtok": 0.049999999999999996,
+        "outputPerMtok": 0.09999999999999999,
+        "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.042499999999999996
+        "blended3to1": 0.0625
       }
     },
     {
@@ -8859,27 +8528,6 @@
       }
     },
     {
-      "id": "openai/o3-mini-high",
-      "name": "OpenAI: o3 Mini High",
-      "creator": "openai",
-      "createdAt": "2025-02-12",
-      "contextLength": 200000,
-      "inputModalities": [
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 1.1,
-        "outputPerMtok": 4.4,
-        "cacheReadPerMtok": 0.55,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.9250000000000003
-      }
-    },
-    {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
       "name": "AionLabs: Aion-RP 1.0 (8B)",
       "creator": "aion-labs",
@@ -8938,27 +8586,6 @@
         "cacheReadPerMtok": 0.052000000000000005,
         "cacheWritePerMtok": 0.325,
         "blended3to1": 0.39
-      }
-    },
-    {
-      "id": "openai/o3-mini",
-      "name": "OpenAI: o3 Mini",
-      "creator": "openai",
-      "createdAt": "2025-01-31",
-      "contextLength": 200000,
-      "inputModalities": [
-        "text",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 1.1,
-        "outputPerMtok": 4.4,
-        "cacheReadPerMtok": 0.55,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1.9250000000000003
       }
     },
     {
@@ -9082,28 +8709,6 @@
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
         "blended3to1": 0.450225
-      }
-    },
-    {
-      "id": "openai/o1",
-      "name": "OpenAI: o1",
-      "creator": "openai",
-      "createdAt": "2024-12-17",
-      "contextLength": 200000,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 15,
-        "outputPerMtok": 60,
-        "cacheReadPerMtok": 7.5,
-        "cacheWritePerMtok": null,
-        "blended3to1": 26.25
       }
     },
     {
@@ -9364,11 +8969,11 @@
         "text"
       ],
       "pricing": {
-        "inputPerMtok": 0.049999999999999996,
-        "outputPerMtok": 0.33,
+        "inputPerMtok": 0.0509,
+        "outputPerMtok": 0.335,
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
-        "blended3to1": 0.12
+        "blended3to1": 0.121925
       }
     },
     {
@@ -9449,46 +9054,6 @@
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
         "blended3to1": 0.85
-      }
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-70b",
-      "name": "Nous: Hermes 3 70B Instruct",
-      "creator": "nousresearch",
-      "createdAt": "2024-08-18",
-      "contextLength": 131072,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 0.7,
-        "outputPerMtok": 0.7,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 0.7
-      }
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-405b",
-      "name": "Nous: Hermes 3 405B Instruct",
-      "creator": "nousresearch",
-      "createdAt": "2024-08-16",
-      "contextLength": 131072,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 1,
-        "outputPerMtok": 1,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 1
       }
     },
     {
@@ -9767,27 +9332,6 @@
       }
     },
     {
-      "id": "openai/gpt-4-turbo",
-      "name": "OpenAI: GPT-4 Turbo",
-      "creator": "openai",
-      "createdAt": "2024-04-09",
-      "contextLength": 128000,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ],
-      "pricing": {
-        "inputPerMtok": 10,
-        "outputPerMtok": 30,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": 15
-      }
-    },
-    {
       "id": "openai/gpt-4-turbo:batch",
       "name": "OpenAI: GPT-4 Turbo (batch)",
       "creator": "openai",
@@ -9847,31 +9391,6 @@
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
         "blended3to1": 1.25
-      }
-    },
-    {
-      "id": "openrouter/auto",
-      "name": "Auto Router",
-      "creator": "openrouter",
-      "createdAt": "2023-11-08",
-      "contextLength": 2000000,
-      "inputModalities": [
-        "text",
-        "image",
-        "audio",
-        "file",
-        "video"
-      ],
-      "outputModalities": [
-        "text",
-        "image"
-      ],
-      "pricing": {
-        "inputPerMtok": null,
-        "outputPerMtok": null,
-        "cacheReadPerMtok": null,
-        "cacheWritePerMtok": null,
-        "blended3to1": null
       }
     },
     {
@@ -9972,6 +9491,181 @@
         "cacheReadPerMtok": null,
         "cacheWritePerMtok": null,
         "blended3to1": 37.5
+      }
+    },
+    {
+      "id": "typesafe/jev-router",
+      "name": "TypeSafe: Jev Router",
+      "creator": "typesafe",
+      "createdAt": "2026-09-25",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "nvidia/switchyard",
+      "name": "NVIDIA: Switchyard",
+      "creator": "nvidia",
+      "createdAt": "2026-09-21",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "openrouter/auto-beta",
+      "name": "Auto Router (Beta)",
+      "creator": "openrouter",
+      "createdAt": "2026-07-17",
+      "contextLength": 2000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "audio",
+        "file",
+        "video"
+      ],
+      "outputModalities": [
+        "text",
+        "image"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "openrouter/fusion",
+      "name": "OpenRouter: Fusion",
+      "creator": "openrouter",
+      "createdAt": "2026-06-13",
+      "contextLength": 1000000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "openrouter/pareto-code",
+      "name": "Pareto Code Router",
+      "creator": "openrouter",
+      "createdAt": "2026-04-21",
+      "contextLength": 2000000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "creator": "openrouter",
+      "createdAt": "2026-02-01",
+      "contextLength": 200000,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": 0,
+        "outputPerMtok": 0,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": 0
+      }
+    },
+    {
+      "id": "openrouter/bodybuilder",
+      "name": "Body Builder (beta)",
+      "creator": "openrouter",
+      "createdAt": "2025-12-05",
+      "contextLength": 128000,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
+      }
+    },
+    {
+      "id": "openrouter/auto",
+      "name": "Auto Router",
+      "creator": "openrouter",
+      "createdAt": "2023-11-08",
+      "contextLength": 2000000,
+      "inputModalities": [
+        "text",
+        "image",
+        "audio",
+        "file",
+        "video"
+      ],
+      "outputModalities": [
+        "text",
+        "image"
+      ],
+      "pricing": {
+        "inputPerMtok": null,
+        "outputPerMtok": null,
+        "cacheReadPerMtok": null,
+        "cacheWritePerMtok": null,
+        "blended3to1": null
       }
     }
   ]

@@ -1,10 +1,21 @@
 {
   "source": "epoch-models",
-  "fetchedAt": "2026-10-26T13:51:14.049Z",
+  "fetchedAt": "2026-11-02T16:49:08.941Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-26T13:51:14.049Z",
-  "recordCount": 790,
+  "lastSuccessAt": "2026-11-02T16:49:08.941Z",
+  "recordCount": 792,
   "data": [
+    {
+      "model": "MAI-Base-2",
+      "organization": "Microsoft",
+      "publicationDate": "2026-10-15",
+      "domain": "Language,Vision,Multimodal",
+      "parameters": 2800000000000,
+      "trainingComputeFlop": 2.4e+25,
+      "trainingHardware": "NVIDIA GB200",
+      "hardwareQuantity": 16000,
+      "country": "United States of America"
+    },
     {
       "model": "Grok 4.7",
       "organization": "xAI",
@@ -32,7 +43,7 @@
       "organization": "DeepSeek",
       "publicationDate": "2026-09-09",
       "domain": "Language,Vision,Multimodal",
-      "parameters": 748000000000,
+      "parameters": 552000000000,
       "trainingComputeFlop": 4.32e+24,
       "trainingHardware": null,
       "hardwareQuantity": null,
@@ -653,6 +664,17 @@
       "trainingHardware": null,
       "hardwareQuantity": null,
       "country": "China,China"
+    },
+    {
+      "model": "Qwen3-VL-235B-A22B",
+      "organization": "Alibaba",
+      "publicationDate": "2025-09-23",
+      "domain": "Language,Vision,Multimodal,Video",
+      "parameters": 235000000000,
+      "trainingComputeFlop": 5.038044e+24,
+      "trainingHardware": null,
+      "hardwareQuantity": null,
+      "country": "China"
     },
     {
       "model": "Qwen3-Omni-30B-A3B",

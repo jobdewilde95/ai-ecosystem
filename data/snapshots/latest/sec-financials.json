@@ -1,8 +1,8 @@
 {
   "source": "sec-financials",
-  "fetchedAt": "2026-10-26T13:51:05.000Z",
+  "fetchedAt": "2026-11-02T16:49:00.719Z",
   "stale": false,
-  "lastSuccessAt": "2026-10-26T13:51:05.000Z",
+  "lastSuccessAt": "2026-11-02T16:49:00.719Z",
   "recordCount": 28,
   "data": [
     {
@@ -4525,7 +4525,7 @@
     {
       "cik": "0000050863",
       "ticker": "INTC",
-      "entityName": "INTEL CORP",
+      "entityName": "Intel Corporation",
       "metrics": {
         "revenue": [
           {
@@ -4789,13 +4789,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 13653000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -4827,6 +4827,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 16513000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -5091,13 +5101,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 2425000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": null
           },
           {
@@ -5128,6 +5138,16 @@
             "value": 2556000000,
             "form": "10-Q",
             "filed": "2026-07-24",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 4024000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
             "frame": null
           }
         ],
@@ -5393,13 +5413,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 2546000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": null
           },
           {
@@ -5430,6 +5450,16 @@
             "value": 7006000000,
             "form": "10-Q",
             "filed": "2026-07-24",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 5082000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
             "frame": null
           }
         ],
@@ -5695,13 +5725,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 2758000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": null
           },
           {
@@ -5732,6 +5762,16 @@
             "value": 2989000000,
             "form": "10-Q",
             "filed": "2026-07-24",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 3042000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
             "frame": null
           }
         ],
@@ -6129,13 +6169,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 683000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -6167,6 +6207,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 2522000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -6431,13 +6481,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 4063000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -6469,6 +6519,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 3320000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "researchDevelopment": [
@@ -6733,13 +6793,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 3231000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -6771,6 +6831,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 3490000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -7046,12 +7116,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-27",
             "start": null,
             "value": 44086000000,
             "form": "10-Q",
-            "filed": "2026-07-24",
+            "filed": "2026-10-30",
             "frame": "CY2025Q4I"
           },
           {
@@ -7073,6 +7143,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": null,
+            "value": 46317000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -7337,13 +7417,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 0,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": null
           },
           {
@@ -7354,6 +7434,16 @@
             "value": 0,
             "form": "10-K",
             "filed": "2026-01-23",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-30",
             "frame": null
           }
         ],
@@ -7579,13 +7669,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 2250000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": null
           },
           {
@@ -7616,6 +7706,16 @@
             "value": 7500000000,
             "form": "10-Q",
             "filed": "2026-07-24",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-30",
             "frame": null
           }
         ],
@@ -8143,13 +8243,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-27",
             "start": "2025-06-29",
             "value": 282000000,
             "form": "10-Q",
-            "filed": "2025-11-06",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -8181,6 +8281,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": "2026-06-28",
+            "value": 324000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -8326,12 +8436,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-27",
             "start": null,
             "value": 14265000000,
             "form": "10-Q",
-            "filed": "2026-07-24",
+            "filed": "2026-10-30",
             "frame": "CY2025Q4I"
           },
           {
@@ -8353,6 +8463,16 @@
             "form": "10-Q",
             "filed": "2026-07-24",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-26",
+            "start": null,
+            "value": 21846000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -37227,7 +37347,7 @@
     {
       "cik": "0001101239",
       "ticker": "EQIX",
-      "entityName": "EQUINIX, INC.",
+      "entityName": "EQUINIX INC",
       "metrics": {
         "revenue": [
           {
@@ -37491,13 +37611,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 2316000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -37529,6 +37649,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 2571000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -37793,13 +37923,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 1136000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -37830,6 +37960,16 @@
             "value": 1578000000,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1558000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -38095,13 +38235,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 1014000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -38132,6 +38272,16 @@
             "value": 1067000000,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1243000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -38397,13 +38547,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 530000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -38435,6 +38585,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 544000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "propertyPlantEquipmentNet": [
@@ -38720,12 +38880,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 23584000000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -38747,6 +38907,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 26282000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "operatingIncome": [
@@ -39011,13 +39181,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 474000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -39049,6 +39219,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 600000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -39313,13 +39493,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 374000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -39351,6 +39531,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 489000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -39643,6 +39833,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 22839000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -39907,13 +40107,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 500000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -39944,6 +40144,16 @@
             "value": 927000000,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 2980000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -40119,13 +40329,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 1200000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -40136,6 +40346,16 @@
             "value": 0,
             "form": "10-K",
             "filed": "2026-02-11",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -40389,6 +40609,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 1072000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear2": [
@@ -40691,6 +40921,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 1414000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear3": [
@@ -40993,6 +41233,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 3025000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear4": [
@@ -41295,6 +41545,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 3199000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear5": [
@@ -41673,13 +41933,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 128000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -41711,6 +41971,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 163000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -41975,23 +42245,23 @@
             "frame": "CY2025Q2I"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": null,
             "value": 2077000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3I"
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 1727000000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -42013,6 +42283,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2362000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "financeLeaseLiability": [
@@ -42298,12 +42578,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 2187000000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -42325,6 +42605,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2196000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -46047,13 +46337,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 2675800000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -46085,6 +46375,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 4312800000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -46387,6 +46687,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 139100000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": null
           }
         ],
         "operatingCashFlow": [
@@ -46651,13 +46961,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
-            "value": 508700000,
+            "value": 482700000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -46665,7 +46975,7 @@
             "fiscalPeriod": "FY",
             "end": "2025-12-31",
             "start": "2025-10-01",
-            "value": 978900000,
+            "value": 1004900000,
             "form": "10-K",
             "filed": "2026-02-13",
             "frame": null
@@ -46688,6 +46998,16 @@
             "value": 1099800000,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 794000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -46953,13 +47273,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 24500000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -46990,6 +47310,16 @@
             "value": 39400000,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 39800000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -47236,12 +47566,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 921800000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -47263,6 +47593,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 1324600000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "operatingIncome": [
@@ -47487,13 +47827,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 516700000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -47525,6 +47865,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 983800000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -47770,32 +48120,32 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-03-31",
             "start": "2025-01-01",
             "value": 164500000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q1"
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-06-30",
             "start": "2025-04-01",
             "value": 324200000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 398500000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -47810,23 +48160,33 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2026-03-31",
             "start": "2026-01-01",
             "value": 390100000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2026Q1"
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2026-06-30",
             "start": "2026-04-01",
             "value": 497800000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 764500000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -48072,12 +48432,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 2892100000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -48099,6 +48459,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2925100000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -48124,6 +48494,16 @@
           },
           {
             "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2025-09-30",
+            "start": "2025-07-01",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q1",
             "end": "2026-03-31",
             "start": "2026-01-01",
@@ -48140,6 +48520,16 @@
             "value": 0,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -48325,13 +48715,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 5200000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -48362,6 +48752,16 @@
             "value": 0,
             "form": "10-Q",
             "filed": "2026-07-29",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 15300000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -49029,13 +49429,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 22800000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -49067,6 +49467,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 6400000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -49312,12 +49722,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 1728400000,
             "form": "10-Q",
-            "filed": "2026-07-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -49339,6 +49749,16 @@
             "form": "10-Q",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 3512900000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -53211,7 +53631,7 @@
     {
       "cik": "0001050915",
       "ticker": "PWR",
-      "entityName": "QUANTA SERVICES, INC.",
+      "entityName": "Quanta Services, Inc.",
       "metrics": {
         "revenue": [
           {
@@ -53475,13 +53895,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 7631408000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -53513,6 +53933,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 12014877000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -53777,13 +54207,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 142449000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -53814,6 +54244,16 @@
             "value": 230955000,
             "form": "10-Q",
             "filed": "2026-07-30",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 267957000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -54079,13 +54519,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 563496000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -54116,6 +54556,16 @@
             "value": 1095444000,
             "form": "10-Q",
             "filed": "2026-07-30",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1453741000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -54381,13 +54831,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 103875000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -54418,6 +54868,16 @@
             "value": 117138000,
             "form": "10-Q",
             "filed": "2026-07-30",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 120387000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -54715,13 +55175,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 517217000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -54753,6 +55213,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1026547000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -55017,13 +55487,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 339420000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -55055,6 +55525,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 694859000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -55300,12 +55780,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 5231008000,
             "form": "10-Q",
-            "filed": "2026-07-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q4I"
           },
           {
@@ -55327,6 +55807,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 6351734000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -55713,13 +56203,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 71806000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -55751,6 +56241,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 83985000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -55986,12 +56486,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2024-12-31",
             "start": null,
             "value": 741960000,
             "form": "10-Q",
-            "filed": "2026-07-30",
+            "filed": "2026-10-29",
             "frame": "CY2024Q4I"
           },
           {
@@ -56015,23 +56515,23 @@
             "frame": "CY2025Q2I"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": null,
             "value": 610387000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3I"
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 439508000,
             "form": "10-Q",
-            "filed": "2026-07-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q4I"
           },
           {
@@ -56053,6 +56553,16 @@
             "form": "10-Q",
             "filed": "2026-07-30",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2315271000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3I"
           }
         ],
         "financeLeaseLiability": [
@@ -64903,13 +65413,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 9969000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -64941,6 +65451,16 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 12642000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -65045,13 +65565,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 247000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -65082,6 +65602,16 @@
             "value": 386000000,
             "form": "10-Q",
             "filed": "2026-07-22",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 647000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -65187,13 +65717,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 980000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": null
           },
           {
@@ -65224,6 +65754,16 @@
             "value": 5492000000,
             "form": "10-Q",
             "filed": "2026-07-22",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 6057000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -65329,13 +65869,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 152000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -65367,6 +65907,16 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 200000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "operatingIncome": [
@@ -65471,13 +66021,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 366000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -65509,6 +66059,16 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1394000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -65613,13 +66173,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 452000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -65651,6 +66211,16 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1291000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "researchDevelopment": [
@@ -65755,13 +66325,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 310000000,
             "form": "10-Q",
-            "filed": "2025-10-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -65793,17 +66363,27 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 358000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 265000000,
             "form": "10-Q",
-            "filed": "2026-07-22",
+            "filed": "2026-10-28",
             "frame": "CY2025Q4I"
           },
           {
@@ -65825,6 +66405,16 @@
             "form": "10-Q",
             "filed": "2026-07-22",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2795000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -65850,6 +66440,16 @@
           },
           {
             "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2025-09-30",
+            "start": "2025-07-01",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q1",
             "end": "2026-03-31",
             "start": "2026-01-01",
@@ -65866,6 +66466,16 @@
             "value": 0,
             "form": "10-Q",
             "filed": "2026-07-22",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": null
           }
         ],
@@ -65906,7 +66516,7 @@
     {
       "cik": "0000789019",
       "ticker": "MSFT",
-      "entityName": "Microsoft Corporation",
+      "entityName": "MICROSOFT CORP",
       "metrics": {
         "revenue": [
           {
@@ -66170,13 +66780,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 77673000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -66208,6 +66818,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 92279000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -66472,13 +67092,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 19394000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -66510,6 +67130,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 39367000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "operatingCashFlow": [
@@ -66774,13 +67404,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 45057000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -66812,6 +67442,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 58000000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "depreciationAmortization": [
@@ -66856,13 +67496,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 7100000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -66894,6 +67534,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 11100000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "propertyPlantEquipmentNet": [
@@ -67188,14 +67838,24 @@
             "frame": "CY2026Q1I"
           },
           {
-            "fiscalYear": 2026,
-            "fiscalPeriod": "FY",
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
             "end": "2026-06-30",
             "start": null,
             "value": 313076000000,
-            "form": "10-K",
-            "filed": "2026-07-29",
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 346844000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "operatingIncome": [
@@ -67460,13 +68120,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 37961000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -67498,6 +68158,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 45915000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -67762,13 +68432,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 27747000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -67800,6 +68470,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 36629000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "researchDevelopment": [
@@ -68064,13 +68744,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 8146000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -68102,6 +68782,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 9047000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -68396,14 +69086,24 @@
             "frame": "CY2026Q1I"
           },
           {
-            "fiscalYear": 2026,
-            "fiscalPeriod": "FY",
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
             "end": "2026-06-30",
             "start": null,
             "value": 31067000000,
-            "form": "10-K",
-            "filed": "2026-07-29",
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 31090000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -68808,6 +69508,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear2": [
@@ -69100,6 +69810,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 1988000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear3": [
@@ -69392,6 +70112,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 0,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear4": [
@@ -69684,6 +70414,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 500000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtDueYear5": [
@@ -69992,13 +70732,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2026,
+            "fiscalYear": 2027,
             "fiscalPeriod": "Q1",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 698000000,
             "form": "10-Q",
-            "filed": "2025-10-29",
+            "filed": "2026-10-28",
             "frame": "CY2025Q3"
           },
           {
@@ -70030,6 +70770,16 @@
             "form": "10-K",
             "filed": "2026-07-29",
             "frame": null
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 870000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -70324,14 +71074,24 @@
             "frame": "CY2026Q1I"
           },
           {
-            "fiscalYear": 2026,
-            "fiscalPeriod": "FY",
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
             "end": "2026-06-30",
             "start": null,
             "value": 20935000000,
-            "form": "10-K",
-            "filed": "2026-07-29",
+            "form": "10-Q",
+            "filed": "2026-10-28",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2027,
+            "fiscalPeriod": "Q1",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 20281000000,
+            "form": "10-Q",
+            "filed": "2026-10-28",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -70339,7 +71099,7 @@
     {
       "cik": "0001018724",
       "ticker": "AMZN",
-      "entityName": "AMAZON COM INC",
+      "entityName": "AMAZON.COM, INC.",
       "metrics": {
         "revenue": [
           {
@@ -70603,13 +71363,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 180169000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -70641,6 +71401,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 201944000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -70905,13 +71675,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 35095000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -70943,6 +71713,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 77259000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "operatingCashFlow": [
@@ -71207,13 +71987,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 35525000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -71245,6 +72025,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 42422000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "depreciationAmortization": [
@@ -71509,13 +72299,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 16796000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -71547,6 +72337,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 20949000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "propertyPlantEquipmentNet": [
@@ -71903,13 +72703,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 17422000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -71941,6 +72741,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 28076000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -72205,13 +73015,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 21187000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -72243,6 +73053,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 20685000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -72518,12 +73338,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 65648000000,
             "form": "10-Q",
-            "filed": "2026-07-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q4I"
           },
           {
@@ -72545,6 +73365,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 173125000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -72809,13 +73639,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 0,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -72847,6 +73677,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 48102000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "debtRepayments": [
@@ -73101,13 +73941,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 1008000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -73139,6 +73979,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 7000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "debtDueNext12Months": [
@@ -73665,13 +74515,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 538000000,
             "form": "10-Q",
-            "filed": "2025-10-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q3"
           },
           {
@@ -73703,6 +74553,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 1691000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -73978,12 +74838,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 86810000000,
             "form": "10-Q",
-            "filed": "2026-07-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q4I"
           },
           {
@@ -74005,6 +74865,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 55783000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3I"
           }
         ],
         "financeLeaseLiability": [
@@ -74280,12 +75150,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 10742000000,
             "form": "10-Q",
-            "filed": "2026-07-31",
+            "filed": "2026-10-30",
             "frame": "CY2025Q4I"
           },
           {
@@ -74307,6 +75177,16 @@
             "form": "10-Q",
             "filed": "2026-07-31",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 12629000000,
+            "form": "10-Q",
+            "filed": "2026-10-30",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -74418,13 +75298,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 102346000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -74456,6 +75336,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 127577000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "capex": [
@@ -74720,13 +75610,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 23953000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -74757,6 +75647,16 @@
             "value": 44924000000,
             "form": "10-Q",
             "filed": "2026-07-23",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 51355000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -75022,13 +75922,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 48414000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -75059,6 +75959,16 @@
             "value": 39069000000,
             "form": "10-Q",
             "filed": "2026-07-23",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 42290000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -75164,13 +76074,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 5611000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -75201,6 +76111,16 @@
             "value": 7104000000,
             "form": "10-Q",
             "filed": "2026-07-23",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 8369000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -75598,13 +76518,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 31228000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -75636,6 +76556,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 40576000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "netIncome": [
@@ -75900,13 +76830,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 34979000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -75938,6 +76868,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 26468000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "researchDevelopment": [
@@ -76202,13 +77142,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 15151000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -76240,6 +77180,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 20640000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "longTermDebt": [
@@ -76355,12 +77305,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 46547000000,
             "form": "10-Q",
-            "filed": "2026-07-23",
+            "filed": "2026-10-29",
             "frame": "CY2025Q4I"
           },
           {
@@ -76382,6 +77332,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 125102000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3I"
           }
         ],
         "debtIssuanceProceeds": [
@@ -76646,13 +77606,13 @@
             "frame": null
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 6624000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": null
           },
           {
@@ -76683,6 +77643,16 @@
             "value": 24847000000,
             "form": "10-Q",
             "filed": "2026-07-23",
+            "frame": null
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 28996000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
             "frame": null
           }
         ],
@@ -77210,13 +78180,13 @@
             "frame": "CY2025Q2"
           },
           {
-            "fiscalYear": 2025,
+            "fiscalYear": 2026,
             "fiscalPeriod": "Q3",
             "end": "2025-09-30",
             "start": "2025-07-01",
             "value": 143000000,
             "form": "10-Q",
-            "filed": "2025-10-30",
+            "filed": "2026-10-29",
             "frame": "CY2025Q3"
           },
           {
@@ -77248,6 +78218,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": "2026-07-01",
+            "value": 967000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3"
           }
         ],
         "cashAndEquivalents": [
@@ -77523,12 +78503,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 30708000000,
             "form": "10-Q",
-            "filed": "2026-07-23",
+            "filed": "2026-10-29",
             "frame": "CY2025Q4I"
           },
           {
@@ -77550,6 +78530,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 56334000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3I"
           }
         ],
         "financeLeaseLiability": [
@@ -77665,12 +78655,12 @@
           },
           {
             "fiscalYear": 2026,
-            "fiscalPeriod": "Q2",
+            "fiscalPeriod": "Q3",
             "end": "2025-12-31",
             "start": null,
             "value": 2059000000,
             "form": "10-Q",
-            "filed": "2026-07-23",
+            "filed": "2026-10-29",
             "frame": "CY2025Q4I"
           },
           {
@@ -77692,6 +78682,16 @@
             "form": "10-Q",
             "filed": "2026-07-23",
             "frame": "CY2026Q2I"
+          },
+          {
+            "fiscalYear": 2026,
+            "fiscalPeriod": "Q3",
+            "end": "2026-09-30",
+            "start": null,
+            "value": 2652000000,
+            "form": "10-Q",
+            "filed": "2026-10-29",
+            "frame": "CY2026Q3I"
           }
         ]
       }
@@ -81184,7 +82184,7 @@
     {
       "cik": "0001341439",
       "ticker": "ORCL",
-      "entityName": "Oracle Corporation",
+      "entityName": "ORACLE CORP",
       "metrics": {
         "revenue": [
           {

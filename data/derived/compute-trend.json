@@ -2849,6 +2849,13 @@
     "parameters": 35300000000
   },
   {
+    "model": "Qwen3-VL-235B-A22B",
+    "organization": "Alibaba",
+    "date": "2025-09-23",
+    "flop": 5.038044e+24,
+    "parameters": 235000000000
+  },
+  {
     "model": "GLM-4.6",
     "organization": "Z.ai (Zhipu AI),Tsinghua University",
     "date": "2025-09-30",
@@ -3049,6 +3056,13 @@
     "organization": "DeepSeek",
     "date": "2026-09-09",
     "flop": 4.32e+24,
-    "parameters": 748000000000
+    "parameters": 552000000000
+  },
+  {
+    "model": "MAI-Base-2",
+    "organization": "Microsoft",
+    "date": "2026-10-15",
+    "flop": 2.4e+25,
+    "parameters": 2800000000000
   }
 ]

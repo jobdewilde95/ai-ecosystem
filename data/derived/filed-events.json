@@ -3,6 +3,96 @@
   "curatedThrough": "2026-09-01",
   "events": [
     {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-11-06",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "filed": "2026-11-05",
+      "form": "8-K",
+      "kind": "item-2.01",
+      "detail": "Completion of acquisition or disposition",
+      "href": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_8k.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-11-05",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526448015/d135326d424b5.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-11-04",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926122752/tm2628000-4_424b2.htm"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "filed": "2026-11-04",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-11-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526446110/d44678d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-11-04",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445847/d181425d424b5.htm"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "filed": "2026-11-04",
+      "form": "424B2",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526445846/d181336d424b2.htm"
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "filed": "2026-11-03",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1101239/000110465926121650/tm2628000-3_424b2.htm"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "filed": "2026-11-03",
+      "form": "424B5",
+      "kind": "pricing",
+      "detail": "Pricing supplement — a specific issuance priced",
+      "href": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/d135326d424b5.htm"
+    },
+    {
       "ticker": "MRVL",
       "name": "Marvell Technology",
       "filed": "2026-11-02",
@@ -750,15 +840,6 @@
       "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526257690/d159942d424b5.htm"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "filed": "2026-06-04",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526256375/d152107d424b5.htm"
-    },
-    {
       "ticker": "IREN",
       "name": "IREN",
       "filed": "2026-06-01",
@@ -966,15 +1047,6 @@
       "href": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "filed": "2026-03-10",
-      "form": "424B5",
-      "kind": "pricing",
-      "detail": "Pricing supplement — a specific issuance priced",
-      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926025560/tm266670-3_424b5.htm"
-    },
-    {
       "ticker": "APLD",
       "name": "Applied Digital",
       "filed": "2026-03-10",
@@ -1063,15 +1135,6 @@
       "kind": "item-1.01",
       "detail": "Entry into a material definitive agreement",
       "href": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526088484/d105148d8k.htm"
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "filed": "2026-02-27",
-      "form": "8-K",
-      "kind": "item-1.01",
-      "detail": "Entry into a material definitive agreement",
-      "href": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_8k.htm"
     },
     {
       "ticker": "VRT",
@@ -1452,15 +1515,6 @@
       "href": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm"
     },
     {
-      "ticker": "APLD",
-      "name": "Applied Digital",
-      "filed": "2025-10-31",
-      "form": "S-3ASR",
-      "kind": "shelf",
-      "detail": "Shelf registration — capacity to issue securities",
-      "href": "https://www.sec.gov/Archives/edgar/data/1144879/000149315225020389/forms-3asr.htm"
-    },
-    {
       "ticker": "VST",
       "name": "Vistra",
       "filed": "2025-10-28",
@@ -1773,15 +1827,27 @@
     },
     {
       "quarter": "2026-Q3",
-      "total": 84464000000
+      "total": 90915236000
     }
   ],
   "debtDetail": [
     {
       "end": "2026-09-30",
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "value": 162236000
+    },
+    {
+      "end": "2026-09-30",
       "ticker": "EQIX",
       "name": "Equinix",
       "value": 2980000000
+    },
+    {
+      "end": "2026-09-30",
+      "ticker": "VST",
+      "name": "Vistra",
+      "value": 1563000000
     },
     {
       "end": "2026-09-30",
@@ -1794,6 +1860,12 @@
       "ticker": "GOOGL",
       "name": "Alphabet",
       "value": 28996000000
+    },
+    {
+      "end": "2026-09-26",
+      "ticker": "AMD",
+      "name": "AMD",
+      "value": 4726000000
     },
     {
       "end": "2026-07-31",
@@ -2478,24 +2550,6 @@
       "ticker": "DELL",
       "name": "Dell Technologies",
       "value": 2249000000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "INTC",
-      "name": "Intel",
-      "value": 423000000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "EQIX",
-      "name": "Equinix",
-      "value": 338000000
-    },
-    {
-      "end": "2023-09-30",
-      "ticker": "DLR",
-      "name": "Digital Realty",
-      "value": 21574000
     }
   ]
 }

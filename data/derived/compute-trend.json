@@ -2642,7 +2642,7 @@
     "model": "DeepSeek-R1",
     "organization": "DeepSeek",
     "date": "2025-01-20",
-    "flop": 3.5e+24,
+    "flop": 3.3e+24,
     "parameters": 671000000000
   },
   {
@@ -2740,7 +2740,7 @@
     "model": "DeepSeek-R1 (May 2025)",
     "organization": "DeepSeek",
     "date": "2025-05-28",
-    "flop": 4.020010000000001e+24,
+    "flop": 3.3e+24,
     "parameters": 671000000000
   },
   {
@@ -3057,6 +3057,13 @@
     "date": "2026-09-09",
     "flop": 4.32e+24,
     "parameters": 552000000000
+  },
+  {
+    "model": "Mistral Large 4",
+    "organization": "Mistral AI",
+    "date": "2026-10-06",
+    "flop": 1.24e+25,
+    "parameters": 1050000000000
   },
   {
     "model": "MAI-Base-2",

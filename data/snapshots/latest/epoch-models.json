@@ -1,9 +1,9 @@
 {
   "source": "epoch-models",
-  "fetchedAt": "2026-11-02T16:49:08.941Z",
+  "fetchedAt": "2026-11-09T17:08:29.981Z",
   "stale": false,
-  "lastSuccessAt": "2026-11-02T16:49:08.941Z",
-  "recordCount": 792,
+  "lastSuccessAt": "2026-11-09T17:08:29.981Z",
+  "recordCount": 793,
   "data": [
     {
       "model": "MAI-Base-2",
@@ -17,11 +17,22 @@
       "country": "United States of America"
     },
     {
+      "model": "Mistral Large 4",
+      "organization": "Mistral AI",
+      "publicationDate": "2026-10-06",
+      "domain": "Language,Multimodal,Vision",
+      "parameters": 1050000000000,
+      "trainingComputeFlop": 1.24e+25,
+      "trainingHardware": "NVIDIA GB200",
+      "hardwareQuantity": 3800,
+      "country": "France"
+    },
+    {
       "model": "Grok 4.7",
       "organization": "xAI",
       "publicationDate": "2026-09-21",
       "domain": "Language",
-      "parameters": 2100000000,
+      "parameters": 2100000000000,
       "trainingComputeFlop": null,
       "trainingHardware": null,
       "hardwareQuantity": null,
@@ -913,7 +924,7 @@
       "publicationDate": "2025-05-28",
       "domain": "Language",
       "parameters": 671000000000,
-      "trainingComputeFlop": 4.020010000000001e+24,
+      "trainingComputeFlop": 3.3e+24,
       "trainingHardware": null,
       "hardwareQuantity": null,
       "country": "China"
@@ -1100,7 +1111,7 @@
       "publicationDate": "2025-01-20",
       "domain": "Language",
       "parameters": 671000000000,
-      "trainingComputeFlop": 3.5e+24,
+      "trainingComputeFlop": 3.3e+24,
       "trainingHardware": null,
       "hardwareQuantity": null,
       "country": "China"
